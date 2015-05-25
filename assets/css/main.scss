@@ -16,9 +16,28 @@ $lnk-highlight-color: #333;
 // fontawesome icons
 @import "font-awesome.min";
 
+/* Adjusting page width with scroll bar */
 html {
     overflow-y: scroll;
     overflow-x: scroll;
 }
 
+/* Aligning images */
+  .centeredImage {
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
+    }
 
+.imageTextWrap {
+    img {
+        float: right;
+        margin: 0 20px 20px 0;
+    }
+
+    p {
+        text-align: justify;
+        text-indent: 2em;
+    }
+}
