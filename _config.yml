@@ -1,0 +1,25 @@
+name: Elijah's Webpage
+description:  Blogs, astro, and more
+
+sass:
+  sass_dir: assets/css/_sass
+  style: :compressed
+
+markdown: kramdown
+redcarpet:
+  extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+
+url: http://ezbc.github.io/website
+#url: 
+permalink: /:year/:month/:day/:title/
+owner:
+    name: Elijah Bernstein-Cooper
+    twitter: ebernste101
+    github: ezbc
+    bitbucket: ezbc
+    disqus_shortname: ezbc
+
+ga_id: ezbc
+ga_username: ezbc
+
+timezone: Central
