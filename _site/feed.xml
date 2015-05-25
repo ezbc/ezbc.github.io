@@ -2,10 +2,10 @@
 <!DOCTYPE xsl:stylesheet [<!ENTITY mdash "&#x2014;">]>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text" xml:lang="en">Elijah's Webpage</title>
-  <link type="application/atom+xml" href="http://ezbc.github.io/website/feed.xml" rel="self"/>
-  <link type="text/html" href="http://ezbc.github.io/website" rel="alternate"/>
-  <updated>2015-05-25T03:16:57+00:00</updated>
-  <id>http://ezbc.github.io/website/all_feed</id>
+  <link type="application/atom+xml" href="/feed.xml" rel="self"/>
+  <link type="text/html" href="" rel="alternate"/>
+  <updated>2015-05-25T15:23:39+00:00</updated>
+  <id>/all_feed</id>
   <author>
     <name>Elijah Bernstein-Cooper</name>
   </author>
@@ -13,9 +13,9 @@
   
   <entry>
     <title>First Post</title>
-    <link href="http://ezbc.github.io/website/2015/05/22/First-Post/"/>
+    <link href="/2015/05/22/First-Post/"/>
     <updated>2015-05-22T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/05/22/First-Post</id>
+    <id>/2015/05/22/First-Post</id>
     <content type="html">&lt;p&gt;The most recent project of mine was a foldable cedar drying rack. The rack
 spanned about 14 inches across. I included a lower rack to accommodate cups.&lt;/p&gt;
 
@@ -26,9 +26,9 @@ spanned about 14 inches across. I included a lower rack to accommodate cups.&lt;
   
   <entry>
     <title>Paper Comments 2</title>
-    <link href="http://ezbc.github.io/website/2015/03/31/Paper-Comments-2/"/>
+    <link href="/2015/03/31/Paper-Comments-2/"/>
     <updated>2015-03-31T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/03/31/Paper-Comments-2</id>
+    <id>/2015/03/31/Paper-Comments-2</id>
     <content type="html">&lt;h3 id=&quot;comments-2&quot;&gt;Comments 2&lt;/h3&gt;
 
 &lt;p&gt;The comments are based on the paper as written in &lt;a href=&quot;https://bytebucket.org/ezbc/taurus_paper/raw/c4661647fb981ed906070d0591a623eea16df264/taurus_paper.pdf&quot;&gt;this version&lt;/a&gt;&lt;/p&gt;
@@ -328,9 +328,9 @@ Above this residual threshold, I mask the pixel.&lt;/li&gt;
   
   <entry>
     <title>Paper Comments 1</title>
-    <link href="http://ezbc.github.io/website/2015/03/31/Paper-Comments/"/>
+    <link href="/2015/03/31/Paper-Comments/"/>
     <updated>2015-03-31T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/03/31/Paper-Comments</id>
+    <id>/2015/03/31/Paper-Comments</id>
     <content type="html">&lt;h3 id=&quot;comments-1&quot;&gt;Comments 1&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -417,9 +417,9 @@ somewhere. &lt;/p&gt;
   
   <entry>
     <title>First Blog Post</title>
-    <link href="http://ezbc.github.io/website/2015/03/26/First-Blog-Post/"/>
+    <link href="/2015/03/26/First-Blog-Post/"/>
     <updated>2015-03-26T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/03/26/First-Blog-Post</id>
+    <id>/2015/03/26/First-Blog-Post</id>
     <content type="html">&lt;h3 id=&quot;first-blog-post&quot;&gt;First blog post&lt;/h3&gt;
 
 &lt;p&gt;This is my first blog post. &lt;a href=&quot;https://github.com/astropy/astropy/wiki/Elijah-Bernstein-Cooper:-Adding-Distribution-Capability-to-Quantity&quot;&gt;Here&lt;/a&gt; is my application to GSoC 2015.&lt;/p&gt;
@@ -429,9 +429,9 @@ somewhere. &lt;/p&gt;
   
   <entry>
     <title>Additional Cores</title>
-    <link href="http://ezbc.github.io/website/2015/03/23/Adding-More-Cores/"/>
+    <link href="/2015/03/23/Adding-More-Cores/"/>
     <updated>2015-03-23T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/03/23/Adding-More-Cores</id>
+    <id>/2015/03/23/Adding-More-Cores</id>
     <content type="html">&lt;h3 id=&quot;adding-cores&quot;&gt;Adding Cores&lt;/h3&gt;
 
 &lt;p&gt;I have added additional cores to the analysis, because why not? Below are the
@@ -500,9 +500,9 @@ galactic plane (not much of a trend)&lt;/p&gt;
   
   <entry>
     <title>Sternberg and Krumholz Model Fitting</title>
-    <link href="http://ezbc.github.io/website/2015/03/19/Model-Analysis/"/>
+    <link href="/2015/03/19/Model-Analysis/"/>
     <updated>2015-03-19T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/03/19/Model-Analysis</id>
+    <id>/2015/03/19/Model-Analysis</id>
     <content type="html">&lt;p&gt;The K+09 derived their column density calculations from the analytic model
 from krumholz08 of &lt;script type=&quot;math/tex&quot;&gt;H_2&lt;/script&gt; formation and
 photodissociation of a spherical cloud bathed in a uniform ISRF.\@ See
@@ -561,9 +561,9 @@ CNM}&lt;/script&gt; values than California. This is expected given the low &lt;a
   
   <entry>
     <title>Sternberg and Krumholz Model Fitting</title>
-    <link href="http://ezbc.github.io/website/2015/03/17/Model-Analysis/"/>
+    <link href="/2015/03/17/Model-Analysis/"/>
     <updated>2015-03-17T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/03/17/Model-Analysis</id>
+    <id>/2015/03/17/Model-Analysis</id>
     <content type="html">&lt;h3 id=&quot;k09-model-discussion&quot;&gt;K+09 Model Discussion&lt;/h3&gt;
 
 &lt;p&gt;The K+09 derived their column density calculations from the analytic model
@@ -626,9 +626,9 @@ CNM}&lt;/script&gt; values than California. This is expected given the low &lt;a
   
   <entry>
     <title>Sternberg Model Fitting</title>
-    <link href="http://ezbc.github.io/website/2015/03/12/Sternberg-Fitting/"/>
+    <link href="/2015/03/12/Sternberg-Fitting/"/>
     <updated>2015-03-12T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/03/12/Sternberg-Fitting</id>
+    <id>/2015/03/12/Sternberg-Fitting</id>
     <content type="html">&lt;p&gt;I successfully fit the Sternberg model to the &lt;script type=&quot;math/tex&quot;&gt;\Sigma_{HI}&lt;/script&gt; vs. &lt;script type=&quot;math/tex&quot;&gt;\Sigma_H&lt;/script&gt;
 relationship. I assumed that our case is a two-sided irradiation by an
 isotropic field, where they predict an &lt;script type=&quot;math/tex&quot;&gt;\Sigma_{HI}&lt;/script&gt; threshold given by&lt;/p&gt;
@@ -673,9 +673,9 @@ for the K+09 model.&lt;/p&gt;
   
   <entry>
     <title>Sternberg Model Fitting</title>
-    <link href="http://ezbc.github.io/website/2015/03/11/Sternberg-Fitting/"/>
+    <link href="/2015/03/11/Sternberg-Fitting/"/>
     <updated>2015-03-11T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/03/11/Sternberg-Fitting</id>
+    <id>/2015/03/11/Sternberg-Fitting</id>
     <content type="html">&lt;p&gt;I successfully fit the Sternberg model to the &lt;script type=&quot;math/tex&quot;&gt;\Sigma_{HI}&lt;/script&gt; vs. &lt;script type=&quot;math/tex&quot;&gt;\Sigma_H&lt;/script&gt;
 relationship. I assumed that our case is a two-sided irradiation by an
 isotropic field, where they predict an &lt;script type=&quot;math/tex&quot;&gt;\Sigma_{HI}&lt;/script&gt; threshold given by&lt;/p&gt;
@@ -720,9 +720,9 @@ for the K+09 model.&lt;/p&gt;
   
   <entry>
     <title>Sternberg Summary</title>
-    <link href="http://ezbc.github.io/website/2015/03/06/Sternberg-Discussion/"/>
+    <link href="/2015/03/06/Sternberg-Discussion/"/>
     <updated>2015-03-06T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/03/06/Sternberg-Discussion</id>
+    <id>/2015/03/06/Sternberg-Discussion</id>
     <content type="html">&lt;p&gt;This post is a continuation of &lt;a href=&quot;/posts/notes/2015/02/20/Krumholz-Fitting/&quot;&gt;this
 post&lt;/a&gt;,
 but don’t bother with the previous post, it’s a poor, short, summary.&lt;/p&gt;
@@ -851,9 +851,9 @@ the formation rate of &lt;/p&gt;
   
   <entry>
     <title>Low Perseus HI Surface Density Thresholds</title>
-    <link href="http://ezbc.github.io/website/2015/03/03/Perseus-HI-Threshold/"/>
+    <link href="/2015/03/03/Perseus-HI-Threshold/"/>
     <updated>2015-03-03T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/03/03/Perseus-HI-Threshold</id>
+    <id>/2015/03/03/Perseus-HI-Threshold</id>
     <content type="html">&lt;p&gt;Below are results from using different &lt;script type=&quot;math/tex&quot;&gt;A_V&lt;/script&gt; maps. See &lt;a href=&quot;/posts/notes/2015/03/02/Perseus-HI-Threshold/&quot;&gt;yesterday’s
 post&lt;/a&gt;
 for how regions are chosen and comparison with Lee+12. Each &lt;script type=&quot;math/tex&quot;&gt;A_V&lt;/script&gt; map leads
@@ -883,9 +883,9 @@ leads to &lt;script type=&quot;math/tex&quot;&gt;\Sigma_{HI}&lt;/script&gt; thre
   
   <entry>
     <title>Low Perseus HI Surface Density Thresholds</title>
-    <link href="http://ezbc.github.io/website/2015/03/02/Perseus-HI-Threshold/"/>
+    <link href="/2015/03/02/Perseus-HI-Threshold/"/>
     <updated>2015-03-02T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/03/02/Perseus-HI-Threshold</id>
+    <id>/2015/03/02/Perseus-HI-Threshold</id>
     <content type="html">&lt;p&gt;Below are results from Planck &lt;script type=&quot;math/tex&quot;&gt;A_V&lt;/script&gt;. We can see that the &lt;script type=&quot;math/tex&quot;&gt;\Sigma_{HI}&lt;/script&gt;
 thresholds are quite low compared to those found in Lee+12.&lt;/p&gt;
 
@@ -908,9 +908,9 @@ thresholds are quite low compared to those found in Lee+12.&lt;/p&gt;
   
   <entry>
     <title>Irregular California Data - Model Residuals</title>
-    <link href="http://ezbc.github.io/website/2015/02/27/California-Residuals/"/>
+    <link href="/2015/02/27/California-Residuals/"/>
     <updated>2015-02-27T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/02/27/California-Residuals</id>
+    <id>/2015/02/27/California-Residuals</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/2015-02-27/california_residual_pdf.png&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2015-02-27/taurus_residual_pdf.png&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
@@ -922,9 +922,9 @@ thresholds are quite low compared to those found in Lee+12.&lt;/p&gt;
   
   <entry>
     <title>Negative H2 surface Densities</title>
-    <link href="http://ezbc.github.io/website/2015/02/26/Krumholz-Fitting/"/>
+    <link href="/2015/02/26/Krumholz-Fitting/"/>
     <updated>2015-02-26T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/02/26/Krumholz-Fitting</id>
+    <id>/2015/02/26/Krumholz-Fitting</id>
     <content type="html">&lt;p&gt;I have found systematically negative &lt;script type=&quot;math/tex&quot;&gt;\Sigma_{H2}&lt;/script&gt; in California. Below is
 an example histogram of the &lt;script type=&quot;math/tex&quot;&gt;\Sigma_{H2}&lt;/script&gt; calculated during a monte carlo
 simulation for a single core. These values are obviously unphysical.&lt;/p&gt;
@@ -972,9 +972,9 @@ residuals to mean that there is excess HI which is not traced by any dust.&lt;/p
   
   <entry>
     <title>2MASS Av of TCP</title>
-    <link href="http://ezbc.github.io/website/2015/02/25/Krumholz-Fitting/"/>
+    <link href="/2015/02/25/Krumholz-Fitting/"/>
     <updated>2015-02-25T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/02/25/Krumholz-Fitting</id>
+    <id>/2015/02/25/Krumholz-Fitting</id>
     <content type="html">&lt;p&gt;Jouni Kainulainen shared 2MASS Av image with us today. He provided the
 following warning:&lt;/p&gt;
 
@@ -1007,9 +1007,9 @@ various gas components.&lt;/p&gt;
   
   <entry>
     <title>Krumholz Fitting</title>
-    <link href="http://ezbc.github.io/website/2015/02/23/Krumholz-Fitting/"/>
+    <link href="/2015/02/23/Krumholz-Fitting/"/>
     <updated>2015-02-23T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/02/23/Krumholz-Fitting</id>
+    <id>/2015/02/23/Krumholz-Fitting</id>
     <content type="html">&lt;p&gt;test&lt;/p&gt;
 
 &lt;h2 id=&quot;summary-of-krumholz-2009-fitting&quot;&gt;Summary of Krumholz 2009 fitting&lt;/h2&gt;
@@ -1030,9 +1030,9 @@ various gas components.&lt;/p&gt;
   
   <entry>
     <title>Sternberg Summary</title>
-    <link href="http://ezbc.github.io/website/2015/02/20/Krumholz-Fitting/"/>
+    <link href="/2015/02/20/Krumholz-Fitting/"/>
     <updated>2015-02-20T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/02/20/Krumholz-Fitting</id>
+    <id>/2015/02/20/Krumholz-Fitting</id>
     <content type="html">&lt;p&gt;test&lt;/p&gt;
 
 &lt;h2 id=&quot;summary-of-sternberg-et-al-2014&quot;&gt;Summary of Sternberg et al. (2014)&lt;/h2&gt;
@@ -1069,9 +1069,9 @@ formation/destruction. $H_2$-dust-limited dissociated bandwidth defined.&lt;/p&g
   
   <entry>
     <title>MLE Iterative Application to TCP</title>
-    <link href="http://ezbc.github.io/website/2015/02/16/MLE-Iterative-Application-to-TCP/"/>
+    <link href="/2015/02/16/MLE-Iterative-Application-to-TCP/"/>
     <updated>2015-02-16T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/02/16/MLE-Iterative-Application-to-TCP</id>
+    <id>/2015/02/16/MLE-Iterative-Application-to-TCP</id>
     <content type="html">&lt;h2 id=&quot;summary-of-sternberg-et-al-2014&quot;&gt;Summary of Sternberg et al. (2014)&lt;/h2&gt;
 
 &lt;p&gt;The main predictor of &lt;script type=&quot;math/tex&quot;&gt;\Sigma_{\rm HI}&lt;/script&gt; HI and H2 surface densities &lt;/p&gt;
@@ -1188,9 +1188,9 @@ output. &lt;/p&gt;
   
   <entry>
     <title>MLE Iterative Application to TCP</title>
-    <link href="http://ezbc.github.io/website/2015/02/06/MLE-Iterative-Application-to-TCP/"/>
+    <link href="/2015/02/06/MLE-Iterative-Application-to-TCP/"/>
     <updated>2015-02-06T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/02/06/MLE-Iterative-Application-to-TCP</id>
+    <id>/2015/02/06/MLE-Iterative-Application-to-TCP</id>
     <content type="html">&lt;h2 id=&quot;iterative-mle-binning&quot;&gt;Iterative MLE binning&lt;/h2&gt;
 
 &lt;p&gt;Created systematic approach to determine affect of residual scale width on the
@@ -1239,9 +1239,9 @@ these results are not real!&lt;/p&gt;
   
   <entry>
     <title>MLE Iterative Application to TCP</title>
-    <link href="http://ezbc.github.io/website/2015/02/05/MLE-Iterative-Application-to-TCP/"/>
+    <link href="/2015/02/05/MLE-Iterative-Application-to-TCP/"/>
     <updated>2015-02-05T00:00:00+00:00</updated>
-    <id>http://ezbc.github.io/website/2015/02/05/MLE-Iterative-Application-to-TCP</id>
+    <id>/2015/02/05/MLE-Iterative-Application-to-TCP</id>
     <content type="html">&lt;h2 id=&quot;iterative-mle-binning&quot;&gt;Iterative MLE binning&lt;/h2&gt;
 
 &lt;p&gt;Today I performed an automated approach to iteratively creating a mask, solving
