@@ -9,7 +9,7 @@ markdown: kramdown
 redcarpet:
   extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-url: http://ezbc.me
+url: http://ezbc.github.io/
 #url: 
 permalink: /:year/:month/:day/:title/
 owner:
