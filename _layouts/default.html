@@ -1,5 +1,21 @@
 {% include head.html %}
+<style>
+body { 
+  background-padding: 0 !important;
+  background-image: url('images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  background-min-width: 100px;
+}
+</style>
+
+<body>
+</body>
 <main>
+
+
+
     <span class="statusbar"></span>
     <!-- Wrap all page content here -->
     <div id="wrap">
@@ -34,6 +50,15 @@
                             </a>
                             <a id="git-ic" class="link" href="https://bitbucket.org/{{site.owner.github}}">
                                 <i class="fa fa-bitbucket-square fa-lg"></i>
+                            </a>
+                            <a id="git-ic" class="link"
+                                href="https://plus.google.com/+{{site.owner.googleplus}}">
+                                <i class="fa fa-google-plus fa-lg"></i>
+                            </a>
+                            <a id="git-ic" class="link"
+                                href="https://linkedin.com/in/{{site.owner.googleplus}}">
+                                <i class="fa fa-linkedin fa-lg"></i>
+                            </a>
                             </a>
                             <a id="rss-ic" class="link" href="{{ "/feed.xml" | prepend: site.url }}">
                                 <i class="fa fa-rss fa-lg"></i>

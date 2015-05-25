@@ -30,6 +30,7 @@ html {
     padding:0px;
     }
 
+/* Wrap text around an image */
 .imageTextWrap {
     img {
         float: right;
@@ -41,3 +42,9 @@ html {
         text-indent: 2em;
     }
 }
+
+/* Remove text wrapping */
+.endWrap {
+    clear: both;
+}
+

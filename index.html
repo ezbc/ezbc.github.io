@@ -21,16 +21,7 @@ layout: default
             </p>
         </p>
 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        <p class="endWrap"> </p>
 
         <h3> Below are the most recent posts from each of my blogs
         </h3>
@@ -42,7 +33,7 @@ layout: default
                 <div class="col-sm-8">
                     <ul class="page-item-title">
                         <li><time class="timeago meta" datetime="{{ post.date |  date: "%A %-d %B %Y" }}">{{ post.date }}</time>
-                        - {{ post.category }} Post
+                        - {{ post.category }} post
                         <a class="meta pull-right comments-meta" href="{{ post.url | prepend: site.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
                         <li><a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
                     </ul>
