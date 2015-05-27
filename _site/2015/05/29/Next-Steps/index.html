@@ -3,12 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Elijah's Webpage  &mdash; MLE Iterative Application to TCP </title>
+        <title>Elijah's Webpage  &mdash; Next Steps </title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="alternate" type="application/atom+xml" title="Elijah's Webpage" href="/feed.xml">
         <!-- Loop and attach page tags from page meta section -->
         
-        <meta name="keywords" content="MLETaurus-California-PerseusIterative-maskingSternberg">
+        <meta name="keywords" content="Thesis">
         
         <link rel="icon" type="image/png" href="/favicon.png">
         <!-- Custom CSS -->
@@ -131,136 +131,60 @@ body {
 <div class="col-sm-12">
     <div class="page">
     	<div class="page-title">
-    		MLE Iterative Application to TCP
+    		Next Steps
     		<div class="meta">    			
                 
                 By Elijah Bernstein-Cooper,
                 
-    			February 16, 2015,
-    			<a href="/2015/02/16/MLE-Iterative-Application-to-TCP/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a>
+    			May 29, 2015,
+    			<a href="/2015/05/29/Next-Steps/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a>
     			comments.
     		</div>
     	</div>
         <div class="page-content">
-            <h2 id="summary-of-sternberg-et-al-2014">Summary of Sternberg et al. (2014)</h2>
+            <p>Below are action items already described in <a href="/2015/03/31/Paper-Comments-2/">Paper Comments
+2</a> and <a href="/2015/03/31/Paper-Comments/">Paper
+Comments</a>. </p>
 
-<p>The main predictor of <script type="math/tex">\Sigma_{\rm HI}</script> HI and H2 surface densities </p>
-
-<h2 id="iterative-mle-binning">Iterative MLE binning</h2>
-
-<p>Created systematic approach to determine affect of residual scale width on the
-output. </p>
-
-<h4 id="perseus">Perseus</h4>
-
-<table border="2" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>dust2gas_ratio</th>
-      <th>hi_velocity_width</th>
-      <th>intercept</th>
-      <th>residual_width_scale</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td> 0.120</td>
-      <td> 9.00016</td>
-      <td> 0.01</td>
-      <td> 1.5</td>
-    </tr>
-    <tr>
-      <td> 0.120</td>
-      <td> 9.00016</td>
-      <td> 0.02</td>
-      <td> 2.0</td>
-    </tr>
-    <tr>
-      <td> 0.120</td>
-      <td> 9.00016</td>
-      <td> 0.03</td>
-      <td> 2.5</td>
-    </tr>
-    <tr>
-      <td> 0.125</td>
-      <td> 8.66682</td>
-      <td> 0.06</td>
-      <td> 3.0</td>
-    </tr>
-    <tr>
-      <td> 0.125</td>
-      <td> 8.66682</td>
-      <td> 0.06</td>
-      <td> 3.5</td>
-    </tr>
-    <tr>
-      <td> 0.125</td>
-      <td> 8.33348</td>
-      <td> 0.08</td>
-      <td> 4.0</td>
-    </tr>
-  </tbody>
-</table>
-
-<h4 id="california">California</h4>
-
-<table border="2" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>dust2gas_ratio</th>
-      <th>hi_velocity_width</th>
-      <th>intercept</th>
-      <th>residual_width_scale</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td> 0.280</td>
-      <td> 17.66700</td>
-      <td>-0.92</td>
-      <td> 1.5</td>
-    </tr>
-    <tr>
-      <td> 0.300</td>
-      <td> 16.66698</td>
-      <td>-0.91</td>
-      <td> 2.0</td>
-    </tr>
-    <tr>
-      <td> 0.335</td>
-      <td> 15.00028</td>
-      <td>-0.89</td>
-      <td> 2.5</td>
-    </tr>
-    <tr>
-      <td> 0.355</td>
-      <td> 14.33360</td>
-      <td>-0.87</td>
-      <td> 3.0</td>
-    </tr>
-    <tr>
-      <td> 0.365</td>
-      <td> 13.66692</td>
-      <td>-0.87</td>
-      <td> 3.5</td>
-    </tr>
-    <tr>
-      <td> 0.375</td>
-      <td> 13.33358</td>
-      <td>-0.86</td>
-      <td> 4.0</td>
-    </tr>
-  </tbody>
-</table>
+<ul>
+  <li>
+    <p>Switch GALFA data to data release 2</p>
+  </li>
+  <li>
+    <p>Determine relevance of including an intercept in the model. This means we
+would solve for the DGR, <script type="math/tex">HI</script> width and an intercept for each cloud.
+Previous attempts to include an intercept led to large intercepts, on order
+of negative several magnitudes in <script type="math/tex">A_V</script>. See <a href="/2015/03/31/Paper-Comments-2/#intercept-discussion">this
+post</a> for more details.</p>
+  </li>
+  <li>
+    <p>Plot <script type="math/tex">A_V</script> vs. <script type="math/tex">HI</script> with the fitted DGR with and without an intercept for
+each cloud. </p>
+  </li>
+  <li>
+    <p>Show that the step to iterate supplying the derived <script type="math/tex">HI</script> width as the input
+<script type="math/tex">HI</script> width in deriving the mask is necessary.  Perhaps this added level of
+complexity is unnecessary. Perhaps use some value of the <script type="math/tex">HI</script> peak, like
+20% as the width?</p>
+  </li>
+  <li>
+    <p>Justify using the average velocity weighted by the square of <script type="math/tex">T_b</script> for the
+<script type="math/tex">HI</script> center. See <a href="/2015/03/31/Paper-Comments-2/#HI_center">this item</a>.</p>
+  </li>
+  <li>
+    <p>Include an additional section showing the differences between the new derived
+DGR, <script type="math/tex">HI</script> width for Perseus with Lee+12.</p>
+  </li>
+</ul>
 
 
             <!-- Share & Comments -->
             <div class="share">
     <p>Posted:
         <i>
-            Monday 16 February 2015
+            Friday 29 May 2015
         </i>
-        <a class="pull-right" href="https://twitter.com/intent/tweet?url=/2015/02/16/MLE-Iterative-Application-to-TCP/&text=MLE Iterative Application to TCP&via=ebernste101" target="_blank">
+        <a class="pull-right" href="https://twitter.com/intent/tweet?url=/2015/05/29/Next-Steps/&text=Next Steps&via=ebernste101" target="_blank">
             <i class="fa fa-retweet" style="color:red;"></i> Share
         </a>
     </p>
@@ -270,15 +194,15 @@ output. </p>
         
         
             <li>
-                <a href="/2015/05/29/Next-Steps/">Next Steps</a>
-            </li>
-        
-            <li>
                 <a href="/2015/03/31/Paper-Comments-2/">Paper Comments 2</a>
             </li>
         
             <li>
                 <a href="/2015/03/31/Paper-Comments/">Paper Comments 1</a>
+            </li>
+        
+            <li>
+                <a href="/2015/03/23/Adding-More-Cores/">Additional Cores</a>
             </li>
         
         </ul>

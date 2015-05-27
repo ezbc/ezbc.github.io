@@ -4,12 +4,55 @@
   <title type="text" xml:lang="en">Elijah's Webpage</title>
   <link type="application/atom+xml" href="/feed.xml" rel="self"/>
   <link type="text/html" href="" rel="alternate"/>
-  <updated>2015-05-25T20:31:00+00:00</updated>
+  <updated>2015-05-27T15:35:30+00:00</updated>
   <id>/all_feed</id>
   <author>
     <name>Elijah Bernstein-Cooper</name>
   </author>
 
+  
+  <entry>
+    <title>Next Steps</title>
+    <link href="/2015/05/29/Next-Steps/"/>
+    <updated>2015-05-29T00:00:00+00:00</updated>
+    <id>/2015/05/29/Next-Steps</id>
+    <content type="html">&lt;p&gt;Below are action items already described in &lt;a href=&quot;/2015/03/31/Paper-Comments-2/&quot;&gt;Paper Comments
+2&lt;/a&gt; and &lt;a href=&quot;/2015/03/31/Paper-Comments/&quot;&gt;Paper
+Comments&lt;/a&gt;. &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Switch GALFA data to data release 2&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Determine relevance of including an intercept in the model. This means we
+would solve for the DGR, &lt;script type=&quot;math/tex&quot;&gt;HI&lt;/script&gt; width and an intercept for each cloud.
+Previous attempts to include an intercept led to large intercepts, on order
+of negative several magnitudes in &lt;script type=&quot;math/tex&quot;&gt;A_V&lt;/script&gt;. See &lt;a href=&quot;/2015/03/31/Paper-Comments-2/#intercept-discussion&quot;&gt;this
+post&lt;/a&gt; for more details.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Plot &lt;script type=&quot;math/tex&quot;&gt;A_V&lt;/script&gt; vs. &lt;script type=&quot;math/tex&quot;&gt;HI&lt;/script&gt; with the fitted DGR with and without an intercept for
+each cloud. &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Show that the step to iterate supplying the derived &lt;script type=&quot;math/tex&quot;&gt;HI&lt;/script&gt; width as the input
+&lt;script type=&quot;math/tex&quot;&gt;HI&lt;/script&gt; width in deriving the mask is necessary.  Perhaps this added level of
+complexity is unnecessary. Perhaps use some value of the &lt;script type=&quot;math/tex&quot;&gt;HI&lt;/script&gt; peak, like
+20% as the width?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Justify using the average velocity weighted by the square of &lt;script type=&quot;math/tex&quot;&gt;T_b&lt;/script&gt; for the
+&lt;script type=&quot;math/tex&quot;&gt;HI&lt;/script&gt; center. See &lt;a href=&quot;/2015/03/31/Paper-Comments-2/#HI_center&quot;&gt;this item&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Include an additional section showing the differences between the new derived
+DGR, &lt;script type=&quot;math/tex&quot;&gt;HI&lt;/script&gt; width for Perseus with Lee+12.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+  </entry>
   
   <entry>
     <title>First Post</title>
@@ -191,10 +234,15 @@ value of the &lt;script type=&quot;math/tex&quot;&gt;HI&lt;/script&gt; peak, lik
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a id=&quot;intercept-discussion&quot;&gt;&lt;/a&gt; &lt;/p&gt;
+
+&lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;For the masking method, please check the Planck paper to see if their PDF is
 also NOT centered at 0 mag (peak in Figure 2 is offset from 0 - I wonder if
-this is ok or shows some background subtraction problem maybe).&lt;/p&gt;
+this is ok or shows some background subtraction problem maybe). &lt;/p&gt;
 
     &lt;ul&gt;
       &lt;li&gt;
@@ -230,6 +278,11 @@ the DGR of ~3 from 5.3&lt;script type=&quot;math/tex&quot;&gt;\times 10^{-22}&lt
 limit the DGR range? &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a id=&quot;HI_center&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;In section 3.4 and 3.2.2 you talk about 1st moment of square of Tb(v).  I am
 surprised to see that Tb(v) is being squared first. I am used to seeing
@@ -1233,29 +1286,6 @@ these results are not real!&lt;/p&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>MLE Iterative Application to TCP</title>
-    <link href="/2015/02/05/MLE-Iterative-Application-to-TCP/"/>
-    <updated>2015-02-05T00:00:00+00:00</updated>
-    <id>/2015/02/05/MLE-Iterative-Application-to-TCP</id>
-    <content type="html">&lt;h2 id=&quot;iterative-mle-binning&quot;&gt;Iterative MLE binning&lt;/h2&gt;
-
-&lt;p&gt;Today I performed an automated approach to iteratively creating a mask, solving
-for the bests HI width, and using that best HI width to create the mask until
-the derived HI width converged. Below are the resulting likelihood spaces&lt;/p&gt;
-
-&lt;h3 id=&quot;perseus&quot;&gt;Perseus&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/images/2015-02-05/perseus_likelihood_planck_bin_scaled_wd.png&quot; alt=&quot;Perseus Likelihood&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;taurus&quot;&gt;Taurus&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/images/2015-02-05/taurus_likelihood_planck_bin_scaled_wd.png&quot; alt=&quot;Taurus Likelihood&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;california&quot;&gt;California&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/images/2015-02-05/california_likelihood_planck_bin_scaled_wd.png&quot; alt=&quot;California Likelihood&quot; /&gt;&lt;/p&gt;
 
 </content>
   </entry>

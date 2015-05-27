@@ -120,9 +120,11 @@ Please let me know if this is correct. Please also provide answers to questions 
       Perhaps this added level of complexity is unnecessary. Perhaps use some
       value of the $$HI$$ peak, like 20% as the width?
 
+<a id="intercept-discussion"></a> 
+
 + For the masking method, please check the Planck paper to see if their PDF is
   also NOT centered at 0 mag (peak in Figure 2 is offset from 0 - I wonder if
-  this is ok or shows some background subtraction problem maybe).
+  this is ok or shows some background subtraction problem maybe). 
 
     + Figure 12 from the [Planck paper](
       http://adsabs.harvard.edu/abs/2011A%26A...536A..24P) shows that the
@@ -149,6 +151,9 @@ Please let me know if this is correct. Please also provide answers to questions 
       range I chose to be conservative. Kim & Martin 1996 found variations in
       the DGR of ~3 from 5.3$$\times 10^{-22}$$ mag cm$$^2$$. Perhaps I should
       limit the DGR range? 
+
+
+<a id="HI_center"></a>
 
 + In section 3.4 and 3.2.2 you talk about 1st moment of square of Tb(v).  I am
   surprised to see that Tb(v) is being squared first. I am used to seeing
