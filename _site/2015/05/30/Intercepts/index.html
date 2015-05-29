@@ -3,12 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Elijah's Webpage  &mdash; Next Steps </title>
+        <title>Elijah's Webpage  &mdash; Intercepts </title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="alternate" type="application/atom+xml" title="Elijah's Webpage" href="/feed.xml">
         <!-- Loop and attach page tags from page meta section -->
         
-        <meta name="keywords" content="Thesis">
+        <meta name="keywords" content="Taurus-California-Perseus">
         
         <link rel="icon" type="image/png" href="/favicon.png">
         <!-- Custom CSS -->
@@ -131,60 +131,55 @@ body {
 <div class="col-sm-12">
     <div class="page">
     	<div class="page-title">
-    		Next Steps
+    		Intercepts
     		<div class="meta">    			
                 
                 By Elijah Bernstein-Cooper,
                 
-    			May 29, 2015,
-    			<a href="/2015/05/29/Next-Steps/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a>
+    			May 30, 2015,
+    			<a href="/2015/05/30/Intercepts/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a>
     			comments.
     		</div>
     	</div>
         <div class="page-content">
-            <p>Below are action items already described in <a href="/2015/03/31/Paper-Comments-2/">Paper Comments
-2</a> and <a href="/2015/03/31/Paper-Comments/">Paper
-Comments</a>. </p>
-
-<ul>
-  <li>
-    <p>Switch GALFA data to data release 2</p>
-  </li>
-  <li>
-    <p>Determine relevance of including an intercept in the model. This means we
-would solve for the DGR, <script type="math/tex">HI</script> width and an intercept for each cloud.
-Previous attempts to include an intercept led to large intercepts, on order
-of negative several magnitudes in <script type="math/tex">A_V</script>. See <a href="/2015/03/31/Paper-Comments-2/#intercept-discussion">this
+            <p>Determine relevance of including an intercept in the model. This means we would
+solve for the DGR, <script type="math/tex">HI</script> width and an intercept for each cloud.  Previous
+attempts to include an intercept led to large intercepts, on order of negative
+several magnitudes in <script type="math/tex">A_V</script>. See <a href="/2015/03/31/Paper-Comments-2/#intercept-discussion">this
 post</a> for more details.</p>
-  </li>
-  <li>
-    <p>Plot <script type="math/tex">A_V</script> vs. <script type="math/tex">HI</script> with the fitted DGR with and without an intercept for
+
+<p>Plot <script type="math/tex">A_V</script> vs. <script type="math/tex">HI</script> with the fitted DGR with and without an intercept for
 each cloud. </p>
-  </li>
-  <li>
-    <p>Show that the step to iterate supplying the derived <script type="math/tex">HI</script> width as the input
-<script type="math/tex">HI</script> width in deriving the mask is necessary.  Perhaps this added level of
-complexity is unnecessary. Perhaps use some value of the <script type="math/tex">HI</script> peak, like
-20% as the width?</p>
-  </li>
-  <li>
-    <p>Justify using the average velocity weighted by the square of <script type="math/tex">T_b</script> for the
-<script type="math/tex">HI</script> center. See <a href="/2015/03/31/Paper-Comments-2/#HI_center">this item</a>.</p>
-  </li>
-  <li>
-    <p>Include an additional section showing the differences between the new derived
-DGR, <script type="math/tex">HI</script> width for Perseus with Lee+12.</p>
-  </li>
-</ul>
+
+<p>Currently I am experiencing problems deriving a reasonable intercept. Below is
+a hess diagram of <script type="math/tex">A_V</script> vs. <script type="math/tex">N(HI)</script> for California of the masked pixels.
+The black line shows the derived relationship between <script type="math/tex">A_V</script> and <script type="math/tex">N(HI)</script>
+using the MLE method i.e. the best-fit DGR + <script type="math/tex">HI</script> width. The red line is a
+least-squares fit to the given <script type="math/tex">N(HI)</script>, i.e., not fitting for <script type="math/tex">N(HI)</script>. It
+seems quite obvious that an intercept is needed to correctly describe the data.</p>
+
+<p><img src="/images/2015-05-30/california_av_vs_nhi_planck.png" height="400" width="400" /></p>
+
+<p>Below is a likelihood space for California without fitting for an intercept.</p>
+
+<p><img src="/images/2015-05-30/likelihood_noint_wd.png" height="400" width="400" /></p>
+
+<p>Below is a likelihood spaces for California without fitting for an intercept.</p>
+
+<p><img src="/images/2015-05-30/likelihood_int_wd.png" height="400" width="400" /></p>
+
+<p><img src="/images/2015-05-30/likelihood_int_wi.png" height="400" width="400" /></p>
+
+<p>We can see that including an intercept distorts the likelihood estimation.</p>
 
 
             <!-- Share & Comments -->
             <div class="share">
     <p>Posted:
         <i>
-            Friday 29 May 2015
+            Saturday 30 May 2015
         </i>
-        <a class="pull-right" href="https://twitter.com/intent/tweet?url=/2015/05/29/Next-Steps/&text=Next Steps&via=ebernste101" target="_blank">
+        <a class="pull-right" href="https://twitter.com/intent/tweet?url=/2015/05/30/Intercepts/&text=Intercepts&via=ebernste101" target="_blank">
             <i class="fa fa-retweet" style="color:red;"></i> Share
         </a>
     </p>
@@ -194,7 +189,7 @@ DGR, <script type="math/tex">HI</script> width for Perseus with Lee+12.</p>
         
         
             <li>
-                <a href="/2015/05/30/Intercepts/">Intercepts</a>
+                <a href="/2015/05/29/Next-Steps/">Next Steps</a>
             </li>
         
             <li>

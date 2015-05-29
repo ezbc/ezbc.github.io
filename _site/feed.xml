@@ -4,12 +4,50 @@
   <title type="text" xml:lang="en">Elijah's Webpage</title>
   <link type="application/atom+xml" href="/feed.xml" rel="self"/>
   <link type="text/html" href="" rel="alternate"/>
-  <updated>2015-05-27T15:35:30+00:00</updated>
+  <updated>2015-05-29T18:05:12+00:00</updated>
   <id>/all_feed</id>
   <author>
     <name>Elijah Bernstein-Cooper</name>
   </author>
 
+  
+  <entry>
+    <title>Intercepts</title>
+    <link href="/2015/05/30/Intercepts/"/>
+    <updated>2015-05-30T00:00:00+00:00</updated>
+    <id>/2015/05/30/Intercepts</id>
+    <content type="html">&lt;p&gt;Determine relevance of including an intercept in the model. This means we would
+solve for the DGR, &lt;script type=&quot;math/tex&quot;&gt;HI&lt;/script&gt; width and an intercept for each cloud.  Previous
+attempts to include an intercept led to large intercepts, on order of negative
+several magnitudes in &lt;script type=&quot;math/tex&quot;&gt;A_V&lt;/script&gt;. See &lt;a href=&quot;/2015/03/31/Paper-Comments-2/#intercept-discussion&quot;&gt;this
+post&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;p&gt;Plot &lt;script type=&quot;math/tex&quot;&gt;A_V&lt;/script&gt; vs. &lt;script type=&quot;math/tex&quot;&gt;HI&lt;/script&gt; with the fitted DGR with and without an intercept for
+each cloud. &lt;/p&gt;
+
+&lt;p&gt;Currently I am experiencing problems deriving a reasonable intercept. Below is
+a hess diagram of &lt;script type=&quot;math/tex&quot;&gt;A_V&lt;/script&gt; vs. &lt;script type=&quot;math/tex&quot;&gt;N(HI)&lt;/script&gt; for California of the masked pixels.
+The black line shows the derived relationship between &lt;script type=&quot;math/tex&quot;&gt;A_V&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;N(HI)&lt;/script&gt;
+using the MLE method i.e. the best-fit DGR + &lt;script type=&quot;math/tex&quot;&gt;HI&lt;/script&gt; width. The red line is a
+least-squares fit to the given &lt;script type=&quot;math/tex&quot;&gt;N(HI)&lt;/script&gt;, i.e., not fitting for &lt;script type=&quot;math/tex&quot;&gt;N(HI)&lt;/script&gt;. It
+seems quite obvious that an intercept is needed to correctly describe the data.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-05-30/california_av_vs_nhi_planck.png&quot; height=&quot;400&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Below is a likelihood space for California without fitting for an intercept.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-05-30/likelihood_noint_wd.png&quot; height=&quot;400&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Below is a likelihood spaces for California without fitting for an intercept.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-05-30/likelihood_int_wd.png&quot; height=&quot;400&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-05-30/likelihood_int_wi.png&quot; height=&quot;400&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We can see that including an intercept distorts the likelihood estimation.&lt;/p&gt;
+
+</content>
+  </entry>
   
   <entry>
     <title>Next Steps</title>
@@ -1232,57 +1270,6 @@ output. &lt;/p&gt;
       &lt;td&gt; 13.33358&lt;/td&gt;
       &lt;td&gt;-0.86&lt;/td&gt;
       &lt;td&gt; 4.0&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>MLE Iterative Application to TCP</title>
-    <link href="/2015/02/06/MLE-Iterative-Application-to-TCP/"/>
-    <updated>2015-02-06T00:00:00+00:00</updated>
-    <id>/2015/02/06/MLE-Iterative-Application-to-TCP</id>
-    <content type="html">&lt;h2 id=&quot;iterative-mle-binning&quot;&gt;Iterative MLE binning&lt;/h2&gt;
-
-&lt;p&gt;Created systematic approach to determine affect of residual scale width on the
-output. Below is an example table for the results to expect for tomorrow. Note
-these results are not real!&lt;/p&gt;
-
-&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr style=&quot;text-align: right;&quot;&gt;
-      &lt;th&gt;dust2gas_ratio&lt;/th&gt;
-      &lt;th&gt;hi_velocity_width&lt;/th&gt;
-      &lt;th&gt;intercept&lt;/th&gt;
-      &lt;th&gt;residual_width_scale&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt; 0.15&lt;/td&gt;
-      &lt;td&gt; 7.6668&lt;/td&gt;
-      &lt;td&gt;-2.220446e-16&lt;/td&gt;
-      &lt;td&gt; 1.5&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; 0.15&lt;/td&gt;
-      &lt;td&gt; 7.6668&lt;/td&gt;
-      &lt;td&gt;-2.220446e-16&lt;/td&gt;
-      &lt;td&gt; 2.0&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; 0.15&lt;/td&gt;
-      &lt;td&gt; 7.6668&lt;/td&gt;
-      &lt;td&gt;-2.220446e-16&lt;/td&gt;
-      &lt;td&gt; 2.5&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; 0.15&lt;/td&gt;
-      &lt;td&gt; 7.6668&lt;/td&gt;
-      &lt;td&gt;-2.220446e-16&lt;/td&gt;
-      &lt;td&gt; 3.0&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
