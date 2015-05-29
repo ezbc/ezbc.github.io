@@ -32,13 +32,7 @@ Below is a likelihood space for California without fitting for an intercept.
 <img src="/images/2015-05-30/likelihood_noint_wd.png" height="400" width="400" />
 
 
-Below is a likelihood spaces for California without fitting for an intercept.
-
-
-<img src="/images/2015-05-30/likelihood_int_wd.png" height="400" width="400" />
-
-<img src="/images/2015-05-30/likelihood_int_wi.png" height="400" width="400" />
-
-We can see that including an intercept distorts the likelihood estimation.
+The likelihood spaces for California while fitting for an intercept are
+distorted and do not have a clear MLE.
 
 
