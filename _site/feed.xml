@@ -4,12 +4,93 @@
   <title type="text" xml:lang="en">Elijah's Webpage</title>
   <link type="application/atom+xml" href="/feed.xml" rel="self"/>
   <link type="text/html" href="" rel="alternate"/>
-  <updated>2015-05-29T18:14:55+00:00</updated>
+  <updated>2015-06-25T23:08:04+00:00</updated>
   <id>/all_feed</id>
   <author>
     <name>Elijah Bernstein-Cooper</name>
   </author>
 
+  
+  <entry>
+    <title>Region Dependence of Intercepts</title>
+    <link href="/2015/06/25/Intercept-and-Regions/"/>
+    <updated>2015-06-25T00:00:00+00:00</updated>
+    <id>/2015/06/25/Intercept-and-Regions</id>
+    <content type="html">&lt;p&gt;I have investigated the dependence of derived parameters, &lt;script type=&quot;math/tex&quot;&gt;HI&lt;/script&gt; width, DGR,
+and intercept based on the selection of region in the California cloud. &lt;/p&gt;
+
+&lt;h2 id=&quot;confined-region-without-low-av-pixels&quot;&gt;Confined region without low-&lt;script type=&quot;math/tex&quot;&gt;A_V&lt;/script&gt; pixels&lt;/h2&gt;
+
+&lt;p&gt;Below is an image of the selected region to be included when calculating the
+three parameters. The green lines represent the boundaries of California. While
+the map in this image shows missing pixels on the left side, this is not the
+case in the calculation. All pixels on the left bounded by the region are
+considered.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-06-25/confined/california_region_confined.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this case I am excluding the diffuse region to the south-west while
+calculating the three parameters. This leads to large uncertainties in the
+derived parameters, but a positive estimate of an intercept. We expect there to
+be a positive intercept given the diffuse background seen far away from
+California on order of &lt;script type=&quot;math/tex&quot;&gt;A_V \sim 0.6&lt;/script&gt; mag. &lt;a href=&quot;http://www.aanda.org/10.1051/0004-6361/201525650&quot;&gt;Lombardi et al. (2015)&lt;/a&gt; found a background of &lt;script type=&quot;math/tex&quot;&gt;A_K = 0.1&lt;/script&gt; mag for California, corresponding to &lt;script type=&quot;math/tex&quot;&gt;A_V \sim 0.9&lt;/script&gt; mag.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-06-25/confined/california_likelihood_planck_bin_scaled_wd.png&quot; style=&quot;float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-06-25/confined/california_likelihood_planck_bin_scaled_wi.png&quot; style=&quot;float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The progression of residual pixel masking (&lt;a href=&quot;http://adsabs.harvard.edu/abs/2011A%26A...536A..24P&quot;&gt;See Planck XXIV&lt;/a&gt;) is shown by the following animation. The image with the most pixels is the first iteration without masking, leading to more and more pixels masked with further iterations.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-06-25/confined/animation.gif&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;extended-regions-with-low-av-pixels&quot;&gt;Extended regions with low-&lt;script type=&quot;math/tex&quot;&gt;A_V&lt;/script&gt; pixels&lt;/h2&gt;
+
+&lt;p&gt;In this case I am including the diffuse region to the south-west while
+calculating the three parameters. See below to compare with confined region.
+The diffuse pixels in the south-east corner now being included are on order of
+&lt;script type=&quot;math/tex&quot;&gt;A_V \sim 1.7&lt;/script&gt; mag.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-06-25/extended/california_region_extended.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next I consider two cases, one with subtracting &lt;script type=&quot;math/tex&quot;&gt;0.9&lt;/script&gt; mag manually and
+deriving the three parameters, one without the subtraction.&lt;/p&gt;
+
+&lt;h3 id=&quot;without-background-subtraction&quot;&gt;Without background subtraction&lt;/h3&gt;
+
+&lt;p&gt;The derived parameters certainly favor a very negative intercept, beyond the
+range considered in this likelihood estimation, i.e., &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+&lt; -1.0 %]]&gt;&lt;/script&gt; mag. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-06-25/extended/california_likelihood_planck_bin_scaled_wd.png&quot; style=&quot;float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-06-25/extended/california_likelihood_planck_bin_scaled_wi.png&quot; style=&quot;float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And the progression of residual masked-maps:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-06-25/extended/animation.gif&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;with-background-subtraction&quot;&gt;With background subtraction&lt;/h3&gt;
+
+&lt;p&gt;By first manually subtracting &lt;script type=&quot;math/tex&quot;&gt;0.9&lt;/script&gt; mag manually first, the derived
+parameters are not favoring a smaller magnitude intercept, but rather are
+increasing the DGR to account for the lower &lt;script type=&quot;math/tex&quot;&gt;A_V&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-06-25/extended_backsubtract/california_likelihood_planck_bin_scaled_wd.png&quot; style=&quot;float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-06-25/extended/california_likelihood_planck_bin_scaled_wi.png&quot; style=&quot;float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And the progression of residual masked-maps:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-06-25/extended_backsubtract/animation.gif&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;The derived parameters, DGR, &lt;script type=&quot;math/tex&quot;&gt;HI&lt;/script&gt; width, and intercept are obviously
+sensitive on the selection of bounding region in California. I do not have an
+explanation for this dependence.&lt;/p&gt;
+
+</content>
+  </entry>
   
   <entry>
     <title>Intercepts</title>
@@ -1153,125 +1234,6 @@ formation/destruction. $H_2$-dust-limited dissociated bandwidth defined.&lt;/p&g
     &lt;p&gt;Integrate diff EQ to get HI column density. &lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>MLE Iterative Application to TCP</title>
-    <link href="/2015/02/16/MLE-Iterative-Application-to-TCP/"/>
-    <updated>2015-02-16T00:00:00+00:00</updated>
-    <id>/2015/02/16/MLE-Iterative-Application-to-TCP</id>
-    <content type="html">&lt;h2 id=&quot;summary-of-sternberg-et-al-2014&quot;&gt;Summary of Sternberg et al. (2014)&lt;/h2&gt;
-
-&lt;p&gt;The main predictor of &lt;script type=&quot;math/tex&quot;&gt;\Sigma_{\rm HI}&lt;/script&gt; HI and H2 surface densities &lt;/p&gt;
-
-&lt;h2 id=&quot;iterative-mle-binning&quot;&gt;Iterative MLE binning&lt;/h2&gt;
-
-&lt;p&gt;Created systematic approach to determine affect of residual scale width on the
-output. &lt;/p&gt;
-
-&lt;h4 id=&quot;perseus&quot;&gt;Perseus&lt;/h4&gt;
-
-&lt;table border=&quot;2&quot; class=&quot;dataframe&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr style=&quot;text-align: right;&quot;&gt;
-      &lt;th&gt;dust2gas_ratio&lt;/th&gt;
-      &lt;th&gt;hi_velocity_width&lt;/th&gt;
-      &lt;th&gt;intercept&lt;/th&gt;
-      &lt;th&gt;residual_width_scale&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt; 0.120&lt;/td&gt;
-      &lt;td&gt; 9.00016&lt;/td&gt;
-      &lt;td&gt; 0.01&lt;/td&gt;
-      &lt;td&gt; 1.5&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; 0.120&lt;/td&gt;
-      &lt;td&gt; 9.00016&lt;/td&gt;
-      &lt;td&gt; 0.02&lt;/td&gt;
-      &lt;td&gt; 2.0&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; 0.120&lt;/td&gt;
-      &lt;td&gt; 9.00016&lt;/td&gt;
-      &lt;td&gt; 0.03&lt;/td&gt;
-      &lt;td&gt; 2.5&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; 0.125&lt;/td&gt;
-      &lt;td&gt; 8.66682&lt;/td&gt;
-      &lt;td&gt; 0.06&lt;/td&gt;
-      &lt;td&gt; 3.0&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; 0.125&lt;/td&gt;
-      &lt;td&gt; 8.66682&lt;/td&gt;
-      &lt;td&gt; 0.06&lt;/td&gt;
-      &lt;td&gt; 3.5&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; 0.125&lt;/td&gt;
-      &lt;td&gt; 8.33348&lt;/td&gt;
-      &lt;td&gt; 0.08&lt;/td&gt;
-      &lt;td&gt; 4.0&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h4 id=&quot;california&quot;&gt;California&lt;/h4&gt;
-
-&lt;table border=&quot;2&quot; class=&quot;dataframe&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr style=&quot;text-align: right;&quot;&gt;
-      &lt;th&gt;dust2gas_ratio&lt;/th&gt;
-      &lt;th&gt;hi_velocity_width&lt;/th&gt;
-      &lt;th&gt;intercept&lt;/th&gt;
-      &lt;th&gt;residual_width_scale&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt; 0.280&lt;/td&gt;
-      &lt;td&gt; 17.66700&lt;/td&gt;
-      &lt;td&gt;-0.92&lt;/td&gt;
-      &lt;td&gt; 1.5&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; 0.300&lt;/td&gt;
-      &lt;td&gt; 16.66698&lt;/td&gt;
-      &lt;td&gt;-0.91&lt;/td&gt;
-      &lt;td&gt; 2.0&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; 0.335&lt;/td&gt;
-      &lt;td&gt; 15.00028&lt;/td&gt;
-      &lt;td&gt;-0.89&lt;/td&gt;
-      &lt;td&gt; 2.5&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; 0.355&lt;/td&gt;
-      &lt;td&gt; 14.33360&lt;/td&gt;
-      &lt;td&gt;-0.87&lt;/td&gt;
-      &lt;td&gt; 3.0&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; 0.365&lt;/td&gt;
-      &lt;td&gt; 13.66692&lt;/td&gt;
-      &lt;td&gt;-0.87&lt;/td&gt;
-      &lt;td&gt; 3.5&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; 0.375&lt;/td&gt;
-      &lt;td&gt; 13.33358&lt;/td&gt;
-      &lt;td&gt;-0.86&lt;/td&gt;
-      &lt;td&gt; 4.0&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
 
 </content>
   </entry>
