@@ -13,16 +13,16 @@ intercepts.
 Some discussion points from [Lombardi et al.
 2015](http://www.aanda.org/10.1051/0004-6361/201525650)
 
-+ > As mentioned earlier, unrelated foreground or background
-material can contribute to the observed PDF. One way to correct for this is to
-look at the lowest extinction value in a large area around the cloud and to
-remove this amount from the extinction map (see also Schneider et al. 2015). Of
-course, this is a crude approximation since the subtracted column density is
-taken to be constant within the field. As a result, we expect “corrected”
-column densities to be affected by an additional noise equal to the average
-scatter of the superimposed material. This quantity, however, can be estimated
-(although approximately) by check- ing the off-field column density scatter and
-by applying a set of offsets that spans the same range in extinction.
++ >"...unrelated foreground or background material can contribute to the
+  observed PDF. One way to correct for this is to look at the lowest extinction
+  value in a large area around the cloud and to remove this amount from the
+  extinction map (see also Schneider et al. 2015). Of course, this is a crude
+  approximation since the subtracted column density is taken to be constant
+  within the field. As a result, we expect “corrected” column densities to be
+  affected by an additional noise equal to the average scatter of the
+  superimposed material. This quantity, however, can be estimated (although
+  approximately) by check- ing the off-field column density scatter and by
+  applying a set of offsets that spans the same range in extinction."
 
 + Foreground and background likely dominate the extinction below $$A_k < 0.1$$
   mag, or about $$A_V < 0.9$$ mag. 
