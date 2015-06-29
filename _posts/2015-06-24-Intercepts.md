@@ -48,3 +48,5 @@ Some discussion points from [Planck et al. (2011)](http://adsabs.harvard.edu/abs
   WMAP radio sources. They masked point source pixels within 15$$^\prime$$,
   then interpolated from surrounding pixels to fill in the mask. See appendix D.
 
++ 
+
