@@ -30,6 +30,11 @@ subtraction...something is wrong. At least the intercept is positive!
 
 <img src="/images/2015-06-29/california_likelihood_planck_bin_scaled_wi.png" style=""/>
 
+## Relationship Between Planck, 2MASS, and Lee+12 $$A_V$$
+
+Below are relationships between Jouni Kainulainen's 2MASS, Planck
+$$\tau_{353}$$, and Lee+12 $$A_V$$ maps. The red lines are linear fits to the
+relationships. The black lines represent 1$$\sigma$$ uncertainties.
 
 ### Taurus
 
@@ -43,3 +48,4 @@ subtraction...something is wrong. At least the intercept is positive!
 
 <img src="/images/2015-06-29/perseus_av_2mass_planck_plot.png" style="width:100%"/>
 
+<img src="/images/2015-06-29/perseus_av_lee12_planck_plot.png" style="width:100%"/>
