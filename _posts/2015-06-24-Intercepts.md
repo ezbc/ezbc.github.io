@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Intercepts
+title: IR Background
 author:
 category: research
-tags: Taurus-California-Perseus
+tags: Taurus-California-Perseus Plank-All-Sky-Map
 use_math: true
 ---
 
@@ -33,5 +33,18 @@ Some discussion points from [Lombardi et al.
   the $$HI-H_2$$ transition found by theory, $$A_k \sim 0.04$$ to $$0.1$$ mag
   ([Sternberg et al. 2014](http://adsabs.harvard.edu/abs/2014ApJ...790...10S)).
 
+Some discussion points from [Planck et al. (2011)](http://adsabs.harvard.edu/abs/2011A%26A...536A..24P).
 
++ Uncertainty in their $$N(HI)$$ accounts only for the measurement
+  uncertainty, not in their uncertainty of the $$HI$$ window used. The errors
+  on on order of 10%. See Table 1. They assumed optically thin $$HI$$.
+
++ They use infrared to submm data at $$3000$$ and $$5000$$ GHz ($$100$$ and
+  $$60 \mu$$m, respectively) from IRAS (IRIS, Miville- Deschênes & Lagache
+  2005) and at $$353, 545,$$ and $$857$$GHz ($$850, 550,$$ and $$350 \mu$$m,
+  respectively) from Planck (DR2 release; Planck HFI Core Team 2011b)
+
++ The IR maps have removed point sources identified from IRAS IR sources and
+  WMAP radio sources. They masked point source pixels within 15$$^\prime$$,
+  then interpolated from surrounding pixels to fill in the mask. See appendix D.
 
