@@ -4,12 +4,78 @@
   <title type="text" xml:lang="en">Elijah's Webpage</title>
   <link type="application/atom+xml" href="/feed.xml" rel="self"/>
   <link type="text/html" href="" rel="alternate"/>
-  <updated>2015-06-26T18:51:12+00:00</updated>
+  <updated>2015-06-29T22:09:45+00:00</updated>
   <id>/all_feed</id>
   <author>
     <name>Elijah Bernstein-Cooper</name>
   </author>
 
+  
+  <entry>
+    <title>Updating GALFA and Planck</title>
+    <link href="/2015/06/28/Data-Updates-and-Backgrounds/"/>
+    <updated>2015-06-28T00:00:00+00:00</updated>
+    <id>/2015/06/28/Data-Updates-and-Backgrounds</id>
+    <content type="html">&lt;h2 id=&quot;data-update&quot;&gt;Data Update&lt;/h2&gt;
+
+&lt;h3 id=&quot;galfa&quot;&gt;GALFA&lt;/h3&gt;
+
+&lt;p&gt;We are now using the GALFA data release 2. Some words from Josh Peek about the
+data:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Credit to Kevin Douglas, Brian Babler, Yong Zheng and Josh Peek&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The data are largely taken from commensal observations with GALFACTS, and are
+in our shallowest (“gear 6”) mode, which results in noise of about 140 mK / 1
+km/s channel, covering almost all of the Arecibo sky. The data are supplemented
+from three sources to fully fill in the Arecibo sky:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A) A small region of sky near RA = 60, dec 10 is filled in with data from DR1.&lt;/p&gt;
+
+&lt;p&gt;B) A small region near RA 50, dec 18 is filled in with data provided by the
+EBHIS collaboration. These data are marked in the equivalent T.fits files with
+a -1&lt;/p&gt;
+
+&lt;p&gt;C) Small holes throughout are patched with data from LAB. These data are marked
+in the equivalent T.fits files with a -2&lt;/p&gt;
+
+&lt;h3 id=&quot;planck&quot;&gt;Planck&lt;/h3&gt;
+
+&lt;p&gt;We will now be using the &lt;script type=&quot;math/tex&quot;&gt;\tau_{353}&lt;/script&gt; map only instead of the Radiance +
+&lt;script type=&quot;math/tex&quot;&gt;\tau_{353}&lt;/script&gt; combined map. This is because the radiance map is only accurate
+for the most diffuse regions where the interstellar radiation field does not
+vary much. The dust opacity (which &lt;script type=&quot;math/tex&quot;&gt;\tau_{353}&lt;/script&gt; depends on) is shown to vary
+less than the radiation field for molecular clouds. See Section 6.3 and Figure
+24 of the &lt;a href=&quot;http://adsabs.harvard.edu/abs/2014A%26A...571A..11P&quot;&gt;Planck paper&lt;/a&gt;
+which shows &lt;script type=&quot;math/tex&quot;&gt;\tau_{353}&lt;/script&gt; correlates better with 2MASS stellar extinction maps
+in Taurus than the radiance.&lt;/p&gt;
+
+&lt;h2 id=&quot;perseus-intercept-test&quot;&gt;Perseus Intercept Test&lt;/h2&gt;
+
+&lt;p&gt;Below are likelihood spaces for Perseus. &lt;/p&gt;
+
+&lt;h3 id=&quot;planck-results&quot;&gt;Planck Results&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-06-28/perseus_likelihood_planck_bin_scaled_wd.png&quot; style=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-06-28/perseus_likelihood_planck_bin_scaled_wi.png&quot; style=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lee12-results&quot;&gt;Lee+12 Results&lt;/h3&gt;
+
+&lt;p&gt;We expect that the intercept be &lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt; mag since the background has already been
+subtracted from  Perseus manually.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-06-28/perseus_likelihood_lee12_bin_scaled_wd.png&quot; style=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015-06-28/perseus_likelihood_lee12_bin_scaled_wi.png&quot; style=&quot;&quot; /&gt;&lt;/p&gt;
+
+</content>
+  </entry>
   
   <entry>
     <title>Region Dependence of Intercepts</title>
@@ -162,6 +228,7 @@ respectively) from Planck (DR2 release; Planck HFI Core Team 2011b)&lt;/p&gt;
 WMAP radio sources. They masked point source pixels within 15&lt;script type=&quot;math/tex&quot;&gt;^\prime&lt;/script&gt;,
 then interpolated from surrounding pixels to fill in the mask. See appendix D.&lt;/p&gt;
   &lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </content>
@@ -1227,56 +1294,6 @@ thresholds are quite low compared to those found in Lee+12.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/2015-02-27/taurus_residual_pdf.png&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2015-02-27/perseus_residual_pdf.png&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>Negative H2 surface Densities</title>
-    <link href="/2015/02/26/Krumholz-Fitting/"/>
-    <updated>2015-02-26T00:00:00+00:00</updated>
-    <id>/2015/02/26/Krumholz-Fitting</id>
-    <content type="html">&lt;p&gt;I have found systematically negative &lt;script type=&quot;math/tex&quot;&gt;\Sigma_{H2}&lt;/script&gt; in California. Below is
-an example histogram of the &lt;script type=&quot;math/tex&quot;&gt;\Sigma_{H2}&lt;/script&gt; calculated during a monte carlo
-simulation for a single core. These values are obviously unphysical.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015-02-26/california_h2_hist.png&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Below is a screenshot of the HI spectrum at (ra, dec) ~ (4:34:00, 36:30:00)
-with the Planck Av 4 and 8 mag contours. The median velocity range from the
-monte carlo simulation is ~ -8 to 4 km/s.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015-02-26/california_hi_spectrum.png&quot; alt=&quot;K09 Av&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;To double check the column densities, N(H2) is given by&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;N(H2) = 0.5 (\frac{A_V}{\rm DGR} - N(HI)) \qquad (1)&lt;/script&gt;
-
-&lt;p&gt;For the spectrum below, we will integrate from -10 to 5, i.e. across 15 km/s
-with an average of &lt;script type=&quot;math/tex&quot;&gt;T_B = 40 K&lt;/script&gt;. So &lt;script type=&quot;math/tex&quot;&gt;N(HI) = 1.8 * 15 [km/s] * 40 [K]
-[\frac{10^{18} cm^{-2}}{K km/s}] = 10.8 \times\ 10^{20} cm^{-2}&lt;/script&gt;. A typical
-DGR = &lt;script type=&quot;math/tex&quot;&gt;0.3 \times\ 10^{-20} cm^{2}&lt;/script&gt; mag. &lt;script type=&quot;math/tex&quot;&gt;A_V&lt;/script&gt; = 3.7 mag at this pixel.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;N(H2) = 0.5 (\frac{3.7 [mag]}{0.3 \times 10^{-20} [cm^{2}\ mag]} - 10.8 * 10^{20} [cm^{-2}])&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;N(H2) = 0.76 * 10^{20} cm^{-2}&lt;/script&gt;
-
-&lt;p&gt;This seems quite low. The high DGR value is the culprit.&lt;/p&gt;
-
-&lt;p&gt;To calculate &lt;script type=&quot;math/tex&quot;&gt;\Sigma_{HI}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\Sigma_{H2}&lt;/script&gt; I first calculate &lt;script type=&quot;math/tex&quot;&gt;N(H2)&lt;/script&gt;
-using equation (1), compute the surface densities individually by&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\Sigma_{HI} = \frac{N(HI) [10^{20} cm^{-2}]}{1.25} [M_\odot pc^{-2}]&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\Sigma_{H2} = \frac{N(H2) [10^{20} cm^{-2}]}{0.625} [M_\odot pc^{-2}]&lt;/script&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\Sigma_{H}&lt;/script&gt; is then the sum of &lt;script type=&quot;math/tex&quot;&gt;\Sigma_{HI}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\Sigma_{H2}&lt;/script&gt;._&lt;/p&gt;
-
-&lt;p&gt;Likely the source of this problem is the residuals during the masking procedure
-are not trivial for California. See below. I’m interpreting the large negative
-residuals to mean that there is excess HI which is not traced by any dust.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015-02-26/california_residual_pdf.png&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
 
 </content>
   </entry>
