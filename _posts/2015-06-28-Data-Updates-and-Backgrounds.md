@@ -50,8 +50,8 @@ Below are likelihood spaces for Perseus.
 
 Judging by the $$A_V$$ background of all three clouds, Perseus seems to have
 the most constant background $$A_V$$. It is odd that there is no intercept
-derived however, because inspecting the map visually, it looks like there is at
-least a $$0.6$$ mag background in the Planck map.
+calculated however, because inspecting the map visually, it looks like there is
+at least a $$0.6$$ mag background in the Planck map.
 
 <img src="/images/2015-06-28/perseus_likelihood_planck_bin_scaled_wd.png" style=""/>
 
@@ -61,7 +61,8 @@ least a $$0.6$$ mag background in the Planck map.
 ### Lee+12 Results
 
 We expect that the intercept be $$0$$ mag since the background has already been
-subtracted from  Perseus manually. Indeed we have agreement.
+subtracted from  Perseus manually. Indeed we have agreement, no intercept was
+found.
 
 <img src="/images/2015-06-28/perseus_likelihood_lee12_bin_scaled_wd.png" style=""/>
 
