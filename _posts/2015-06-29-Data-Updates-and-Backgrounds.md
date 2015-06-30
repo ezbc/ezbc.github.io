@@ -23,7 +23,23 @@ represent the background regions used to fit the intercept and spline.
 
 <img src="/images/2015-06-29/california_av_background_maps_2D.png" style="width:100%"/>
 
+Here are the resulting likelihoods using the 2D background
+subtraction...something is wrong. At least the intercept is positive!
+
+<img src="/images/2015-06-29/california_likelihood_planck_bin_scaled_wd.png" style=""/>
+
+<img src="/images/2015-06-29/california_likelihood_planck_bin_scaled_wi.png" style=""/>
 
 
+### Taurus
 
+<img src="/images/2015-06-29/taurus_av_2mass_planck_plot.png" style="width:100%"/>
+
+### California
+
+<img src="/images/2015-06-29/california_av_2mass_planck_plot.png" style="width:100%"/>
+
+### Perseus
+
+<img src="/images/2015-06-29/perseus_av_2mass_planck_plot.png" style="width:100%"/>
 
