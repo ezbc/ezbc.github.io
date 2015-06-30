@@ -34,7 +34,8 @@ subtraction...something is wrong. At least the intercept is positive!
 
 Below are relationships between Jouni Kainulainen's 2MASS, Planck
 $$\tau_{353}$$, and Lee+12 $$A_V$$ maps. The red lines are linear fits to the
-relationships. The black lines represent 1$$\sigma$$ uncertainties.
+relationships. The black lines represent 1$$\sigma$$ uncertainties. For all
+three clouds, there is at least a 25% offset from Planck with 2MASS.
 
 ### Taurus
 
@@ -47,5 +48,9 @@ relationships. The black lines represent 1$$\sigma$$ uncertainties.
 ### Perseus
 
 <img src="/images/2015-06-29/perseus_av_2mass_planck_plot.png" style="width:100%"/>
+
+We can see below that the Planck $$A_V$$ map is offset from the Lee+12 $$A_V$$
+map by $$0.8$$ mag. This makes sense, since Lee+12 subtracted a background from
+Perseus.
 
 <img src="/images/2015-06-29/perseus_av_lee12_planck_plot.png" style="width:100%"/>
