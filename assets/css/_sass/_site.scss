@@ -4,6 +4,12 @@ body {
   color:#000;
   font: 17px Poly, 'Helvetica Neue', Helvetica, serif, Arial !important;
   letter-spacing: 0.001em;
+  background-padding: 0 !important;
+  background-image: url('images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  background-min-width: 100px;
 }
 
 .footer {height:60px;}
@@ -25,6 +31,7 @@ main {position: relative;}
   &:hover .meta a{
     color: #333;
   }
+
 }
 
 .page-item-title {
