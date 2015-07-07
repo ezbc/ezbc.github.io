@@ -22,14 +22,17 @@ in our shallowest (“gear 6”) mode, which results in noise of about 140 mK / 
 km/s channel, covering almost all of the Arecibo sky. The data are supplemented
 from three sources to fully fill in the Arecibo sky:
 
-A) A small region of sky near RA = 60, dec 10 is filled in with data from DR1.
+  1. A small region of sky near RA = 60, dec 10 is filled in with data from DR1.
 
-B) A small region near RA 50, dec 18 is filled in with data provided by the
+  2. A small region near RA 50, dec 18 is filled in with data provided by the
 EBHIS collaboration. These data are marked in the equivalent T.fits files with
 a -1
 
-C) Small holes throughout are patched with data from LAB. These data are marked
+  3. Small holes throughout are patched with data from LAB. These data are marked
 in the equivalent T.fits files with a -2
+
+The GALFA DR1 and DR2 have comparable noise present both ranging from $$T_b
+\sim 0.1$$ K to $$0.3$$ K.
 
 ### Planck
 

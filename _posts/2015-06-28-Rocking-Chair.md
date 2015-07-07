@@ -7,6 +7,7 @@ comments: true
 tags: 
 ---
 
+<<<<<<< HEAD
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -56,4 +57,5 @@ tags:
     <span class="sr-only">Next</span>
   </a>
 </div>
+
 
