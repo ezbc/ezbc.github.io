@@ -11,12 +11,29 @@ use_math: true
 We are continuing to test the derived intercept as outlined in the [previous
 post](/2015/07/07/Lee12-Test/)
 
+I performed a test of calculating the likelihoods. The $$HI$$ cube has 5
+channels. Integrating the three channels in the center will recreate a scaled
+image of the $$A_V$$ image, minus an intercept. The outer channels will create
+an image deviating away from a scaled $$A_V$$ image. The scalar is the
+dust-to-gas ratio.
 
+The DGR should be 0.5, the intercept 0.9, and the $$HI$$ width 3. Indeed this
+is what we find. Below are the resulting images.
 
+## HI Cube
+<img src="/images/2015-07-08/hi_cube.png" style="width:100%"/>
 
-<img src="/images/2015-07-07/perseus_likelihood_lee12_original_wd.png" style="width:50%"/>
+## $$A_V$$ image
 
+<img src="/images/2015-07-08/av.png" style="width:50%"/>
 
+## N(HI) image
+<img src="/images/2015-07-08/nhi.png" style="width:50%"/>
+
+## $$A_V$$ model
+<img src="/images/2015-07-08/av_model.png" style="width:50%"/>
+
+Some comments from Snez about yesterday's post:
 
 1.  In trying to compare with Lee+12 results I think your test with setting
     intercept to 0 is the closest to what Lee+12 did (if of course the code is
