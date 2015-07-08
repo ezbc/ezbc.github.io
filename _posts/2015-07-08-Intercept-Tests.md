@@ -18,7 +18,8 @@ an image deviating away from a scaled $$A_V$$ image. The scalar is the
 dust-to-gas ratio.
 
 The DGR should be 0.5, the intercept 0.9, and the $$HI$$ width 3. Indeed this
-is what we find. Below are the resulting images.
+is what we find by using the likelihood calculation code for the three
+parameters. Below are the resulting images.
 
 ## HI Cube
 <img src="/images/2015-07-08/hi_cube.png" style="width:100%"/>
