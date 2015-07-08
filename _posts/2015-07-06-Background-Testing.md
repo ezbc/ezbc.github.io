@@ -33,6 +33,7 @@ The following images show the masking progression for each cloud.
 The following are the resulting likelihood spaces from a course grid search.
 The values used in the grid search are provided below:
 
+
 |                                 | Start | End | $$\Delta$$ |
 |---------------------------------|:-------:|:-----:|:-----------:|
 | $$HI$$ Width   [km/s]                  | 1      | 75  | 0.32      |
