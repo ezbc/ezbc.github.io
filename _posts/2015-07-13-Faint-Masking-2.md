@@ -34,7 +34,7 @@ I am using the IRIS $$A_V$$ image from Lee et al. (2012), and binning the data
 to 30$$^\prime$$ pixel sizes for the entire analysis to avoid correlated errors
 from the CIB.
 
-## Mask Convergence
+## <a name="convergence"/> Mask Convergence 
 
 During the masking process as described in the [Planck
 paper](http://www.aanda.org/articles/aa/full_html/2011/12/aa16485-11/aa16485-11.html#S9),
