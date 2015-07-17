@@ -26,12 +26,13 @@ Figure 1. - Perseus likelihoods.
 
 <img src="/images/2015-07-16/california_planck_binned_fineres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-Figure 2. - California likelihoods. The silly $$HI$$ width was worrying so I
-performed a 2D background fit on California outlined in this
-[post](/2015/06/29/Data-Updates-and-Backgrounds/). This narrow $$HI$$ width is
-because the model is finding a high intercept fits best, with vary little
-$$HI$$ emission. The model believes that there is little dust which is
-associated with the clouds $$HI$$.
+Figure 2. - California likelihoods. The tiny $$HI$$ width is worrying. In an
+attempt to address this strange behavior, I performed a 2D background fit on
+California outlined in this [post](/2015/06/29/Data-Updates-and-Backgrounds/).
+This narrow $$HI$$ width is because the model is finding a high intercept fits
+best, while only a small component of $$HI$$ emission correlates with the dust.
+The model believes that there is little dust which is associated with the
+clouds $$HI$$.
 
 The unmasked region used to fit the model is the diffuse, low-$$A_V$$
 south-east region of California. See [later in the post](#california_mask) for
@@ -135,7 +136,10 @@ would expect.
 
   <img src="/images/2015-07-16/taurus_planck_binned_fineres_dgr_intercept_progress.png" style="width: 100%"> 
 
-Figure 8. - Taurus parameter convergences.
+Figure 8. - Taurus parameter convergences. There is something obviously wrong
+here. The $$HI$$ width in the second iteration, $$\Delta_V = 70$$ km/s, should
+yield the same results as the first iteration, since there is no difference
+between them. This is a bug.
 
 ***
 
