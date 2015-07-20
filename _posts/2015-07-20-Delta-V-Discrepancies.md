@@ -44,3 +44,20 @@ Find the difference in the code between the two versions of ``cloudpy``
 .
 
 
+## Likelihood Results
+
+We should compare the results for parameters derived with the same Lee+12
+$$A_V$$ data from the earlier
+[post](http://ezbc.me/2015/07/13/Faint-Masking-2/). The following likelihoods
+are from a run using the new code and the same data. The larger $$\Delta_V$$ is
+found again.
+
+***
+
+<img src="/images/2015-07-20/perseus_lee12_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+<img src="/images/2015-07-20/perseus_lee12_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+Figure 1. - Perseus likelihoods.
+
+***
