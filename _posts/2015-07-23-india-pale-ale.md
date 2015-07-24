@@ -13,7 +13,7 @@ use_math: true
 Instructions originally from
 [here](http://www.howtobrew.com/section1/chapter6-5.html).
 
-Here are the steps to do a yeast starter:
+Below are the steps I have adopted for a yeast starter.
 
 1. Boil a pint (1/2 quart) of water and stir in 1/2 cup of Dextrified Malt
    Extract. Boil to sanitize.
