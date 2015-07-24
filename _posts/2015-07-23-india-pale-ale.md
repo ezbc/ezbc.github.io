@@ -8,8 +8,6 @@ comments: true
 use_math: true
 ---
 
-## India Pale Ale Recipes
-
 ## Yeast Starter
 
 Instructions originally from
