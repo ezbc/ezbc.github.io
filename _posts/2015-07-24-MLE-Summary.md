@@ -79,8 +79,7 @@ California
 Figure 2. - Residual kernel density plots for each cloud at each iteration. The
 residual PDF is in black, and the fitted Gaussian in purple. The residual
 cut-off is the dashed black line. These make it obvious that the majority of
-data points are masked by residual masking for Perseus and Taurus, but not
-California.
+data points are masked by residual masking.
 
 ***
 
