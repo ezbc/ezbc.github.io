@@ -83,5 +83,50 @@ data points are masked by residual masking.
 
 ***
 
+## <a name="likelihoods"></a>Likelihoods
+
+In the previous [post](/2015/07/22/MLE-Testing/) the MLE calculation found
+$$HI$$ from a chance intermediate-velocity cloud along the line of sight in
+Perseus reproduced the observed $$A_V$$ in the Lee+12 dataset. The image below
+shows the $$HI$$ channel at -45 km/s. Overplotted is the $$A_V = 1$$ mag
+contour, roughly tracing the outline of the mask.
+
+***
+
+<img src="/images/2015-07-24/perseus_ivc.png" style="width: 100%;"/>
+
+Figure 3. - Perseus $$HI$$ emission at -45 km/s overlaid with mask contour.
+
+***
+
+IVCs are present in the north-west and south-west corners of the region. This
+additional $$HI$$ emission, at -45 km/s, would only be included in the Perseus
+$$N(HI)$$ map if the velocity width were about 100 km/s. This is exactly what
+the MLE code finds in the Lee+12 data. There are two peaks in the likelihood
+space, one at 40 km/s and one at 100 km/s. This means that the dust column
+density along the line of sight includes some dust contributed by these IVCs.
+
+This likely means the code is doing its job: finding the $$HI$$ which best
+traces the dust column density. It is up to us to exclude widths which are
+unrealistic for GMCs.
+
+
+***
+
+<img src="/images/2015-07-24/taurus_ivc.png" style="width: 100%;"/>
+
+Figure 3. - Taurus $$HI$$ emission at -33 km/s overlaid with mask contour. 
+
+***
+
+[Imara et al.
+(2011a)](http://iopscience.iop.org/0004-637X/732/2/78/article#apj386015s3-3)
+searched for cloud $$HI$$ emission across an $$HI$$ width of $$\pm 20$$ km/s
+around the CO line center for clouds in the Milky Way. In their study of M33
+clouds [(Imara et al.
+2011b)](http://iopscience.iop.org/0004-637X/732/2/79/article#apj386016s3-1),
+they consider a larger range, $$\pm 25$$ km/s, over which to search for a GMC's
+$$HI$$ extent.
+
 
 

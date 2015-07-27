@@ -45,7 +45,7 @@ three clouds, there is at least a 25% offset from Planck with 2MASS.
 
 <img src="/images/2015-06-29/california_av_2mass_planck_plot.png" style="width:100%"/>
 
-### Perseus
+### <a name="lee12_planck"></a> Perseus
 
 <img src="/images/2015-06-29/perseus_av_2mass_planck_plot.png" style="width:100%"/>
 
