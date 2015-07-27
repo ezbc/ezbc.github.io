@@ -27,10 +27,12 @@ Below are the steps I have adopted for a yeast starter.
 
 4. Poor out sanitizer from jar. Add yeast and DME water.
 
-5. Screw lid loosely, so CO$$_2$$ can escape.
+5. Screw lid loosely, so CO$$_2$$ can escape, but air does not enter.
 
-6. Disturb the yeast by sloshing the liquid to feed it.
+6. Store in a 70 - 80 $$^\deg$$ F area. Disturb the yeast periodically by
+   sloshing the liquid to feed it.
 
+7. Allow 12 - 48 hours for the yeast to multiply. 
 
 
 

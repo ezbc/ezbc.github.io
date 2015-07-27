@@ -13,4 +13,10 @@ Recipe](https://www.brewtoad.com/recipes/session-ipa-177). It's a simple beer.
 
 We are considering either an [American Wheat](https://www.wyeastlab.com/rw_yeaststrain_detail.cfm?ID=126) or an [American Ale](https://www.wyeastlab.com/rw_yeaststrain_detail.cfm?ID=5) Wyeast.
 
+We decided to do the American Ale II Wyeast.
+
+
+
+
+
 
