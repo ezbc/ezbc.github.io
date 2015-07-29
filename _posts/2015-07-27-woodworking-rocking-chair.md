@@ -55,7 +55,7 @@ Below are images of chair itself.
 
 
 <script>
-    $("#zoom_02").elevateZoom({constrainType:"height", constrainSize:400, zoomType: "lens", containLensZoom: true, gallery:'gal1', cursor: 'pointer', galleryActiveClass: "active"}); //pass the images to Fancybox 
+    $("#zoom_02").elevateZoom({constrainType:"height", constrainSize:400, zoomType: "lens", lensSize: 0, containLensZoom: true, gallery:'gal1', cursor: 'pointer', galleryActiveClass: "active"}); //pass the images to Fancybox 
     
     $("#zoom_02").bind("click", function(e) {
         var ez = $('#zoom_02').data('elevateZoom'); 
