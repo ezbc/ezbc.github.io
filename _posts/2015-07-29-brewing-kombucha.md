@@ -1,0 +1,35 @@
+---
+layout: post
+title: Kombucha
+author:
+category: brewing
+tags: 
+comments: true
+use_math: true
+---
+
+The [Kombucha](/2015/07/10/Kombucha/) from a couple weeks ago was a complete
+success. The drink was the right amount of vinegary and sweet. It was well
+carbonated. After about two days, the ginger flavor kicked in. I definitely
+need to make some more.
+
+Since last time I split the scoby in two by cutting it along the diameter. This
+isn't how
+[others](http://www.phoenixhelix.com/2013/03/27/kombucha-tips-troubleshooting/)
+would do it, but I figured the scoby is an amorphous blob which wouldn't be
+hurt by such a macroscopic disturbance.
+
+### Execution
+
+1. Fermented the scoby on 7/29 with 3.5 Qrts water steeped in 6 bags of black
+   Irish tea and 1 C sugar. 
+
+
+
+
+
+
+
+
+
+
