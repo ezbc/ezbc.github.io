@@ -7,14 +7,23 @@ images = [
 '/d/bip3/ezbc/perseus/figures/diagnostics/perseus_planck_binned_coarseres_residual_*.gif',
 '/d/bip3/ezbc/california/figures/diagnostics/california_planck_binned_coarseres_residual_*.gif',
 '/d/bip3/ezbc/taurus/figures/diagnostics/taurus_planck_binned_coarseres_residual_*.gif',
-'/d/bip3/ezbc/taurus/figures/diagnostics/taurus_planck_binned_coarseres_taurus1_residual_*.gif',
-'/d/bip3/ezbc/taurus/figures/diagnostics/taurus_planck_binned_coarseres_taurus2_residual_*.gif',
+'/d/bip3/ezbc/taurus/figures/diagnostics/taurus_planck_binned_coarseres_region1_residual_*.gif',
+'/d/bip3/ezbc/taurus/figures/diagnostics/taurus_planck_binned_coarseres_region2_residual_*.gif',
 '/d/bip3/ezbc/taurus/figures/diagnostics/maps/taurus_planck_binned_coarseres*mask_map.png',
 '/d/bip3/ezbc/perseus/figures/diagnostics/maps/perseus_planck_binned_coarseres*mask_map.png',
 '/d/bip3/ezbc/california/figures/diagnostics/maps/california_planck_binned_coarseres*mask_map.png',
 '/d/bip3/ezbc/california/figures/likelihood/california_planck_binned_coarseres_likelihood_w*',
 '/d/bip3/ezbc/perseus/figures/likelihood/perseus_planck_binned_coarseres_likelihood_w*',
 '/d/bip3/ezbc/taurus/figures/likelihood/taurus_planck_binned_coarseres_likelihood_w*',
+'/d/bip3/ezbc/perseus/figures/likelihood/perseus_planck_binned_coarseres_region?_likelihood_w*',
+'/d/bip3/ezbc/taurus/figures/likelihood/taurus_planck_binned_coarseres_region?_likelihood_w*',
+'/d/bip3/ezbc/california/figures/diagnostics/maps/california_planck_binned_coarseres_nhi_map.png',
+'/d/bip3/ezbc/california/figures/diagnostics/maps/california_nhi_maps.gif',
+
+'/d/bip3/ezbc/california/figures/diagnostics/maps/california_k09_binned_coarseres_mask_map.png',
+'/d/bip3/ezbc/california/figures/likelihood/california_k09_binned_coarseres_likelihood_w*',
+'/d/bip3/ezbc/california/figures/diagnostics/california_k09_binned_coarseres_*nhi*.png',
+'/d/bip3/ezbc/california/figures/diagnostics/california_planck_binned_coarseres_*nhi*.png',
 
         ]
 '''
