@@ -27,69 +27,45 @@ woodworking project. I redrafted the plans on paper:
 
 Below are images of chair itself.
 
-<div align="center">
-
-  <img id="zoom_02"
-      src="/images/2015-07-27/rocking_chair_01_small.jpg"
-      data-zoom-image="/images/2015-07-27/rocking_chair_01_large.jpg"/>
-
-  <div id="gal1">
-
-    <a href="#" data-image="/images/2015-07-27/rocking_chair_01_small.jpg"
-      data-zoom-image="/images/2015-07-27/rocking_chair_01_large.jpg">
-      <img id="img_01" src="/images/2015-07-27/rocking_chair_01_thumb.jpg"/>
-    </a>
-
-    <a href="#" data-image="/images/2015-07-27/rocking_chair_02_small.jpg"
-      data-zoom-image="/images/2015-07-27/rocking_chair_02_large.jpg">
-      <img id="img_01" src="/images/2015-07-27/rocking_chair_02_thumb.jpg"/>
-    </a>
-
-    <a href="#" data-image="/images/2015-07-27/rocking_chair_03_small.jpg"
-      data-zoom-image="/images/2015-07-27/rocking_chair_03_large.jpg">
-      <img id="img_01" src="/images/2015-07-27/rocking_chair_03_thumb.jpg"/>
-    </a>
-
-  </div>
+<div class="variable-width">
+  <div> <img src="/images/2015-07-27/rocking_chair_01_small.jpg"/> </div>
+  <div> <img src="/images/2015-07-27/rocking_chair_02_small.jpg"/> </div>
+  <div> <img src="/images/2015-07-27/rocking_chair_03_small.jpg"/> </div>
 </div>
 
-
-<script>
-    $("#zoom_02").elevateZoom({constrainType:"height", constrainSize:400, zoomType: "lens", lensSize: 0, containLensZoom: true, gallery:'gal1', cursor: 'pointer', galleryActiveClass: "active"}); //pass the images to Fancybox 
-    
-    $("#zoom_02").bind("click", function(e) {
-        var ez = $('#zoom_02').data('elevateZoom'); 
-            $.fancybox(ez.getGalleryList());
-        return false; });
-
-</script>
 <style>
-/*set a border on the images to prevent shifting*/ 
-    #gal1 img{border:2px solid white;} /*Change the colour*/ 
-    .active img{border:2px solid #333 !important;} 
+    .slick-prev:before, .slick-next:before { 
+        color:blue !important;
+    }
+    .slider {margin: 10%;}
+.variable-width {
+    width: 90%;
+    margin: auto;
+}
 </style>
 
-<div class="fade">
-  <div> <img src="/images/2015-07-27/rocking_chair_01_small.jpg"/>
-  </div>
-  
-  <div> <img src="/images/2015-07-27/rocking_chair_02_small.jpg"/>
-  </div>
-  
-  <div> <img src="/images/2015-07-27/rocking_chair_03_small.jpg"/>
-  </div>
-</div>
-
 <script>
-    $(document).ready(function(){
-        $('.fade').slick({
-          dots: true,
-          infinite: true,
-          speed: 500,
-          fade: true,
-          cssEase: 'linear'
-        });
-    });
+$('.autoplay').slick({
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+$('.variable-width').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  centerMode: true,
+  variableWidth: true
+});
+$('.fade').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
 </script>
 
 
