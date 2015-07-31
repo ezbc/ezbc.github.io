@@ -69,6 +69,28 @@ Below are images of chair itself.
     .active img{border:2px solid #333 !important;} 
 </style>
 
+<div class="fade">
+  <div> <img src="/images/2015-07-27/rocking_chair_01_small.jpg"/>
+  </div>
+  
+  <div> <img src="/images/2015-07-27/rocking_chair_02_small.jpg"/>
+  </div>
+  
+  <div> <img src="/images/2015-07-27/rocking_chair_03_small.jpg"/>
+  </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+        $('.fade').slick({
+          dots: true,
+          infinite: true,
+          speed: 500,
+          fade: true,
+          cssEase: 'linear'
+        });
+    });
+</script>
 
 
 
