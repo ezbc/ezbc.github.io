@@ -61,8 +61,9 @@ selected. The masking should include / exclude the relevant pixels given a
 unique region selection. Below are results for dividing Taurus and Perseus into
 two regions.
 
-Unfortunately it looks like there is region dependence on the parameters,
-especially in Taurus.
+Unfortunately it looks like there is region dependence on the parameters.
+Perseus and Taurus both show drastic changes in their parameters between the
+two regions.
 
 ### Perseus
 
@@ -277,4 +278,17 @@ near California, RA = 4h 20m, Dec=36 deg, resembles a background in $$HI$$.
 California $$N(HI)$$ maps from integrating $$HI$$ with different widths.
 
 ***
+
+## Dependence on Initial $$HI$$ Width
+
+I have found there to be a dependence of final parameters on the initial $$HI$$
+width chosen to create the $$N(HI)$$ map used for mapping. This is likely
+because there are pixels where the $$A_V$$ does not correlate perfecting with
+the gas, and if we are not including all of the $$HI$$ along the line of
+sight.  Perhaps it would be best to use an initial $$HI$$ width which is our
+best guess for the cloud $$HI$$ width. This would hopefully exclude pixels with
+excess $$A_V$$ not associated with the cloud. 
+
+
+
 
