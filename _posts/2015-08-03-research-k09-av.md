@@ -8,42 +8,69 @@ comments: true
 use_math: true
 ---
 
+
 **Table of Contents**
 
 <hr style="height:2px; background-color:#b6b6b6"/>
 
-* TOC
-{:toc}
+<link rel="stylesheet" href="http://yandex.st/highlightjs/6.2/styles/googlecode.min.css">
 
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="http://yandex.st/highlightjs/6.2/highlight.min.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+<script type="text/javascript">
+ $(document).ready(function(){
+      $("h2,h3,h4,h5,h6").each(function(i,item){
+        var tag = $(item).get(0).localName;
+        $(item).attr("id","wow"+i);
+        $("#category").append('<a class="new'+tag+'" href="#wow'+i+'">'+$(this).text()+'</a></br>');
+        $(".newh2").css("margin-left",0);
+        $(".newh3").css("margin-left",20);
+        $(".newh4").css("margin-left",40);
+        $(".newh5").css("margin-left",60);
+        $(".newh6").css("margin-left",80);
+      });
+ });
+</script>
+<div id="category"></div>
 
 <hr style="height:2px; background-color:#b6b6b6"/>
 
-## Masking
+## Kainulainen $$A_V$$
 
-In the last couple of days I have found that by varying the masking parameters,
-such as what qualifies a convergent DGR, or then number of pixels included in
-each fractional mask, the mask can vary wildly. These different masks lead to
-wildly varying maximum likelihood estimates of the DGR, $$HI$$ width and the
-intercept. This is not acceptable.
+In this post we are using only the Jouni Kainulainen's $$A_V$$ image derived
+from 2MASS observations. These data are derived from background stellar
+extinction. The absolute amount of extinction is determined from the background
+extinction in diffuse regions. A more detailed outline of the data is provided
+[here](/2015/02/25/Krumholz-Fitting/).
 
-Instead, the only safe avenue I see fit to be confident in is to include as
-many pixels as possible. We can do this by setting a very stringent DGR
-convergence criterion: two DGRs between iterations in masking must be similar
-to within 0.1%. This essentially means every pixel not masked by the residual
-masking will be included in the analysis.
+Two notable differences between the 2MASS data to the Planck data:
 
-Below show the masked maps of each cloud.
++ The 2MASS data are background subtracted. Jouni used several reference fields
+  to create an interpolated zero-point map.
+
++ The 2MASS data should not have correlated pixels, as the Planck map does
+  because of the cosmic infrared background. This means that we can use the
+  full resolution 2MASS data for our analysis.
+
+### Masking
+
 
 ***
 
-<img src="/images/2015-07-30/perseus_planck_binned_coarseres_mask_map.png"
-    style="width: 100%"/>
+<div align="center">
 
-<img src="/images/2015-07-30/taurus_planck_binned_coarseres_mask_map.png"
-    style="width: 100%"/>
+  <img src="/images/2015-08-03/perseus_k09_coarseres_mask_map.png"
+      style="width: 60%"/>
 
-<img src="/images/2015-07-30/california_planck_binned_coarseres_mask_map.png"
-    style="width: 100%"/>
+  <img src="/images/2015-08-03/taurus_k09_coarseres_mask_map.png"
+      style="width: 60%"/>
+
+  <img src="/images/2015-08-03/california_k09_coarseres_mask_map.png"
+      style="width: 60%"/>
+
+</div>
 
 #### Figure 1
 
@@ -54,6 +81,30 @@ masked pixels in gray.
 
 ***
 
+***
+
+<img src="/images/2015-08-03/perseus_k09_coarseres_residual_hists.gif"
+style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"
+/>
+
+<img src="/images/2015-08-03/taurus_k09_coarseres_residual_hists.gif"
+style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"
+/>
+
+<img src="/images/2015-08-03/california_k09_coarseres_residual_hists.gif"
+style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"
+/>
+
+
+#### Figure 2
+
+Clockwise from top-left: Perseus, Taurus and California residual distribution
+evolution. These residual distributions have an odd skewness in the early
+iterations, corresponding to only the most diffuse pixels. However in later
+distributions, the skewed, positive pixels are excluded by the residual
+masking, as expected.
+
+***
 
 ## Dependence on Region Selection
 
@@ -64,7 +115,13 @@ two regions.
 
 Unfortunately it looks like there is region dependence on the parameters.
 Perseus and Taurus both show drastic changes in their parameters between the
-two regions.
+two regions. 
+
+The dependence of the parameters on the region is not as severe as when using
+the [Planck](/2015/07/30/research-more-summary/#dependence-on-region-selection)
+data. However, a dependence is still present: Perseus North favors an $$HI$$
+width two times smaller than Perseus South, and Taurus North and Taurus South
+$$HI$$ widths differ by a factor of about 2 as well.
 
 ### Perseus
 
@@ -73,20 +130,20 @@ pixels.
 
 ***
 
-<img src="/images/2015-07-30/perseus_planck_binned_coarseres_mask_map.png"
+<img src="/images/2015-08-03/perseus_k09_coarseres_mask_map.png"
 style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"
 />
 
-<img src="/images/2015-07-30/perseus_planck_binned_coarseres_region2_mask_map.png"
+<img src="/images/2015-08-03/perseus_k09_coarseres_region2_mask_map.png"
 style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"
 />
 
-<img src="/images/2015-07-30/perseus_planck_binned_coarseres_region1_mask_map.png"
+<img src="/images/2015-08-03/perseus_k09_coarseres_region1_mask_map.png"
 style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"
 />
 
 
-#### Figure 2
+#### Figure 3
 
 Clockwise from top-left: Perseus, Perseus-South, and Perseus-North maps. For
 each plot, top: Original resolution $$A_V$$ map overlaid with mask contour,
@@ -100,30 +157,35 @@ intercept in color, and masked pixels in gray.
 ***
 
 <img
-src="/images/2015-07-30/perseus_planck_binned_coarseres_likelihood_wd.png"
+src="/images/2015-08-03/perseus_k09_coarseres_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/images/2015-07-30/perseus_planck_binned_coarseres_likelihood_wi.png"
-    style="float: left; width: 50%"/>
-
-#### Figure 3
-
-Likelihoods for Perseus.
-
-***
-
-***
-
-<img
-src="/images/2015-07-30/perseus_planck_binned_coarseres_region2_likelihood_wd.png"
-    style="float: left; width: 50%"/>
-
-<img
-    src="/images/2015-07-30/perseus_planck_binned_coarseres_region2_likelihood_wi.png"
+    src="/images/2015-08-03/perseus_k09_coarseres_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 4
+
+Likelihoods for Perseus. These are somewhat similar parameter values for when
+using [Planck data](/2015/07/30/research-more-summary/#figure-3), however the
+2MASS data favor a lower DGR and a much higher intercept, about 0.8 mag in
+difference. This means that the Planck $$A_V$$ data correlate better with the
+$$HI$$ within the unmasked pixels than the 2MASS
+data.
+
+***
+
+***
+
+<img
+src="/images/2015-08-03/perseus_k09_coarseres_region2_likelihood_wd.png"
+    style="float: left; width: 50%"/>
+
+<img
+    src="/images/2015-08-03/perseus_k09_coarseres_region2_likelihood_wi.png"
+    style="float: left; width: 50%"/>
+
+#### Figure 5
 
 Likelihoods for Perseus North region.
 
@@ -132,14 +194,14 @@ Likelihoods for Perseus North region.
 ***
 
 <img
-src="/images/2015-07-30/perseus_planck_binned_coarseres_region1_likelihood_wd.png"
+src="/images/2015-08-03/perseus_k09_coarseres_region1_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/images/2015-07-30/perseus_planck_binned_coarseres_region1_likelihood_wi.png"
+    src="/images/2015-08-03/perseus_k09_coarseres_region1_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
-#### Figure 5
+#### Figure 6
 
 Likelihoods for Perseus South region.
 
@@ -149,19 +211,19 @@ Likelihoods for Perseus South region.
 
 ***
 
-<img src="/images/2015-07-30/taurus_planck_binned_coarseres_mask_map.png"
+<img src="/images/2015-08-03/taurus_k09_coarseres_mask_map.png"
 style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"
 />
 
-<img src="/images/2015-07-30/taurus_planck_binned_coarseres_region1_mask_map.png"
+<img src="/images/2015-08-03/taurus_k09_coarseres_region1_mask_map.png"
 style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"
 />
 
-<img src="/images/2015-07-30/taurus_planck_binned_coarseres_region2_mask_map.png"
+<img src="/images/2015-08-03/taurus_k09_coarseres_region2_mask_map.png"
 style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"
 />
 
-#### Figure 6
+#### Figure 7
 
 Clockwise from top-left: Taurus, Taurus-South, and Taurus-North maps. For
 each plot, top: Original resolution $$A_V$$ map overlaid with mask contour,
@@ -174,30 +236,35 @@ intercept in color, and masked pixels in gray.
 ***
 
 <img
-src="/images/2015-07-30/taurus_planck_binned_coarseres_likelihood_wd.png"
+src="/images/2015-08-03/taurus_k09_coarseres_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/images/2015-07-30/taurus_planck_binned_coarseres_likelihood_wi.png"
-    style="float: left; width: 50%"/>
-
-#### Figure 7
-
-Likelihoods for Taurus.
-
-***
-
-***
-
-<img
-src="/images/2015-07-30/taurus_planck_binned_coarseres_region1_likelihood_wd.png"
-    style="float: left; width: 50%"/>
-
-<img
-    src="/images/2015-07-30/taurus_planck_binned_coarseres_region1_likelihood_wi.png"
+    src="/images/2015-08-03/taurus_k09_coarseres_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 8
+
+Likelihoods for Taurus. These are somewhat similar parameter values for when
+using [Planck data](/2015/07/30/research-more-summary/#figure-7), however the
+2MASS data favor a lower DGR and a higher intercept. This means that the Planck
+$$A_V$$ data correlate better with the $$HI$$ within the unmasked pixels than
+the 2MASS data. This is a similar result to the comparison between 2MASS and
+Planck for Perseus.
+
+***
+
+***
+
+<img
+src="/images/2015-08-03/taurus_k09_coarseres_region1_likelihood_wd.png"
+    style="float: left; width: 50%"/>
+
+<img
+    src="/images/2015-08-03/taurus_k09_coarseres_region1_likelihood_wi.png"
+    style="float: left; width: 50%"/>
+
+#### Figure 9
 
 Likelihoods for Taurus North region.
 
@@ -206,90 +273,121 @@ Likelihoods for Taurus North region.
 ***
 
 <img
-src="/images/2015-07-30/taurus_planck_binned_coarseres_region2_likelihood_wd.png"
+src="/images/2015-08-03/taurus_k09_coarseres_region2_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/images/2015-07-30/taurus_planck_binned_coarseres_region2_likelihood_wi.png"
+    src="/images/2015-08-03/taurus_k09_coarseres_region2_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
-#### Figure 9
+#### Figure 10
 
 Likelihoods for Taurus South region.
 
 ***
 
-## $$N(HI)$$ in California
+### California
 
 We continue to find a negative intercept for California, interpreted as an
 $$HI$$ background:
 
 ***
 
-<img src="/images/2015-07-30/california_planck_binned_coarseres_likelihood_wd.png"
+<img src="/images/2015-08-03/california_k09_coarseres_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
-<img src="/images/2015-07-30/california_planck_binned_coarseres_likelihood_wi.png"
+<img src="/images/2015-08-03/california_k09_coarseres_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
-#### Figure 10
+#### Figure 11
 
 Likelihoods for California.
 
 ***
-
-If we examine the relationship between $$N(H2)$$ and $$N(HI)$$ in California,
-shown in the [last post](/2015/07/28/research-regions/#figure-10), we see that
-there seem to be two distributions of $$N(HI)$$. One distribution is less than
-$$\sim 17 \times 10^{20}$$ cm$$^{-2}$$, and one above, each with associated
-$$N(H2)$$ present. This is because I had a bug in the code which did not
-exclude pixels outside of the region, and instead included all pixels in the
-image.
 
 Below is the $$N(H2)$$ and $$N(HI)$$ distribution in California, excluding
 pixels outside of the region.
 
 ***
 
-<img src="/images/2015-07-30/california_planck_binned_coarseres_nh2_vs_nhi.png"
+<img src="/images/2015-08-03/california_k09_coarseres_nh2_vs_nhi.png"
     style="width: 70%"/>
-
-#### Figure 11
-
-$$N(H2)$$ and $$N(HI)$$ distribution in California. There seem to be a number
-of negative $$N(H2)$$ pixels. This is likely due to the large $$A_V$$ gradient
-present in the mask, shown in [Figure
-1](/2015/07/30/research-more-summary/#figure-1).
-
-***
-
-We would like confirm that the $$HI$$ background found in California, shown by
-the negative intercept, is truly present. Below is the $$N(HI)$$ map from
-different $$HI$$ widths centered on the peak $$HI$$ velocity in California. I
-am unable to pick out any structure resembling California. The high $$N(HI)$$
-near California, RA = 4h 20m, Dec=36 deg, resembles a background in $$HI$$.
-
-***
-
-<img src="/images/2015-07-30/california_planck_binned_coarseres_nhi_maps.gif"
-    style="width: 100%"/>
 
 #### Figure 12
 
-California $$N(HI)$$ maps from integrating $$HI$$ with different widths.
+$$N(H2)$$ and $$N(HI)$$ distribution in California. There are not as many
+negative $$N(H_2)$$ pixels as found using
+[Planck](/2015/07/30/research-more-summary/#figure-11). This is likely due to
+the background subtraction used to create the 2MASS image.
 
 ***
 
-## Dependence on Initial $$HI$$ Width
+## Fixing the $$HI$$ Width
 
-I have found there to be a dependence of final parameters on the initial $$HI$$
-width chosen to create the $$N(HI)$$ map used for mapping. This is likely
-because there are pixels where the $$A_V$$ does not correlate perfecting with
-the gas, and if we are not including all of the $$HI$$ along the line of
-sight.  Perhaps it would be best to use an initial $$HI$$ width which is our
-best guess for the cloud $$HI$$ width. This would hopefully exclude pixels with
-excess $$A_V$$ not associated with the cloud. 
+Instead of attempting to solve for the $$HI$$ width, we could instead fix the
+$$HI$$ width at a value reasonable for a Milky Way molecular cloud, e.g. 20
+km/s. There would be no degeneracy between the DGR and the intercept. Most
+importantly however, we would use this width to create the $$N(HI)$$ map needed
+for masking. Fixing the $$HI$$ width avoids needing to understand the complex
+dependence of the resultant mask on the initial $$HI$$ width.
 
+### Using 2MASS Data
+
+***
+
+<img src="/images/2015-08-03/perseus_k09_coarseres_fixedwidth_likelihood_di.png"
+    style="float: left; width: 50%"/>
+
+<img src="/images/2015-08-03/taurus_k09_coarseres_fixedwidth_likelihood_di.png"
+    style="float: left; width: 50%"/>
+
+<img src="/images/2015-08-03/california_k09_coarseres_fixedwidth_likelihood_di.png"
+    style="width: 50%"/>
+
+#### Figure 13
+
+Clockwise from top-left: Perseus, Taurus and California likelihoods using 2MASS
+$$A_V$$ data. The likelihood space is more constrained because we have reduced
+the number of free parameters.
+
+***
+
+
+### Using Planck Data
+
+***
+
+<img
+src="/images/2015-08-03/perseus_planck_binned_coarseres_fixedwidth_likelihood_di.png"
+    style="float: left; width: 50%"/>
+
+<img src="/images/2015-08-03/taurus_planck_binned_coarseres_fixedwidth_likelihood_di.png"
+    style="float: left; width: 50%"/>
+
+<img src="/images/2015-08-03/california_planck_binned_coarseres_fixedwidth_likelihood_di.png"
+    style="width: 50%"/>
+
+#### Figure 14
+
+Clockwise from top-left: Perseus, Taurus and California likelihoods using
+Planck $$A_V$$ data. 
+
+***
+
+Comparison between parameter results from Figure 13 and Figure 14  show clearly
+that the derived parameters are severely dependent on the type of $$A_V$$ data
+used, and that our estimated uncertainties are greatly underestimating the
+systematic uncertainties present in either $$A_V$$ dataset. If our
+uncertainties were much greater, then the difference in the derived width, DGR
+and intercept when changing masking parameters or binning would not be
+significant.
+
+For instance we expect the DGR to vary by at least a factor of two. The width
+should also be much more uncertain.
+
+Perhaps we estimate some error on the $$A_V$$ based on the difference between
+the two datasets? The Planck team quantified this
+[difference](http://www.aanda.org/articles/aa/full_html/2014/11/aa23195-13/F25.html).
 
 
 

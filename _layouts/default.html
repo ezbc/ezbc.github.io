@@ -19,6 +19,15 @@
                     </header>
                     {% include sidenav.html %}                    
                 </nav>
+
+                {% if page.sidebar == "right" %}
+                <div class="col-sm-2 sidebar-offcanvas">
+                    {% include sidebar.html %}
+                </div><!-- /.medium-4.columns -->
+                {% endif %}
+
+
+
                 <header id="menu" role="banner">
                     <p class="menu-title">Menu</p>
                     <a href="#nav" class="menu-btn">

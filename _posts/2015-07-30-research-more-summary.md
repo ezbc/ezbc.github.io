@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Summary of Methods
+title: Region Dependence
 author:
 category: research
 tags: Taurus-California-Perseus Residuals Masking

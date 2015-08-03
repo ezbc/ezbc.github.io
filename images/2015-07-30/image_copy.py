@@ -15,8 +15,6 @@ images = [
 '/d/bip3/ezbc/california/figures/likelihood/california_planck_binned_coarseres_likelihood_w*',
 '/d/bip3/ezbc/perseus/figures/likelihood/perseus_planck_binned_coarseres_likelihood_w*',
 '/d/bip3/ezbc/taurus/figures/likelihood/taurus_planck_binned_coarseres_likelihood_w*',
-'/d/bip3/ezbc/perseus/figures/likelihood/perseus_planck_binned_coarseres_region?_likelihood_w*',
-'/d/bip3/ezbc/taurus/figures/likelihood/taurus_planck_binned_coarseres_region?_likelihood_w*',
 '/d/bip3/ezbc/california/figures/diagnostics/maps/california_planck_binned_coarseres_nhi_map.png',
 '/d/bip3/ezbc/california/figures/diagnostics/maps/california_nhi_maps.gif',
 
