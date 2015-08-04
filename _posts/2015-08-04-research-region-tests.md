@@ -7,6 +7,7 @@ tags: Taurus-California-Perseus
 comments: true
 use_math: true
 ---
+
 **Table of Contents**
 
 <hr style="height:2px; background-color:#b6b6b6"/>
@@ -37,7 +38,6 @@ region, red: Perseus-north region, blue: Perseus-south region. The individual
 regions reproduce nearly the same mask together as for the entire region. This
 means there is likely something fundamentally different between the regions,
 whether associated or unassociated with Perseus.
-
 
 ***
 
@@ -202,3 +202,68 @@ src="/images/2015-08-04/perseus_k09_coarseres_region1_av_vs_nhi_masked.png"
 Left: $$A_V$$ vs. N(HI), right: N(H$$_2$$) vs. N(HI) for Perseus South region.
 
 ***
+
+## Sources of Uncertainty
+
+Perhaps the likelihoods would best serve us if we overestimated the errors in
+our data. $$A_V$$ depends on a myriad of factors such as the dust opacity, the
+dust optical depth, the calibration of optical depth to color excess, and the
+total-to-selective extinction, $$R_V$$. Measurement errors exist for the latter
+three, while the dust opacity is assumed to be constant. We do not have a good
+handle on the uncertainties associated with $$R_V$$ or the dust opacity.
+
+For example, we can use a crude error estimate on $$R_V$$. Using the cononical
+UV absorption study by [Rachford et al.
+(2009)](http://iopscience.iop.org/0067-0049/180/1/125/article#apjs293522s2-2)
+we can estimate the RMS of the $$R_V$$ values found for each sightline. These
+sightlines probe similar $$A_V$$ to the diffuse regions we are using for the
+MLE. The standard deviation of the $$R_V$$ for all the sightlines is about 0.7,
+which we adopt as the uncertainty in $$R_V$$.
+
+Below are likelihoods for each cloud with the new errors on $$A_V$$. These
+likelihoods are from the **using original uncertainties**, not by calculating
+the variance between the model and the data.
+
+
+***
+
+<div align="center"> Perseus </div>
+
+
+<img src="/images/2015-08-04/perseus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+<img src="/images/2015-08-04/perseus_planck_binned_coarseres_likelihood_wi.png" style="width: 50%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+<div align="center"> Taurus </div>
+
+
+
+<img src="/images/2015-08-04/taurus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+<img src="/images/2015-08-04/taurus_planck_binned_coarseres_likelihood_wi.png" style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+<div align="center"> California </div>
+
+<img src="/images/2015-08-04/california_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+<img src="/images/2015-08-04/california_planck_binned_coarseres_likelihood_wi.png" style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+#### Figure 1
+
+The likelihood spaces for the DGR, velocity width, and intercept for each
+cloud. The contour represents the 95% confidence level. The plots on the side
+show the marginalized distribution for each parameter, where the dashed line is
+the best estimate, and the shaded region is the 68% confidence intervel.
+California likelihoods with Planck $$A_V$$ data. A high DGR, wide width, and
+negative intercept are favored.
+
+We can see that the $$HI$$ width agrees well with Lee+12, seeing as there is
+little $$HI$$ emission in high negative or positive velocities around Perseus,
+thus doubling the $$HI$$ width does not change the $$N(HI)$$ much. However we
+can see for Taurus that the $$HI$$ width is much larger than [discussed
+earlier](/2015/07/28/research-regions/#selecting-the-hi-velocity-range), about
+50 km/s, a change due to moving the $$HI$$ center 5 km/s.
+
+***
+
+

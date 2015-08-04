@@ -9,6 +9,9 @@ images = [
 '/d/bip3/ezbc/perseus/figures/likelihood/perseus_k09_coarseres_region?_likelihood_w*',
 '/d/bip3/ezbc/perseus/figures/diagnostics/perseus_k09_coarseres*av_vs_nhi*',
 '/d/bip3/ezbc/perseus/figures/diagnostics/perseus_k09_coarseres*nh2_vs_nhi*',
+'/d/bip3/ezbc/perseus/figures/likelihood/perseus_planck_binned_coarseres_likelihood_w*',
+'/d/bip3/ezbc/taurus/figures/likelihood/taurus_planck_binned_coarseres_likelihood_w*',
+'/d/bip3/ezbc/california/figures/likelihood/california_planck_binned_coarseres_likelihood_w*',
 
         ]
 '''
