@@ -259,16 +259,8 @@ the variance between the model and the data.
 The likelihood spaces for the DGR, velocity width, and intercept for each
 cloud. The contour represents the 95% confidence level. The plots on the side
 show the marginalized distribution for each parameter, where the dashed line is
-the best estimate, and the shaded region is the 68% confidence intervel.
-California likelihoods with Planck $$A_V$$ data. A high DGR, wide width, and
-negative intercept are favored.
+the best estimate, and the shaded region is the 68% confidence interval.
 
-We can see that the $$HI$$ width agrees well with Lee+12, seeing as there is
-little $$HI$$ emission in high negative or positive velocities around Perseus,
-thus doubling the $$HI$$ width does not change the $$N(HI)$$ much. However we
-can see for Taurus that the $$HI$$ width is much larger than [discussed
-earlier](/2015/07/28/research-regions/#selecting-the-hi-velocity-range), about
-50 km/s, a change due to moving the $$HI$$ center 5 km/s.
 
 ***
 
