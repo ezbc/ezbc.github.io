@@ -19,6 +19,14 @@ use_math: true
 
 ## Applying Wavelets to the CHILES Dataset
 
+The main goals of applying wavelet decomposition to the CHILES dataset are
+
+1. Denoise the HI cubes
+
+2. Compress the HI cubes to smaller data volumes
+
+3. Identify coherent structures in position and velocity
+
 ### What is Wavelet Decomposition?
 
 Wavelet decomposition is similar to Fourier decomposition, with the main
