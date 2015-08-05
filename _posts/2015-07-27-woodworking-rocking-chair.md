@@ -7,8 +7,6 @@ comments: true
 tags: 
 ---
 
-## 
-
 In 2012 I adopted
 [plans](https://books.google.com/books?id=388DAAAAMBAJ&pg=PA112#v=onepage&q&f=false)
 for an Art & Crafts Rocking Chair from Popular Mechanics for a tech theater
@@ -73,10 +71,6 @@ I redrafted the Popular Mechanics plans on paper as part of the project.
 </script>
 
 ## Construction
-
-The 
-
-
 
 The Popular Mechanics article suggested that to make the rockers, one should
 [kerf](http://stusshed.com/2007/07/17/kerfing-bending-wood-on-the-tablesaw/)

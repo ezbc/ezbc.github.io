@@ -242,8 +242,6 @@ the variance between the model and the data.
 
 <div align="center"> Taurus </div>
 
-
-
 <img src="/images/2015-08-04/taurus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 <img src="/images/2015-08-04/taurus_planck_binned_coarseres_likelihood_wi.png" style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
@@ -260,7 +258,6 @@ The likelihood spaces for the DGR, velocity width, and intercept for each
 cloud. The contour represents the 95% confidence level. The plots on the side
 show the marginalized distribution for each parameter, where the dashed line is
 the best estimate, and the shaded region is the 68% confidence interval.
-
 
 ***
 
