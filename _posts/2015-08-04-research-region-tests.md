@@ -167,7 +167,9 @@ src="/images/2015-08-04/perseus_k09_coarseres_av_vs_nhi_masked.png"
 
 #### Figure 7
 
-Left: $$A_V$$ vs. N(HI), right: N(H$$_2$$) vs. N(HI) for Perseus region.
+Left: $$A_V$$ vs. N(HI), right: N(H$$_2$$) vs. N(HI) for Perseus region.  The
+contours are 7 logarithmically-spaced levels from 99% to 70% of the data
+included. Total number of pixels: 20875.
 
 ***
 
@@ -183,7 +185,9 @@ src="/images/2015-08-04/perseus_k09_coarseres_region2_av_vs_nhi_masked.png"
 
 #### Figure 8
 
-Left: $$A_V$$ vs. N(HI), right: N(H$$_2$$) vs. N(HI) for Perseus North region.
+Left: $$A_V$$ vs. N(HI), right: N(H$$_2$$) vs. N(HI) for Perseus North
+region. The contours are 7 logarithmically-spaced levels from 99% to 70% of the
+data included. Total number of pixels: 9605.
 
 ***
 
@@ -200,6 +204,8 @@ src="/images/2015-08-04/perseus_k09_coarseres_region1_av_vs_nhi_masked.png"
 #### Figure 9
 
 Left: $$A_V$$ vs. N(HI), right: N(H$$_2$$) vs. N(HI) for Perseus South region.
+The contours are 7 logarithmically-spaced levels from 99% to 70% of the data
+included. Total number of pixels: 11317.
 
 ***
 
