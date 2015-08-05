@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Woodworking
+title: Hidden
 ---
 <div class="col-sm-12">
     <div class="page-title">
@@ -8,8 +8,8 @@ title: Woodworking
     </div>
     <div class="page-content">
         <ul class="page-list">
-            {% assign woodworking = (site.posts | where: "category" , "woodworking") %}
-            {% for post in woodworking %}
+            {% assign hidden = (site.posts | where: "category" , "hidden") %}
+            {% for post in hidden %}
                 <li>
                     <!--
                     <time class="timeago postlist-meta" datetime="{{ post.date |  date: "%A %-d %B %Y" }}">{{ post.date }}</time>
