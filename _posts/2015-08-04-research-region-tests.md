@@ -108,7 +108,7 @@ src="/images/2015-08-04/perseus_k09_coarseres_likelihood_wd.png"
     src="/images/2015-08-04/perseus_k09_coarseres_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
-#### Figure 5
+#### Figure 4
 
 Likelihoods for Perseus region.
 
@@ -165,7 +165,7 @@ src="/images/2015-08-04/perseus_k09_coarseres_av_vs_nhi_masked.png"
     src="/images/2015-08-04/perseus_k09_coarseres_nh2_vs_nhi.png"
     style="float: left; width: 50%"/>
 
-#### Figure 5
+#### Figure 7
 
 Left: $$A_V$$ vs. N(HI), right: N(H$$_2$$) vs. N(HI) for Perseus region.
 
@@ -181,7 +181,7 @@ src="/images/2015-08-04/perseus_k09_coarseres_region2_av_vs_nhi_masked.png"
     src="/images/2015-08-04/perseus_k09_coarseres_region2_nh2_vs_nhi.png"
     style="float: left; width: 50%"/>
 
-#### Figure 5
+#### Figure 8
 
 Left: $$A_V$$ vs. N(HI), right: N(H$$_2$$) vs. N(HI) for Perseus North region.
 
@@ -197,7 +197,7 @@ src="/images/2015-08-04/perseus_k09_coarseres_region1_av_vs_nhi_masked.png"
     src="/images/2015-08-04/perseus_k09_coarseres_region1_nh2_vs_nhi.png"
     style="float: left; width: 50%"/>
 
-#### Figure 6
+#### Figure 9
 
 Left: $$A_V$$ vs. N(HI), right: N(H$$_2$$) vs. N(HI) for Perseus South region.
 
@@ -248,7 +248,7 @@ the variance between the model and the data.
 
 <img src="/images/2015-08-04/california_planck_binned_coarseres_likelihood_wi.png" style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-#### Figure 1
+#### Figure 10
 
 The likelihood spaces for the DGR, velocity width, and intercept for each
 cloud. The contour represents the 95% confidence level. The plots on the side
