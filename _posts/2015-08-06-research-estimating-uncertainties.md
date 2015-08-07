@@ -133,3 +133,101 @@ Left: $$A_V$$ vs. N(HI), right: N(H$$_2$$) vs. N(HI) for Perseus South region.
 
 ***
 
+## Sources of Uncertainty
+
+[Yesterday](/2015/08/04/research-region-tests/#sources-of-uncertainty) I showed
+how we could attempt to incorporate systematic errors such as the uncertainty
+of $$R_V$$ into our MLE calculation. Before, I was calculating the MLE
+parameters with the initial error estimates, and calculating the standard
+deviation of the residuals between the MLE $$A_V$$ model and the $$A_V$$ data.
+I used this uncertainty calculated from the residuals as the uncertainty in a
+second round of MLE calculation. This led to very tight likelihood spaces,
+which were varying greatly based on how I [chose the mask](/2015/07/30/research-more-summary/#dependence-on-initial-hi-width).
+
+Using an uncertainty on $$R_V$$ (about 0.7) still leads to confined likelihood
+spaces.
+
+As a proof of concept I arbitrarily scaled the uncertainty by a factor of 10. 
+
+I previously identified that the inital HI width chosen to create the $$N(HI)$$
+map for masking changed the MLE parameters a troubling amount, given the
+calculated parameter uncertainties. Below I show the differences in likelihood
+spaces for each cloud between using an initial HI width of my best guess for a
+cloud's HI width of 20 km/s, and using most of the line of sight, width of 50
+km/s. I allowed the HI width in the MLE calculation to go out to 100 km/s, just
+to see the spread in the likelihood space.
+
+We can see that with huge errors, the differences in changing the mask do not
+lead to such dramatic changes in the derived parameters.
+
+***
+
+<div align="center"> Perseus </div>
+<p></p>
+
+<img src="/images/2015-08-06/initwidth_20/perseus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%"/>
+
+<img src="/images/2015-08-06/initwidth_50/perseus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%"/>
+
+<img src="/images/2015-08-06/initwidth_20/perseus_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+<img src="/images/2015-08-06/initwidth_50/perseus_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+<div align="center"> Taurus </div>
+<p></p>
+
+<img src="/images/2015-08-06/initwidth_20/taurus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+<img src="/images/2015-08-06/initwidth_50/taurus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+<img src="/images/2015-08-06/initwidth_20/taurus_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+<img src="/images/2015-08-06/initwidth_50/taurus_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+
+<div align="center"> California </div>
+<p></p>
+
+<img src="/images/2015-08-06/initwidth_20/california_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+<img src="/images/2015-08-06/initwidth_50/california_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+<img src="/images/2015-08-06/initwidth_20/california_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+<img src="/images/2015-08-06/initwidth_50/california_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+
+#### Figure 10
+
+The likelihood spaces for the DGR, velocity width, and intercept for each
+cloud. The contour represents the 95% confidence level. The plots on the side
+show the marginalized distribution for each parameter, where the dashed line is
+the best estimate, and the shaded region is the 68% confidence interval.
+
+***
+
+
+***
+
+<div align="center"> Perseus </div>
+
+<img src="/images/2015-08-06/perseus_planck_binned_coarseres_fixedwidth_likelihood_di.png" style="width: 50%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+<div align="center"> Taurus </div>
+
+<img src="/images/2015-08-06/taurus_planck_binned_coarseres_fixedwidth_likelihood_di.png" style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+<div align="center"> California </div>
+
+<img src="/images/2015-08-06/california_planck_binned_coarseres_fixedwidth_likelihood_di.png" style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+
+#### Figure 10
+
+The likelihood spaces for the DGR and intercept for each cloud, given a fixed
+HI width of 20 km/s. The contour represents the 95% confidence level. The plots
+on the side show the marginalized distribution for each parameter, where the
+dashed line is the best estimate, and the shaded region is the 68% confidence
+interval.
+
+***
+
