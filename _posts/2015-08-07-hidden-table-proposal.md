@@ -79,12 +79,17 @@ or white oak. Below are examples of each
 
 + [white oak](http://www.yourpricefurniture.com/ekmps/shops/ypfurn/images/cirencester-american-white-oak-coffee-table-2543-p.jpg)
 
+### Cost
+
+Depending on the materials used and the style selected, the table will likely
+be around $200 to $500 depending on the complexity of the table. The most
+expensive to least expensive materials are cherry, maple, white oak, and red
+oak. The material cost will scale linearly with the size of the table. I charge
+$20 per hour.
+
 ### Next steps
 
 Next we should agree on the dimensions, style, and type of wood of the table.
 Please comment below or email me. I can also make all these decisions if this
 is an overload of choices.
-
-
-
 
