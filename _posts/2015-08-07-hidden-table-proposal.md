@@ -13,9 +13,9 @@ a rapidly growing child, Violet.
 
 ### What is the intended use of the table?
 
-A custom table may be an expensive investment for a child who outgrow the table
-in a short time. The table may best be appreciated by all parties involved if
-after the child's use, the table becomes a coffee table. 
+A custom table may be an expensive investment for a child who will outgrow the
+table in a short time. The table may best be appreciated by all parties
+involved if after the child's use, the table becomes a coffee table. 
 
 ### How tall should the table be?
 
