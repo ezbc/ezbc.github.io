@@ -66,8 +66,8 @@ cherry and maple. The style of the table is reminiscent of the shaker style.
 
 ### Type of wood
 
-I recommend using a maple or cherry, a combination of maple and cherry, or red
-or white oak. Below are examples of each
+I recommend using maple or cherry, a combination of maple and cherry, or red or
+white oak. Below are examples of each
 
 + [maple](http://www.robinsonwoodworking.com/uploads/2/6/0/8/26086855/1167322_orig.jpg)
 
@@ -89,7 +89,7 @@ $20 per hour.
 
 ### Next steps
 
-Next we should agree on the dimensions, style, and type of wood of the table.
-Please comment below or email me. I can also make all these decisions if this
-is an overload of choices.
+Next we should agree on the dimensions, whether or not to have a shelf, style,
+and type of wood of the table.  Please comment below or email me. I can also
+make all these decisions if this is an overload of choices.
 
