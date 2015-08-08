@@ -9,17 +9,15 @@ markdown: kramdown
 redcarpet:
   extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-#url: 
-#url: 
 permalink: /:year/:month/:day/:title/
 owner:
+    disqus_shortname: httpezbcme
     name: Elijah Bernstein-Cooper
     twitter: ebernste1
     github: ezbc
     bitbucket: ezbc
     googleplus: ElijahBernsteinCooper
     linkedin: ElijahBernsteinCooper
-    disqus_shortname: ezbc
 
 ga_id: ezbc
 ga_username: ezbc
