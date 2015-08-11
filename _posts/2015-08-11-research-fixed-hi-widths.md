@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fixing HI Width
+title: Fixing the HI Width
 author:
 category: research
 tags: Taurus-California-Perseus HI-width
@@ -17,16 +17,22 @@ use_math: true
 
 <hr style="height:2px; background-color:#b6b6b6"/>
 
-## Deriving HI width with Gaussian fitting
+## Using the HI width with Gaussian fitting
 
-I followed the methods of [Imara et al.
-(2011)](http://stacks.iop.org/0004-637X/732/i=2/a=78?key=crossref.9ab267e587f1b27674fc505072029a7d)
-whereby they fit Gaussian functions to the average HI spectrum for a molecular
-cloud, and determine the HI velocity range by the width of the Gaussians. In
-this experiment I fit multiple Gaussians to each spectrum, then set the HI
-width to +/- 2 times the standard deviation of the tallest Gaussian.
+In yesterday's
+[post](/2015/08/10/research-lee12-hi-width/#deriving-hi-width-with-gaussian-fitting)
+I used the method of Imara et al. (2011) of fitting Gaussians to the median HI
+spectrum to determine the HI width. We then fix this HI width throughout the
+rest of the analysis, i.e. in the masking and the MLE calculation. We only fit
+for the intercept and DGR.
+
+### Comparison with Lee+12
+
+Below are the median spectra of each cloud fitted with as few Gaussians as seem
+reasonable.
 
 ***
+
 <div align='center'>
 
     <p>
@@ -34,32 +40,47 @@ width to +/- 2 times the standard deviation of the tallest Gaussian.
     </p>
 
   <img
-    src='/images/2015-08-10/hispectrumperseus.png'
+    src='/images/2015-08-11/hispectrumperseus.png'
     style='width:75%'>
 
     <p>
     Taurus
     </p>
   <img
-    src='/images/2015-08-10/hispectrumtaurus.png'
+    src='/images/2015-08-11/hispectrumtaurus.png'
     style='width:75%'>
 
     <p>
     California
     </p>
   <img
-    src='/images/2015-08-10/hispectrumcalifornia.png'
+    src='/images/2015-08-11/hispectrumcalifornia.png'
     style='width:75%'>
 
 </div>
 
-#### Figure 3
+#### Figure 1
 
 Median HI spectra with model fit in purple, and the HI velocity range used as
 the gray shaded region. The velocity widths are consistent with what was done
 in Imara et al. (2012).
 
 ***
+
+
+***
+
+<img src='/images/2015-08-11/.png' style='width:75%'>
+
+
+#### Figure 2
+
+***
+
+
+
+
+
 
 
 
