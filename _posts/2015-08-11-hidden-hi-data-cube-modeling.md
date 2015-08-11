@@ -17,8 +17,6 @@ use_math: true
 
 <hr style="height:2px; background-color:#b6b6b6"/>
 
-## Applying Wavelets to the CHILES Dataset
-
 ## Choosing a model
 
 There seem to be a zillion models for HI data cubes of rotating galaxies. Here
