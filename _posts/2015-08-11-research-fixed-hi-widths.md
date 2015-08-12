@@ -20,13 +20,13 @@ use_math: true
 ## Using the HI width with Gaussian fitting
 
 In yesterday's
-[post](/2015/08/10/research-lee12-hi-width/#deriving-hi-width-with-gaussian-fitting)
+[post](/2015/08/10/research-planck-hi-width/#deriving-hi-width-with-gaussian-fitting)
 I used the method of Imara et al. (2011) of fitting Gaussians to the median HI
 spectrum to determine the HI width. We then fix this HI width throughout the
 rest of the analysis, i.e. in the masking and the MLE calculation. We only fit
 for the intercept and DGR.
 
-### Comparison with Lee+12
+### HI Widths
 
 Below are the median spectra of each cloud fitted with as few Gaussians as seem
 reasonable.
@@ -38,23 +38,22 @@ reasonable.
     <p>
     Perseus
     </p>
-
   <img
-    src='/images/2015-08-11/hispectrumperseus.png'
+    src='/images/2015-08-11/perseus_planck_binned_coarseres_fixedwidth_avthres_hi_spectrum.png'
     style='width:75%'>
 
     <p>
     Taurus
     </p>
   <img
-    src='/images/2015-08-11/hispectrumtaurus.png'
+    src='/images/2015-08-11/taurus_planck_binned_coarseres_fixedwidth_avthres_hi_spectrum.png'
     style='width:75%'>
 
     <p>
     California
     </p>
   <img
-    src='/images/2015-08-11/hispectrumcalifornia.png'
+    src='/images/2015-08-11/california_planck_binned_coarseres_fixedwidth_avthres_hi_spectrum.png'
     style='width:75%'>
 
 </div>
@@ -68,9 +67,14 @@ in Imara et al. (2012).
 ***
 
 
+### Lee+12 comparison
+
+With an HI width similar to that of Lee et al. (2012), around 20 km/s for each
+cloud, we now get much more reasonable likelihood values.
+
 ***
 
-<img src='/images/2015-08-11/.png' style='width:75%'>
+<img src='/images/2015-08-11/perseus_lee12_binned_coarseres_fixedwidth_avthres_likelihood_di.png' style='width:50%'>
 
 
 #### Figure 2
