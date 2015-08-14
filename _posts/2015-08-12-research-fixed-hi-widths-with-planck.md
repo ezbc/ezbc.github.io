@@ -57,18 +57,52 @@ mag.
 We should make sure the pixels used in the MLE calculation have reasonable
 errors and follow a linear trend. In [previous
 posts](/2015/08/07/research-threshold-and-intercepts-lee12data/#figure-5) I was
-incorrectly displaying the errors in this plot. This is because when binning, I
-was not accounting for the standard deviation about the mean of the bin. I was
-only considering the binned errors as the unbinned errors added in quadrature.
-Now the binned errors are calculated as follows
+incorrectly displaying the errors in this plot. After 
 
-$$\begin{equation}
+When binning the image, we will quote the mean of the pixels within the bin as
+the binned value, and the standard deviation of the pixels as the uncertainty
+of the binned value. 
 
-    Var(binned) = Var(unbinned) + \sum Var(unbinned\ errors)
+We are interested in two different quantities:
 
-\end{equation}$$
++ Error in the mean, $$\sigma_x = \frac{1}{\sum_{i=1}^n 1 / \sigma_i^2}$$ or if
+  the variances are the same $$\sigma_x = \sigma^2 / n$$
 
-where Var() is the variance.
++ Standard deviation:
+
+
+In the case where the values of the pixels vary greatly
+compared to the error of each pixel, the uncertainty of the bin will be
+dominated by the spread in the pixel values. However in the case where the
+values of pixels are constant compared to the error of each pixel, the
+uncertainty of the binned value will be dominated by the errors of each pixel.
+
+Formally, lets assign $$R$$ as the random variable with the real $$A_V$$
+values, and $$\epsilon$$ as the measured $$A_V$$ error, then the measured
+$$A_V$$, $$M$$ will be $$R = M + \epsilon$$. The variance of $$R$$ is given by  
+
+$$
+\begin{equation}
+    \begin{split}
+        V(M) & = V(R + \epsilon) \\ 
+        V(M) & = V(R) + V(\epsilon) \\ 
+        V(R) & = V(M) - V(\epsilon) \\ 
+    \end{split}
+\end{equation}
+$$
+
+or rather as the standard deviation
+
+$$
+\begin{equation}
+    \begin{split}
+        \sigma_R & = \sqrt{\sigma_M - \sigma_\epsilon} 
+    \end{split}
+\end{equation}
+$$
+
+This shows us that pixels with largely varying error 
+
 
 The threshold-masking approach leaves quite a large scatter in the pixels used
 to fit $$A_V$$ vs. N(HI).
