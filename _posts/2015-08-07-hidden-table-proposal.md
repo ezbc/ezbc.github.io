@@ -13,9 +13,9 @@ a rapidly growing child, Violet.
 
 ### What is the intended use of the table?
 
-A custom table may be an expensive investment for a child who outgrow the table
-in a short time. The table may best be appreciated by all parties involved if
-after the child's use, the table becomes a coffee table. 
+A custom table may be an expensive investment for a child who will outgrow the
+table in a short time. The table may best be appreciated by all parties
+involved if after the child's use, the table becomes a coffee table. 
 
 ### How tall should the table be?
 
@@ -66,8 +66,8 @@ cherry and maple. The style of the table is reminiscent of the shaker style.
 
 ### Type of wood
 
-I recommend using a maple or cherry, a combination of maple and cherry, or red
-or white oak. Below are examples of each
+I recommend using maple or cherry, a combination of maple and cherry, or red or
+white oak. Below are examples of each
 
 + [maple](http://www.robinsonwoodworking.com/uploads/2/6/0/8/26086855/1167322_orig.jpg)
 
@@ -79,12 +79,17 @@ or white oak. Below are examples of each
 
 + [white oak](http://www.yourpricefurniture.com/ekmps/shops/ypfurn/images/cirencester-american-white-oak-coffee-table-2543-p.jpg)
 
+### Cost
+
+Depending on the materials used and the style selected, the table will likely
+be around $200 to $500 depending on the complexity of the table. The most
+expensive to least expensive materials are cherry, maple, white oak, and red
+oak. The material cost will scale linearly with the size of the table. I charge
+$20 per hour.
+
 ### Next steps
 
-Next we should agree on the dimensions, style, and type of wood of the table.
-Please comment below or email me. I can also make all these decisions if this
-is an overload of choices.
-
-
-
+Next we should agree on the dimensions, whether or not to have a shelf, style,
+and type of wood of the table.  Please comment below or email me. I can also
+make all these decisions if this is an overload of choices.
 
