@@ -17,6 +17,46 @@ use_math: true
 
 <hr style="height:2px; background-color:#b6b6b6"/>
 
+## HI and CO spectra
+
+Yesterday's post incorrectly showed the CO spectra for each cloud. Below are
+the corrected CO spectra included within the region outlined for each cloud.
+
+***
+
+<div align='center'>
+
+    <p>
+    Perseus
+    </p>
+  <img
+    src='/images/2015-08-12/perseus_planck_binned_coarseres_fixedwidth_hi_spectrum.png'
+    style='width:75%'>
+
+    <p>
+    Taurus
+    </p>
+  <img
+    src='/images/2015-08-12/taurus_planck_binned_coarseres_fixedwidth_hi_spectrum.png'
+    style='width:75%'>
+
+    <p>
+    California
+    </p>
+  <img
+    src='/images/2015-08-12/california_planck_binned_coarseres_fixedwidth_hi_spectrum.png'
+    style='width:75%'>
+
+</div>
+
+#### Figure 1
+
+Median HI spectra with model fit in purple, and the HI velocity range used as
+the gray shaded region. The velocity widths are consistent with what was done
+in Imara et al. (2012).
+
+***
+
 ## Binning Errors
 
 ### Lee+12 IRIS $$A_V$$, threshold masking
@@ -30,7 +70,7 @@ Masking:
 
 Perseus
 
-  <img src="/images/2015-08-12/perseus_lee12_binned_coarseres_fixedwidth_avthres_mask_map.png"
+  <img src="/images/2015-08-12/perseus_lee12_binned_coarseres_fixedwidth_mask_map.png"
       style="width: 100%">
 
 
@@ -47,7 +87,7 @@ The likelihoods are quite different from Lee et al. (2012) given an HI width of
 
 ***
 
-<img src='/images/2015-08-12/perseus_lee12_binned_coarseres_fixedwidth_avthres_likelihood_di.png' style='width:50%'>
+<img src='/images/2015-08-12/perseus_lee12_binned_coarseres_fixedwidth_likelihood_di.png' style='width:50%'>
 
 #### Figure 2
 
@@ -65,6 +105,12 @@ When binning the image, we will quote the mean of the pixels within the bin as
 the binned value, and the standard deviation of the pixels as the uncertainty
 of the binned value. 
 
+In the case where the values of the pixels vary greatly compared to the error
+of each pixel, the uncertainty of the bin will be dominated by the spread in
+the pixel values. However in the case where the values of pixels are constant
+compared to the error of each pixel, the uncertainty of the binned value will
+be dominated by the errors of each pixel.
+
 We are interested in two different quantities:
 
 + Standard error, $$\sigma_x$$: This is the error on our estimate of the mean.
@@ -72,7 +118,7 @@ We are interested in two different quantities:
   \sigma_i^2}$$ where $$\sigma_i$$ is the standard deviation for each element.
   If the variances are the same $$\sigma_x^2 = \sigma^2 / n$$.
 
-+ Standard deviation, \sigma: the spread in the population. This is an
++ Standard deviation, $$\sigma$$: the spread in the population. This is an
   intrinsic property of the data which will not change with sample size.
 
 Since these two properties are independent of one another, we can add their
@@ -86,56 +132,17 @@ $$
 $$
 
 ## Lee+12 IRIS $$A_V$$, residual masking
-=======
-+ Error in the mean, $$\sigma_x = \frac{1}{\sum_{i=1}^n 1 / \sigma_i^2}$$ or if
-  the variances are the same $$\sigma_x = \sigma^2 / n$$
-
-+ Standard deviation:
-
-
-In the case where the values of the pixels vary greatly
-compared to the error of each pixel, the uncertainty of the bin will be
-dominated by the spread in the pixel values. However in the case where the
-values of pixels are constant compared to the error of each pixel, the
-uncertainty of the binned value will be dominated by the errors of each pixel.
-
-Formally, lets assign $$R$$ as the random variable with the real $$A_V$$
-values, and $$\epsilon$$ as the measured $$A_V$$ error, then the measured
-$$A_V$$, $$M$$ will be $$R = M + \epsilon$$. The variance of $$R$$ is given by  
-
-$$
-\begin{equation}
-    \begin{split}
-        V(M) & = V(R + \epsilon) \\ 
-        V(M) & = V(R) + V(\epsilon) \\ 
-        V(R) & = V(M) - V(\epsilon) \\ 
-    \end{split}
-\end{equation}
-$$
-
-or rather as the standard deviation
-
-$$
-\begin{equation}
-    \begin{split}
-        \sigma_R & = \sqrt{\sigma_M - \sigma_\epsilon} 
-    \end{split}
-\end{equation}
-$$
-
-This shows us that pixels with largely varying error 
-
-
-The threshold-masking approach leaves quite a large scatter in the pixels used
-to fit $$A_V$$ vs. N(HI).
 
 ***
 
 <img
-src="/images/2015-08-12/perseus_lee12_binned_coarseres_fixedwidth_avthres_av_vs_nhi_masked.png"
+src="/images/2015-08-12/perseus_lee12_binned_fineres_fixedwidth_av_vs_nhi_masked.png"
     style="float: left; width: 50%"/>
 <img
-src="/images/2015-08-12/perseus_lee12_binned_coarseres_fixedwidth_avthres_nh2_vs_nhi.png"
+src="/images/2015-08-12/perseus_lee12_binned_fineres_fixedwidth_av_vs_nhi.png"
+    style="float: left; width: 50%"/>
+<img
+src="/images/2015-08-12/perseus_lee12_binned_fineres_fixedwidth_nh2_vs_nhi.png"
     style="width: 50%"/>
 
 #### Figure 6
