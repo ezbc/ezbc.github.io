@@ -206,5 +206,63 @@ in the region. For California this would could mean selecting -20 to 15 km/s.
 More updates to come.
 
 
+## Background HI
+
+For California we see that an enormous DGR and negative intercept are favored.
+This means two things, first that there is a lot of dust along the line of
+sight, likely much of it unassociated with California, second, the N(HI)
+created using a narrow HI width does not correlate well with the dust, hence
+the large negative intercept.
+
+To account for this background we can try two things, fit a seperate DGR with
+the unassociated HI, or remove an HI background.
+
+### Removing an HI background
+
+I ran the experiement of subtracting the fitted components in the California
+median spectrum from Figure 5 from the HI cube. I excluded the fitted component
+used to calculate the HI width, as this is our presumed cloud of interest. I
+subtracted these components from every line of sight.
+
+***
+
+<img
+src="/images/2015-08-17/california_planck_binned_coarseres_fixedwidth_compsub_av_vs_nhi_masked.png"
+    style="width: 70%"/>
+<img
+src="/images/2015-08-17/california_planck_binned_coarseres_fixedwidth_compsub_av_vs_nhi.png"
+    style="float: left; width: 50%"/>
+<img
+src="/images/2015-08-17/california_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
+    style="width: 50%"/>
+
+#### Figure 7
+
+Same as Figure 6, except with an HI background subtraction. For ease of
+comparison the bottom panel of Figure 6 is shown at the bottom right. The
+component subtraction changed the fitted intercept by 1 mag, however did not
+change much of the structure in the N(HI) / $$A_V$$ distribution.
+
+***
+
+### Fitting for a seperate component along the line of sight
+
+We could also fit for multiple clouds along the line of sight as done in
+[Martin et al. (2015)](http://arxiv.org/pdf/1504.07723v2.pdf) and [Planck
+(2011)](http://www.aanda.org/articles/aa/full_html/2011/12/aa16485-11/aa16485-11.html#S2).
+This would allow us to associate the excess of dust emission with HI not
+associated with California. This could help resolve the high DGR issue.
+
+Our model $$A_V$$ would be represented as
+
+$$
+\begin{equation}
+    A_{V,{\rm model}} = DGR_B \times N(HI)_B + DGR_C \times N(HI)_C + A_{V,B}
+\end{equation}
+$$
+
+where a B subscript represents the background, and the C subscript represents
+the cloud. 
+
 
 

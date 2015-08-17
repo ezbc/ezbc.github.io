@@ -11,6 +11,7 @@ images = [
 '/d/bip3/ezbc/perseus/figures/diagnostics/perseus_planck_binned_coarseres_fixedwidth_av_vs_nhi*png',
 '/d/bip3/ezbc/taurus/figures/diagnostics/taurus_planck_binned_coarseres_fixedwidth_av_vs_nhi*png',
 '/d/bip3/ezbc/california/figures/diagnostics/california_planck_binned_coarseres_fixedwidth_av_vs_nhi*png',
+'/d/bip3/ezbc/california/figures/diagnostics/california_planck_binned_coarseres_fixedwidth_compsub_av_vs_nhi*png',
 
 # int, planck
 '/d/bip3/ezbc/perseus/figures/likelihood/perseus_planck_binned_coarseres_likelihood_w?.png',
