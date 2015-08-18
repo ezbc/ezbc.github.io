@@ -68,9 +68,6 @@ DGR](/2015/08/17/research-project-outline/#california).
 
 ***
 
-
-
-
 ## Reproducing Lee+12 IRIS $$A_V$$
 
 In yesterday's
@@ -97,7 +94,7 @@ masked, first plot, 2) the least squares fit to all the data in the plot, (poly
 scatter fit) 3) the least squares fit to the median data points in the plot
 (poly median fit). The MLE DGR agrees well with the median polynomial fit.
 However both of these relationships disagree with the Lee et al. (2012) derived
-DGR of 0.11 $$10^{20}$$ cm$$^{20}$$ mag and intercept of 0 mag.
+DGR of 0.11 $$\times 10^{20}$$ cm$$^{2}$$ mag and intercept of 0 mag.
 
 ***
 
