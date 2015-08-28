@@ -22,50 +22,12 @@ example of installing a fan, and outlines the need for one.
 
 ## The Finished product
 
-<img src="/images/2015-08-18/kegerator/kegerator_2.jpg"/>
+I used to angle brackets to mount the fan to the collar. Currently the USB wire
+for the fan just rests on top of the lip, but does not seem to disrupt the seal
+between the lid and the lip.
 
-## Construction
-
-<div class="variable-width">
-  <div> <img src="/images/2015-08-18/kegerator/kegerator_0.jpg"/> </div>
-  <div> <img src="/images/2015-08-18/kegerator/kegerator_1.jpg"/> </div>
-  <div> <img src="/images/2015-08-18/kegerator/kegerator_3.jpg"/> </div>
-  <div> <img src="/images/2015-08-18/kegerator/kegerator_4.jpg"/> </div>
-  <div> <img src="/images/2015-08-18/kegerator/kegerator_5.jpg"/> </div>
+<div align="center">
+ <img src="/images/2015-08-26/fan1.jpg" style="width: 70%"/>
+ <img src="/images/2015-08-26/fan2.jpg" style="width: 70%"/>
 </div>
-
-<style>
-    .slick-prev:before, .slick-next:before { 
-        color:blue !important;
-    }
-    .slider {margin: 10%;}
-.variable-width {
-    width: 90%;
-    margin: auto;
-}
-</style>
-
-<script>
-
-    $('.variable-width').slick({
-      dots: true,
-      infinite: true,
-      speed: 300,
-      slidesToShow: 1,
-      centerMode: true,
-      variableWidth: true
-    });
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
 
