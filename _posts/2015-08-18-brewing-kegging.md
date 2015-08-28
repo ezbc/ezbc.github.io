@@ -16,9 +16,7 @@ Today I finished my kegerator. It's quite a beauty:
 
 ## The First Beer
 
-The first beer to go in the kegerator is my [session red
-ale](https://www.brewtoad.com/recipes/session-red-ale). Follow the brew log
-[here](https://www.brewtoad.com/recipes/session-red-ale/brew-logs/136009).
+The first beer to go in the kegerator is my [session ipa](https://www.brewtoad.com/recipes/session-ipa-177).
 
 ## Construction
 
