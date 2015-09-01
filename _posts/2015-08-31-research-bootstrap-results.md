@@ -17,9 +17,8 @@ use_math: true
 
 <hr style="height:2px; background-color:#b6b6b6"/>
 
-I updated a [draft of the
-paper](https://bitbucket.org/ezbc/taurus_paper/raw/07b052c96aaf690229977adede7ad487cad49d1e/taurus_paper.pdf)
-to include the new bootstrap results. I updated only section 3.
+I updated a draft of the paper to include the new bootstrap results. I updated
+only section 3.
 
 One important diagnostic which likely won't show up in the paper is the
 distribution of bootstrapped DGRs found. See the figure below.
