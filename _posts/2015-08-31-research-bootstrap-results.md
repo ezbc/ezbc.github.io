@@ -62,4 +62,13 @@ Cumulative distribution function as the dashed line, the probability density
 function as the solid line, the median as the thick vertical dashed line, and
 the 68% confidence interval of the bootstrapped DGRs of each cloud.
 
+## Updated DGR values
+
+I had made a mistake in analyzing the error about the median yesterday. Below
+is the $A_V$ vs N(HI) plot with the corrected DGRs.
+
+<img
+src="/images/2015-08-31/multicloud_av_vs_nhi.png"
+    style="width: 70%"/>
+
 
