@@ -17,7 +17,7 @@ use_math: true
 
 <hr style="height:2px; background-color:#b6b6b6"/>
 
-## Number of bootstrap resamplings
+## **Number of bootstrap resamplings**
 
 The number of simulations we run can seem somewhat arbitrary. However the
 simplest way to determine whether or not we have chosen enough samples is if
