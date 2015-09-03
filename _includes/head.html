@@ -1,19 +1,4 @@
 <!DOCTYPE html>
-<!-- 
-<style>
-body { 
-  background-padding: 0 !important;
-  background-image: url('images/background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: left;
-  background-min-width: 100px;
-}
-</style>
-
-<body>
-</body>
--->
 
 <html lang="en">
     <head>
@@ -85,6 +70,16 @@ body {
             src="/assets/js/application.js">
         </script>
 
+        <!-- Mathjax -->
+        <script 
+            type="text/javascript" 
+            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        <script 
+            src="/assets/js/jquery.toc.js">
+        </script>
+
+
         <!-- Google Analytics -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -94,6 +89,14 @@ body {
 
           ga('create', 'UA-67026116-1', 'auto');
           ga('send', 'pageview');
+        
+        <!-- Disques -->
+        <script>
+            $(".page-preview-icon").hover(function(){
+                $(this).parents(".page-nav").css("z-index","5000");
+            });
+            {% include scripts/disqus.html %}
+        </script>
 
         </script>
 
