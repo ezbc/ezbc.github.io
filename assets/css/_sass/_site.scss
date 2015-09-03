@@ -1,16 +1,5 @@
 // Refactored @Wed, march 11, 2015
 // Custom containers & wrappers
-body {
-  color:#000;
-  font: 17px Poly, 'Helvetica Neue', Helvetica, serif, Arial !important;
-  letter-spacing: 0.001em;
-  background-padding: 0 !important;
-  background-image: url('images/background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: left;
-  background-min-width: 100px;
-}
 
 .footer {height:60px;}
 
@@ -43,7 +32,7 @@ main {position: relative;}
   .fa-expand {color: #22D722;}
 }
 
-.page-item-body {display: none;}
+//.page-item-body {display: none;}
 
 .page-title {
   font-size: 35px;
@@ -140,6 +129,7 @@ main {position: relative;}
     margin-bottom: 1px;
     margin-top: 1px;
     background: $primary-color;
+    //background: rgba(0,0,0,0);
     padding: 10px 0 10px 10px;
   }
 }
