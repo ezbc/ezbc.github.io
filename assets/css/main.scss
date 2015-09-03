@@ -2,7 +2,7 @@
 ---
 //Last updated 17-03-2015 by nadjetey @12.15am
 /* configurations */
-$primary-color: #F3F8FF;
+$primary-color: #D3E1F5; //#F3F8FF
 $lnk-color: #afafaf;
 $lnk-highlight-color: #333;
 
@@ -17,15 +17,15 @@ $lnk-highlight-color: #333;
 @import "font-awesome.min";
 
 body {
-  color:#000;
+  //color:#000;
   font: 17px Poly, 'Helvetica Neue', Helvetica, serif, Arial !important;
   letter-spacing: 0.001em;
-  background-padding: 0 !important;
-  background-image: url('/images/background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: left;
-  background-min-width: 100px;
+  //background-padding: 0 !important;
+  //background-image: url('/images/background.jpg');
+  //background-repeat: no-repeat;
+  //background-attachment: fixed;
+  //background-position: left;
+  //background-min-width: 100px;
 }
 
 
