@@ -10,11 +10,11 @@ layout: default
             <img src="images/portrait.jpg" style="width:40%; border:2px solid
             #000000;" alt="Elijah Bernstein-Cooper">
 
-            <p> Welcome to the website of Elijah Z. Bernstein-Cooper. Here you
-            will find blogs about 
-            <a href="website/research_log.html">astronomy
-                research</a>, <a
-            href="website/woodworking.html">woodworking</a> and more. 
+            <p> 
+            Welcome to the website of Elijah Z. Bernstein-Cooper. Here you will
+            find blogs about <a href="website/research_log.html">astronomy
+            research</a>, <a href="website/woodworking.html">woodworking</a>
+        and more. 
             </p>
         </p>
 
@@ -24,14 +24,16 @@ layout: default
         </h3>
         <hr>
 
-
-        {% for post in site.posts %}
+        {% for post in site.posts limit:25 %}
             {% if post.category != "hidden" %}
                 <div class="page-item">
                     <div class="col-sm-8">
                         <ul class="page-item-title">
-                            <li><time class="timeago meta" datetime="{{ post.date |  date: "%A %-d %B %Y" }}">{{ post.date }}</time>
-                            - {{ post.category }} post
+                            <li><time class="timeago meta"
+                                    datetime="{{ post.date |  date: "
+                                             %A %-d %B %Y" }}">
+                                {{ post.date }}</time>
+                                - {{ post.category }} post
                             <a class="meta pull-right comments-meta" href="{{ post.url | prepend: site.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
                             <li><a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
 
