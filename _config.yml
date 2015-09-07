@@ -9,6 +9,9 @@ markdown: kramdown
 redcarpet:
   extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
+paginate: 20
+paginate_path: "/page:num/"
+
 permalink: /:year/:month/:day/:title/
 owner:
     disqus_shortname: httpezbcme
