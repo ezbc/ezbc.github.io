@@ -3,27 +3,25 @@ layout: default
 title: Research Logs
 ---
 
-
+<!-- pagination won't work for different categories, use octopuss paginate:
+https://github.com/octopress/paginate -->
 
 <div class="col-sm-12">
     <div class="page-title">
         {{ page.title }}
     </div>
     <div class="page-content">
+        {% assign research = (site.posts | where: "category" , "research") %}
         <ul class="page-list">
-            {% assign research = (site.posts | where: "category" , "research") %}
-            {% for post in research %}
+            {% for post in site.posts %}
                 <li>
-                    <!--
-                    <time class="timeago postlist-meta" datetime="{{ post.date |  date: "%A %-d %B %Y" }}">{{ post.date }}</time>
-                    &mdash; <a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
-                    -->
-<span>{{ post.date | date: "%B %e, %Y" }}</span>
-<a href="{{ site.url }}{{ post.url }}">
-{{ post.title }} {% if post.author %} &ndash; {{ post.author }} {% endif %}
-</a>
+                <span>{{ post.date | date: "%B %e, %Y" }}</span>
+                <a href="{{ site.url }}{{ post.url }}">
+                {{ post.title }} {% if post.author %} &ndash; {{ post.author }} {% endif %}
+                </a>
                 </li>
             {% endfor %} 
         </ul>
     </div>
 </div>
+
