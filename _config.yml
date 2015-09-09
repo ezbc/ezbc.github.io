@@ -12,7 +12,8 @@ redcarpet:
 paginate: 20
 paginate_path: "/page:num/"
 
-permalink: /:year/:month/:day/:title/
+#permalink: /:year/:month/:day/:title/
+permalink: pretty
 owner:
     disqus_shortname: httpezbcme
     name: Elijah Bernstein-Cooper
