@@ -4,6 +4,7 @@ title: Revisiting Model Analysis
 author:
 category: research
 tags: Taurus-California-Perseus Modeling
+redirect_from: /2015/09/08/research-model-analysis/
 comments: true
 use_math: true
 ---
