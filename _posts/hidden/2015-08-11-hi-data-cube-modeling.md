@@ -2,6 +2,7 @@
 layout: post
 title: Modeling Shield Galaxies
 author:
+redirect_from: /2015/08/11/hidden-hi-data-cube-modeling/
 category: hidden
 tags: 
 comments: true

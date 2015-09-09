@@ -2,6 +2,7 @@
 layout: post
 title: Correcting the Bootstrap Resampling
 author:
+redirect_from: /2015/09/02/research-bootstrap-probability-resampling/
 category: research
 tags: Taurus-California-Perseus Bootstrap
 comments: true

@@ -2,6 +2,7 @@
 layout: post
 title: Estimating Uncertainties in Av
 author:
+redirect_from: /2015/08/06/research-estimating-uncertainties/
 category: research
 tags: Taurus-California-Perseus 
 comments: true

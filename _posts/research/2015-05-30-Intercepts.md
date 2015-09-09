@@ -2,6 +2,7 @@
 layout: post
 title: Intercepts
 author:
+redirect_from: /2015/05/30/Intercepts/
 category: research
 tags: Taurus-California-Perseus
 use_math: true

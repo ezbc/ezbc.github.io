@@ -2,6 +2,7 @@
 layout: post
 title: Paper Comments 2
 author:
+redirect_from: /2015/03/31/Paper-Comments-2/
 category: research
 tags: Taurus-California-Perseus
 use_math: true

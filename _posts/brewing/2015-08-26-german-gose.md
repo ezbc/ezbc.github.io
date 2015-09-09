@@ -2,6 +2,7 @@
 layout: post
 title: German Gose
 author:
+redirect_from: /2015/08/26/brewing-german-gose/
 category: brewing
 tags: 
 comments: true

@@ -2,6 +2,7 @@
 layout: post
 title: Table Proposal
 author:
+redirect_from: /2015/08/07/hidden-table-proposal/
 category: hidden
 tags: 
 comments: true

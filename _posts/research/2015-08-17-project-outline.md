@@ -2,6 +2,7 @@
 layout: post
 title: Project Outline
 author:
+redirect_from: /2015/08/17/research-project-outline/
 category: research
 tags: Taurus-California-Perseus HI-width
 comments: true

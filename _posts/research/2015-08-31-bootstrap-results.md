@@ -2,6 +2,7 @@
 layout: post
 title: Bootstrap Results
 author:
+redirect_from: /2015/08/31/research-bootstrap-results/
 category: research
 tags: Taurus-California-Perseus Bootstrap
 comments: true

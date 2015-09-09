@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 2MASS Av of TCP
-author: 
+author:
+redirect_from: /2015/02/25/Krumholz-Fitting/ 
 category: research
 tags: Taurus-California-Perseus Kainulainen 2MASS Av
 ---

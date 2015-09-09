@@ -2,6 +2,7 @@
 layout: post
 title: Kegerator Fan
 author:
+redirect_from: /2015/08/26/brewing-kegerater-fan/
 category: brewing
 tags: 
 comments: true

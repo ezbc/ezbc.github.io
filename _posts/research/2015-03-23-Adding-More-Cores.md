@@ -2,6 +2,7 @@
 layout: post
 title: Additional Cores
 author:
+redirect_from: /2015/03/23/Adding-More-Cores/
 category: research
 tags: Taurus-California-Perseus Core-Regions
 use_math: true

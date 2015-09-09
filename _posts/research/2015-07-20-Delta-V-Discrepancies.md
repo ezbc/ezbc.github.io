@@ -2,6 +2,7 @@
 layout: post
 title: Addressing Variability in Derived Parameters
 author:
+redirect_from: /2015/07/20/Delta-V-Discrepancies/
 category: research
 tags: Taurus-California-Perseus Residuals Masking
 comments: true

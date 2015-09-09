@@ -2,6 +2,7 @@
 layout: post
 title: Summarizing the MLE Method
 author:
+redirect_from: /2015/07/24/MLE-Summary/
 category: research
 tags: Taurus-California-Perseus Residuals Masking
 comments: true

@@ -2,6 +2,7 @@
 layout: post
 title: Background Tests
 author:
+redirect_from: /2015/07/06/Background-Testing/
 category: research
 tags: Taurus-California-Perseus  Background
 comments: true

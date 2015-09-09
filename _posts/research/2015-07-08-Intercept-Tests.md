@@ -2,6 +2,7 @@
 layout: post
 title: Intercept-Tests
 author:
+redirect_from: /2015/07/08/Intercept-Tests/
 category: research
 tags: Taurus-California-Perseus  Background
 comments: true

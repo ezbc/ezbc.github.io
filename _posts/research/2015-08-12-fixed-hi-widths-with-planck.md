@@ -2,6 +2,7 @@
 layout: post
 title: Fixing the HI Width with Planck Data
 author:
+redirect_from: /2015/08/12/research-fixed-hi-widths-with-planck/
 category: research
 tags: Taurus-California-Perseus HI-width
 comments: true

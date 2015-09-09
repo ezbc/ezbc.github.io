@@ -2,6 +2,7 @@
 layout: post
 title: Reevaluating the MLE, and Negative Intercepts
 author:
+redirect_from: /2015/07/22/MLE-Testing/
 category: research
 tags: Taurus-California-Perseus Residuals Masking
 comments: true

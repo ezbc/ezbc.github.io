@@ -2,6 +2,7 @@
 layout: post
 title: Examining Region Dependence
 author:
+redirect_from: /2015/08/04/research-region-tests/
 category: research
 tags: Taurus-California-Perseus 
 comments: true

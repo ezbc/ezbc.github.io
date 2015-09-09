@@ -2,6 +2,7 @@
 layout: post
 title: Addressing Threshold Masking with Planck Av
 author:
+redirect_from: /2015/08/07/research-threshold-and-intercepts-planck/
 category: research
 tags: Taurus-California-Perseus 
 comments: true

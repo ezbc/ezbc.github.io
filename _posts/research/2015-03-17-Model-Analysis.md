@@ -2,6 +2,7 @@
 layout: post
 title: Sternberg and Krumholz Model Fitting
 author:
+redirect_from: /2015/03/17/Model-Analysis/
 category: research
 tags: Taurus-California-Perseus Sternberg Krumholz
 use_math: true

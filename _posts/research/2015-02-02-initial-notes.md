@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Initial post
-author: Elijah
+author:
+redirect_from: /2015/02/02/initial-notes/ Elijah
 category: research
 comments: true
 tags: Taurus-California-Perseus

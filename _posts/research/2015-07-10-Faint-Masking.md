@@ -2,6 +2,7 @@
 layout: post
 title: Faint Residual Masking
 author:
+redirect_from: /2015/07/10/Faint-Masking/
 category: research
 tags: Taurus-California-Perseus Residuals Masking
 comments: true

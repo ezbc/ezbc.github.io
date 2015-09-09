@@ -2,6 +2,7 @@
 layout: post
 title: Addressing Changed HI Spectra
 author:
+redirect_from: /2015/08/19/research-hi-spectra/
 category: research
 tags: Taurus-California-Perseus HI-width
 comments: true

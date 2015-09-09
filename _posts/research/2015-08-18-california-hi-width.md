@@ -2,6 +2,7 @@
 layout: post
 title: California HI Width
 author:
+redirect_from: /2015/08/18/research-california-hi-width/
 category: research
 tags: Taurus-California-Perseus HI-width
 comments: true

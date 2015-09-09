@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Low Perseus HI Surface Density Thresholds
-author: 
+author:
+redirect_from: /2015/03/02/Perseus-HI-Threshold/ 
 category: research
 tags: Taurus-California-Perseus HI-Surface-Density
 ---

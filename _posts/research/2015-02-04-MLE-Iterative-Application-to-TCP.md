@@ -1,7 +1,8 @@
 ---
 layout: post
 title: MLE Iterative Application to TCP
-author: 
+author:
+redirect_from: /2015/02/04/MLE-Iterative-Application-to-TCP/ 
 category: research
 tags: MLE Taurus-California-Perseus 2
 ---

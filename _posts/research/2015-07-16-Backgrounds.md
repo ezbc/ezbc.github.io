@@ -2,6 +2,7 @@
 layout: post
 title: Faint Residual Masking Application on Taurus and California
 author:
+redirect_from: /2015/07/16/Backgrounds/
 category: research
 tags: Taurus-California-Perseus Residuals Masking
 comments: true

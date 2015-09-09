@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Sternberg Summary
-author: 
+author:
+redirect_from: /2015/03/06/Sternberg-Discussion/ 
 category: research
 tags: Taurus-California-Perseus Sternberg
 use_math: true

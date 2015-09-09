@@ -2,6 +2,7 @@
 layout: post
 title: Thesis Ideas
 author:
+redirect_from: /2015/08/05/hidden-thesis-ideas/
 category: hidden
 tags: 
 comments: true

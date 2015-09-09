@@ -2,6 +2,7 @@
 layout: post
 title: Bootstrapping
 author:
+redirect_from: /2015/08/19/research-bootstrapping/
 category: research
 tags: Taurus-California-Perseus HI-width
 comments: true

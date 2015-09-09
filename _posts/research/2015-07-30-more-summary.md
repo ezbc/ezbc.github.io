@@ -2,6 +2,7 @@
 layout: post
 title: Region Dependence
 author:
+redirect_from: /2015/07/30/research-more-summary/
 category: research
 tags: Taurus-California-Perseus Residuals Masking
 comments: true

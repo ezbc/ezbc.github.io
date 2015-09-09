@@ -2,6 +2,7 @@
 layout: post
 title: Yeast Starters
 author:
+redirect_from: /2015/07/23/yeast-starter/
 category: brewing
 tags: 
 comments: true

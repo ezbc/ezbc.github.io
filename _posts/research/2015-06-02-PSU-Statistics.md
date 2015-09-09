@@ -2,6 +2,7 @@
 layout: post
 title: PSU Statistics School
 author:
+redirect_from: /2015/06/02/PSU-Statistics/
 category: research
 comments: true
 use_math: true

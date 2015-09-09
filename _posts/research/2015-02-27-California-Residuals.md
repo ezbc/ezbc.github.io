@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Irregular California Data - Model Residuals
-author: 
+author:
+redirect_from: /2015/02/27/California-Residuals/ 
 category: research
 tags: Taurus-California-Perseus
 ---

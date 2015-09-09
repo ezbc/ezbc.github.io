@@ -2,6 +2,7 @@
 layout: post
 title: Oatmeal Stout
 author:
+redirect_from: /2015/08/29/brewing-oatmeal-stout/
 category: brewing
 tags: 
 comments: true

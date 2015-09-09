@@ -2,6 +2,7 @@
 layout: post
 title: Session India Pale Ale
 author:
+redirect_from: /2015/07/23/india-pale-ale/
 category: brewing
 tags: 
 comments: true

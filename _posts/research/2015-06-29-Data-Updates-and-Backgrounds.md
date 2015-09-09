@@ -2,6 +2,7 @@
 layout: post
 title: 1D and 2D Background Fits
 author:
+redirect_from: /2015/06/29/Data-Updates-and-Backgrounds/
 category: research
 tags: Taurus-California-Perseus  Background
 comments: true

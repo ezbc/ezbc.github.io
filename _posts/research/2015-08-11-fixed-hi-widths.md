@@ -2,6 +2,7 @@
 layout: post
 title: Fixing the HI Width
 author:
+redirect_from: /2015/08/11/research-fixed-hi-widths/
 category: research
 tags: Taurus-California-Perseus HI-width
 comments: true

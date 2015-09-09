@@ -2,6 +2,7 @@
 layout: post
 title: Region Dependence of Intercepts
 author:
+redirect_from: /2015/06/25/Intercept-and-Regions/
 category: research
 tags: Taurus-California-Perseus
 comments: true

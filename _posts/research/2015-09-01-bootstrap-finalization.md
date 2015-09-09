@@ -2,6 +2,7 @@
 layout: post
 title: Finalizing the Bootstrap Monte Carlo Simulation
 author:
+redirect_from: /2015/09/01/research-bootstrap-finalization/
 category: research
 tags: Taurus-California-Perseus Bootstrap
 comments: true

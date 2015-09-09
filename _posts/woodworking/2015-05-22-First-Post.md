@@ -2,6 +2,7 @@
 layout: post
 title: First Post
 author:
+redirect_from: /2015/05/22/First-Post/
 category: woodworking
 comments: true
 tags: 

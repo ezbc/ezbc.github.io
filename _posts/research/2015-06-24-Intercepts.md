@@ -2,6 +2,7 @@
 layout: post
 title: IR Background
 author:
+redirect_from: /2015/06/24/Intercepts/
 category: research
 tags: Taurus-California-Perseus Plank-All-Sky-Map
 use_math: true

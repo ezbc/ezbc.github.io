@@ -2,6 +2,7 @@
 layout: post
 title: Next Steps
 author:
+redirect_from: /2015/05/29/Next-Steps/
 category: research
 tags: Thesis
 use_math: true

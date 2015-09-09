@@ -2,6 +2,7 @@
 layout: post
 title: Dunkelweizen
 author:
+redirect_from: /2015/08/31/brewing-dunkelweizen/
 category: brewing
 tags: 
 comments: true

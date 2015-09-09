@@ -2,6 +2,7 @@
 layout: post
 title: Rocking Chair
 author:
+redirect_from: /2015/07/27/woodworking-rocking-chair/
 category: woodworking
 comments: true
 tags: 

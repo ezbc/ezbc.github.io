@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Sternberg Model Fitting
-author: 
+author:
+redirect_from: /2015/03/11/Sternberg-Fitting/ 
 category: research
 tags: Taurus-California-Perseus Sternberg
 use_math: true

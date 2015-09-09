@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Negative H2 surface Densities
-author: 
+author:
+redirect_from: /2015/02/26/Krumholz-Fitting/ 
 category: research
 tags: Taurus-California-Perseus
 ---

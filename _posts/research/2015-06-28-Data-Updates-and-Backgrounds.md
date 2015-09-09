@@ -2,6 +2,7 @@
 layout: post
 title: Updating GALFA and Planck
 author:
+redirect_from: /2015/06/28/Data-Updates-and-Backgrounds/
 category: research
 tags: Taurus-California-Perseus GALFA Planck
 comments: true
