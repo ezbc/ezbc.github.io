@@ -135,14 +135,14 @@ Left: $$A_V$$ vs. N(HI), right: N(H$$_2$$) vs. N(HI) for Perseus South region.
 
 ## Sources of Uncertainty
 
-[Yesterday](/2015/08/04/research-region-tests/#sources-of-uncertainty) I showed
+[Yesterday](/research/2015/08/04/region-tests/#sources-of-uncertainty) I showed
 how we could attempt to incorporate systematic errors such as the uncertainty
 of $$R_V$$ into our MLE calculation. Before, I was calculating the MLE
 parameters with the initial error estimates, and calculating the standard
 deviation of the residuals between the MLE $$A_V$$ model and the $$A_V$$ data.
 I used this uncertainty calculated from the residuals as the uncertainty in a
 second round of MLE calculation. This led to very tight likelihood spaces,
-which were varying greatly based on how I [chose the mask](/2015/07/30/research-more-summary/#dependence-on-initial-hi-width).
+which were varying greatly based on how I [chose the mask](/research/2015/07/30/more-summary/#dependence-on-initial-hi-width).
 
 Using an uncertainty on $$R_V$$ (about 0.7) still leads to confined likelihood
 spaces.

@@ -61,7 +61,7 @@ in Imara et al. (2012).
 
 We should make sure the pixels used in the MLE calculation have reasonable
 errors and follow a linear trend. In [previous
-posts](/2015/08/07/research-threshold-and-intercepts-lee12data/#figure-5) I was
+posts](/research/2015/08/07/threshold-and-intercepts-lee12data/#figure-5) I was
 incorrectly displaying the errors in this plot. After 
 
 When binning the image, we will quote the mean of the pixels within the bin as

@@ -57,7 +57,7 @@ Figure 4. - perseus masks.
 ## Mask Convergence
 
 We're testing convergence of the DGR during masking outlined in the [last
-post](/2015/07/13/Faint-Masking-2/#convergence).
+post](/research/2015/07/13/Faint-Masking-2/#convergence).
 
 ***
 

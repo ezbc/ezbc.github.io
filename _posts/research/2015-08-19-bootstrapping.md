@@ -76,7 +76,7 @@ I decided to use the method adopted [Martin et al.
 to select the HI range. These authors examine the standard deviation of the HI
 at each velocity. Valleys in the standard deviation spectrum mark the
 separation between independent structures. I outlined the steps I would use in
-a [previous post](/2015/08/18/research-california-hi-width/#figure-1). I used
+a [previous post](/research/2015/08/18/california-hi-width/#figure-1). I used
 the HI range of -5 to 15 km/s for each cloud. California's standard deviation
 is somewhat peculiar, in that it has two components. However California also
 has two CO components.
@@ -90,7 +90,7 @@ the fit huge for Perseus. [Leroy et al.
 (2009)](http://iopscience.iop.org/0004-637X/702/1/352/article#apj313049s3-2)
 held the intercept at 0 mag in their fit. We show an alternative to using an
 intercept [later in the
-post](/2015/08/19/research-bootstrapping/#background-cloud).
+post](/research/2015/08/19/bootstrapping/#background-cloud).
 
 ***
 
@@ -123,10 +123,10 @@ bootstrap DGR is much closer to Lee et al. (2012).
 The rest of the results use the Planck $$A_V$$ data. Only 100 bootstraps were
 run. At least 10,000 are needed to realistically sample the variation in the
 data, the number of pixels in the data. I show results
-[with](/2015/08/19/research-bootstrapping/#with-intercept) and
-[without](/2015/08/19/research-bootstrapping/#without-intercept) an intercept,
+[with](/research/2015/08/19/bootstrapping/#with-intercept) and
+[without](/research/2015/08/19/bootstrapping/#without-intercept) an intercept,
 as well as considering a [background dust
-population](/2015/08/19/research-bootstrapping/#background-cloud). Fits without
+population](/research/2015/08/19/bootstrapping/#background-cloud). Fits without
 an intercept are shown to be compared with [Leroy et al.
 (2009)](http://iopscience.iop.org/0004-637X/702/1/352/article#apj313049s3-2),
 who did not fit an intercept, but rather removed a background by hand. 
@@ -179,7 +179,7 @@ src="/images/2015-08-19/bootstrap/california_planck_int_vs_clouddgr.png"
 Left: Planck $$A_V$$ vs. N(HI) bootstrap fit. Right: Distribution of intercept
 and DGR from all bootstraps. The fits to California tend to trace a much more
 linear regime of the $$A_V$$ vs. N(HI) distribution compared to a simple
-[polynomial fit](/2015/08/17/research-project-outline/#figure-7) which found
+[polynomial fit](/research/2015/08/17/project-outline/#figure-7) which found
 DGRs on order of 0.4.
 
 ***
@@ -261,7 +261,7 @@ $$
 
 We get the cloud N(HI), N(HI)$$_C$$, as usual, by selecting the HI range from
 the [standard deviation
-spectrum](/2015/08/19/research-bootstrapping/#selecting-hi-range). The
+spectrum](/research/2015/08/19/bootstrapping/#selecting-hi-range). The
 background N(HI), N(HI)$$_B$$, is the integrated HI along the line-of-sight
 excluding the cloud HI range. For the three clouds the background HI range
 consists of -100 to -5 km/s, and 15 to 100 km/s. Only in California and Taurus
@@ -335,9 +335,9 @@ N(HI). Top-right: Bootstrap distribution of background vs. cloud DGR,
 bottom-right: Bootstrap distribution of intercept vs. cloud DGR.  The inclusion
 of a background cloud seems to show reasonable results. Especially for
 California which has so much [HI along the
-line-of-sight](/2015/08/18/research-california-hi-width/#figure-1). [Without
+line-of-sight](/research/2015/08/18/california-hi-width/#figure-1). [Without
 the background cloud
-fit](/2015/08/19/research-bootstrapping/#with-intercept) California's DGR
+fit](/research/2015/08/19/bootstrapping/#with-intercept) California's DGR
 is on order of $$0.2 \times 10^{-20}$$ cm$$^2$$ mag.
 
 ## **Next Steps**
@@ -347,7 +347,7 @@ is on order of $$0.2 \times 10^{-20}$$ cm$$^2$$ mag.
 1. Choose whether or not to use the background cloud fit.
 
 2. Incorporate more uncertainties in the [monte carlo
-   bootstrapping](/2015/08/19/research-bootstrapping/#the-monte-carlo).
+   bootstrapping](/research/2015/08/19/bootstrapping/#the-monte-carlo).
    Examples are:
     
     + Uncertainty in calibration, between different data sets, 2MASS and

@@ -32,7 +32,7 @@ until after November 20th to begin editing paper.
 
 ## Binning Errors
 
-In the [previous post](/2015/08/12/research-fixed-hi-widths-with-planck/) I
+In the [previous post](/research/2015/08/12/fixed-hi-widths-with-planck/) I
 wrote that the total uncertainty of a binned pixel should include contributions
 of from error on the mean, and the standard deviation of the population.
 However this is incorrect. The error on a binned/smoothed pixel should decrease

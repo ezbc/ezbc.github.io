@@ -8,8 +8,8 @@ use_math: true
 ---
 
 Below are action items already described in [Paper Comments
-2](/2015/03/31/Paper-Comments-2/) and [Paper
-Comments](/2015/03/31/Paper-Comments/). 
+2](/research/2015/03/31/Paper-Comments-2/) and [Paper
+Comments](/research/2015/03/31/Paper-Comments/). 
 
 + Switch GALFA data to data release 2
 
@@ -17,7 +17,7 @@ Comments](/2015/03/31/Paper-Comments/).
   would solve for the DGR, $$HI$$ width and an intercept for each cloud.
   Previous attempts to include an intercept led to large intercepts, on order
   of negative several magnitudes in $$A_V$$. See [this
-  post](/2015/03/31/Paper-Comments-2/#intercept-discussion) for more details.
+  post](/research/2015/03/31/Paper-Comments-2/#intercept-discussion) for more details.
 
 + Plot $$A_V$$ vs. $$HI$$ with the fitted DGR with and without an intercept for
   each cloud. 
@@ -28,7 +28,7 @@ Comments](/2015/03/31/Paper-Comments/).
   20% as the width?
 
 + Justify using the average velocity weighted by the square of $$T_b$$ for the
-  $$HI$$ center. See [this item](/2015/03/31/Paper-Comments-2/#HI_center).
+  $$HI$$ center. See [this item](/research/2015/03/31/Paper-Comments-2/#HI_center).
 
 + Include an additional section showing the differences between the new derived
   DGR, $$HI$$ width for Perseus with Lee+12.

@@ -7,7 +7,7 @@ tags: Taurus-California-Perseus Plank-All-Sky-Map
 use_math: true
 ---
 
-I am continuing the [discussion](/2015/05/30/Intercepts/) on using $$A_V$$
+I am continuing the [discussion](/research/2015/05/30/Intercepts/) on using $$A_V$$
 intercepts.
 
 Some discussion points from [Lombardi et al.

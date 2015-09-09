@@ -28,7 +28,7 @@ include at least 10,000 samples.
 
 ## **Bootstrap Resampling Probabilities** 
 
-In yesterday's [post](/2015/09/01/research-bootstrap-finalization/) I showed
+In yesterday's [post](/research/2015/09/01/bootstrap-finalization/) I showed
 the linear fits to each cloud. The bootstrap fits seemed to show too shallow of
 a slope given the distribution of the data. Today I identified this a mistake I
 implemented in the bootstrap resampling. 
@@ -54,7 +54,7 @@ $$A_V$$ vs N(HI) relationships for each cloud. The contour levels are now the
 same in each cloud: 0.99, 0.98, 0.95, 0.86, 0.59% of the data. The bootstrap
 fit is dominated by the lower $$A_V$$ data with relatively smaller error,
 however with the corrected resampling, the DGRs for each cloud rose from
-[previous iterations](/2015/09/01/research-bootstrap-finalization/#figure-3).
+[previous iterations](/research/2015/09/01/bootstrap-finalization/#figure-3).
 The DGR in California went from 4.4 to 7.2. The slopes now seem to trace the
 bulk of the data more reasonably now.
 
@@ -72,7 +72,7 @@ contribute significantly to the fit because of their larger error.
 $$A_V$$ vs N(HI) relationships for each cloud, showing only every 1 out of
 every 100 data points. After correcting the bootstrap resampling, the fitted
 relationship now follows a trend more like we would expect, as opposed to
-[before](/2015/09/01/research-bootstrap-finalization/#figure-4).
+[before](/research/2015/09/01/bootstrap-finalization/#figure-4).
 
 ***
 

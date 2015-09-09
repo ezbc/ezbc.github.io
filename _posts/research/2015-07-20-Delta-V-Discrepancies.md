@@ -71,7 +71,7 @@ Figure 1. - Perseus likelihoods.
 
 Figure 2. - California likelihoods. The tiny $$HI$$ width is worrying. In an
 attempt to address this strange behavior, I performed a 2D background fit on
-California outlined in this [post](/2015/06/29/Data-Updates-and-Backgrounds/).
+California outlined in this [post](/research/2015/06/29/Data-Updates-and-Backgrounds/).
 This narrow $$HI$$ width is because the model is finding a high intercept fits
 best, while only a small component of $$HI$$ emission correlates with the dust.
 The model believes that there is little dust which is associated with the
@@ -156,7 +156,7 @@ Figure 7. - Taurus masks.
 ## Mask Convergence
 
 We're testing convergence of the DGR during masking outlined in the [last
-post](/2015/07/13/Faint-Masking-2/#convergence).
+post](/research/2015/07/13/Faint-Masking-2/#convergence).
 
 ***
 

@@ -21,8 +21,8 @@ use_math: true
 
 Yesterday I fixed a bug in the HI spectra which changed the median HI spectra.
 You can see the difference between the [older
-post](/2015/08/11/research-fixed-hi-widths/#hi-widths) and the [newer
-post](/2015/08/18/research-california-hi-width/#hi-spectra). This bug affected
+post](/research/2015/08/11/fixed-hi-widths/#hi-widths) and the [newer
+post](/research/2015/08/18/california-hi-width/#hi-spectra). This bug affected
 only the chosen HI range by a few km/s. 
 
 We can check whether or not this has a noticable effect on the derived
@@ -102,7 +102,7 @@ median bin skewed by a small number of points.
 ### Removing an HI background
 
 The [experiemnt of removing an HI
-background](/2015/08/17/research-project-outline/#removing-an-hi-background)
+background](/research/2015/08/17/project-outline/#removing-an-hi-background)
 based on the fitted components of the spectrum will be affected. To recap, I
 ran the experiement of subtracting the fitted components in the California
 median spectrum from Figure 5 from the HI cube. I excluded the fitted component

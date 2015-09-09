@@ -9,7 +9,7 @@ use_math: true
 ---
 
 We are continuing to test the derived intercept as outlined in the [previous
-post](/2015/07/07/Lee12-Test/)
+post](/research/2015/07/07/Lee12-Test/)
 
 I performed a test of calculating the likelihoods. The $$HI$$ cube has 5
 channels. Integrating the three channels in the center will recreate a scaled

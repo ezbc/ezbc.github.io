@@ -20,7 +20,7 @@ use_math: true
 ## Region Dependence
 
 We expand upon the results from yesterday's
-[post](/2015/08/03/research-k09-av/#dependence-on-region-selection) showing the
+[post](/research/2015/08/03/k09-av/#dependence-on-region-selection) showing the
 dependence of derived paramenters on the region used within Perseus.
 
 

@@ -238,7 +238,7 @@ Likelihoods for California.
 ***
 
 If we examine the relationship between $$N(H2)$$ and $$N(HI)$$ in California,
-shown in the [last post](/2015/07/28/research-regions/#figure-10), we see that
+shown in the [last post](/research/2015/07/28/regions/#figure-10), we see that
 there seem to be two distributions of $$N(HI)$$. One distribution is less than
 $$\sim 17 \times 10^{20}$$ cm$$^{-2}$$, and one above, each with associated
 $$N(H2)$$ present. This is because I had a bug in the code which did not
@@ -258,7 +258,7 @@ pixels outside of the region.
 $$N(H2)$$ and $$N(HI)$$ distribution in California. There seem to be a number
 of negative $$N(H2)$$ pixels. This is likely due to the large $$A_V$$ gradient
 present in the mask, shown in [Figure
-1](/2015/07/30/research-more-summary/#figure-1).
+1](/research/2015/07/30/more-summary/#figure-1).
 
 ***
 

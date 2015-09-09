@@ -20,7 +20,7 @@ use_math: true
 ## Likelihoods
 
 The likelihood calculations discussed in the [previous
-post](/2015/07/21/Masking/) are incorrect. There was a bug related to masking
+post](/research/2015/07/21/Masking/) are incorrect. There was a bug related to masking
 NaNs in the HI cube. All figures below were calculated using these versions of
 [``cloud_analysis.py``](https://bitbucket.org/ezbc/scripts_and_logs/src/f7ec232922b90feee58d941b3959d32d1d7e6683/multicloud/analysis/clouds/cloud_analysis.py?at=master)
 and
@@ -40,7 +40,7 @@ results.
 
 Figure 1. - Perseus likelihoods with Lee+12 $$A_V$$ data. These likelihoods are
 not similar to those found in [previous
-iterations](/2015/07/07/Lee12-Test/#nobackground) of the MLE analysis. The
+iterations](/research/2015/07/07/Lee12-Test/#nobackground) of the MLE analysis. The
 width is much larger, and the intercept is near 0. The $$HI$$ column densities
 will be much more similar to Lee et al. (2012) for a width of 40 km/s than
 found earlier, about 13 km/s. The bulk of the $$HI$$ emission is included
@@ -89,7 +89,7 @@ which distorted the likelihood calculation.
 <img src="/images/2015-07-22/california_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 49%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 Figure 4. - California likelihoods. These likelihoods are similar to those
-found in [previous iterations](/2015/05/30/Intercepts/) of the MLE analysis.
+found in [previous iterations](/research/2015/05/30/Intercepts/) of the MLE analysis.
 This means that using either the faint-end or bright-end residual masking
 selects the same diffuse pixels for the MLE analysis.
 
@@ -102,7 +102,7 @@ fitted relationship. I have included the MLE fit as well as a polynomial fit to
 the data. We can see for cloud the masking process has successfully masked
 outliers which do not follow a linear correlation between $$A_V$$ and
 $$N(HI)$$. That is, for the masked data, $$A_V$$ is linearly dependent on
-$$N(HI)$$. See [yesterday's post](/2015/07/21/Masking/) for the first failed
+$$N(HI)$$. See [yesterday's post](/research/2015/07/21/Masking/) for the first failed
 attempt at examining this relationship (the MLE relationship I was plotting
 incorrectly loaded the MLE parameters, hence were wrong).
 
@@ -172,7 +172,7 @@ Figure 8. - California $$A_V$$ vs. $$N(HI)$$.
 
 A negative intercept means that there is excess $$N(HI)$$ emission, or rather
 background $$HI$$. In California, there is even a $$A_V$$ background (see
-[here](/2015/06/24/Intercepts/)) of about $$0.9$$ mag. A negative intercept of
+[here](/research/2015/06/24/Intercepts/)) of about $$0.9$$ mag. A negative intercept of
 $$-0.8$$ means that there is about $$1.7$$ mag of $$A_V$$ associated with an
 $$HI$$ background. Given the DGR in California is $$0.12 \times 10^{-20}$$
 cm$$^{-2}$$ mag, the background $$N(HI)$$ is about $$14 \times 10^{20}$$
@@ -181,7 +181,7 @@ cm$$^{-2}$$.
 $$N(H_2)$$ vs. $$N(HI)$$ distributions of each cloud. Even with the negative
 intercept in California, most of the $$N(H_2)$$ is above 0. This should relieve
 the problem discussed in [post on negative $$H_2$$ surface
-densities](/2015/02/26/Krumholz-Fitting/).
+densities](/research/2015/02/26/Krumholz-Fitting/).
 
 ***
 

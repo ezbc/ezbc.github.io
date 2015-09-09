@@ -64,14 +64,14 @@ the HI standard deviation, $$\sigma_{\rm HI}$$, spectrum -- we do. We would
 then use an HI range between the edges of the two $$\sigma_{\rm HI}$$
 components. This would be between about -4 km/s and 15 km/s. This HI width
 still omits a huge amount of HI omitted from the N(HI), leading to a [large
-DGR](/2015/08/17/research-project-outline/#california).
+DGR](/research/2015/08/17/project-outline/#california).
 
 ***
 
 ## Reproducing Lee+12 IRIS $$A_V$$
 
 In yesterday's
-[post](/2015/08/17/research-project-outline/#reproducing-lee12-iris-av) I
+[post](/research/2015/08/17/project-outline/#reproducing-lee12-iris-av) I
 compared the MLE fit to the median $$A_V$$ values of the entire Lee+12 IRIS
 $$A_V$$ dataset. Below is another test of allowing an intercept in  the
 polynomial fit to the median values of the $$A_V$$.

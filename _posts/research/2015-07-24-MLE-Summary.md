@@ -85,7 +85,7 @@ data points are masked by residual masking.
 
 ## <a name="likelihoods"></a>Likelihoods
 
-In the previous [post](/2015/07/22/MLE-Testing/) the MLE calculation found
+In the previous [post](/research/2015/07/22/MLE-Testing/) the MLE calculation found
 $$HI$$ from a chance intermediate-velocity cloud along the line of sight in
 Perseus reproduced the observed $$A_V$$ in the Lee+12 dataset. The image below
 shows the $$HI$$ channel at -45 km/s. Overplotted is the $$A_V = 1$$ mag

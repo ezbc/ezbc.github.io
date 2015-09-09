@@ -11,7 +11,7 @@ Determine relevance of including an intercept in the model. This means we would
 solve for the DGR, $$HI$$ width and an intercept for each cloud.  Previous
 attempts to include an intercept led to large intercepts, on order of negative
 several magnitudes in $$A_V$$. See [this
-post](/2015/03/31/Paper-Comments-2/#intercept-discussion) for more details.
+post](/research/2015/03/31/Paper-Comments-2/#intercept-discussion) for more details.
 
 Plot $$A_V$$ vs. $$HI$$ with the fitted DGR with and without an intercept for
 each cloud. 

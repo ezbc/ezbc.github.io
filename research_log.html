@@ -13,7 +13,7 @@ https://github.com/octopress/paginate -->
     <div class="page-content">
         {% assign research = (site.posts | where: "category" , "research") %}
         <ul class="page-list">
-            {% for post in site.posts %}
+            {% for post in research %}
                 <li>
                 <span>{{ post.date | date: "%B %e, %Y" }}</span>
                 <a href="{{ site.url }}{{ post.url }}">
