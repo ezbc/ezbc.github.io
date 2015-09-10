@@ -20,12 +20,12 @@ and 50% black tea.
 
 ## New Batch
 
-Brewing a new batch. A simple one.
+For now I brewed a batch with about 40% black tea and 60% herbal.
 
 ### Execution
 
-1. Fermented the scoby on 9/2 with 3.5 Qrts water steeped in 4 bags of
-   oolong, 4 bags of English Breakfast and 1 C sugar. 
+1. Fermented the scoby on 9/9 with 3.5 Qrts water steeped in 3 bags of
+   darjeeling, 4 tsp of ginger tea and 1 C sugar. 
 
 
 
