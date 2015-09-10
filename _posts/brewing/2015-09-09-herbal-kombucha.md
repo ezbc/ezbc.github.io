@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kombucha Beer Results / New Batch
+title: Kombucha with Herbal Tea
 author:
 redirect_from: 
 category: brewing
