@@ -20,7 +20,8 @@ and 50% black tea.
 
 ## New Batch
 
-For now I brewed a batch with about 40% black tea and 60% herbal.
+I immediately contradicted myself. I brewed a batch with about 40% black tea
+and 60% herbal.
 
 ### Execution
 
