@@ -2,7 +2,6 @@
 layout: post
 title: Kombucha with Herbal Tea
 author:
-redirect_from: 
 category: brewing
 tags: 
 comments: true
