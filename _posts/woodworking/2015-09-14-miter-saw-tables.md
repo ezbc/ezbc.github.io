@@ -7,18 +7,31 @@ comments: true
 tags: 
 ---
 
-In 2012 I adopted
-[plans](https://books.google.com/books?id=388DAAAAMBAJ&pg=PA112#v=onepage&q&f=false)
-for an Art & Crafts Rocking Chair from Popular Mechanics for a tech theater
-woodworking project. Below are images of chair itself. 
+## Rolling Miter Saw Table
 
 <div class="variable-width">
-  <div> <img src="/images/2015-07-27/rocking_chair_01_small.jpg"/> </div>
-  <div> <img src="/images/2015-07-27/rocking_chair_02_small.jpg"/> </div>
-  <div> <img src="/images/2015-07-27/rocking_chair_03_small.jpg"/> </div>
-  <div> <img src="/images/2015-07-27/rocking_chair_04_small.jpg"/> </div>
-  <div> <img src="/images/2015-07-27/rocking_chair_05_small.jpg"/> </div>
+  <div> <img src="/images/2015-09-14/miter_table1_front_01.jpg"/> </div>
+  <div> <img src="/images/2015-09-14/miter_table1_front_02.jpg"/> </div>
+  <div> <img src="/images/2015-09-14/miter_table1_fence.jpg"/> </div>
+  <div> <img src="/images/2015-09-14/miter_table1_drawer.png"/> </div>
 </div>
+
+## Stationary Miter Saw Table
+
+<div class="variable-width">
+  <div> <img src="/images/2015-09-14/miter_table2_front_01.jpg"/> </div>
+  <div> <img src="/images/2015-09-14/miter_table2_front_02.jpg"/> </div>
+  <div> <img src="/images/2015-09-14/miter_table2_fence.jpg"/> </div>
+</div>
+
+
+## Construction
+
+
+
+
+
+
 
 <style>
     .slick-prev:before, .slick-next:before { 
@@ -27,6 +40,7 @@ woodworking project. Below are images of chair itself.
     .slider {margin: 10%;}
 .variable-width {
     width: 90%;
+    height: 400;
     margin: auto;
 }
 </style>
