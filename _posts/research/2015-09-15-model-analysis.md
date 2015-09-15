@@ -19,6 +19,17 @@ use_math: true
 
 ## **Krumholz Model Fitting**
 
+I successfully fit both the Krumholz and Sternberg models to the HI vs. H
+surface density relationship in each of the cores. The $\phi_{\rm CNM}$ values
+for the Krumholz model are all near 10. I will post the distribution of the
+fitted model parameters for the model tomorrow. 
+
+The figure below shows the HI vs. H distribution in the form of a contour
+plot.  The shaded orange lines show the distribution of fitted models within
+the monte carlo simulation. We can see that the $\Sigma_{HI}$ threshold varies
+by about 50% for California cores, and much less for Perseus cores.
+
+*** 
 <div align="center">
 <p></p>
 California
@@ -55,7 +66,8 @@ src="/images/2015-09-15/perseus_hisd_vs_hsd.png"
 ##### **Figure 1**
 
 HI vs H surface density distributions for cores in Taurus Perseus and
-California. 
+California. The orange lines show the distribution of Krumholz et al. (2009)
+model fits.
 
 ***
 
