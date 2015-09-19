@@ -27,5 +27,8 @@ and 60% herbal.
 1. Fermented the scoby on 9/9 with 3.5 Qrts water steeped in 3 bags of
    darjeeling, 4 tsp of ginger tea and 1 C sugar. 
 
+2. Bottled on 9/18. Good balance of sweetness with vinegar. The ginger tea
+   shines through as a slight bite.
+
 
 
