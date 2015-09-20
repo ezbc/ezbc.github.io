@@ -15,13 +15,13 @@ modern stand about 5 inches tall to hold my shaving brush upside down. The
 stand took a couple of hours to construct.
 
 <div class="carouselContainer">
-  <div class="single-item">
+  <div class="variable-width">
     <div> <img src="/images/2015-09-16/woodworking/brush_stand02.jpg"
-               style="width:100%"/> </div>
+               style="height:400px"/> </div>
     <div> <img src="/images/2015-09-16/woodworking/brush_stand01.jpg"
-               style="width:100%"/> </div>
+               style="height:400px"/> </div>
     <div> <img src="/images/2015-09-16/woodworking/brush_stand03.jpg"
-               style="width:100%"/> </div>
+               style="height:400px"/> </div>
   </div>
 </div>
 
@@ -62,7 +62,7 @@ stand took a couple of hours to construct.
       speed: 300,
       slidesToShow: 1,
       centerMode: true,
-      variableWidth: false,
+      variableWidth: true,
     });
     $('.fade').slick({
       dots: true,

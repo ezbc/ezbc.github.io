@@ -19,15 +19,15 @@ full range of its original miter angles. A vacuum below with a smart switch
 turns on whenever the miter saw is used, limiting the amount of sawdust.
 
 <div class="carouselContainer">
-  <div class="single-item">
+  <div class="variable-width">
     <div> <img src="/images/2015-09-14/miter_table1_front_01.jpg"
-               style="width:100%"/> </div>
+               style="height:400px"/> </div>
     <div> <img src="/images/2015-09-14/miter_table1_front_02.jpg"
-               style="width:100%"/> </div>
+               style="height:400px"/> </div>
     <div> <img src="/images/2015-09-14/miter_table1_fence.jpg"
-               style="width:100%"/> </div>
+               style="height:400px"/> </div>
     <div> <img src="/images/2015-09-14/miter_table1_drawer.png"
-               style="width:100%"/> </div>
+               style="height:400px"/> </div>
   </div>
 </div>
 
@@ -35,13 +35,13 @@ turns on whenever the miter saw is used, limiting the amount of sawdust.
 ## Stationary Miter Saw Table
 
 <div class="carouselContainer">
-  <div class="single-item">
+  <div class="variable-width">
     <div> <img src="/images/2015-09-14/miter_table2_front_01.jpg"
-               style="width:100%"/> </div>
+               style="height:400px"/> </div>
     <div> <img src="/images/2015-09-14/miter_table2_front_02.jpg"
-               style="width:100%"/> </div>
+               style="height:400px"/> </div>
     <div> <img src="/images/2015-09-14/miter_table2_fence.jpg"
-               style="width:100%"/> </div>
+               style="height:400px"/> </div>
   </div>
 </div>
 
@@ -98,7 +98,7 @@ activity warranted a rolling miter table.
       speed: 300,
       slidesToShow: 1,
       centerMode: true,
-      variableWidth: false,
+      variableWidth: true,
     });
     $('.fade').slick({
       dots: true,
