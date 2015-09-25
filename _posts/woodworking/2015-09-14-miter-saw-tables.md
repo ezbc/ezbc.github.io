@@ -13,11 +13,13 @@ tags:
 I designed and built a portable steel-frame miter-saw table for use in the
 Macalester College Theater Department [Scene
 Shop](http://www.macalester.edu/academics/theatreanddance/facilities/scenicandcostume/).
-The table is 6$$\,$$ft long, capable of extending to 12$$\,$$ft with folding
+The table is 6$^\prime$ long, capable of extending to 12$^\prime$ with folding
 extensions. I installed a quick-access trash cut-out for discarding small
 scraps immediately after cutting. The table allows the saw to operate at the
 full range of its original miter angles. A vacuum below with a smart switch
-turns on whenever the miter saw is used, limiting the amount of sawdust.
+turns on whenever the miter saw is used, limiting the amount of sawdust. The
+table frame is made of from 16-gauge steel 2$^\prime$ $\times$ 4$^\prime$ and
+4$^\prime$ $\times$ 4$^\prime$ tube steel, mounted on four casters.
 
 <div class="carouselContainer">
   <div class="variable-width">
@@ -37,10 +39,10 @@ turns on whenever the miter saw is used, limiting the amount of sawdust.
 
 I couldn't resist building another miter saw bench at my next shop
 destination.  This bench includes much of the same functionality of the first
-table I built.  The bench is about 8$\,$ft long, with a 3$\,$ft 6$\,$in
-extension, has a hole for scraps, and includes a smart switch vacuum-saw
-interface. Solid maple facing protects the edges of the maple melamine
-table-top.
+table I built.  The bench is about 8$^\prime$ long, with a 3$^\prime$
+6$^{\prime\prime}$ extension, has a hole for scraps, and includes a smart
+switch vacuum-saw interface. Solid maple facing protects the edges of the maple
+melamine table-top.
 
 One drastic improvement of this miter-bench design is the adjustable position
 in all three dimensions of the saw. I used a series supports and bolts between
@@ -62,7 +64,7 @@ elegant, and compliments the miter bench.
 
 ## Construction
 
-During my time as a tech theatre assistant carpenter, we often needed to
+During my time as a tech theater assistant carpenter, we often needed to
 crosscut a large amount of construction lumber on the fly on stage. This
 activity warranted a rolling miter table.
 
