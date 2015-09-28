@@ -13,7 +13,7 @@ tags:
 I designed and built a portable steel-frame miter-saw table for use in the
 Macalester College Theater Department [Scene
 Shop](http://www.macalester.edu/academics/theatreanddance/facilities/scenicandcostume/).
-The table is 6$^\prime$ long, capable of extending to 12$^\prime$ with folding
+The table is 6$ft$ long, capable of extending to 12$ft$ with folding
 extensions. I installed a quick-access trash cut-out for discarding small
 scraps immediately after cutting. The table allows the saw to operate at the
 full range of its original miter angles. A vacuum below with a smart switch
@@ -38,8 +38,8 @@ table frame is steel mounted on four casters.
 
 I couldn't resist building another miter saw bench at my next shop
 destination.  This bench includes much of the same functionality of the first
-table I built.  The bench is about 8$^\prime$ long, with a 3$^\prime$
-6$^{\prime\prime}$ extension, has a hole for scraps, and includes a smart
+table I built.  The bench is about 8$ft$ long, with a 3$^\prime$
+6$\in$ extension, has a hole for scraps, and includes a smart
 switch vacuum-saw interface. Solid maple facing protects the edges of the maple
 melamine table-top.
 
@@ -63,13 +63,15 @@ elegant, and compliments the miter bench.
 
 ## Construction
 
-### Rolling Miter Bench
+### **Rolling Miter Bench**
 
 During my time as a tech theater assistant carpenter, we often needed to
 crosscut a large amount of construction lumber on the fly on stage. This
 activity warranted a rolling miter table. The previous miter table had a wooden
 frame which sagged in the middle at the end of its lifetime. Our solution was a
 steel-frame miter-table on casters, with extension flaps.
+
+#### **Design**
 
 I designed the table in a few steps, first sketching (see below for an
 example), then rendering in a computer-animated-graphics program. I adjusted
@@ -85,8 +87,12 @@ on the final design shown below.
   </div>
 </div>
 
-The frame consists of from 16-gauge steel 2$^\prime$ $\times$ 4$^\prime$ and
-4$^\prime$ $\times$ 4$^\prime$ tube steel. 
+#### **Frame**
+
+The frame consists of from 16-gauge steel 2$ft$ $\times$ 4$ft$ and
+4$ft$ $\times$ 4$ft$ tube steel. I used a MIG welder to join the
+frame. To support the casters I installed 1/4$\inch$
+
 
 ### Stationary Miter Bench
 
@@ -132,7 +138,7 @@ Next I constructed the bench extension. To reinforce the extension I glued
 another layer of scrap melamine to the under-side of the extension. I bolted
 more of the fence onto the extension. Finally I mounted the extension with a
 folding angle bracket onto the end of the table. The extension protrudes only
-2$^{\prime\prime}$ from the bench when folded.
+2$\in$ from the bench when folded.
 
 <div align="center">
     <img src="/images/2015-09-14/miter_table2_extension.png"
@@ -151,9 +157,6 @@ maple.
     <img src="/images/2015-09-14/miter_table2_fence.jpg"
                    style="height:200px"/>
 </div>
-
-
-
 
 
 
