@@ -19,7 +19,7 @@ of the free space FUV field intensity to the gas density, i.e. dissociation
 rate / $$H_2$$ formation rate. Next predictors are metallicity and dust-to-gas
 mass ratio. 
 
-##### Breakdown:
+### Breakdown:
 
 The HI to $$H_2$$ transition profiles and column densities are controlled by the
 dimensionless parameter $$\alpha G$$. $$\alpha G$$ determines the Lyman-Werner
@@ -35,7 +35,7 @@ rate. G is the cloud-averaged self-shielding factor. Together $$\alpha G$$ is a
 measure of the dust-absorption efficiency of the $$H_2$$-dissociating photons. G
 depends on the competition of $$H_2$$ line absorption and $$H_2$$ dust absorption.
 
-##### $$H_2$$ dissociation 
+### $$H_2$$ dissociation 
 
 $$H_2$$ absorbs LW photons, excites from ground electronic state to excited state.
 Rapid decays occur to either ro-vibrational or continuum state. Decays to
@@ -43,7 +43,7 @@ continuum state result in dissociation. In the end, the mean dissociation
 probability is dependent on the total incident LW flux, the dissociation
 bandwidth, and the mean flux density weighted by dissociation transitions.
 
-##### Absorption
+### Absorption
 
 
 The local dissociation rate $$D$$ at any cloud depth is 
@@ -71,7 +71,7 @@ $$
 where $$\phi_g$$ depends on the grain composition, $$\sim 1$$. $$Z^\prime$$
 is the metallicity relative to solar. 
 
-##### Balancing Absorption + Dissociation = HI + $$H_2$$ column densities
+### Balancing Absorption + Dissociation = HI + $$H_2$$ column densities
 
 They assume a formation rate coefficient $$R$$ per volume for $$H_2$$ formation
 on grains, which depends on gas temperature and metallicity. They pair $$R$$
