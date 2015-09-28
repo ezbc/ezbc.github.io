@@ -60,3 +60,28 @@ $A_V$ map overplotted with fifteen highest SNR cold clumps in each cloud.
 
 ***
 
+## **$\phi_{\rm CNM}$ Map**
+
+Below is a plot of the $\phi_{\rm CNM}$ parameter and $\alpha G$ parameter as a
+function of position.
+
+*** 
+
+<img
+src="/images/2015-09-27/multicloud_av_modelparams_phicnm_map.png"
+    style="width: 100%"/>
+
+<img
+src="/images/2015-09-27/multicloud_av_modelparams_alphaG_map.png"
+    style="width: 100%"/>
+
+##### **Figure 2**
+
+$A_V$ contour plot of three clouds. Overplotted are $\phi_{\rm CNM}$ values for
+each core in the top panel and $\alpha G$ values in the bottom panel. The
+contours are at 2, 4, 8, and 16 mag. Neither parameter seems to show a clear
+trend as a function of position.
+
+***
+
+
