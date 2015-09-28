@@ -28,6 +28,15 @@ body {
   background-min-width: 100px;
 }
 
+.carouselContainer {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px !important;
+    padding: 75px 0 60px;
+
+}
+
 
 /* Adjusting page width with scroll bar */
 html {
