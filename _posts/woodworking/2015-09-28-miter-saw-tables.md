@@ -8,12 +8,12 @@ use_math: true
 tags: 
 ---
 
-## Rolling Miter Saw Table
+## **Rolling Miter Saw Table**
 
 I designed and built a portable steel-frame miter-saw table for use in the
 Macalester College Theater Department [Scene
 Shop](http://www.macalester.edu/academics/theatreanddance/facilities/scenicandcostume/).
-The table is 6$ft$ long, capable of extending to 12$ft$ with folding
+The table is 6$\ft$ long, capable of extending to 12$\ft$ with folding
 extensions. I installed a quick-access trash cut-out for discarding small
 scraps immediately after cutting. The table allows the saw to operate at the
 full range of its original miter angles. A vacuum below with a smart switch
@@ -22,23 +22,23 @@ table frame is steel mounted on four casters.
 
 <div class="carouselContainer">
   <div class="variable-width">
-    <div> <img src="/images/2015-09-14/miter_table1_front_01.jpg"
+    <div> <img src="/images/2015-09-28/miter_table1_front_01.jpg"
                style="height:400px"/> </div>
-    <div> <img src="/images/2015-09-14/miter_table1_front_02.jpg"
+    <div> <img src="/images/2015-09-28/miter_table1_front_02.jpg"
                style="height:400px"/> </div>
-    <div> <img src="/images/2015-09-14/miter_table1_fence.jpg"
+    <div> <img src="/images/2015-09-28/miter_table1_fence.jpg"
                style="height:400px"/> </div>
-    <div> <img src="/images/2015-09-14/miter_table1_drawer.png"
+    <div> <img src="/images/2015-09-28/miter_table1_drawer.png"
                style="height:400px"/> </div>
   </div>
 </div>
 
 
-## Stationary Miter Saw Bench
+## **Stationary Miter Saw Bench**
 
 I couldn't resist building another miter saw bench at my next shop
 destination.  This bench includes much of the same functionality of the first
-table I built.  The bench is about 8$ft$ long, with a 3$^\prime$
+table I built.  The bench is about 8$\ft$ long, with a 3$^\prime$
 6$\in$ extension, has a hole for scraps, and includes a smart
 switch vacuum-saw interface. Solid maple facing protects the edges of the maple
 melamine table-top.
@@ -52,16 +52,16 @@ elegant, and compliments the miter bench.
 
 <div class="carouselContainer">
   <div class="variable-width">
-    <div> <img src="/images/2015-09-14/miter_table2_front_01.jpg"
+    <div> <img src="/images/2015-09-28/miter_table2_front_01.jpg"
                style="height:400px"/> </div>
-    <div> <img src="/images/2015-09-14/miter_table2_front_02.png"
+    <div> <img src="/images/2015-09-28/miter_table2_front_02.png"
                style="height:400px"/> </div>
-    <div> <img src="/images/2015-09-14/miter_table2_fence.jpg"
+    <div> <img src="/images/2015-09-28/miter_table2_fence.jpg"
                style="height:400px"/> </div>
   </div>
 </div>
 
-## Construction
+## **Construction**
 
 ### **Rolling Miter Bench**
 
@@ -80,21 +80,28 @@ on the final design shown below.
 
 <div class="carouselContainer">
   <div class="variable-width">
-    <div> <img src="/images/2015-09-14/miter_table1_plans.png"
+    <div> <img src="/images/2015-09-28/miter_table1_plans.png"
                style="height:400px"/> </div>
-    <div> <img src="/images/2015-09-14/miter_table_render.png"
+    <div> <img src="/images/2015-09-28/miter_table_render.png"
                style="height:400px"/> </div>
   </div>
 </div>
 
 #### **Frame**
 
-The frame consists of from 16-gauge steel 2$ft$ $\times$ 4$ft$ and
-4$ft$ $\times$ 4$ft$ tube steel. I used a MIG welder to join the
-frame. To support the casters I installed 1/4$\inch$
+The frame consists of from 16-gauge steel 2$\ft$ $\times$ 4$\ft$ and 4$\ft$
+$\times$ 4$\ft$ tube steel. I used a MIG welder to join the frame. To support
+the casters I installed 1/4$\in$ steel plates at the bottom corners of the
+frame.
 
+#### **Table Top**
 
-### Stationary Miter Bench
+The table top is simple white melamine with pine facing. I installed a pine
+fence across the bench and the extensions. To keep the workspace clean I
+installed a drawer which tends to keep the tape measure, pencil, and speed
+square.
+
+### **Stationary Miter Bench**
 
 #### **Design**
 
@@ -105,7 +112,7 @@ which could be adjusted in all directions. The design was relatively simple, so
 I only made a sketch of the table before construction shown below.
 
 <div align="center">
-    <img src="/images/2015-09-14/miter_table2_plans.png"
+    <img src="/images/2015-09-28/miter_table2_plans.png"
          style="height:300px"/>
 </div>
 
@@ -116,7 +123,7 @@ the table over time, so the majority of the joints are bolted together. Below
 shows the bench after I completed the frame.
 
 <div align="center">
-    <img src="/images/2015-09-14/miter_table2_unfinished.jpg"
+    <img src="/images/2015-09-28/miter_table2_unfinished.jpg"
                    style="height:300px"/>
 </div>
 
@@ -141,7 +148,7 @@ folding angle bracket onto the end of the table. The extension protrudes only
 2$\in$ from the bench when folded.
 
 <div align="center">
-    <img src="/images/2015-09-14/miter_table2_extension.png"
+    <img src="/images/2015-09-28/miter_table2_extension.png"
                    style="height:150px"/>
 </div>
 
@@ -154,11 +161,9 @@ and nuts. I converged on the design shown below, constructed out of cherry and
 maple.
 
 <div align="center">
-    <img src="/images/2015-09-14/miter_table2_fence.jpg"
+    <img src="/images/2015-09-28/miter_table2_fence.jpg"
                    style="height:200px"/>
 </div>
-
-
 
 
 <style>
