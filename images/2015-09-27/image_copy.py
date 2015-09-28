@@ -5,6 +5,8 @@ import os
 images = [
 
 '/d/bip3/ezbc/multicloud/figures/maps/multicloud_av_cores_meng13.png',
+'/d/bip3/ezbc/multicloud/figures/maps/multicloud_av_modelparams_phicnm_map.png',
+'/d/bip3/ezbc/multicloud/figures/maps/multicloud_av_modelparams_alphaG_map.png',
 
         ]
 
