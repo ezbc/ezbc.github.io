@@ -18,6 +18,10 @@ $lnk-highlight-color: #333;
 // Slick carousel
 @import "carousel";
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
 body {
   //color:#000;
   font: 17px Poly, 'Helvetica Neue', Helvetica, serif, Arial !important;
