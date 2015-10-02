@@ -15,6 +15,12 @@ $lnk-highlight-color: #333;
 @import "bootstrap.min";
 // fontawesome icons
 @import "font-awesome.min";
+// Slick carousel
+@import "carousel";
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
 
 body {
   //color:#000;
@@ -44,6 +50,14 @@ html {
     overflow-x: scroll;
 }
 
+.carouselContainer {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px !important;
+    padding: 75px 0 60px;
+
+}
 /* Aligning images */
   .centeredImage {
     text-align:center;

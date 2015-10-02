@@ -1,0 +1,22 @@
+// Slick Carousel style adjustments
+// http://kenwheeler.github.io/slick/ 
+
+.slick-prev:before, .slick-next:before { 
+    color:blue !important;
+}
+.slider {
+    margin: 10%;
+}
+.variable-width {
+    width: 90%;
+    margin: auto;
+}
+.multiple-items {
+    width: 60%;
+    margin: auto;
+}
+.single-item {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
