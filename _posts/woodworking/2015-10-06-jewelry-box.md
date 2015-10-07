@@ -30,5 +30,33 @@ inside the box, along with a padded tray which rests atop the back compartment.
 
 ## Construction
 
+Reference book.
+
+### Key Joints
+
+<p class="imageTextWrap">
+
+ Text will go here
+
+ <img src="/images/2015-10-06/keys_1.png" style="height:200px">
+
+</p> 
+<p class="endWrap"></p>
+
+### Lid lip
+
+### Continuous Side Grains
+
+### Tray
+
+<div class="carouselContainer">
+  <div class="variable-width">
+    <div> <img src="/images/2015-10-06/tray_1.png"
+               style="height:200px"/> </div>
+    <div> <img src="/images/2015-10-06/tray_2.png"
+               style="height:200px"/> </div>
+  </div>
+</div>
+
 
 
