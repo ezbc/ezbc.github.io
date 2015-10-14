@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Core Selection
+title: Model Interpretation
 author:
 category: research
 tags: Taurus-California-Perseus Sternberg
