@@ -95,6 +95,8 @@ Heiles & Troland (2003).
 3. Compare predicted star-formation thresholds to star-formation rates in each
 cloud.
 
+3. Compare $A_V$, N(HI) and N(H$_2$) PDFs to HI threshold.
+
 3. If time permits, quantify $I_{UV}$ for each core region using the Planck
 radiance map to get a better estimate of the neutral gas densities.
 
@@ -110,6 +112,10 @@ determine what value to use for $\phi_g$?
 parameter as a probe for the phases of the neutral gas? 
 
 3. Is there any other discussion / interpretation which I should include?
+
+4. What is the best way to calculate the radiation field? I currently imagine
+   assuming some grain sizes and efficiencies, and using the dust temperatures
+   to calculate the ambient ISRF.
 
 *** 
 
