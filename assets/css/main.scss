@@ -39,8 +39,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     max-width: 800px !important;
-    padding: 75px 0 60px;
-
+    padding: 10px 0 20px;
 }
 
 
@@ -50,14 +49,6 @@ html {
     overflow-x: scroll;
 }
 
-.carouselContainer {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 800px !important;
-    padding: 75px 0 60px;
-
-}
 /* Aligning images */
   .centeredImage {
     text-align:center;
@@ -83,7 +74,9 @@ html {
 .endWrap {
     clear: both;
 }
-
+.endFormatting {
+    clear: both;
+}
 
 /* Image Caroosel */
 #owl-demo .item img{
