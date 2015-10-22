@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Model Interpretation
+title: More Model Interpretation
 author:
 category: research
 tags: Taurus-California-Perseus Sternberg
