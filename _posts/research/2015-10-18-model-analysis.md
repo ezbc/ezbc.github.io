@@ -139,13 +139,13 @@ around 15. This would correspond to a large peak in the PDF.
 
 ***
 
-### Fitting: Varying $phi_g$
+### Fitting: Varying $\phi_g$
 
 Next we could attempt to fit for $\phi_g$ and $\alpha G$ simultaneously.
 
-I fit for both $\alpha G$ and $phi_g$ in the S+14 model. I allowed $\alpha G$
-to go between 10$^{-2}$ to 5000 and $phi_g$ from 0.01 to 10. The limits of
-$phi_g$ seem beyond physical, given the solar dust composition has $phi_g$
+I fit for both $\alpha G$ and $\phi_g$ in the S+14 model. I allowed $\alpha G$
+to go between 10$^{-2}$ to 5000 and $\phi_g$ from 0.01 to 10. The limits of
+$\phi_g$ seem beyond physical, given the solar dust composition has $\phi_g$
 between 0.5 and 2.
 
 Unfortunately the errors on each parameter are gigantic, with $\alpha G$ values
