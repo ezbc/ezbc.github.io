@@ -16,7 +16,7 @@ Instructions originally from
 
 Below are the steps I have adopted for a yeast starter.
 
-1. Boil a pint (1/2 quart) of water and stir in 1/2 cup (160 g) of Dextrified
+1. Boil a pint (1/2 quart) of water and stir in 1/2 cup (80 g) of Dextrified
    Malt Extract. Boil to sanitize.
 
 2. Place pot of DME water in cool waterbath.
