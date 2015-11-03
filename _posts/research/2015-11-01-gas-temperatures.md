@@ -33,9 +33,9 @@ use_math: true
   As described in [section
   5](http://iopscience.iop.org/article/10.1088/0004-637X/809/2/122/meta#apj517981s5)
   of Bialy+15, K+09 assumed the HI shielding envelops are dominated by the CNM,
-  and estimated $\phi_{CNM}$ assuming $n = n_{CNM}$. The S+14 model includes an
-  extra term in their $\alpha G$ parameter which accounts for the
-  $H_2$-associated dust. This extra term will lead to a lower predicted gas
+  and estimated $$\phi_{CNM}$$ assuming $$n = n_{CNM}$$. The S+14 model includes
+  an extra term in their $\alpha G$ parameter which accounts for the
+  $$H_2$$-associated dust. This extra term will lead to a lower predicted gas
   number density. 
 
   The number density, $n$, predicted by the S+14 model includes both atomic
@@ -73,13 +73,17 @@ use_math: true
   $phi_g$ is the dimensionless dust absorption factor, and $Z$ is the
   gas-phase metallicity.
 
-  $Z$ would have to be reduced by a factor of 50 to reduce the $T_H$ by a
-  factor of 2. However $\phi_g$ would only have to be reduced by a factor of 2,
-  to show agreement between the average LOS spin temperature and the predicted
-  average hydrogen temperature from the S+14 model.
+  $$Z$$ would have to be reduced from 1 $$Z_\odot$$  by a factor of 50 to reduce
+  the $T_H$ by a factor of 2. However $\phi_g$ would only have to be reduced by
+  a factor of 2 from 2 to show agreement between the average LOS spin
+  temperature and the predicted average hydrogen temperature from the S+14
+  model.
 
   Determining $\phi_g$ may be an integral step to comparing the predicted vs
-  observed temperatures.
+  observed temperatures. Until now I have assumed $$\phi_g$$ = 2, the reasons
+  outlined in
+  [this](research/2015/10/18/model-analysis/#fitting-holding-phig-constant)
+  post. 
 
   ***  
   <img src="/images/2015-11-01/temps_cdf_phig2.0.png" style="width:50%; float:left"/>
