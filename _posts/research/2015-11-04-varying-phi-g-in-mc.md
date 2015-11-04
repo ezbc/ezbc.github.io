@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gas Temperatures
+title: Varying Dust Opacity and Gas Temperatures
 author:
 category: research
 tags: Taurus-California-Perseus Sternberg Krumholz 
