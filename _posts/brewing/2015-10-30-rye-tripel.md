@@ -17,9 +17,9 @@ once again, while the lighter body of the Tripel will remind the consumer of the
 promised summer. Rye malt will polish the Tripel's body with a spicy overtone.
 Tettnang aroma hops complete the Rye Tripel with an earthy compliment.
 
-Find the recipe [here](https://www.brewtoad.com/recipes/rye-tripel-442fca), and
+Find the recipe [here](https://www.brewtoad.com/recipes/rye-tripel-60bcec), and
 the brew log
-[here](https://www.brewtoad.com/recipes/rye-tripel-442fca/brew-logs/138796).
+[here](https://www.brewtoad.com/recipes/rye-tripel-60bcec/brew-logs/138796).
 
 
 
