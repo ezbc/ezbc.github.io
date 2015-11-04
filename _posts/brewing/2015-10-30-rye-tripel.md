@@ -19,7 +19,7 @@ Tettnang aroma hops complete the Rye Tripel with an earthy compliment.
 
 Find the recipe [here](https://www.brewtoad.com/recipes/rye-tripel-442fca), and
 the brew log
-[here](https://www.brewtoad.com/recipes/rye-tripel-442fca/brew-logs/138796).
+[here](https://www.brewtoad.com/recipes/rye-tripel-60bcec/brew-logs/138796).
 
 
 
