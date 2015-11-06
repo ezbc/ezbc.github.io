@@ -82,7 +82,7 @@ use_math: true
   Determining $\phi_g$ may be an integral step to comparing the predicted vs
   observed temperatures. Until now I have assumed $$\phi_g$$ = 2, the reasons
   outlined in
-  [this](research/2015/10/18/model-analysis/#fitting-holding-phig-constant)
+  [this](/research/2015/10/18/model-analysis/#fitting-holding-phig-constant)
   post. 
 
   ***  
