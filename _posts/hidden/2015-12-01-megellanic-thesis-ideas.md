@@ -87,8 +87,8 @@ sides.
 To encompass all HI structure in the stream we will need velocities between
 -400 and +400 km/s. This is nearly the full range of the GASS cube. However we
 are interested in associating gas near the two clouds, at the front of the
-stream. To limit the size of the data cube, we will include velocities between 0
-and 400 km/s.
+stream. To limit the size of the data cube, we will include velocities between
+0 and 400 km/s.
 
 ***
 
@@ -96,12 +96,85 @@ and 400 km/s.
 
 ##### Figure 3
 
-$\nhi$ of SMC + LMC from Murray et al. (2015). $\nhifrom Putman et al. (2003)
+$\nhi$ of SMC + LMC from Murray et al. (2015). $\nhi$ map from Putman et al.
+(2003).
 
 ***
 
 
 
+# Structure of the MS
+
+## Putman 2003
+
+[Putman et al. (2003)](http://adsabs.harvard.edu/abs/2003ApJ...586..170P)
+identify the relevant $HI$ velocities observed with Parkes in the HIPASS
+survey. 
+
+They identify a variety of prominent features, including:
+
++ bifurcation along the main Stream filament
+
++ dense, isolated clouds that follow the entire length of
+the Stream
+
++ head-tail structures
+
++ a complex filamentary web at the head of the Stream where gas is being
+freshly stripped away from the Small Magellanic Cloud and the Bridge
+
++ The concentration of gas at MS IV looks like a bow shock, suggesting that
+interaction with halo gas may be responsible for the appearance of the Stream
+in this region.
+
++ The head appears to emanate from the northern side of the Magellanic Bridge
+and SMC at velocities between vLSR ¼ 90 240 km s?1
+
+Assuming a distance of 55 kpc to the entire stream, the head of the stream
+dominates the mass. The average $\nhi$ for the stream is around $10^{19}$
+cm$^{-2}$ at 15$^\prime$ resolution.
+
+They show the MS features in a coehesive diagram below.
+
+
+
+***
+
+<img src="/images/2015-12-01/putman03_figure5_ms_regions.png" style="width:100%"/>
+
+##### Figure 4
+
+$\nhi$ map from Putman et al. (2003). 
+
+***
+
+
+
+# Details About GASS Cube
+
+The data website can be found
+[here](http://www.atnf.csiro.au/research/GASS/index.html). Cubes can be
+downloaded [here](https://www.astro.uni-bonn.de/hisurvey/gass/index.php).
+
+
+# Decomposing the GASS Cube
+
+
+# Relevant Sources
+
+http://adsabs.harvard.edu/abs/2015MNRAS.453..338W
+
+
+
+http://adsabs.harvard.edu/abs/2011MNRAS.418.1575P
+
+
+
+http://adsabs.harvard.edu/abs/2008MNRAS.388L..29W
+
+
+http://adsabs.harvard.edu/abs/2003ApJ...586..170P
+http://adsabs.harvard.edu/abs/2003ApJ...586..170P
 
 
 
