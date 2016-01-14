@@ -159,6 +159,34 @@ downloaded [here](https://www.astro.uni-bonn.de/hisurvey/gass/index.php).
 
 # Decomposing the GASS Cube
 
+We can use AGD to decompose each spectrum of the cube. To train the smoothing
+parameter I created 100 synthetic spectra with the RMS of the data,
+Gaussian velocity widths corresponding to a random kinetic temperature
+between 30 and 9,000. The amplitudes ranged from 5 * RMS to 25 * RMS. Each
+spectrum had up to 4 components.
+
+We are now able to begin clustering components with one another. After
+decomposing the cube, which takes about 10 hours, we can now examine the
+eigenvectors within the parameter space of the Gaussians. The relevant
+parameters across which we expect to find eigenvectors in are:
+
++ Gaussian mean velocity
++ Gaussian velocity width
++ Gaussian amplitude
++ Gaussian x position
++ Gaussian y position
+
+corresponding to 5 dimensions. We can transform these five parameters for each
+spectrum into an eigenspace, whereby we can cluster components by any
+correlation of the 5 parameters. This will be done in two steps, first
+decomposing the Gaussian parameters into its principal components, then
+clustering with k-means.
+
+## Principal Component Analysis
+
+## K-means
+
+
 
 # Relevant Sources
 
@@ -175,6 +203,8 @@ http://adsabs.harvard.edu/abs/2008MNRAS.388L..29W
 
 http://adsabs.harvard.edu/abs/2003ApJ...586..170P
 http://adsabs.harvard.edu/abs/2003ApJ...586..170P
+
+
 
 
 
