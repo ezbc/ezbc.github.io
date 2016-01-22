@@ -90,6 +90,20 @@ are interested in associating gas near the two clouds, at the front of the
 stream. To limit the size of the data cube, we will include velocities between
 0 and 400 km/s.
 
+Further cubes with 25$^\circ$ by 25$^\circ$ will be centered at
+
+|l [deg] | b [deg]|
+|--------|--------|
+|280     | -70    | 
+|305     | -45    |
+|305     | -70    |
+
+The average beam size of the data is 14.3$\arcmin$ = 0.238333$^\circ$, which I
+set as the pixel size for the cubes.
+
+
+
+
 ***
 
 <img src="/images/2015-12-01/megellanic_nhi.png" style="width:100%"/>
