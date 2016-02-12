@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Research Logs
+title: Finding Gas in Space Clouds
 ---
 
 <!-- pagination won't work for different categories, use octopuss paginate:
@@ -11,6 +11,18 @@ https://github.com/octopress/paginate -->
         {{ page.title }}
     </div>
     <div class="page-content">
+
+      <p>
+     
+        These posts provide documentation of my research process in order to
+        characterize massive clouds of hydrogen in our galaxy. They demonstrate
+        my ability track my progress in context of previous research. I wrote
+        the posts laden with astronomy jargon, but feel free to peruse to get a
+        feel for the diversity of data visualization.
+
+      </p>
+      <hr>
+
         {% assign research = (site.posts | where: "category" , "research") %}
         <ul class="page-list">
             {% for post in research %}

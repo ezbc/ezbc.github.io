@@ -37,8 +37,6 @@ randomly create a train, test, and validation dataset from the total sample.
 
   train_users.csv - the training set of users
 
-
-
 ## The Sample Data
 
 The sample data consists of three segmented data sets
@@ -86,6 +84,13 @@ test_users.csv - the test set of users
 
 
 # First Examination of the Data
+
+# Predictions of the Data
+
+We should convert the labels into dummy variables and individually predict for
+each country. Then join the results together.
+
+
 
 
 
