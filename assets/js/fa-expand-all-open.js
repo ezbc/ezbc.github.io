@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
-    $(".page").children().first().find(".page-item-body").css( "display", "block" );
-    $(".page").children().first().find(".pib-indicator")
+    $(".page").children().find(".page-item-body").css( "display", "block" );
+    $(".page").children().find(".pib-indicator")
         .find("i").toggleClass("fa-compress").toggleClass("fa-expand");
 
     $(".page-item .pib-indicator").click(function() {
@@ -10,5 +10,4 @@ $(document).ready(function() {
         $(this).closest(".page-item").find(".page-item-body").toggle("slow", function() {});
     });
 });
-
 
