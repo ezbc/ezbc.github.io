@@ -6,8 +6,12 @@ category: data-science
 tags: Kaggle
 comments: true
 use_math: true
-
+archive: false
 ---
+
+I outline my steps to predict user interest in traveling for Air B&B. I adopt a
+neural network classifier routine in Python to predict which country a user will
+travel to next.
 
 {% include toc.md %}
 
@@ -15,7 +19,6 @@ use_math: true
 
 I decided to have a go at the Kaggle competition for [predicting Air B&B user's
 future travel](https://www.kaggle.com/c/airbnb-recruiting-new-user-bookings).
-
 
 # The Data
 
@@ -82,12 +85,6 @@ test_users.csv - the test set of users
 
 We should convert the labels into dummy variables and individually predict for
 each country. Then join the results together.
-
-
-
-
-
-
 
 
 

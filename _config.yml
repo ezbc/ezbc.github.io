@@ -30,5 +30,4 @@ timezone: Central
 
 gems:
   - jekyll-redirect-from
-  - jekyll-gist
 

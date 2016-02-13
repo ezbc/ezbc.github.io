@@ -1,4 +1,5 @@
 {% for post in posts %}
+  {% if post.category != "hidden" %}
     <div class="page-item">
         <div class="col-sm-8">
             <!-- Estimated reading time -->
@@ -33,4 +34,5 @@
             {{post.excerpt}}
         </div>
     </div>
+  {% endif %}
 {% endfor %}
