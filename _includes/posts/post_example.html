@@ -13,8 +13,6 @@
           </div>
           <div class="col-sm-4 hide-on-phone">
               <ul class="page-item-title pull-right meta">
-                  <li><a href="{{ post.url | prepend: site.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
-                  <li><a href="{{ post.url | prepend: site.url }}">more <i class="fa fa-ellipsis-h"></i></a></li>
                   <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
                   </li>
               </ul>
@@ -23,15 +21,9 @@
               {{post.excerpt}}
           </div>
 
-
-
-
     </div>
   {% endif %}
 {% endfor %}
-
-<!-- Expansion excerpt script -->
-<script src="/assets/js/fa-expand-all-open.js"></script>
 
 
 
