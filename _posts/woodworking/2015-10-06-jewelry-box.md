@@ -1,12 +1,25 @@
 ---
 layout: post
-title: Bird's-Eye-Maple Jewelry Box
+title: Birds-Eye-Maple Jewelry Box
 author:
 category: woodworking
 comments: true
 use_math: true
+example: hobbies-woodworking
 tags: 
 ---
+<div class="carouselContainer">
+  <div class="variable-width">
+    <div> <img src="/images/2015-10-06/jewelrybox_50_small.png"
+               style="height:400px"/> </div>
+    <div> <img src="/images/2015-10-06/jewelrybox_46_small.png"
+               style="height:400px"/> </div>
+    <div> <img src="/images/2015-10-06/jewelrybox_61_small.png"
+               style="height:400px"/> </div>
+    <div> <img src="/images/2015-10-06/jewelrybox_66_small.png"
+               style="height:400px"/> </div>
+  </div>
+</div>
 
 ## The Box
 

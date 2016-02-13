@@ -4,6 +4,7 @@ title: Barleywine
 author:
 category: brewing
 tags: 
+example: hobbies-brewing
 comments: true
 use_math: true
 ---

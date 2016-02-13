@@ -12,19 +12,21 @@ layout: default
 
         I am constantly in pursuit of quality of all sorts. Including <a
           href="/brewing">brewing</a>, <a href="/woodworking">woodworking</a> and
-        knitting.
+        knitting. Below are a few example posts which may peak your interest.
 
       </p>
 
-      {% include hobbies_posts.html %}
+      <div class="page-category">
+        <a href="/woodworking">Woodworking</a>
+      </div>
 
-      <p>
-      Here are two examples of the kinds of woodworking projects I pursue:
-      </p>
-      <a href="/woodworking/2015/10/06/jewelry-box/Jewelry-Box">Jewelry Box</a>
-      <p>
-      <a href="/woodworking/2015/06/28/lectern/">Lectern</a>
-      </p>
+      {% include hobbies_woodworking.html %}
+
+      <div class="page-category">
+        <a href="/brewing">Brewing</a>
+      </div>
+
+      {% include hobbies_brewing.html %}
 
     </div>
 </div>
