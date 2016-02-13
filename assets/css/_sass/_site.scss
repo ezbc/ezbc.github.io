@@ -28,8 +28,10 @@ main {position: relative;}
   padding: 0;
   .fa-comments-o {color: black;}
   .fa-ellipsis-h {color: #428bca;}
-  .fa-compress {color: red;}
-  .fa-expand {color: #22D722;}
+  .fa-compress {color: red;
+                font-size: 35px;}
+  .fa-expand {color: #22D722;
+              font-size: 35px;}
 }
 
 .page-item-body {display: none;}
