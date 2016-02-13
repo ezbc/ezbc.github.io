@@ -3,42 +3,8 @@
 
         {% assign posts = (site.posts | where: "example" , "hobbies-woodworking") %}
 
-        {% for post in posts %}
-            <div class="page-item">
-                <div class="col-sm-8">
-                    <!-- Estimated reading time -->
-                    {% assign words = post.content | number_of_words %}
-                    {% assign quotient = words | divided_by:180 %}
-                    {% assign remainder = words | modulo:180 %}
-                    {% if remainder >= 108 %}
-                        {% assign remainder = 1 %}
-                    {% else %}
-                        {% assign remainder = 0 %}
-                    {% endif %}
-                    {% if quotient >= 1 %}
-                        {% assign reading_time = quotient | plus:remainder | append:" min" %}
-                    {% else %}
-                        {% assign reading_time = "1 min" %}
-                    {% endif %}
-                    <ul class="page-item-title">
-                        <li><span class="meta">{{ reading_time }} read</span>
-                        <a class="meta pull-right comments-meta" href="{{ post.url | prepend: site.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
-                        <li><a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-4 hide-on-phone">
-                    <ul class="page-item-title pull-right meta">
-                        <li><a href="{{ post.url | prepend: site.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
-                        <li><a href="{{ post.url | prepend: site.url }}">read <i class="fa fa-ellipsis-h"></i></a></li>
-                        <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-12 page-item-body">
-                    {{post.excerpt}}
-                </div>
-            </div>
-        {% endfor %}
+        {% include posts_listing.html %}
+
     </div>
 </div>
 
