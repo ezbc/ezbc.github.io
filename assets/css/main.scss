@@ -83,7 +83,9 @@ html {
 .imageTextWrap {
     img {
         float: right;
-        margin: 0 20px 20px 0;
+        margin: 0 20px 20px 5px;
+        width: 30%;
+        border: 2px solid #000000;
     }
 
     p {
