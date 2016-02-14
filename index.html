@@ -5,20 +5,22 @@ layout: default
 <div class="col-sm-12">
     <div class="page">
         
+      <div class="page-intro">
         <p class="imageTextWrap">
-          <img src="/images/portrait.jpg" style="width:30%; border:2px solid
-          #000000;" alt="Elijah Bernstein-Cooper">
+          <img src="/images/portrait.jpg" alt="Elijah Bernstein-Cooper">
 
           <p> 
             Welcome to the website of Elijah Z. Bernstein-Cooper.
           </p>
 
           <p> 
+
             You will quickly find that I pursue a diverse set of interests.
             The common theme amongst all of my endeavors however, is the
             attention to quality.
           </p>
         <p class="endWrap"> </p>
+      </div>
 
         <p> 
         
@@ -44,8 +46,35 @@ layout: default
           </div>
         </div>
 
+        <!-- Show examples -->
+        <!-- ############# -->
+        <div class="page-examples">
+          <div class="page-category">
+            <a href="/data-science-projects">Projects</a>
+          </div>
+
+          {% include posts/post_examples_data-science-projects.html %}
+
+          <hr class="vertical">
+        </div>
+
+        <div class="page-examples">
+          <div class="page-category">
+            <a href="/research-log">Research Log</a>
+          </div>
+
+          {% include posts/post_examples_research.html %}
+
+          <hr class="vertical">
+        </div>
+
+        <!-- Open display blocks on examples -->
+        {% include posts/display_block_examples.html %}
+
         </p>
 
+        <!-- Show all posts -->
+        <!-- ############## -->
         <h3> Below are the most recent posts from each of my blogs
         </h3>
         <hr>
