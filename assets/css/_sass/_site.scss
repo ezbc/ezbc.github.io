@@ -34,7 +34,9 @@ main {position: relative;}
               font-size: 35px;}
 }
 
-.page-item-body {display: none;}
+/* Separate bodies in order to open / close on same page with JS */
+.page-item-body-listing {display: none;}
+.page-item-body-example {display: none;}
 
 .page-title {
   font-size: 35px;
@@ -62,6 +64,13 @@ hr.vertical
   position: relative;
   overflow: hidden;
   padding: 20px 15px 0;
+}
+
+.page-intro {
+  position: relative;
+  overflow: hidden;
+  padding: 0 0 15px;
+  text-align: justify;
 }
 
 .page-list {
@@ -293,7 +302,8 @@ pre {
   font-weight: 700;
 }
 
-.pib-indicator {cursor:pointer;}
+.pib-indicator-listing {cursor:pointer;}
+.pib-indicator-example {cursor:pointer;}
 
 .meta,
 .meta a {
