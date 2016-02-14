@@ -7,26 +7,34 @@ layout: default
         {{ page.title }}
     </div>
     <div class="page-content">
-        
-      <p>
+      <div class="page-intro">
 
         I am constantly in pursuit of quality of all sorts. Including <a
-          href="/brewing">brewing</a>, <a href="/woodworking">woodworking</a> and
-        knitting. Below are a few example posts which may peak your interest.
+          href="/brewing">brewing</a>, <a href="/woodworking">woodworking</a>,
+        baking and knitting. Below are a few example posts which may peak your
+        interest.
 
-      </p>
-
-      <div class="page-category">
-        <a href="/woodworking">Woodworking</a>
       </div>
 
-      {% include posts/post_examples_woodworking.html %}
+      <div class="page-examples">
+        <div class="page-category">
+          <a href="/woodworking">Woodworking</a>
+        </div>
 
-      <div class="page-category">
-        <a href="/brewing">Brewing</a>
+        {% include posts/post_examples_woodworking.html %}
+
+        <hr class="vertical">
       </div>
 
-      {% include posts/post_examples_brewing.html %}
+      <div class="page-examples">
+        <div class="page-category">
+          <a href="/brewing">Brewing</a>
+        </div>
+
+        {% include posts/post_examples_brewing.html %}
+
+        <hr class="vertical">
+      </div>
 
     </div>
 </div>
