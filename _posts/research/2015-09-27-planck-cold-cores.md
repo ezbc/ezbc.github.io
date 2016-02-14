@@ -8,7 +8,7 @@ index-example: data-science
 tags: Taurus-California-Perseus Modeling
 comments: true
 use_math: true
-excerpt: <p><div class="image-3of4-width" align="center"><img src="/images/2015-09-27/multicloud_av_cores_meng13.png"/> </div>Map of dust of three molecular clouds in our own galaxy. Dense cores shown as white crosses. </p>
+excerpt: <p><div class="image-3of4-width" align="center"><img src="/images/2015-09-27/multicloud_av_cores_meng13.png"/> </div>Map of dust of three molecular clouds in our own galaxy. Adopted Bayesian priors to identify the dense cores shown as white crosses. </p>
 ---
 
 **Table of Contents**
