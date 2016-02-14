@@ -7,11 +7,11 @@ tags: Kaggle
 comments: true
 use_math: true
 archive: false
+example: data-science-projects
+
+excerpt: I outline my steps to predict user interest in traveling for Air B&B. I adopt a neural network classifier routine in Python to predict which country a user will travel to next.
 ---
 
-I outline my steps to predict user interest in traveling for Air B&B. I adopt a
-neural network classifier routine in Python to predict which country a user will
-travel to next.
 
 {% include toc.md %}
 
