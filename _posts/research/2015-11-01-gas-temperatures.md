@@ -4,9 +4,10 @@ title: Gas Temperatures
 author:
 category: research
 tags: Taurus-California-Perseus Sternberg Krumholz 
+example: data-science-research
 comments: true
 use_math: true
-
+excerpt: <p><div class="image-full-width" align="center"> <img src="/images/2015-11-01/temps_cdf_phig1.0.png" style="width:50%"/></div>Comparison of cumulative distribution functions of observed and predicted quantities.</p>
 ---
 
 **Table of Contents**

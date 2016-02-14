@@ -3,9 +3,11 @@ layout: post
 title: Core Selection
 author:
 category: research
+example: data-science-research
 tags: Taurus-California-Perseus Modeling
 comments: true
 use_math: true
+excerpt: <p><div class="image-full-width"><img src="/images/2015-09-27/multicloud_av_cores_meng13.png"/> </div>Map of dust of three molecular clouds in our own galaxy. Dense cores shown as white crosses. </p>
 ---
 
 **Table of Contents**

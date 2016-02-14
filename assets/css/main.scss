@@ -92,6 +92,13 @@ html {
     }
 }
 
+.image-full-width {
+  img {
+       width: 100%
+     }
+
+}
+
 /* Remove text wrapping */
 .endWrap {
     clear: both;
@@ -106,6 +113,26 @@ html {
     width: 100%;
     height: auto;
 }
+
+/* Next / Previous page navigation */
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
+
 
 
 
