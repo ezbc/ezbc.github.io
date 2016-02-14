@@ -48,6 +48,15 @@ main {position: relative;}
   padding: 0 0 0 15px;
 }
 
+.page-examples {
+  border-left: 3px solid $primary-color;
+}
+
+hr.vertical
+{
+   width: 3px;
+   height: 100%; /* or height in PX */
+} 
 
 .page-content {
   position: relative;
