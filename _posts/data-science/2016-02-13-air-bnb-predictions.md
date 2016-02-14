@@ -7,8 +7,8 @@ tags: Kaggle
 comments: true
 use_math: true
 archive: false
-example: data-science-projects
-
+example: data-science-projects 
+index-example: data-science 
 excerpt: I outline my steps to predict user interest in traveling for Air B&B. I adopt a neural network classifier routine in Python to predict which country a user will travel to next.
 ---
 

@@ -4,6 +4,7 @@ title: Core Selection
 author:
 category: research
 example: data-science-research
+index-example: data-science
 tags: Taurus-California-Perseus Modeling
 comments: true
 use_math: true
