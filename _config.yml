@@ -32,5 +32,5 @@ gems:
   - jekyll-redirect-from
   - jekyll-paginate
 
-keep_files: [python-docs]
+keep_files: [python-docs, python-modules]
 
