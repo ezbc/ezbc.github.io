@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Elijah's Webpage </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="alternate" type="application/atom+xml" title="Elijah's Webpage" href="/feed.xml">
+        <!-- Loop and attach page tags from page meta section -->
+        
+        <meta name="keywords" content="">
+        
+        <link rel="icon" type="image/png"
+            href="/favicon.png">
+
+
+        <!-- Clicks
+        <script
+            src="/assets/js/click.js">
+        </script>
+        -->
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet"
+            href="/assets/css/main.css">
+        <link rel="stylesheet" media="print"
+            href="/assets/css/print.css"/>
+        <link
+            href='http://fonts.googleapis.com/css?family=Poly:400,400italic'
+            rel='stylesheet' type='text/css'>
+
+        <!-- JQuery -->
+        <script
+            src="/assets/js/jquery-1.10.2.js">
+        </script>
+
+        <!-- Loading Bar -->
+        <script
+            src="/assets/js/pace.min.js">
+        </script>
+
+        <!-- Owl-carousel -->
+        <link rel="stylesheet" href="/plugins/owlcarousel/owl.carousel.min.css">
+        <link rel="stylesheet"
+            href="/plugins/owlcarousel/owl.theme.default.min.css">
+
+        <!-- Slick Carousel -->
+        <link rel="stylesheet" type="text/css"
+            href="/plugins_html/slick-1.5.7/slick/slick-theme.css"/>
+        <link rel="stylesheet" type="text/css"
+            href="/plugins_html/slick-1.5.7/slick/slick.css">
+        <script type="text/javascript"
+            src="//code.jquery.com/jquery-1.11.0.min.js">
+        </script>
+        <script type="text/javascript"
+            src="//code.jquery.com/jquery-migrate-1.2.1.min.js">
+        </script>
+        <script type="text/javascript"
+            src="/plugins_html/slick-1.5.7/slick/slick.min.js">
+        </script>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Table of Contents -->
+        <script
+            src="/assets/js/jquery.toc.js">
+        </script>
+
+        <!-- Image Zoom -->
+        <script
+            src="/plugins_html/elevatezoom-master/jquery.elevatezoom.js" 
+            type="text/javascript">
+        </script>
+        
+        <!-- JS functions -->
+        <script
+            type="text/javascript"
+            src="/assets/js/application.js">
+        </script>
+
+        <!-- Slick Carousel -->
+        <script
+            type="text/javascript"
+            src="/assets/js/image_carousel.js">
+        </script>
+
+        <!-- Mathjax -->
+        <script 
+            type="text/javascript" 
+            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        <!-- allow single dollar sign escape for mathjax -->
+        <script type="text/x-mathjax-config">
+          MathJax.Hub.Config({
+            tex2jax: {
+              inlineMath: [ ['$','$'], ],
+              processEscapes: true,
+              processEnvironments: true,
+            },
+            TeX: {
+              Macros: {
+                nhi : "N(HI)",
+                htwo : "H_2",
+                in : "^{\\prime\\prime}",
+                ft : "^{\\prime}",
+                deg : "^\\circ",
+              }
+            }
+          });
+        </script>
+
+        <script 
+            src="/assets/js/jquery.toc.js">
+        </script>
+
+
+        <!-- Google Analytics -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-67026116-1', 'auto');
+          ga('send', 'pageview');
+        
+
+        </script>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+
+
+<!--
+<style>
+body { 
+  background-padding: 0 !important;
+  background-image: url('/images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  background-min-width: 100px;
+}
+</style>
+-->
+
+<main>
+
+<body>
+    <!-- <span class="statusbar"></span> -->
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+        <div id="body" class="container">
+            <div class="row row-offcanvas row-offcanvas-left">
+                <!-- side navigation -->
+                <nav id="nav" role="navigation" class="col-sm-2 sidebar-offcanvas">
+                    <header id="menu" role="banner">
+                        <p class="menu-title">Close</p>
+                        <a href="#nav" class="close-btn">
+                            <img src="/assets/fonts/close-btn.svg" alt="close button">
+                        </a>
+                    </header>
+                    <ul class="sidebar" >
+
+<!-- sort in alphebetical order -->
+    <p class="separator">Navigation</p>
+    <li><a href="/">Home</a></li>
+    <li><a href="/research_log">Research Log</a></li>
+    <li><a href="/hobbies">Hobbies</a></li>
+    <li><a href="/contact">Contact</a></li>
+    <li><a href="/search">Search</a></li>
+    <li><a href="/tags">Tags</a></li>
+    
+    <a class="goto-top-link hide-on-phone" href="#top">
+        <div class="goto-top text-center">
+            <i class="fa fa-step-forward fa-rotate-270"></i>
+        </div>
+    </a>
+
+</ul>
+                    
+                </nav>
+
+                
+
+                <header id="menu" role="banner">
+                    <p class="menu-title">Menu</p>
+                    <a href="#nav" class="menu-btn">
+                        <img src="/assets/fonts/menu-btn.svg" alt="menu button">
+                    </a>
+                </header>
+                <!-- Content -->
+                <div class="col-sm-10">
+                    <nav class="top">
+                        <a href="/index.html">Blogs, astro, and more &mdash; Elijah's Webpage</a>
+                        <span class="pull-right">
+                            <a id="twitter-ic" class="link" href="https://twitter.com/ebernste1">
+                                <i class="fa fa-twitter fa-lg"></i>
+                            </a>
+                            <a id="git-ic" class="link" href="https://github.com/ezbc">
+                                <i class="fa fa-github-square fa-lg"></i>
+                            </a>
+                            <a id="git-ic" class="link" href="https://bitbucket.org/ezbc">
+                                <i class="fa fa-bitbucket-square fa-lg"></i>
+                            </a>
+                            <a id="git-ic" class="link"
+                                href="https://plus.google.com/+ElijahBernsteinCooper">
+                                <i class="fa fa-google-plus fa-lg"></i>
+                            </a>
+                            <a id="git-ic" class="link"
+                                href="https://linkedin.com/in/ElijahBernsteinCooper">
+                                <i class="fa fa-linkedin fa-lg"></i>
+                            </a>
+                            </a>
+                            <a id="rss-ic" class="link" href="/feed.xml">
+                                <i class="fa fa-rss fa-lg"></i>
+                            </a>
+                        </span>
+                    </nav>
+                    <div class="row">
+                        <div class="col-sm-12">
+    <div class="page">
+        
+        <p class="imageTextWrap">
+
+            <img src="/images/portrait.jpg" style="width:40%; border:2px solid
+            #000000;" alt="Elijah Bernstein-Cooper">
+
+            <p> 
+            Welcome to the website of Elijah Z. Bernstein-Cooper. Here you will
+            find blogs about <a href="research_log">astronomy
+            research</a>, <a href="woodworking">woodworking</a>
+        and more. 
+            </p>
+        </p>
+
+        <p class="endWrap"> </p>
+
+        <h3> Below are the most recent posts from each of my blogs
+        </h3>
+        <hr>
+        
+        <p></p>
+
+        <!-- Include anchor so next and previous focus on posts -->
+<a name="posts"></a>
+
+<!-- Pagination links -->
+
+<div class="pagination">
+  
+    <a href="/page4/#posts">&laquo; Prev</a>
+  
+
+  
+    
+      <a href="/page4/#posts">1</a>
+    
+  
+    
+      <a href="/page2/#posts">2</a>
+    
+  
+    
+      <a href="/page3/#posts">3</a>
+    
+  
+    
+      <a href="/page4/#posts">4</a>
+    
+  
+    
+      <em>5</em>
+    
+  
+
+  
+    <span>Next &raquo;</span>
+  
+</div>
+
+
+<!-- Paginate if more than one page -->
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Tuesday 31 March 2015">2015-03-31 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/03/31/Paper-Comments-2/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/03/31/Paper-Comments-2/">Paper Comments 2</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/03/31/Paper-Comments-2/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/03/31/Paper-Comments-2/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <h3 id="comments-2">Comments 2</h3>
+
+
+            </div>
+        </div>
+    
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Tuesday 31 March 2015">2015-03-31 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/03/31/Paper-Comments/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/03/31/Paper-Comments/">Paper Comments 1</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/03/31/Paper-Comments/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/03/31/Paper-Comments/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <h3 id="comments-1">Comments 1</h3>
+
+
+            </div>
+        </div>
+    
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Monday 23 March 2015">2015-03-23 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/03/23/Adding-More-Cores/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/03/23/Adding-More-Cores/">Additional Cores</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/03/23/Adding-More-Cores/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/03/23/Adding-More-Cores/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <h3 id="adding-cores">Adding Cores</h3>
+
+
+            </div>
+        </div>
+    
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Thursday 19 March 2015">2015-03-19 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/03/19/Model-Analysis/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/03/19/Model-Analysis/">Sternberg and Krumholz Model Fitting</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/03/19/Model-Analysis/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/03/19/Model-Analysis/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <p>The K+09 derived their column density calculations from the analytic model
+from krumholz08 of <script type="math/tex">H_2</script> formation and
+photodissociation of a spherical cloud bathed in a uniform ISRF.\@ See
+krumholz09 and krumholz08 for details in the derivation,
+and a summary of the results in lee12. Here we quickly summarize
+the important assumptions and results.</p>
+
+
+            </div>
+        </div>
+    
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Tuesday 17 March 2015">2015-03-17 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/03/17/Model-Analysis/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/03/17/Model-Analysis/">Sternberg and Krumholz Model Fitting</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/03/17/Model-Analysis/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/03/17/Model-Analysis/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <h3 id="k09-model-discussion">K+09 Model Discussion</h3>
+
+
+            </div>
+        </div>
+    
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Thursday 12 March 2015">2015-03-12 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/03/12/Sternberg-Fitting/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/03/12/Sternberg-Fitting/">Sternberg Model Fitting</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/03/12/Sternberg-Fitting/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/03/12/Sternberg-Fitting/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <p>I successfully fit the Sternberg model to the <script type="math/tex">\Sigma_{HI}</script> vs. <script type="math/tex">\Sigma_H</script>
+relationship. I assumed that our case is a two-sided irradiation by an
+isotropic field, where they predict an <script type="math/tex">\Sigma_{HI}</script> threshold given by</p>
+
+
+            </div>
+        </div>
+    
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Wednesday 11 March 2015">2015-03-11 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/03/11/Sternberg-Fitting/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/03/11/Sternberg-Fitting/">Sternberg Model Fitting</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/03/11/Sternberg-Fitting/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/03/11/Sternberg-Fitting/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <p>I successfully fit the Sternberg model to the <script type="math/tex">\Sigma_{HI}</script> vs. <script type="math/tex">\Sigma_H</script>
+relationship. I assumed that our case is a two-sided irradiation by an
+isotropic field, where they predict an <script type="math/tex">\Sigma_{HI}</script> threshold given by</p>
+
+
+            </div>
+        </div>
+    
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Friday 6 March 2015">2015-03-06 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/03/06/Sternberg-Discussion/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/03/06/Sternberg-Discussion/">Sternberg Summary</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/03/06/Sternberg-Discussion/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/03/06/Sternberg-Discussion/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <p>This post is a continuation of <a href="/posts/notes/2015/02/20/Krumholz-Fitting/">this
+post</a>,
+but don’t bother with the previous post, it’s a poor, short, summary.</p>
+
+
+            </div>
+        </div>
+    
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Tuesday 3 March 2015">2015-03-03 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/03/03/Perseus-HI-Threshold/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/03/03/Perseus-HI-Threshold/">Low Perseus HI Surface Density Thresholds</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/03/03/Perseus-HI-Threshold/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/03/03/Perseus-HI-Threshold/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <p>Below are results from using different <script type="math/tex">A_V</script> maps. See <a href="/posts/notes/2015/03/02/Perseus-HI-Threshold/">yesterday’s
+post</a>
+for how regions are chosen and comparison with Lee+12. Each <script type="math/tex">A_V</script> map leads
+to similar DGRs, however the K+09 map yields a slightly larger HI width. This
+leads to <script type="math/tex">\Sigma_{HI}</script> thresholds similar to Lee+12.</p>
+
+
+            </div>
+        </div>
+    
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Monday 2 March 2015">2015-03-02 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/03/02/Perseus-HI-Threshold/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/03/02/Perseus-HI-Threshold/">Low Perseus HI Surface Density Thresholds</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/03/02/Perseus-HI-Threshold/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/03/02/Perseus-HI-Threshold/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <p>Below are results from Planck <script type="math/tex">A_V</script>. We can see that the <script type="math/tex">\Sigma_{HI}</script>
+thresholds are quite low compared to those found in Lee+12.</p>
+
+
+            </div>
+        </div>
+    
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Friday 27 February 2015">2015-02-27 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/02/27/California-Residuals/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/02/27/California-Residuals/">Irregular California Data - Model Residuals</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/02/27/California-Residuals/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/02/27/California-Residuals/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <p><img src="/images/2015-02-27/california_residual_pdf.png" width="500px" /></p>
+
+
+            </div>
+        </div>
+    
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Thursday 26 February 2015">2015-02-26 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/02/26/Krumholz-Fitting/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/02/26/Krumholz-Fitting/">Negative H2 surface Densities</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/02/26/Krumholz-Fitting/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/02/26/Krumholz-Fitting/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <p>I have found systematically negative <script type="math/tex">\Sigma_{H2}</script> in California. Below is
+an example histogram of the <script type="math/tex">\Sigma_{H2}</script> calculated during a monte carlo
+simulation for a single core. These values are obviously unphysical.</p>
+
+
+            </div>
+        </div>
+    
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Wednesday 25 February 2015">2015-02-25 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/02/25/Krumholz-Fitting/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/02/25/Krumholz-Fitting/">2MASS Av of TCP</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/02/25/Krumholz-Fitting/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/02/25/Krumholz-Fitting/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <p>Jouni Kainulainen shared 2MASS Av image with us today. He provided the
+following warning:</p>
+
+
+            </div>
+        </div>
+    
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Monday 23 February 2015">2015-02-23 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/02/23/Krumholz-Fitting/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/02/23/Krumholz-Fitting/">Krumholz Fitting</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/02/23/Krumholz-Fitting/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/02/23/Krumholz-Fitting/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <p>test</p>
+
+
+            </div>
+        </div>
+    
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Friday 20 February 2015">2015-02-20 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/02/20/Krumholz-Fitting/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/02/20/Krumholz-Fitting/">Sternberg Summary</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/02/20/Krumholz-Fitting/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/02/20/Krumholz-Fitting/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <p>test</p>
+
+
+            </div>
+        </div>
+    
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Monday 16 February 2015">2015-02-16 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/02/16/MLE-Iterative-Application-to-TCP/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/02/16/MLE-Iterative-Application-to-TCP/">MLE Iterative Application to TCP</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/02/16/MLE-Iterative-Application-to-TCP/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/02/16/MLE-Iterative-Application-to-TCP/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <h2 id="summary-of-sternberg-et-al-2014">Summary of Sternberg et al. (2014)</h2>
+
+
+            </div>
+        </div>
+    
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Friday 6 February 2015">2015-02-06 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/02/06/MLE-Iterative-Application-to-TCP/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/02/06/MLE-Iterative-Application-to-TCP/">MLE Iterative Application to TCP</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/02/06/MLE-Iterative-Application-to-TCP/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/02/06/MLE-Iterative-Application-to-TCP/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <h2 id="iterative-mle-binning">Iterative MLE binning</h2>
+
+
+            </div>
+        </div>
+    
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Thursday 5 February 2015">2015-02-05 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/02/05/MLE-Iterative-Application-to-TCP/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/02/05/MLE-Iterative-Application-to-TCP/">MLE Iterative Application to TCP</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/02/05/MLE-Iterative-Application-to-TCP/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/02/05/MLE-Iterative-Application-to-TCP/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <h2 id="iterative-mle-binning">Iterative MLE binning</h2>
+
+
+            </div>
+        </div>
+    
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Wednesday 4 February 2015">2015-02-04 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/02/04/MLE-Iterative-Application-to-TCP/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/02/04/MLE-Iterative-Application-to-TCP/">MLE Iterative Application to TCP</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/02/04/MLE-Iterative-Application-to-TCP/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/02/04/MLE-Iterative-Application-to-TCP/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <h2 id="application-of-iterative-mle-binning">Application of Iterative MLE binning</h2>
+
+
+            </div>
+        </div>
+    
+
+    
+        <div class="page-item">
+            <div class="col-sm-8">
+                <ul class="page-item-title">
+                    <li><time class="timeago meta" datetime="Monday 2 February 2015">2015-02-02 00:00:00 +0000</time>
+                    - research post
+                    <a class="meta pull-right comments-meta" href="/research/2015/02/02/initial-notes/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a class="title" href="/research/2015/02/02/initial-notes/">Initial post</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="page-item-title pull-right meta">
+                    <li><a href="/research/2015/02/02/initial-notes/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                    <li><a href="/research/2015/02/02/initial-notes/">more <i class="fa fa-ellipsis-h"></i></a></li>
+                    <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 page-item-body">
+                <h2 id="here-is-my-first-image">Here is my first image</h2>
+
+
+            </div>
+        </div>
+    
+
+
+<!-- Pagination links -->
+
+<div class="pagination">
+  
+    <a href="/page4/#posts">&laquo; Prev</a>
+  
+
+  
+    
+      <a href="/page4/#posts">1</a>
+    
+  
+    
+      <a href="/page2/#posts">2</a>
+    
+  
+    
+      <a href="/page3/#posts">3</a>
+    
+  
+    
+      <a href="/page4/#posts">4</a>
+    
+  
+    
+      <em>5</em>
+    
+  
+
+  
+    <span>Next &raquo;</span>
+  
+</div>
+
+
+
+
+    </div>
+</div>
+
+
+<!-- Clicks -->
+<script>
+    src="/assets/js/click.js">
+</script>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer text-center meta">
+            Powered by <a class="link" href="https://github.com/nadjetey/wangana">Wangana</a> &mdash; Jekyll theme.
+        </footer>
+    </div>
+</body>
+</main>
+        <!-- Other JavaScripts -->
+        <script src="/assets/js/bootstrap.min.js"></script>        
+        <script src="/assets/js/jquery.timeago.js"></script>
+        <script>
+          (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+ga('create', 'ezbc', 'ezbc');
+ga('send', 'pageview');
+          $(document).ready(function() {
+    var timer;
+
+    $(window).bind('scroll', (function() {
+        clearTimeout(timer);
+        timer = setTimeout(getPercent, 5);
+        isTop();
+    }));
+
+    $(".goto-top-link").click(function(){
+        event.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, 'slow');
+    });
+});
+
+function scrollPossition() {
+    return ($(window).scrollTop() / ($(document).height() - $(window).height())) * 100;
+}
+
+function getPercent() {
+    $(".statusbar").css("width", String(scrollPossition()) + "%");
+
+    if (scrollPossition() > 97) {
+        $(".statusbar").css("background-color", "#1ca265");
+    } else {
+        $(".statusbar").css("background-color", "#eb5e29");
+    }
+    return;
+}
+
+function isTop() {
+  if(scrollPossition() > 30)
+    $(".goto-top").fadeIn("slow");
+  else
+    $(".goto-top").fadeOut("slow");
+}
+          $(document).ready(function() {
+    $('.menu-btn').click(function() {
+        $('.row-offcanvas').toggleClass('active');
+    });
+    $('.close-btn').click(function() {
+        $('.row-offcanvas').toggleClass('active');
+    });
+});
+          jQuery(document).ready(function() {
+    jQuery("time.timeago").timeago();
+});
+        </script>
+
+
+        <!-- Owl-carousel -->
+        <script src="jquery.min.js"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+
+    </body>
+</html>
+
+
+
