@@ -52,7 +52,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: left;
-  background-min-width: 100px;
+  //background-min-width: 100px;
+  //background-width: 10000px;
 }
 
 .carouselContainer {
@@ -82,13 +83,41 @@ html {
 .imageTextWrap {
     img {
         float: right;
-        margin: 0 20px 20px 0;
+        margin: 0 20px 20px 5px;
+        width: 30%;
+        border: 2px solid #000000;
     }
 
     p {
         text-align: justify;
         text-indent: 2em;
     }
+}
+
+.image-full-width {
+  img {
+       width: 100%
+     }
+}
+.image-4of4-width {
+  img {
+       width: 100%
+     }
+}
+.image-3of4-width {
+  img {
+       width: 75%
+     }
+}
+.image-2of4-width {
+  img {
+       width: 50%
+     }
+}
+.image-1of4-width {
+  img {
+       width: 25%
+     }
 }
 
 /* Remove text wrapping */
@@ -105,6 +134,26 @@ html {
     width: 100%;
     height: auto;
 }
+
+/* Next / Previous page navigation */
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
+
 
 
 

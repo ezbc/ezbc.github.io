@@ -7,20 +7,11 @@ title: Brewing
         {{ page.title }}
     </div>
     <div class="page-content">
-        <ul class="page-list">
-            {% assign brewing = (site.posts | where: "category" , "brewing") %}
-            {% for post in brewing %}
-                <li>
-                    <!--
-                    <time class="timeago postlist-meta" datetime="{{ post.date |  date: "%A %-d %B %Y" }}">{{ post.date }}</time>
-                    &mdash; <a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
-                    -->
-<span>{{ post.date | date: "%B %e, %Y" }}</span>
-<a href="{{ site.url }}{{ post.url }}">
-{{ post.title }} {% if post.author %} &ndash; {{ post.author }} {% endif %}
-</a>
-                </li>
-            {% endfor %} 
-        </ul>
+
+      {% include posts/post_listing_brewing.html %}
+
+      <!-- Open display blocks on examples -->
+      {% include posts/display_blocks.html %}
+
     </div>
 </div>

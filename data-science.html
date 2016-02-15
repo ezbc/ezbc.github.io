@@ -1,0 +1,47 @@
+---
+layout: default
+title: Data Science
+---
+
+<!-- pagination won't work for different categories, use octopuss paginate:
+https://github.com/octopress/paginate -->
+
+<div class="col-sm-12">
+    <div class="page-title">
+        {{ page.title }}
+    </div>
+    <div class="page-content">
+      <div class="page-intro">
+        
+        You can view posts from a recent
+        project I worked on in my <a href="/research-log">research log</a>. 
+
+      </div>
+      
+
+      <div class="page-examples">
+        <div class="page-category">
+          <a href="/data-science-projects">Projects</a>
+        </div>
+
+        {% include posts/post_examples_data-science-projects.html %}
+
+        <hr class="vertical">
+      </div>
+
+      <div class="page-examples">
+        <div class="page-category">
+          <a href="/research-log">Research Log</a>
+        </div>
+
+        {% include posts/post_examples_research.html %}
+
+        <hr class="vertical">
+      </div>
+
+    </div>
+</div>
+
+<!-- Open display blocks on examples -->
+{% include posts/display_blocks.html %}
+

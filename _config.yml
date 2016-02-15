@@ -1,5 +1,5 @@
 name: Elijah's Webpage
-description:  Blogs, astro, and more
+description: Data Science and more
 
 sass:
   sass_dir: assets/css/_sass
@@ -30,4 +30,7 @@ timezone: Central
 
 gems:
   - jekyll-redirect-from
+  - jekyll-paginate
+
+keep_files: [python-docs]
 

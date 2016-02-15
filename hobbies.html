@@ -1,12 +1,51 @@
 ---
 layout: default
-title: Hobbies
 ---
+
 <div class="col-sm-12">
     <div class="page-title">
         {{ page.title }}
     </div>
     <div class="page-content">
-        If you like books, check out my <a href="/reads.html">reads</a>.
+      <div class="page-intro">
+
+        I am constantly in pursuit of quality of all sorts. Including <a
+          href="/brewing">brewing</a>, <a href="/woodworking">woodworking</a>,
+        baking and knitting. Below are a few example posts which may peak your
+        interest.
+
+      </div>
+
+      <div class="page-examples">
+        <div class="page-category">
+          <a href="/woodworking">Woodworking</a>
+        </div>
+
+        {% include posts/post_examples_woodworking.html %}
+
+        <hr class="vertical">
+      </div>
+
+      <div class="page-examples">
+        <div class="page-category">
+          <a href="/brewing">Brewing</a>
+        </div>
+
+        {% include posts/post_examples_brewing.html %}
+
+        <hr class="vertical">
+      </div>
+
     </div>
 </div>
+
+<!-- Open display blocks on examples -->
+{% include posts/display_blocks.html %}
+
+<!-- Clicks -->
+<script>
+    src="{{ "/assets/js/click.js" | prepend: site.url }}">
+</script>
+
+
+

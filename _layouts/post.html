@@ -2,10 +2,39 @@
 layout: default
 ---
 
+<!-- Get the previous and next posts -->
+{% assign posts = (site.posts | where: "category", page.category) %}
+{% for post in posts %}
+    {% if post.url == page.url %}
+        {% assign post_index0 = forloop.index0 %}
+        {% assign post_index1 = forloop.index %}
+    {% endif %}
+{% endfor %}
+{% for post in posts %}
+    {% if post_index0 == forloop.index %}
+        {% assign next_post = post.url %}
+    {% endif %}
+    {% if post_index1 == forloop.index0 %}
+        {% assign prev_post = post.url %}
+    {% endif %}
+{% endfor %}
+
 <body>
     <div class="col-sm-12">
         <div class="page">
+            <div class="page-content">
+                <ul class="pager">
+                  {% if prev_post %}
+                    <li class="previous"><a href="{{ prev_post }}">Previous</a></li>
+                  {% endif %}
+                  {% if next_post %}
+                    <li class="next"><a href="{{ next_post }}">Next</a></li>
+                  {% endif %}
+                </ul>
+            </div>
+
             <div class="page-title">
+
                 {{ page.title }}
                 <div class="meta">    			
                     {% if site.owner.name %}
@@ -18,18 +47,26 @@ layout: default
             </div>
             <div class="page-content">
                 {{ content }}
+
+                <br><hr>
+
+                <ul class="pager">
+                  {% if prev_post %}
+                    <li class="previous"><a href="{{ prev_post }}">Previous</a></li>
+                  {% endif %}
+                  {% if next_post %}
+                    <li class="next"><a href="{{ next_post }}">Next</a></li>
+                  {% endif %}
+                </ul>
+
                 <!-- Share & Comments -->
                 {% include scripts/share.html %}            
             </div>
         </div>
     </div>
 </body>
-        
+
+
 <!-- Disques -->
-<script>
-    $(".page-preview-icon").hover(function(){
-        $(this).parents(".page-nav").css("z-index","5000");
-    });
-    {% include scripts/disqus.html %}
-</script>
+<script src="/assets/js/disques.js"></script>
 

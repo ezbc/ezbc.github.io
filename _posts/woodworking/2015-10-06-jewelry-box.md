@@ -1,19 +1,13 @@
 ---
 layout: post
-title: Bird's-Eye-Maple Jewelry Box
+title: Birds-Eye-Maple Jewelry Box
 author:
 category: woodworking
 comments: true
 use_math: true
+example: hobbies-woodworking
 tags: 
 ---
-
-## The Box
-
-A few years ago I built a jewelry box out of Bird's-Eye Maple and cherry as a
-gift. The rounded sides and lid frame the hand-carved Celtic knot as the focus
-of the box. The design is minimalist, yet elegant. Three compartments await
-inside the box, along with a padded tray which rests atop the back compartment.
 
 <div class="carouselContainer">
   <div class="variable-width">
@@ -27,6 +21,13 @@ inside the box, along with a padded tray which rests atop the back compartment.
                style="height:400px"/> </div>
   </div>
 </div>
+
+## The Box
+
+A few years ago I built a jewelry box out of Bird's-Eye Maple and cherry as a
+gift. The rounded sides and lid frame the hand-carved Celtic knot as the focus
+of the box. The design is minimalist, yet elegant. Three compartments await
+inside the box, along with a padded tray which rests atop the back compartment.
 
 ## Construction
 

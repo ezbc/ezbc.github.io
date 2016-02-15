@@ -1,0 +1,10 @@
+<div class="col-sm-12">
+    <div class="page">
+
+        {% assign posts = (site.posts | where: "example" , "data-science-projects") %}
+
+        {% include posts/post_example.html %}
+
+    </div>
+</div>
+
