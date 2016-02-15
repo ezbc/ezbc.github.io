@@ -1,0 +1,10 @@
+<div class="col-sm-12">
+    <div class="page">
+
+        {% assign posts = (site.posts | where: "category" , "tech-project") %}
+
+        {% include posts/post_listing.html %}
+
+    </div>
+</div>
+

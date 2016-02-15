@@ -1,0 +1,36 @@
+name: Elijah's Webpage
+description: Data Science and more
+
+sass:
+  sass_dir: assets/css/_sass
+  style: :compressed
+
+markdown: kramdown
+redcarpet:
+  extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+
+paginate: 20
+paginate_path: "/page:num/"
+
+#permalink: /:year/:month/:day/:title/
+permalink: pretty
+owner:
+    disqus_shortname: httpezbcme
+    name: Elijah Bernstein-Cooper
+    twitter: ebernste1
+    github: ezbc
+    bitbucket: ezbc
+    googleplus: ElijahBernsteinCooper
+    linkedin: ElijahBernsteinCooper
+
+ga_id: ezbc
+ga_username: ezbc
+
+timezone: Central
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-paginate
+
+keep_files: [python-docs]
+

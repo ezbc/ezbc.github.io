@@ -1,0 +1,159 @@
+---
+---
+//Last updated 17-03-2015 by nadjetey @12.15am
+/* configurations */
+$primary-color: #D3E1F5; //#F3F8FF
+$lnk-color: #afafaf;
+$lnk-highlight-color: #333;
+
+/* IMPORT CSS FILES */
+// base css
+@import "site";
+// syntax highlighting
+@import "syntax";
+// bootstrap
+@import "bootstrap.min";
+// fontawesome icons
+@import "font-awesome.min";
+// Slick carousel
+@import "carousel";
+// Pace Load bar
+@import "pace";
+
+/* Header sizes */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 33px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 21px;
+}
+h5 {
+  font-size: 19px;
+}
+h6 {
+  font-size: 18px;
+}
+
+body {
+  //color:#000;
+  font: 17px Poly, 'Helvetica Neue', Helvetica, serif, Arial !important;
+  letter-spacing: 0.001em;
+  background-padding: 0 !important;
+  //background-image: url('/images/background_bw.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  //background-min-width: 100px;
+  //background-width: 10000px;
+}
+
+.carouselContainer {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px !important;
+    padding: 10px 0 20px;
+}
+
+
+/* Adjusting page width with scroll bar */
+html {
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+/* Aligning images */
+  .centeredImage {
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
+    }
+
+/* Wrap text around an image */
+.imageTextWrap {
+    img {
+        float: right;
+        margin: 0 20px 20px 5px;
+        width: 30%;
+        border: 2px solid #000000;
+    }
+
+    p {
+        text-align: justify;
+        text-indent: 2em;
+    }
+}
+
+.image-full-width {
+  img {
+       width: 100%
+     }
+}
+.image-4of4-width {
+  img {
+       width: 100%
+     }
+}
+.image-3of4-width {
+  img {
+       width: 75%
+     }
+}
+.image-2of4-width {
+  img {
+       width: 50%
+     }
+}
+.image-1of4-width {
+  img {
+       width: 25%
+     }
+}
+
+/* Remove text wrapping */
+.endWrap {
+    clear: both;
+}
+.endFormatting {
+    clear: both;
+}
+
+/* Image Caroosel */
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Next / Previous page navigation */
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
+
+
+
+
