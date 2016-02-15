@@ -23,11 +23,7 @@ future travel](https://www.kaggle.com/c/airbnb-recruiting-new-user-bookings).
 # The Data
 
 The data description can be found
-[here](https://www.kaggle.com/c/airbnb-recruiting-new-user-bookings/data). Below
-is a description in my own words.
-
-It may be beneficial later to combine the test data and the training data, then
-randomly create a train, test, and validation dataset from the total sample.
+[here](https://www.kaggle.com/c/airbnb-recruiting-new-user-bookings/data).
 
 ## Training Data
 
@@ -77,7 +73,6 @@ test_users.csv - the test set of users
 
 + countries.csv - summary statistics of destination countries in this dataset
                   and their locations
-
 
 # First Examination of the Data
 
