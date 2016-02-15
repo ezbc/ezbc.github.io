@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>mycoords &mdash; custom_modules 0.0.1 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="custom_modules 0.0.1 documentation" href="../index.html" />
+    <link rel="up" title="Module code" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../index.html">custom_modules 0.0.1 documentation</a> &raquo;</li>
+          <li><a href="index.html" accesskey="U">Module code</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <h1>Source code for mycoords</h1><div class="highlight"><pre>
+<span class="ch">#!/usr/bin/python</span>
+
+<span class="sd">&#39;&#39;&#39; Module for basic coordinate creation.</span>
+<span class="sd">&#39;&#39;&#39;</span>
+
+<div class="viewcode-block" id="make_velocity_axis"><a class="viewcode-back" href="../code.html#mycoords.make_velocity_axis">[docs]</a><span class="k">def</span> <span class="nf">make_velocity_axis</span><span class="p">(</span><span class="n">h</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; Creates the velocity axis given a pyfits header. Assumes the third</span>
+<span class="sd">    axis is the velocity axis in km/s using the radio definition.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">arange</span>
+
+    <span class="n">array</span> <span class="o">=</span> <span class="p">(</span><span class="n">arange</span><span class="p">(</span><span class="n">h</span><span class="p">[</span><span class="s1">&#39;NAXIS3&#39;</span><span class="p">])</span> <span class="o">-</span> <span class="n">h</span><span class="p">[</span><span class="s1">&#39;CRPIX3&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="n">h</span><span class="p">[</span><span class="s1">&#39;CDELT3&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="n">h</span><span class="p">[</span><span class="s1">&#39;CRVAL3&#39;</span><span class="p">]</span>
+
+    <span class="k">return</span> <span class="n">array</span> <span class="o">/</span> <span class="mf">1000.</span>
+</div>
+<div class="viewcode-block" id="calc_image_origin"><a class="viewcode-back" href="../code.html#mycoords.calc_image_origin">[docs]</a><span class="k">def</span> <span class="nf">calc_image_origin</span><span class="p">(</span><span class="n">x_limits</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">y_limits</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">delta_x</span><span class="o">=</span><span class="mf">0.01</span><span class="p">,</span> <span class="n">delta_y</span><span class="o">=</span><span class="mf">0.01</span><span class="p">,</span>
+        <span class="n">coord_type</span><span class="o">=</span><span class="s1">&#39;equatorial&#39;</span><span class="p">,</span> <span class="n">ref_wcs</span><span class="o">=</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">)):</span>
+
+    <span class="sd">&#39;&#39;&#39; Calculates pixel coordinates of an image at x-coord, y-coord = (0.0,</span>
+<span class="sd">    0.0) degrees in either equatorial or galactic coordinates.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    x_limits : tuple</span>
+<span class="sd">        Upper and lower limits of x-coord in degrees.</span>
+<span class="sd">    y_limits : tuple</span>
+<span class="sd">        Upper and lower limits of y-coord in degrees.&#39;</span>
+<span class="sd">    delta_x : float</span>
+<span class="sd">        Arclength of x-coord in degrees.</span>
+<span class="sd">    delta_y : float</span>
+<span class="sd">        Arclength of y-coord in degrees.</span>
+<span class="sd">    coord_type : str, optional</span>
+<span class="sd">        &#39;equatorial&#39; or &#39;galactic&#39;</span>
+<span class="sd">    ref_wcs : tuple, optional</span>
+<span class="sd">        Reference x and y coordinates in degrees. Default is (0.0, 0.0), which</span>
+<span class="sd">        is needed to be read by unsophisticated programs like Kvis.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    ref_pixel : tuple</span>
+<span class="sd">        Reference right ascension and declination in pixels for reference</span>
+<span class="sd">        coordinates.</span>
+<span class="sd">    npix : tuple</span>
+<span class="sd">        Number of pixels along right ascension and declinations axes.</span>
+
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="kn">from</span> <span class="nn">astropy</span> <span class="kn">import</span> <span class="n">wcs</span>
+
+    <span class="c1"># Initialize WCS object</span>
+    <span class="c1"># CRPIX should be at 0, 0 so that unsophisticated software like Kvis can</span>
+    <span class="c1"># read the coordinates properly.</span>
+    <span class="n">w</span> <span class="o">=</span> <span class="n">wcs</span><span class="o">.</span><span class="n">WCS</span><span class="p">(</span><span class="n">naxis</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">relax</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">w</span><span class="o">.</span><span class="n">wcs</span><span class="o">.</span><span class="n">cdelt</span> <span class="o">=</span> <span class="p">[</span><span class="n">delta_x</span><span class="p">,</span> <span class="n">delta_y</span><span class="p">]</span>
+    <span class="n">w</span><span class="o">.</span><span class="n">wcs</span><span class="o">.</span><span class="n">crval</span> <span class="o">=</span> <span class="p">[</span><span class="n">x_limits</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">y_limits</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span>
+    <span class="n">w</span><span class="o">.</span><span class="n">wcs</span><span class="o">.</span><span class="n">crpix</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+
+    <span class="c1"># Define coordinate type</span>
+    <span class="c1">#if coord_type.lower() == &#39;equatorial&#39;:</span>
+    <span class="c1">#    w.wcs.ctype = [&#39;RA---CAR&#39;, &#39;DEC--CAR&#39;]</span>
+    <span class="c1">#elif coord_type.lower() == &#39;galactic&#39;:</span>
+    <span class="c1">#    w.wcs.ctype = [&#39;GLON-CAR&#39;, &#39;GLAT-CAR&#39;]</span>
+
+    <span class="n">ref_pixel</span> <span class="o">=</span> <span class="n">w</span><span class="o">.</span><span class="n">wcs_world2pix</span><span class="p">((</span><span class="n">ref_wcs</span><span class="p">,),</span> <span class="mi">1</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+
+    <span class="c1"># Get pixel dimensions of image</span>
+    <span class="n">x_pix</span> <span class="o">=</span> <span class="n">w</span><span class="o">.</span><span class="n">wcs_world2pix</span><span class="p">(((</span><span class="n">x_limits</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">y_limits</span><span class="p">[</span><span class="mi">0</span><span class="p">]),</span>
+                             <span class="p">(</span><span class="n">x_limits</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">y_limits</span><span class="p">[</span><span class="mi">0</span><span class="p">])),</span>
+                            <span class="mi">1</span><span class="p">)</span>
+    <span class="n">y_pix</span> <span class="o">=</span> <span class="n">w</span><span class="o">.</span><span class="n">wcs_world2pix</span><span class="p">(((</span><span class="n">x_limits</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">y_limits</span><span class="p">[</span><span class="mi">0</span><span class="p">]),</span>
+                             <span class="p">(</span><span class="n">x_limits</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">y_limits</span><span class="p">[</span><span class="mi">1</span><span class="p">])),</span>
+                            <span class="mi">1</span><span class="p">)</span>
+
+    <span class="n">x_length_pix</span> <span class="o">=</span> <span class="n">x_pix</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="n">x_pix</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+    <span class="n">y_length_pix</span> <span class="o">=</span> <span class="n">y_pix</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">y_pix</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+
+    <span class="n">npix</span> <span class="o">=</span> <span class="p">(</span><span class="n">x_length_pix</span><span class="p">,</span> <span class="n">y_length_pix</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">ref_pixel</span><span class="p">,</span> <span class="n">npix</span>
+</div>
+<span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        dec_range = (21.3, 30.3)</span>
+<span class="sd">        ra_range = (60.0, 73.0)</span>
+
+
+<span class="sd">Ordering converted to RING</span>
+<span class="sd">WCSAXES =                    2 / Number of coordinate axes                      CRPIX1  =               7300.0 / Pixel coordinate of reference point            CRPIX2  =              -2130.0 / Pixel coordinate of reference point            CDELT1  =                -0.01 / [deg] Coordinate increment at reference point  CDELT2  =                 0.01 / [deg] Coordinate increment at reference point  CUNIT1  = &#39;deg&#39;                / Units of coordinate increment and value        CUNIT2  = &#39;deg&#39;                / Units of coordinate increment and value        CTYPE1  = &#39;RA---CAR&#39;           / Right ascension, plate caree projection        CTYPE2  = &#39;DEC--CAR&#39;           / Declination, plate caree projection            CRVAL1  =                  0.0 / [deg] Coordinate value at reference point      CRVAL2  =                  0.0 / [deg] Coordinate value at reference point      LONPOLE =                  0.0 / [deg] Native longitude of celestial pole       LATPOLE =                 90.0 / [deg] Native latitude of celestial pole        END</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+
+<span class="k">def</span> <span class="nf">convert_limit_coordinates</span><span class="p">(</span><span class="n">prop_dict</span><span class="p">,</span>
+        <span class="n">coords</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;region_limit&#39;</span><span class="p">,</span> <span class="s1">&#39;co_noise_limits&#39;</span><span class="p">,</span> <span class="s1">&#39;plot_limit&#39;</span><span class="p">),</span> <span class="n">header</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+
+    <span class="c1"># Initialize pixel keys</span>
+    <span class="k">for</span> <span class="n">coord</span> <span class="ow">in</span> <span class="n">coords</span><span class="p">:</span>
+        <span class="n">prop_dict</span><span class="p">[</span><span class="n">coord</span><span class="p">]</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="s1">&#39;pixel&#39;</span><span class="p">:</span> <span class="p">[]})</span>
+
+        <span class="k">if</span> <span class="n">coord</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;region_limit&#39;</span><span class="p">,</span>
+                     <span class="s1">&#39;plot_limit&#39;</span><span class="p">,</span>
+                     <span class="s1">&#39;region_limit_bin&#39;</span><span class="p">,</span>
+                     <span class="s1">&#39;plot_limit_bin&#39;</span><span class="p">):</span>
+            <span class="n">limit_wcs</span> <span class="o">=</span> <span class="n">prop_dict</span><span class="p">[</span><span class="n">coord</span><span class="p">][</span><span class="s1">&#39;wcs&#39;</span><span class="p">]</span>
+
+            <span class="k">for</span> <span class="n">limits</span> <span class="ow">in</span> <span class="n">limit_wcs</span><span class="p">:</span>
+                <span class="c1"># convert centers to pixel coords</span>
+                <span class="n">limit_pixels</span> <span class="o">=</span> <span class="n">get_pix_coords</span><span class="p">(</span><span class="n">ra</span><span class="o">=</span><span class="n">limits</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+                                             <span class="n">dec</span><span class="o">=</span><span class="n">limits</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span>
+                                             <span class="n">header</span><span class="o">=</span><span class="n">header</span><span class="p">)[:</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+
+                <span class="n">prop_dict</span><span class="p">[</span><span class="n">coord</span><span class="p">][</span><span class="s1">&#39;pixel&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">limit_pixels</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+                <span class="n">prop_dict</span><span class="p">[</span><span class="n">coord</span><span class="p">][</span><span class="s1">&#39;pixel&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">limit_pixels</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="k">elif</span> <span class="n">coord</span> <span class="o">==</span> <span class="s1">&#39;co_noise_limits&#39;</span><span class="p">:</span>
+            <span class="n">region_limits</span> <span class="o">=</span> <span class="n">prop_dict</span><span class="p">[</span><span class="n">coord</span><span class="p">][</span><span class="s1">&#39;wcs&#39;</span><span class="p">]</span>
+
+            <span class="c1"># Cycle through each region, convert WCS limits to pixels</span>
+            <span class="k">for</span> <span class="n">region</span> <span class="ow">in</span> <span class="n">region_limits</span><span class="p">:</span>
+                <span class="n">region_pixels</span> <span class="o">=</span> <span class="p">[]</span>
+                <span class="k">for</span> <span class="n">limits</span> <span class="ow">in</span> <span class="n">region</span><span class="p">:</span>
+                    <span class="c1"># convert centers to pixel coords</span>
+                    <span class="n">limit_pixels</span> <span class="o">=</span> <span class="n">get_pix_coords</span><span class="p">(</span><span class="n">ra</span><span class="o">=</span><span class="n">limits</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+                                                  <span class="n">dec</span><span class="o">=</span><span class="n">limits</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span>
+                                                  <span class="n">header</span><span class="o">=</span><span class="n">header</span><span class="p">)[:</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+                    <span class="n">region_pixels</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">limit_pixels</span><span class="p">)</span>
+
+                <span class="c1"># Append individual regions back to CO noise</span>
+                <span class="n">prop_dict</span><span class="p">[</span><span class="n">coord</span><span class="p">][</span><span class="s1">&#39;pixel&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">region_pixels</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">prop_dict</span>
+
+<div class="viewcode-block" id="get_pix_coords"><a class="viewcode-back" href="../code.html#mycoords.get_pix_coords">[docs]</a><span class="k">def</span> <span class="nf">get_pix_coords</span><span class="p">(</span><span class="n">ra</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">dec</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+
+    <span class="sd">&#39;&#39;&#39; Ra and dec in (hrs,min,sec) and (deg,arcmin,arcsec), or Ra in degrees</span>
+<span class="sd">    and dec in degrees.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="kn">import</span> <span class="nn">pywcsgrid2</span> <span class="kn">as</span> <span class="nn">wcs</span>
+    <span class="kn">import</span> <span class="nn">pywcs</span>
+    <span class="kn">from</span> <span class="nn">astropy.wcs</span> <span class="kn">import</span> <span class="n">WCS</span>
+    <span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+
+    <span class="c1"># convert to degrees if ra and dec are array-like</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">ra</span><span class="p">)</span> <span class="o">==</span> <span class="mi">3</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">dec</span><span class="p">)</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
+            <span class="n">ra_deg</span><span class="p">,</span> <span class="n">dec_deg</span> <span class="o">=</span> <span class="n">hrs2degs</span><span class="p">(</span><span class="n">ra</span><span class="o">=</span><span class="n">ra</span><span class="p">,</span> <span class="n">dec</span><span class="o">=</span><span class="n">dec</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;RA and Dec must be in (hrs,min,sec) and&#39;</span> <span class="o">+</span> \
+                    <span class="s1">&#39; (deg,arcmin,arcsec) or in degrees.&#39;</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">TypeError</span><span class="p">:</span>
+        <span class="n">ra_deg</span><span class="p">,</span> <span class="n">dec_deg</span> <span class="o">=</span> <span class="n">ra</span><span class="p">,</span> <span class="n">dec</span>
+
+    <span class="c1">#wcs_header = pywcs.WCS(header)</span>
+    <span class="n">wcs_header</span> <span class="o">=</span> <span class="n">WCS</span><span class="p">(</span><span class="n">header</span><span class="p">)</span>
+    <span class="c1">#pix_coords = wcs_header.wcs_sky2pix([[ra_deg, dec_deg, 0]], 0)[0]</span>
+    <span class="n">pix_coords</span> <span class="o">=</span> <span class="n">wcs_header</span><span class="o">.</span><span class="n">wcs_world2pix</span><span class="p">([[</span><span class="n">ra_deg</span><span class="p">,</span> <span class="n">dec_deg</span><span class="p">],],</span> <span class="mi">0</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">hstack</span><span class="p">((</span><span class="n">pix_coords</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">))</span>
+</div>
+<div class="viewcode-block" id="hrs2degs"><a class="viewcode-back" href="../code.html#mycoords.hrs2degs">[docs]</a><span class="k">def</span> <span class="nf">hrs2degs</span><span class="p">(</span><span class="n">ra</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">dec</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39; Ra and dec tuples in hrs min sec and deg arcmin arcsec.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="n">ra_deg</span> <span class="o">=</span> <span class="mi">15</span><span class="o">*</span><span class="p">(</span><span class="n">ra</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">ra</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">/</span><span class="mf">60.</span> <span class="o">+</span> <span class="n">ra</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">/</span><span class="mf">3600.</span><span class="p">)</span>
+    <span class="n">dec_deg</span> <span class="o">=</span> <span class="n">dec</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">dec</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">/</span><span class="mf">60.</span> <span class="o">+</span> <span class="n">dec</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">/</span><span class="mf">3600.</span>
+
+    <span class="k">return</span> <span class="p">(</span><span class="n">ra_deg</span><span class="p">,</span> <span class="n">dec_deg</span><span class="p">)</span>
+</div>
+<span class="k">def</span> <span class="nf">load_ds9_region</span><span class="p">(</span><span class="n">props</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="s1">&#39;regions&#39;</span><span class="p">):</span>
+
+    <span class="kn">import</span> <span class="nn">pyregion</span> <span class="kn">as</span> <span class="nn">pyr</span>
+
+    <span class="c1"># region[0] in following format:</span>
+    <span class="c1"># [64.26975, 29.342033333333333, 1.6262027777777777, 3.32575, 130.0]</span>
+    <span class="c1"># [ra center, dec center, width, height, rotation angle]</span>
+
+    <span class="n">regions</span> <span class="o">=</span> <span class="n">pyr</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+
+    <span class="n">props</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+
+    <span class="k">for</span> <span class="n">region</span> <span class="ow">in</span> <span class="n">regions</span><span class="p">:</span>
+        <span class="c1"># Cores defined in following format: &#39;tag={L1495A}&#39;</span>
+        <span class="k">if</span> <span class="n">region</span><span class="o">.</span><span class="n">comment</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="n">tag</span> <span class="o">=</span> <span class="n">region</span><span class="o">.</span><span class="n">comment</span>
+            <span class="n">region_name</span> <span class="o">=</span> <span class="n">tag</span><span class="p">[</span><span class="n">tag</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;text={&#39;</span><span class="p">)</span><span class="o">+</span><span class="mi">6</span><span class="p">:</span><span class="n">tag</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;}&#39;</span><span class="p">)]</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+
+            <span class="c1"># Format vertices to be 2 x N array</span>
+            <span class="n">poly_verts</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">region</span><span class="o">.</span><span class="n">coord_list</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">):</span>
+                <span class="n">poly_verts</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">region</span><span class="o">.</span><span class="n">coord_list</span><span class="p">[</span><span class="mi">2</span><span class="o">*</span><span class="n">i</span><span class="p">],</span>
+                                   <span class="n">region</span><span class="o">.</span><span class="n">coord_list</span><span class="p">[</span><span class="mi">2</span><span class="o">*</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]))</span>
+
+            <span class="n">poly_verts_pix</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">poly_verts</span><span class="p">)):</span>
+                <span class="n">poly_verts_pix</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">get_pix_coords</span><span class="p">(</span><span class="n">ra</span><span class="o">=</span><span class="n">poly_verts</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span>
+                                                <span class="n">dec</span><span class="o">=</span><span class="n">poly_verts</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">1</span><span class="p">],</span>
+                                                <span class="n">header</span><span class="o">=</span><span class="n">header</span><span class="p">)[:</span><span class="o">-</span><span class="mi">1</span><span class="p">][::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">())</span>
+
+            <span class="n">props</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="n">region_name</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+            <span class="n">props</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="n">region_name</span><span class="p">][</span><span class="s1">&#39;poly_verts&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+            <span class="n">props</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="n">region_name</span><span class="p">][</span><span class="s1">&#39;poly_verts&#39;</span><span class="p">][</span><span class="s1">&#39;wcs&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">poly_verts</span>
+            <span class="n">props</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="n">region_name</span><span class="p">][</span><span class="s1">&#39;poly_verts&#39;</span><span class="p">][</span><span class="s1">&#39;pixel&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">poly_verts_pix</span>
+
+    <span class="k">return</span> <span class="n">props</span>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../index.html">custom_modules 0.0.1 documentation</a> &raquo;</li>
+          <li><a href="index.html" >Module code</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2016, Elijah Bernstein-Cooper.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+    </div>
+  </body>
+</html>
