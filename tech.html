@@ -1,0 +1,48 @@
+---
+layout: default
+title: Technology
+---
+
+<!-- pagination won't work for different categories, use octopuss paginate:
+https://github.com/octopress/paginate -->
+
+<div class="col-sm-12">
+    <div class="page-title">
+        {{ page.title }}
+    </div>
+    <div class="page-content">
+      <div class="page-intro">
+        
+        Tackling a question in research or another form of data science often
+        demand adopting new technological knowledge. I often find the methods of
+        answering questions just as exciting as the questions themselves. Check
+        out the documentation of a suite of Python modules I developed, or my
+        young blog on dealing with new technology.
+
+      </div>
+
+      <div class="page-examples">
+        <div class="page-category">
+          <a href="/python-docs">Python Docs</a>
+        </div> 
+
+        <hr class="vertical">
+      </div>
+
+      <div class="page-examples">
+        <div class="page-category">
+          <a href="/tech-projects">Tech Projects</a>
+        </div> 
+
+        {% include posts/post_examples_tech-projects.html %}
+
+        <hr class="vertical">
+      </div>
+
+
+    </div>
+</div>
+
+<!-- Open display blocks on examples -->
+{% include posts/display_blocks.html %}
+
