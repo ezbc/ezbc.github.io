@@ -9,10 +9,14 @@ use_math: true
 archive: false
 example: data-science-projects 
 index-example: data-science 
-excerpt: I outline my steps to predict user interest in traveling for Air B&B. I adopt a neural network classifier routine in Python to predict which country a user will travel to next.
+excerpt: I outline my steps to predict user interest in traveling for Air B&B. I adopt a neural network regression routine in Python to predict which country a user will travel to next.
 ---
 
-I outline my steps to predict user interest in traveling for Air B&B. I adopt a neural network classifier routine in Python to predict which country a user will travel to next.
+I outline my steps to predict user interest in traveling for Air B&B. I adopt a
+neural network regression routine in Python to predict which country a user will
+travel to next. With just a rudimentary application of readily available Python
+routines I am able to predict the majority of more than 60,000 countries an Air
+B&B user will travel to next.
 
 {% include toc.md %}
 
@@ -90,11 +94,16 @@ the [`theanets`](https://pypi.python.org/pypi/theanets) Neural Network
 Classification module. The particular
 [application](http://theanets.readthedocs.org/en/stable/api/models.html) of
 `theanets` as a neural network regressor involves minimizing the sum of the
-squared error between the data and model plus a regularization term.
+squared error between the data and model plus a regularization term.  I use the
+number of train users as the number of input
+[http://theanets.readthedocs.org/en/stable/api/layers.html], and then number of
+test users as the number of output layers. I adopt the default activation (loss)
+function for each layer: a logistic function.
 
 # Regression
 
-After applying the regression on the training set, I predict the test set with a
-67% accuracy. More details to come!
-
+The regression requires about 10 minutes on a standard laptop. I receive a
+normalized discounted cumulative gain score of $0.67$. With just a rudimentary
+application of readily available Python routines I am able to predict the
+majority of more than 60,000 countries an Air B&B user will travel to next.
 
