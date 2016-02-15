@@ -12,6 +12,7 @@ index-example: data-science
 excerpt: I outline my steps to predict user interest in traveling for Air B&B. I adopt a neural network classifier routine in Python to predict which country a user will travel to next.
 ---
 
+I outline my steps to predict user interest in traveling for Air B&B. I adopt a neural network classifier routine in Python to predict which country a user will travel to next.
 
 {% include toc.md %}
 
@@ -19,6 +20,18 @@ excerpt: I outline my steps to predict user interest in traveling for Air B&B. I
 
 I decided to have a go at the Kaggle competition for [predicting Air B&B user's
 future travel](https://www.kaggle.com/c/airbnb-recruiting-new-user-bookings).
+My goal is to predict the next country a user will visit given a small amount of
+personal data about the user. Entries are evaluated with a [normalized
+discounted cumulative
+gain](https://www.kaggle.com/c/airbnb-recruiting-new-user-bookings/details/evaluation).
+
+Air B&B provides several datasets, however the most integral data are the
+training and test dataset. We will use the training dataset which include the
+country the user will visit to fit our predictive model. We will then predict
+the country a user will visit for each user in the test dataset. We could
+improve our analysis by partitioning the training dataset into a validation
+dataset to perform cross-validation with our model predictions. This would
+ensure that we do not over-fit our model to the data.
 
 # The Data
 
@@ -27,15 +40,7 @@ The data description can be found
 
 ## Training Data
 
-  train_users.csv - the training set of users
-
-## The Sample Data
-
-The sample data consists of three segmented data sets
-
-### Test Data
-
-test_users.csv - the test set of users
+The train data possess fourteen attributes for about half a million users.
 
 + id: user id
 + date_account_created: the date of account creation
@@ -54,33 +59,42 @@ test_users.csv - the test set of users
 + first_browser
 + country_destination: this is the target variable you are to predict
 
-### User Data
+### Test Data
 
-+ sessions.csv - web sessions log for users
-  + user_id: to be joined with the column 'id' in users table
-  + action
-  + action_type
-  + action_detail
-  + device_type
-  + secs_elapsed
+The test set of users separate from the sample data. These data
+do not contain the country_destination variable.
 
-### Population Data
+# Preparing the Data
 
-+ age_gender_bkts.csv - summary statistics of users' age group, gender, country 
-                        of destination
+I use the `pandas` library in Python to handle all subsequent analysis of the
+data. First we must prep the data. This includes filtering empty user data, and
+creating dummy categorical variables in order to perform a regression on the
+data. To keep the data preparation simple I ignore all date-time variables in
+the analysis.
 
-### Country Data
+For continuous variables, I convert empty user variable values to the mean value
+of that variable for all users. This includes age and signup_flow.
 
-+ countries.csv - summary statistics of destination countries in this dataset
-                  and their locations
+Next, I create dummy variables for each categorical variable. For each
+categorical variable I tally the number of unique values, then create a new
+dummy variable for each unique value. I populate the dummy variables with either
+a 1 if the categorical variable of a user contained the dummy variable value,
+and a 0 if not.
 
-# First Examination of the Data
+We are now ready to predict user destinations.
 
-# Predictions of the Data
+# Applying the Predictive Model
 
-We should convert the labels into dummy variables and individually predict for
-each country. Then join the results together.
+I use the [`rep`](http://yandex.github.io/rep/) Python package as a wrapper for
+the [`theanets`](https://pypi.python.org/pypi/theanets) Neural Network
+Classification module. The particular
+[application](http://theanets.readthedocs.org/en/stable/api/models.html) of
+`theanets` as a neural network regressor involves minimizing the sum of the
+squared error between the data and model plus a regularization term.
 
+# Regression
 
+After applying the regression on the training set, I predict the test set with a
+67% accuracy. More details to come!
 
 
