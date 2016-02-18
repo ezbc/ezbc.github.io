@@ -16,7 +16,8 @@ I outline my steps to predict user interest in traveling for Air B&B. I adopt a
 neural network regression routine in Python to predict which country a user will
 travel to next. With just a rudimentary application of readily available Python
 routines I am able to predict the majority of more than 60,000 countries an Air
-B&B user will travel to next.
+B&B user will travel to next. You can find the source code here:
+[https://github.com/ezbc/airbnb](https://github.com/ezbc/airbnb).
 
 {% include toc.md %}
 
