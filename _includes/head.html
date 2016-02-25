@@ -91,6 +91,13 @@
             src="/assets/js/image_carousel.js">
         </script>
 
+        <!-- PDF resizing -->
+        <script language="javascript" type="text/javascript">
+          function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+          }
+        </script>
+
         <!-- allow single dollar sign escape for mathjax -->
         <script src="/assets/js/mathjax_config.js" type="text/x-mathjax-config">
             MathJax.Hub.Config({
