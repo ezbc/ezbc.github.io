@@ -44,9 +44,9 @@ Specifically we assume that $T_{D,Si} = T_{D,C}$.
 
 [Boulanger et al.  (1996)](http://adsabs.harvard.edu/abs/1996A%26A...312..256B)
 derived an average temperature for dust grains in the solar neighborhood of $T_D
-= 17.5 K = T_{D,Si} = T_{D,C}$. We can then solve for $a_{Si}$ and $a_C$
-individually, leading us to the normalized relation between the $T_D$ and
-$U_{M83}$:
+= 17.5 K = T_{D,Si} = T_{D,C}$ using IR spectra. We can then solve for $a_{Si}$
+and $a_C$ individually, leading us to the normalized relation between the $T_D$
+and $U_{M83}$:
 
 $\begin{equation}
 U_{M83} = (T_D / 17.5 K)^6 
