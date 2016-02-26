@@ -24,31 +24,33 @@ Interstellar Radiation Field (ISRF), we can follow the steps from Draine's
 textbook to model the temperature of a dust grain $T_D$ by
 
 $\begin{equation}
-T_D = 16.4 (a / 0.1 \mu m)^{-1/15} * U_{M83}^{1/6} K
+T_{D,Si} = 16.4 (a_{Si} / 0.1 \mu m)^{-1/15} * U_{M83}^{1/6} K
 \end{equation}$
 
 for silicate grains and 
 
 $\begin{equation}
-T_D = 22.3 (a / 0.1 \mu m)^{-1/40} * U_{M83}^{1/6} K
+T_{D,C} = 22.3 (a_C / 0.1 \mu m)^{-1/40} * U_{M83}^{1/6} K
 \end{equation}$
 
-where $U_{M83}$ is the ISRF by Mathis+83 integrated from 0.09 micron to 8 micron
-and $a$ is the dust grain radius. $U(M83) = 1$ corresponds to $2.2e-5$ W
-m$^{-2}$. 
+for carbonasceous where $U_{M83}$ is the ISRF by Mathis+83 integrated from 0.09
+micron to 8 micron and $a$ is the dust grain radius. $U(M83) = 1$ corresponds to
+$2.2e-5$ W m$^{-2}$. 
 
-Since both $T_D$ for each grain type are
-proportional to $U_{M83}^{1/6}$ we could determine an average equilibrium
-temperature for a typical grain composition, and solve for $U_{M83}$ solely as a
-function of $T_D$:
+Since both $T_D$ for each grain type are proportional to $U_{M83}^{1/6}$ we
+could determine an average equilibrium temperature for a typical grain
+composition, and solve for $U_{M83}$ solely as a function of $T_D$.
+Specifically we assume that $T_{D,Si} = T_{D,C}$. 
+
+[Boulanger et al.  (1996)](http://adsabs.harvard.edu/abs/1996A%26A...312..256B)
+derived an average temperature for dust grains in the solar neighborhood of $T_D
+= 17.5 K = T_{D,Si} = T_{D,C}$. We can then solve for $a_{Si}$ and $a_C$
+individually, leading us to the normalized relation between the $T_D$ and
+$U_{M83}$:
 
 $\begin{equation}
 U_{M83} = (T_D / 17.5 K)^6 
 \end{equation}$
-
-This relation is based on many observations showing that large interstellar
-dust grains have an equilibrium temperature of 17.5 K in the solar neighborhood
-[(Boulanger et al. 1996)](http://adsabs.harvard.edu/abs/1996A%26A...312..256B).
 
 # Habing and Draine Fields
 
