@@ -97,10 +97,23 @@ $\begin{equation}
 U_{H68} = 1.14 (T_D / 17.5 K)^{\beta + 4}
 \end{equation}$
 
-# Radiation Field Map
+# Radiation Field Values
 
 I created a map of the radiation field using the $T_D$ and $\beta$ Planck maps
-shown in Figure 1.
+shown in Figure 1. I show the radiation fields for each cloud in Table 1.
+
+***
+
+$$\begin{array}{lccc}
+& California & Perseus & Taurus \\
+Draine & 0.97 \pm 0.07 & 2.95 \pm 0.17  & 1.18 \pm 0.10 \\
+Habing & 0.57 \pm 0.04 & 1.73 \pm 0.10  & 0.69 \pm 0.06 \\
+\end{array}$$
+
+##### Table 1
+
+Table of median Habing and Draine radiation fields.
+
 
 ***
 
