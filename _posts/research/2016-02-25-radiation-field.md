@@ -35,7 +35,8 @@ T_{D,C} = 22.3 (a_C / 0.1 \mu m)^{-1/40} * U_{M83}^{1/6} K
 
 for carbonasceous where $U_{M83}$ is the ISRF by Mathis+83 integrated from 0.09
 micron to 8 micron and $a$ is the dust grain radius. $U(M83) = 1$ corresponds to
-$2.2e-5$ W m$^{-2}$. 
+$2.2e-5$ W m$^{-2}$. This assumes the slope of the dust modified blackbody
+spectrum, $\beta = 2.0$.
 
 Since both $T_D$ for each grain type are proportional to $U_{M83}^{1/6}$ we
 could determine an average equilibrium temperature for a typical grain
@@ -76,5 +77,43 @@ and $U_{H68}$ used in the Krumholz+09 model is given by
 $\begin{equation}
 U_{H68} = 1.14 (T_D / 17.5 K)^6 
 \end{equation}$
+
+# Adjusting for Modified Blackbody Slopes
+
+The proportionality between the dust temperature and the radiation field
+depends on the modified blackbody slope, $\beta$ and the blackbody flux
+dependence, giving $U \propto T_D^{\beta + 4}$. Thus if we have information
+about $\beta$ we should calculate our radiation fields in the following way: 
+
+$U_{D78}$ used in the Sternberg+14 model is given by
+
+$\begin{equation}
+U_{D78} = 1.5 (T_D / 17.5 K)^{\beta + 4}
+\end{equation}$
+
+$U_{H68}$ used in the Krumholz+09 model is given by
+
+$\begin{equation}
+U_{H68} = 1.14 (T_D / 17.5 K)^{\beta + 4}
+\end{equation}$
+
+# Radiation Field Map
+
+I created a map of the radiation field using the $T_D$ and $\beta$ Planck maps
+shown in Figure 1.
+
+***
+
+<div class="image-4of4-width">
+  <img src="/images/2016-03-07/radiation_field.png"/> 
+</div>
+
+##### Figure 1
+
+Radiation field of Taurus-California-Perseus region shown in units of Mathis
+fields.
+
+***
+
 
 
