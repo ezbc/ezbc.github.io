@@ -7,7 +7,6 @@ tags: Taurus-California-Perseus, Sternberg, Krumholz
 comments: true
 use_math: true
 excerpt: <div class="image-2of4-width" align="center"><img src="/images/2016-02-15/temperature_cdfs_nocap.png"/></div> 
-
 ---
 
 {% include toc.md %}
