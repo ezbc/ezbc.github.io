@@ -20,9 +20,8 @@ of dust aggregates, inducing a higher dust emissivity. This can be tested using
 extinction data, since dust aggregates are expected to have a higher FIR
 emissivity than isolated grains, but mostly unaffected optical properties in the
 visible and ultra-violet. Therefore, no substantial $A_V$ excess relative to the
-gas column density should be observed in that case. We note that $\gamma$-ray
-observations would not detect any excess if the FIR excess were due to either
-D/G or dust optical property variations.
+gas column density should be observed in that case. The dust emissivity should
+therefore increase with $A_V$ if dust is aggregating in dense regions.
 
 # Results
 
@@ -35,10 +34,10 @@ The median values of $\beta$ for the three clouds are all $1.7$. This is
 consistent with dust aggregating in these clouds.
 
 Figure 3 shows the 2MASS-derived $A_V$ and $\beta$ relationship.  Taurus and
-California however show increasing $\beta$ in increasingly dense regions,
-consistent with dust aggregation. We can see that $\beta$ is negatively
-proportional to $A_V$ for Perseus however. This means that for denser regions,
-the emissivity index decreases.
+California show increasing $\beta$ in increasingly dense regions, consistent
+with dust aggregation. We can see that $\beta$ is negatively proportional to
+$A_V$ for Perseus however. This means that for denser regions, the emissivity
+index decreases.
 
 ***
 
