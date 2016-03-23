@@ -62,20 +62,27 @@ density for photon energies from 10 to 13.6 eV. The Draine field field from 6 to
 13.6 eV.  The Mathis field, $U_{M83}$ includes radiation with wavelengths
 between 2460 angstrom and 912 angstrom. 
 
-Compared to the relevant range of photon energies in the Mathis field. The three
-radiation fields are related to one another as $U_{D78} = 1.69 U_{H68}$ and
-$U_{M83} = 1.14 U_{H68}$.
-
-Hence $U_{D78}$ used in the Sternberg+14 model is given by
+To compare the three fields, Draine defines a scalar between a measured
+radiation field $U(6-13.6eV)$ (between photon energies of 6 to 13.6eV), $G_0$,
+relative to the Habing field of $U_{H68} = 5.29 \times 10^{-14}$ erg cm$^{-3}$
+by
 
 $\begin{equation}
-U_{D78} = 1.5 (T_D / 17.5 K)^6 
+  G_0 = \frac{U(6-13.6eV)}{U_{H68}}
 \end{equation}$
 
-and $U_{H68}$ used in the Krumholz+09 model is given by
+For the Draine field, $U_{D78}$, $G_0 = 1.69$, thus $1.69 = U_{D78} / U_{H68}$
+or rather the Draine field is 1.69 times stronger than the Habing field. For the
+Mathis field, $U_{M83}$, $G_0 = 1.14$, thus $1.14 = U_{M83} / U_{H68}.$ This
+leads us to the relationship between the Draine field and the Mathis field of
+$U_{D78} = 1.48 U_{M83}$, or rather the Draine field is 1.48 times stronger than
+the Mathis field.
+
+Hence $U_{D78}$, as a function of $T_D$, used in the Sternberg+14 and
+Krumholz+09 models is given by
 
 $\begin{equation}
-U_{H68} = 1.14 (T_D / 17.5 K)^6 
+U_{D78} = 1.48 (T_D / 17.5 K)^6 
 \end{equation}$
 
 # Adjusting for Modified Blackbody Slopes
@@ -85,16 +92,10 @@ depends on the modified blackbody slope, $\beta$ and the blackbody flux
 dependence, giving $U \propto T_D^{\beta + 4}$. Thus if we have information
 about $\beta$ we should calculate our radiation fields in the following way: 
 
-$U_{D78}$ used in the Sternberg+14 model is given by
+$U_{D78}$ used in the Sternberg+14 and Krumholz+09 models is given by
 
 $\begin{equation}
-U_{D78} = 1.5 (T_D / 17.5 K)^{\beta + 4}
-\end{equation}$
-
-$U_{H68}$ used in the Krumholz+09 model is given by
-
-$\begin{equation}
-U_{H68} = 1.14 (T_D / 17.5 K)^{\beta + 4}
+U_{D78} = 1.48 (T_D / 17.5 K)^{\beta + 4}
 \end{equation}$
 
 # Radiation Field Values
