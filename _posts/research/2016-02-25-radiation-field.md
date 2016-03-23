@@ -63,7 +63,7 @@ density for photon energies from 10 to 13.6 eV. The Draine field field from 6 to
 between 2460 angstrom and 912 angstrom. 
 
 Compared to the relevant range of photon energies in the Mathis field. The three
-radiation fields are related to one another as $U_{D78} = 1.71 U_{H68}$ and
+radiation fields are related to one another as $U_{D78} = 1.69 U_{H68}$ and
 $U_{M83} = 1.14 U_{H68}$.
 
 Hence $U_{D78}$ used in the Sternberg+14 model is given by
