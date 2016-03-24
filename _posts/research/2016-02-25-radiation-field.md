@@ -47,10 +47,10 @@ Specifically we assume that $T_{D,Si} = T_{D,C}$.
 derived an average temperature for dust grains in the solar neighborhood of $T_D
 = 17.5 K = T_{D,Si} = T_{D,C}$ using IR spectra. We can then solve for $a_{Si}$
 and $a_C$ individually, leading us to the normalized relation between the $T_D$
-and $U_{M83}$:
+and the radiation field, $U$, in units of $U_{M83}$:
 
 $\begin{equation}
-U_{M83} = (T_D / 17.5 K)^6 
+U(U_{M83}) = (T_D / 17.5 K)^6 U_{M83}
 \end{equation}$
 
 # Habing and Draine Fields
@@ -78,11 +78,11 @@ leads us to the relationship between the Draine field and the Mathis field of
 $U_{D78} = 1.48 U_{M83}$, or rather the Draine field is 1.48 times stronger than
 the Mathis field.
 
-Hence $U_{D78}$, as a function of $T_D$, used in the Sternberg+14 and
-Krumholz+09 models is given by
+Hence $U$ in units of $U_{D78}$, as a function of $T_D$, used in the
+Sternberg+14 and Krumholz+09 models is given by
 
 $\begin{equation}
-U_{D78} = 1.48 (T_D / 17.5 K)^6 
+U(U_{D78}) = \frac{(T_D / 17.5 K)^6}{1.48} U_{D78}
 \end{equation}$
 
 # Adjusting for Modified Blackbody Slopes
@@ -92,10 +92,11 @@ depends on the modified blackbody slope, $\beta$ and the blackbody flux
 dependence, giving $U \propto T_D^{\beta + 4}$. Thus if we have information
 about $\beta$ we should calculate our radiation fields in the following way: 
 
-$U_{D78}$ used in the Sternberg+14 and Krumholz+09 models is given by
+$U$ in units of $U_{D78}$ used in the Sternberg+14 and Krumholz+09 models is
+given by
 
 $\begin{equation}
-U_{D78} = 1.48 (T_D / 17.5 K)^{\beta + 4}
+U(U_{D78}) = \frac{(T_D / 17.5 K)^{4 + \beta}}{1.48} U_{D78}
 \end{equation}$
 
 # Radiation Field Values
