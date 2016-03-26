@@ -65,4 +65,20 @@ Time: 2 days, 45 minutes hands-on time.
 
 8. Allow to fully cool.
 
+# Photos
+
+<div class="carouselContainer">
+  <div class="variable-width">
+    <div> <img src="/images/2016-03-26/bread.png"
+               style="height:400px"/> </div>
+    <div> <img src="/images/2016-03-26/dough.png"
+               style="height:400px"/> </div>
+    <div> <img src="/images/2016-03-26/oats.png"
+               style="height:400px"/> </div>
+    <div> <img src="/images/2016-03-26/dough_in_dutchoven.png"
+               style="height:400px"/> </div>
+    <div> <img src="/images/2016-03-26/dough_with_slashes.png"
+               style="height:400px"/> </div>
+  </div>
+</div>
 
