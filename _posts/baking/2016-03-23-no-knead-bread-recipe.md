@@ -8,8 +8,6 @@ comments: true
 use_math: true
 ---
 
-{% include toc.md %}
-
 This sourdough recipe will yield artisan loafs without any kneading. I have
 combined a no-knead bread technique from the [Artisan Bread in Five Minutes a
 Day](http://www.amazon.com/Artisan-Bread-Five-Minutes-Revolutionizes/dp/0312362919)
@@ -20,6 +18,8 @@ loaves an extra bite complimentary to the tangy sourdough, all without ever
 needing to touch the dough. The hands-on time spent actually paying attention to
 these loaves is minimal making this recipe a low commitment, but yields
 delicious results.
+
+{% include toc.md %}
 
 # The Recipe
 
