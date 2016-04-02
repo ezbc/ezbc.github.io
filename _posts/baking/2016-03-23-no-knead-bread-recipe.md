@@ -1,9 +1,9 @@
 ---
 layout: post
 title: No-Knead Bread Recipe
-author:
+author: Elijah Bernstein-Cooper
 category: baking
-tags: 
+tags: bread
 comments: true
 use_math: true
 ---

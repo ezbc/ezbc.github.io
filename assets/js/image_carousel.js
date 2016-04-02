@@ -1,5 +1,5 @@
 /* Slick Carousel functional adjustments
-http://kenwheeler.github.io/slick/ 
+https://kenwheeler.github.io/slick/ 
 */
 $(document).ready(function(){
     $('.autoplay').slick({
