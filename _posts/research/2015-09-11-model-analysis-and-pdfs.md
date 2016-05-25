@@ -69,11 +69,3 @@ The dust and HI in Taurus is less centrally concentrated than in Perseus and
 California. Lombardi et al. (2015) shows a peak of about $A_V$ = 1 mag, similar
 to what we have found.
 
-## **Model Analysis**
-
-I have successfully implemented the model fitting in the new monte carlo
-bootstrap scheme. Next post I will present the results of the Krumholz et al.
-(2009) model fitting.
-
-
-
