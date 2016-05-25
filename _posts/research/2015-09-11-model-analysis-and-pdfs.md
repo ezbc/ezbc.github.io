@@ -3,7 +3,7 @@ layout: post
 title: Probability Density Functions
 author:
 category: research
-tags: Taurus-California-Perseus Modeling
+tags: Taurus-California-Perseus, Modeling
 comments: true
 use_math: true
 ---
@@ -19,11 +19,11 @@ use_math: true
 
 ## **Probability Density Functions**
 
-[Burkhart et al. (2015)](http://adsabs.harvard.edu/abs/2015arXiv150902889B)
-just published a paper using the Lee et al. (2015) opacity-corrected HI and H2
+[Burkhart et al. (2015)](http://adsabs.harvard.edu/abs/2015arXiv150902889B) just
+published a paper using the Lee et al. (2015) optical-depth-corrected HI and H2
 in Perseus to examine the PDF of the gas and dust of the molecular cloud. The
-HI-to-H2 transition was found to be around the peak in the $A_V$ PDF of
-Perseus. We show a similar plot to their Figure 2 below.
+HI-to-H2 transition was found to be around the peak in the $A_V$ PDF of Perseus.
+We show a similar plot to their Figure 2 below.
 
 ***
 
