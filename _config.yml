@@ -12,6 +12,8 @@ redcarpet:
 paginate: 20
 paginate_path: "/page:num/"
 
+exclude: [env]
+
 #permalink: /:year/:month/:day/:title/
 permalink: pretty
 owner:
