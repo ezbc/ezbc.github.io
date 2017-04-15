@@ -1,45 +1,113 @@
 ---
 layout: default
 ---
+
 <div class="col-sm-12">
     <div class="page">
-        {% for post in site.posts %}
-            <div class="page-item">
-                <div class="col-sm-8">
-                    <ul class="page-item-title">
-                        <li><time class="timeago meta" datetime="{{ post.date |  date: "%A %-d %B %Y" }}">{{ post.date }}</time>
-                        - {{ post.category }} Post
-                        <a class="meta pull-right comments-meta" href="{{ post.url | prepend: site.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
-                        <li><a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-4 hide-on-phone">
-                    <ul class="page-item-title pull-right meta">
-                        <li><a href="{{ post.url | prepend: site.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
-                        <li><a href="{{ post.url | prepend: site.url }}">more <i class="fa fa-ellipsis-h"></i></a></li>
-                        <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-12 page-item-body">
-                    {{post.excerpt}}
-                </div>
+        
+      <div class="page-intro">
+        <p class="imageTextWrap">
+          <img src="/images/portrait.jpg" alt="Elijah Bernstein-Cooper">
+
+          <p> 
+            Welcome to the website of Elijah Z. Bernstein-Cooper.
+          </p>
+
+          <p> 
+
+            You will quickly find that I pursue a diverse set of interests.
+            The common theme amongst all of my endeavors however, is the
+            attention to quality.
+          </p>
+        <p class="endWrap"> </p>
+      </div>
+
+        <p> 
+        
+          Curiosity drives my pursuit to develop questions, models, or code.
+          Explore this site and you'll see diversity in my explorations of data
+          science. Visit my blogs on different data science projects, or explore
+          the extensive Python code I've developed to accomplish various
+          projects.
+
+        <!--
+        <div class="carouselContainer">
+          <div class="variable-width">
+            <div> 
+              <img
+              src="/images/2015-10-01/multicloud_av_cores_meng13_nh2.png"
+              style="height:300px"/>
             </div>
-        {% endfor %}
+            <div> 
+              <img src="/images/2015-08-03/california_k09_coarseres_nh2_vs_nhi.png"
+                style="height:300px"/>
+            </div>
+            <div> 
+              <img src="/images/2015-07-16/perseus_planck_binned_fineres_likelihood_wd.png"
+                style="height:300px"/>
+            </div>
+          </div>
+        </div>
+        -->
+
+        <!-- Show examples -->
+        <!-- ############# -->
+        <div class="page-examples">
+          <div class="page-category">
+            <a href="/data-science">Data Science Examples</a>
+          </div>
+
+          {% include posts/post_examples_index-data-science.html %}
+
+          <hr class="vertical">
+        </div>
+
+        <div class="page-examples">
+          <div class="page-category">
+            <a href="/tech-projects">Tech Project Examples</a>
+          </div>
+
+          {% include posts/post_examples_index-tech.html %}
+
+          <hr class="vertical">
+        </div>
+
+        <div class="page-examples"> 
+          <div class="page-category">
+            <a href="/python_modules/docs/index.html">Python Docs</a>
+          </div> 
+          
+          <div class="col-sm-12 page-item-body-example">
+
+            Various Python modules for plotting, data analysis, and data
+            reduction.
+
+          </div>
+          <hr class="vertical">
+        </div>
+
+        </p>
+
+        <!-- Show all posts -->
+        <!-- ############## -->
+        <h3> Below are the most recent posts from each of my blogs
+        </h3>
+        <hr>
+        
+        <p></p>
+
+        {% include posts/post_listing_index.html %}
+
+        <!-- Set status of display blocks  -->
+        {% include posts/display_blocks.html %}
+
     </div>
 </div>
-<script>
-$(document).ready(function() {
-    $(".page").children().first().find(".page-item-body").css( "display", "block" );
-    $(".page").children().first().find(".pib-indicator")
-        .find("i").toggleClass("fa-compress").toggleClass("fa-expand");
 
-    $(".page-item .pib-indicator").click(function() {
-        var preview = $(this);
-        preview.find("i").toggleClass("fa-expand").toggleClass("fa-compress");
-        $(this).closest(".page-item").find(".page-item-body").toggle("slow", function() {});
-    });
-});
+
+<!-- Clicks -->
+<script>
+    src="{{ "/assets/js/click.js" | prepend: site.url }}">
 </script>
 
 

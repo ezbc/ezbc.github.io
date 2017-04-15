@@ -1,6 +1,22 @@
 {% include head.html %}
+
+<!--
+<style>
+body { 
+  background-padding: 0 !important;
+  background-image: url('/images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  background-min-width: 100px;
+}
+</style>
+-->
+
 <main>
-    <span class="statusbar"></span>
+
+<body>
+    <!-- <span class="statusbar"></span> -->
     <!-- Wrap all page content here -->
     <div id="wrap">
         <div id="body" class="container">
@@ -15,6 +31,13 @@
                     </header>
                     {% include sidenav.html %}                    
                 </nav>
+
+                {% if page.sidebar == "right" %}
+                <div class="col-sm-2 sidebar-offcanvas">
+                    {% include sidebar.html %}
+                </div><!-- /.medium-4.columns -->
+                {% endif %}
+
                 <header id="menu" role="banner">
                     <p class="menu-title">Menu</p>
                     <a href="#nav" class="menu-btn">
@@ -35,6 +58,15 @@
                             <a id="git-ic" class="link" href="https://bitbucket.org/{{site.owner.github}}">
                                 <i class="fa fa-bitbucket-square fa-lg"></i>
                             </a>
+                            <a id="git-ic" class="link"
+                                href="https://plus.google.com/+{{site.owner.googleplus}}">
+                                <i class="fa fa-google-plus fa-lg"></i>
+                            </a>
+                            <a id="git-ic" class="link"
+                                href="https://linkedin.com/in/{{site.owner.googleplus}}">
+                                <i class="fa fa-linkedin fa-lg"></i>
+                            </a>
+                            </a>
                             <a id="rss-ic" class="link" href="{{ "/feed.xml" | prepend: site.url }}">
                                 <i class="fa fa-rss fa-lg"></i>
                             </a>
@@ -46,13 +78,13 @@
                 </div>
             </div>
         </div>
+        <br>
         <footer class="footer text-center meta">
-            Powered by <a class="link" href="https://github.com/nadjetey/wangana">Wangana</a> &mdash; Jekyll theme.
+            Theme adopted from <a class="link" href="https://github.com/nadjetey/wangana">Wangana</a>
         </footer>
     </div>
+</body>
 </main>
 {% include footer.html %}
 
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 

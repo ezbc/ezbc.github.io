@@ -1,10 +1,5 @@
 // Refactored @Wed, march 11, 2015
 // Custom containers & wrappers
-body {
-  color:#000;
-  font: 17px Poly, 'Helvetica Neue', Helvetica, serif, Arial !important;
-  letter-spacing: 0.001em;
-}
 
 .footer {height:60px;}
 
@@ -25,6 +20,7 @@ main {position: relative;}
   &:hover .meta a{
     color: #333;
   }
+
 }
 
 .page-item-title {
@@ -32,22 +28,49 @@ main {position: relative;}
   padding: 0;
   .fa-comments-o {color: black;}
   .fa-ellipsis-h {color: #428bca;}
-  .fa-compress {color: red;}
-  .fa-expand {color: #22D722;}
+  .fa-compress {color: red;
+                font-size: 35px;}
+  .fa-expand {color: #22D722;
+              font-size: 35px;}
 }
 
-.page-item-body {display: none;}
+/* Separate bodies in order to open / close on same page with JS */
+.page-item-body-listing {display: none;}
+.page-item-body-example {display: none;}
 
 .page-title {
-  font-size: 31px;
+  font-size: 35px;
   font-weight: 700;
   padding: 0 0 0 15px;
 }
+
+.page-category {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0 0 0 15px;
+}
+
+.page-examples {
+  border-left: 3px solid $primary-color;
+}
+
+hr.vertical
+{
+   width: 3px;
+   height: 100%; /* or height in PX */
+} 
 
 .page-content {
   position: relative;
   overflow: hidden;
   padding: 20px 15px 0;
+}
+
+.page-intro {
+  position: relative;
+  overflow: hidden;
+  padding: 0 0 15px;
+  text-align: justify;
 }
 
 .page-list {
@@ -210,7 +233,7 @@ ul {list-style-type: square;}
 
 .top {
   line-height: 40px;
-  background-color: white;
+  background-color: transparent;
   font-weight: 700 !important;  
   padding-left: 15px;
   a {color: #333;}
@@ -279,7 +302,8 @@ pre {
   font-weight: 700;
 }
 
-.pib-indicator {cursor:pointer;}
+.pib-indicator-listing {cursor:pointer;}
+.pib-indicator-example {cursor:pointer;}
 
 .meta,
 .meta a {

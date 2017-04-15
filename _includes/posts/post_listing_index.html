@@ -1,0 +1,13 @@
+<!-- Include anchor so next and previous focus on posts -->
+<a name="posts"></a>
+
+<!-- Pagination links -->
+{% include posts/pagination_links.html %}
+
+<!-- Paginate if more than one page -->
+{% assign posts = paginator.posts %}
+{% include posts/post_listing.html %}
+
+<!-- Pagination links -->
+{% include posts/pagination_links.html %}
+
