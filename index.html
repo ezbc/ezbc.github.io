@@ -2,112 +2,60 @@
 layout: default
 ---
 
-<div class="col-sm-12">
-    <div class="page">
-        
-      <div class="page-intro">
-        <p class="imageTextWrap">
-          <img src="/images/portrait.jpg" alt="Elijah Bernstein-Cooper">
+{% for post in paginator.posts %}
+<article class="post" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+        <ul class="clear">
+            <li><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%-d %b, %Y" }}</time></li>
+            {% if site.show_categories == 1 and post.category %}
+                <li class="cats">
+                    {% for category in post.category %}
+                        <a href="{{site.baseurl}}/{{site.category_dir}}/{{category}}/">{{ category }}</a>
+                    {% endfor %}
+                </li>
+            {% endif %}
+        </ul>
+        <h2 itemprop="name headline"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></h2>
+    </header>
 
-          <p> 
-            Welcome to the website of Elijah Z. Bernstein-Cooper.
-          </p>
+    <div class="post-content">
+        {{ post.excerpt }}
 
-          <p> 
-
-            You will quickly find that I pursue a diverse set of interests.
-            The common theme amongst all of my endeavors however, is the
-            attention to quality.
-          </p>
-        <p class="endWrap"> </p>
-      </div>
-
-        <p> 
-        
-          Curiosity drives my pursuit to develop questions, models, or code.
-          Explore this site and you'll see diversity in my explorations of data
-          science. Visit my blogs on different data science projects, or explore
-          the extensive Python code I've developed to accomplish various
-          projects.
-
-        <!--
-        <div class="carouselContainer">
-          <div class="variable-width">
-            <div> 
-              <img
-              src="/images/2015-10-01/multicloud_av_cores_meng13_nh2.png"
-              style="height:300px"/>
-            </div>
-            <div> 
-              <img src="/images/2015-08-03/california_k09_coarseres_nh2_vs_nhi.png"
-                style="height:300px"/>
-            </div>
-            <div> 
-              <img src="/images/2015-07-16/perseus_planck_binned_fineres_likelihood_wd.png"
-                style="height:300px"/>
-            </div>
-          </div>
-        </div>
-        -->
-
-        <!-- Show examples -->
-        <!-- ############# -->
-        <div class="page-examples">
-          <div class="page-category">
-            <a href="/data-science">Data Science Examples</a>
-          </div>
-
-          {% include posts/post_examples_index-data-science.html %}
-
-          <hr class="vertical">
-        </div>
-
-        <div class="page-examples">
-          <div class="page-category">
-            <a href="/tech-projects">Tech Project Examples</a>
-          </div>
-
-          {% include posts/post_examples_index-tech.html %}
-
-          <hr class="vertical">
-        </div>
-
-        <div class="page-examples"> 
-          <div class="page-category">
-            <a href="/python_modules/docs/index.html">Python Docs</a>
-          </div> 
-          
-          <div class="col-sm-12 page-item-body-example">
-
-            Various Python modules for plotting, data analysis, and data
-            reduction.
-
-          </div>
-          <hr class="vertical">
-        </div>
-
-        </p>
-
-        <!-- Show all posts -->
-        <!-- ############## -->
-        <h3> Below are the most recent posts from each of my blogs
-        </h3>
-        <hr>
-        
-        <p></p>
-
-        {% include posts/post_listing_index.html %}
-
-        <!-- Set status of display blocks  -->
-        {% include posts/display_blocks.html %}
-
+        {% if post.excerpt != post.content %}
+            <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" role="button">Read More</a></p>
+        {% endif %}
     </div>
+
+    <footer class="post-footer">
+        <div class="share">Share
+            <ul class="social-networks">
+                <li class="share-facebook"><a href="https://www.facebook.com/sharer.php?s=100&p[title]={{post.title | strip_html }}&p[summary]={{post.excerpt | strip_html | truncate: 140 }}&p[url]={{ post.url | prepend: site.baseurl | prepend: site.url }}" class="s_facebook" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ site.baseurl | prepend: site.url }}/assets/svg/social-icons.svg#facebook-icon"></use></svg></a></a></li>
+                <li class="share-twitter"><a href="http://twitter.com/share?url={{post.url | prepend: site.url | escape}}&text={{ post.excerpt | strip_html | truncate: 140 }}&hashtags={% for tag in post.tags %}{{ tag }},{% endfor %}" rel="noreferrer" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ site.baseurl | prepend: site.url }}/assets/svg/social-icons.svg#twitter-icon"></use></svg></a></li>
+            </ul>
+        </div>
+        {% if site.show_tags == 1 and post.tags %}
+        <div class="tags">
+            <ul>
+                {% for tag in post.tags %}
+                <li><a href="{{ site.baseurl | prepend: site.url }}/tag/{{ tag }}">{{ tag }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </footer>
+</article>
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination clear" role="navigation" aria-label="pagination">
+    {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">&larr; Previous</a>
+    {% endif %}
+
+    <span class="page_number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+    {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next &rarr;</a>
+    {% endif %}
 </div>
-
-
-<!-- Clicks -->
-<script>
-    src="{{ "/assets/js/click.js" | prepend: site.url }}">
-</script>
-
-
+{% endif %}
