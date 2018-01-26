@@ -3,4 +3,4 @@ _site
 env/*
 .bundle/
 Gemfile.lock
-
+.jekyll
