@@ -4,7 +4,7 @@ categories:
 - woodworking
 - archive
 comments: true
-date: 2015-09-28 00:00
+date: 2015/09/28 00:00
 layout: post
 redirect_from: /woodworking/2015/09/28/miter-saw-tables
 tags: null
@@ -26,13 +26,13 @@ table frame is steel mounted on four casters.
 
 <div class="carouselContainer">
   <div class="variable-width">
-    <div> <img src="/media/2015-09-28/miter_table1_front_01.jpg"
+    <div> <img src="/media/2015/09/28/miter_table1_front_01.jpg"
                /> </div>
-    <div> <img src="/media/2015-09-28/miter_table1_front_02.jpg"
+    <div> <img src="/media/2015/09/28/miter_table1_front_02.jpg"
                /> </div>
-    <div> <img src="/media/2015-09-28/miter_table1_fence.jpg"
+    <div> <img src="/media/2015/09/28/miter_table1_fence.jpg"
                /> </div>
-    <div> <img src="/media/2015-09-28/miter_table1_drawer.png"
+    <div> <img src="/media/2015/09/28/miter_table1_drawer.png"
                /> </div>
   </div>
 </div>
@@ -56,11 +56,11 @@ elegant, and compliments the miter bench.
 
 <div class="carouselContainer">
   <div class="variable-width">
-    <div> <img src="/media/2015-09-28/miter_table2_front_01.jpg"
+    <div> <img src="/media/2015/09/28/miter_table2_front_01.jpg"
                /> </div>
-    <div> <img src="/media/2015-09-28/miter_table2_front_02.png"
+    <div> <img src="/media/2015/09/28/miter_table2_front_02.png"
                /> </div>
-    <div> <img src="/media/2015-09-28/miter_table2_fence.jpg"
+    <div> <img src="/media/2015/09/28/miter_table2_fence.jpg"
                /> </div>
   </div>
 </div>
@@ -84,9 +84,9 @@ on the final design shown below.
 
 <div class="carouselContainer">
   <div class="variable-width">
-    <div> <img src="/media/2015-09-28/miter_table1_plans.png"
+    <div> <img src="/media/2015/09/28/miter_table1_plans.png"
                /> </div>
-    <div> <img src="/media/2015-09-28/miter_table_render.png"
+    <div> <img src="/media/2015/09/28/miter_table_render.png"
                /> </div>
   </div>
 </div>
@@ -115,8 +115,8 @@ rolling bench was not positive. This time I designed a mount for the miter saw
 which could be adjusted in all directions. The design was relatively simple, so
 I only made a sketch of the table before construction shown below.
 
-<div align="center">
-    <img src="/media/2015-09-28/miter_table2_plans.png"
+<div class="postImg">
+    <img src="/media/2015/09/28/miter_table2_plans.png"
          />
 </div>
 
@@ -126,9 +126,8 @@ I wanted to avoid using screws as much as possible to prevent deformation of
 the table over time, so the majority of the joints are bolted together. Below
 shows the bench after I completed the frame.
 
-<div align="center">
-    <img src="/media/2015-09-28/miter_table2_unfinished.jpg"
-                   />
+<div class="postImg">
+    <img src="/media/2015/09/28/miter_table2_unfinished.jpg"/>
 </div>
 
 #### **Table-top**
@@ -151,8 +150,8 @@ more of the fence onto the extension. Finally I mounted the extension with a
 folding angle bracket onto the end of the table. The extension protrudes only
 2$\in$ from the bench when folded.
 
-<div align="center">
-    <img src="/media/2015-09-28/miter_table2_extension.png"
+<div class="imgPost">
+    <img src="/media/2015/09/28/miter_table2_extension.png"
                    />
 </div>
 
@@ -165,6 +164,6 @@ and nuts. I converged on the design shown below, constructed out of cherry and
 maple.
 
 <div align="center">
-    <img src="/media/2015-09-28/miter_table2_fence.jpg"
+    <img src="/media/2015/09/28/miter_table2_fence.jpg"
                    />
 </div>

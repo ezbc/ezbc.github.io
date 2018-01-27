@@ -1,0 +1,15 @@
+---
+---
+
+@import "vars", "reset", "mixins";
+
+.postImg {
+	max-height: 400px;
+  padding: 10px;
+  text-align:center;
+}
+
+img {
+  max-height: inherit;
+  width: auto;
+}
