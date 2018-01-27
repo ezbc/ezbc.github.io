@@ -117,7 +117,7 @@ I only made a sketch of the table before construction shown below.
 
 <div align="center">
     <img src="/media/2015-09-28/miter_table2_plans.png"
-         style="height:300px"/>
+         />
 </div>
 
 #### **Frame**
@@ -128,7 +128,7 @@ shows the bench after I completed the frame.
 
 <div align="center">
     <img src="/media/2015-09-28/miter_table2_unfinished.jpg"
-                   style="height:300px"/>
+                   />
 </div>
 
 #### **Table-top**
@@ -153,7 +153,7 @@ folding angle bracket onto the end of the table. The extension protrudes only
 
 <div align="center">
     <img src="/media/2015-09-28/miter_table2_extension.png"
-                   style="height:150px"/>
+                   />
 </div>
 
 #### **Fence Stop**
@@ -166,5 +166,5 @@ maple.
 
 <div align="center">
     <img src="/media/2015-09-28/miter_table2_fence.jpg"
-                   style="height:200px"/>
+                   />
 </div>
