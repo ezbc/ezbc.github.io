@@ -27,13 +27,13 @@ table frame is steel mounted on four casters.
 <div class="carouselContainer">
   <div class="variable-width">
     <div> <img src="/media/2015-09-28/miter_table1_front_01.jpg"
-               style="height:400px"/> </div>
+               /> </div>
     <div> <img src="/media/2015-09-28/miter_table1_front_02.jpg"
-               style="height:400px"/> </div>
+               /> </div>
     <div> <img src="/media/2015-09-28/miter_table1_fence.jpg"
-               style="height:400px"/> </div>
+               /> </div>
     <div> <img src="/media/2015-09-28/miter_table1_drawer.png"
-               style="height:400px"/> </div>
+               /> </div>
   </div>
 </div>
 
@@ -57,11 +57,11 @@ elegant, and compliments the miter bench.
 <div class="carouselContainer">
   <div class="variable-width">
     <div> <img src="/media/2015-09-28/miter_table2_front_01.jpg"
-               style="height:400px"/> </div>
+               /> </div>
     <div> <img src="/media/2015-09-28/miter_table2_front_02.png"
-               style="height:400px"/> </div>
+               /> </div>
     <div> <img src="/media/2015-09-28/miter_table2_fence.jpg"
-               style="height:400px"/> </div>
+               /> </div>
   </div>
 </div>
 
@@ -85,9 +85,9 @@ on the final design shown below.
 <div class="carouselContainer">
   <div class="variable-width">
     <div> <img src="/media/2015-09-28/miter_table1_plans.png"
-               style="height:400px"/> </div>
+               /> </div>
     <div> <img src="/media/2015-09-28/miter_table_render.png"
-               style="height:400px"/> </div>
+               /> </div>
   </div>
 </div>
 
