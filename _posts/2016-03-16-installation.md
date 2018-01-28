@@ -1,7 +1,7 @@
 ---
 category:
-- - docs
-  - help
+- docs
+- help
 date: 2016-03-16 08:34
 layout: post
 tags:

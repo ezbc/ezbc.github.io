@@ -1,7 +1,7 @@
 ---
 category:
-- - docs
-  - help
+- docs
+- help
 comments: false
 date: 2016-03-20 12:36
 description: Basic information about the Steve.
