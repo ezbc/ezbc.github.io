@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - hidden
-- archive
 comments: true
 date: 2015-12-01 00:00
+hidden: true
 layout: post
 redirect_from: /hidden/2015/12/01/megellanic-thesis-ideas
 tags:
@@ -47,7 +47,7 @@ We would like to extract the relevant areas where stellar streams have been
 detected in Belokurov et al. (2015).
 
 ***
-<img src="/media/2015-12-01/megellanic_stellar_density.png"
+<img src="/media/2015/12/01/megellanic_stellar_density.png"
   style="width:100%"/>
 
 ##### Figure 1
@@ -58,7 +58,7 @@ LMC. The streams are detected to the northwest of the LMC + SMC. See Figure 2.
 ***
 
 ***
-<img src="/media/2015-12-01/b+15_figure6_stellar_streams.png"
+<img src="/media/2015/12/01/b+15_figure6_stellar_streams.png"
   style="width:100%"/>
 
 ##### Figure 2
@@ -102,7 +102,7 @@ set as the pixel size for the cubes.
 
 ***
 
-<img src="/media/2015-12-01/megellanic_nhi.png" style="width:100%"/>
+<img src="/media/2015/12/01/megellanic_nhi.png" style="width:100%"/>
 
 ##### Figure 3
 
@@ -150,7 +150,7 @@ They show the MS features in a coehesive diagram below.
 
 ***
 
-<img src="/media/2015-12-01/putman03_figure5_ms_regions.png" style="width:100%"/>
+<img src="/media/2015/12/01/putman03_figure5_ms_regions.png" style="width:100%"/>
 
 ##### Figure 4
 

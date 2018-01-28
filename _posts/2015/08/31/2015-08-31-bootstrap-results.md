@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-08-31 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/08/31/bootstrap-results
 tags:
@@ -29,7 +29,7 @@ California
 <p></p>
 
 <img
-src="/media/2015-08-31/california_planck_noint_gaussrange_clouddgr.png"
+src="/media/2015/08/31/california_planck_noint_gaussrange_clouddgr.png"
     style="width: 70%"/>
 
 <p></p>
@@ -37,7 +37,7 @@ Taurus
 <p></p>
 
 <img
-src="/media/2015-08-31/taurus_planck_noint_gaussrange_clouddgr.png"
+src="/media/2015/08/31/taurus_planck_noint_gaussrange_clouddgr.png"
     style="width: 70%"/>
 
 <p></p>
@@ -45,7 +45,7 @@ Perseus
 <p></p>
 
 <img
-src="/media/2015-08-31/perseus_planck_noint_gaussrange_clouddgr.png"
+src="/media/2015/08/31/perseus_planck_noint_gaussrange_clouddgr.png"
     style="width: 70%"/>
 
 </div>
@@ -64,5 +64,5 @@ I had made a mistake in analyzing the error about the median yesterday. Below
 is the $A_V$ vs N(HI) plot with the corrected DGRs.
 
 <img
-src="/media/2015-08-31/multicloud_av_vs_nhi.png"
+src="/media/2015/08/31/multicloud_av_vs_nhi.png"
     style="width: 70%"/>

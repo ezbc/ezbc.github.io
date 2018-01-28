@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - hidden
-- archive
 comments: true
 date: 2016-01-21 00:00
+hidden: true
 layout: post
 redirect_from: /hidden/2016/01/21/lmc-stellar-streams
 tags:
@@ -38,7 +38,7 @@ a scenario where the Milky Way halo RAM-pressure strips the gas from the two
 galaxies.
 
 ***
-<img src="/media/2016-01-21/belokurov15_figure6.png"
+<img src="/media/2016/01/21/belokurov15_figure6.png"
   style="width:70%"/>
 
 ##### Figure 1
@@ -109,10 +109,10 @@ consistent with observations. They find extremely good agreement between the
 N(HI) profile of the MS.
 
 ***
-<img src="/media/2016-01-21/ms_scenario.png"
+<img src="/media/2016/01/21/ms_scenario.png"
   style="width:100%"/>
 
-<img src="/media/2016-01-21/ms_scenario_b+15_box.png"
+<img src="/media/2016/01/21/ms_scenario_b+15_box.png"
   style="width:100%"/>
 
 ##### Figure 2

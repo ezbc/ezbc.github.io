@@ -1,13 +1,12 @@
 ---
 archive: false
 author: Elijah Bernstein-Cooper
-categories:
-- tech-project
-- archive
+category:
+- tech
 comments: true
 date: 2016-02-14 00:00
 example: tech-projects
-excerpt: <div class="/image-4of4-width"> <img src="/images/2016-02-14/example_prompt.png"/>
+excerpt: <div class="/image-4of4-width"> <img src="/media/2016/02/14/example_prompt.png"/>
   </div> Show the status and branch of your git repo by the color of bash prompt.
 index-example: tech
 layout: post
@@ -34,7 +33,7 @@ file. At this point, all files are tracked and committed, so the prompt is
 green.
 
 <div class="image-4of4-width">
-  <img src="/media/2016-02-14/example_prompt.png"/>
+  <img src="/media/2016/02/14/example_prompt.png"/>
 </div>
 
 # Set up

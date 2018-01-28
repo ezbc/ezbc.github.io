@@ -1,10 +1,10 @@
 ---
-layout: post
+category:
+- - docs
 date: 2016-03-15 22:00
-title:  "What is Jekyll?"
+layout: post
 mood: speechless
-category: 
-- docs
+title: What is Jekyll?
 ---
 
 Jekyll is a parsing engine bundled as a ruby gem used to build static websites from dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as "a simple, blog aware, static site generator".

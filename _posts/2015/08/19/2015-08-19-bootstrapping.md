@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-08-19 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/08/19/bootstrapping
 tags:
@@ -92,15 +92,15 @@ post](/research/2015/08/19/bootstrapping/#background-cloud).
 ***
 
 <img
-src="/media/2015-08-19/bootstrap/perseus_lee12_av_vs_nhi.png"
+src="/media/2015/08/19/bootstrap/perseus_lee12_av_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 <img
-src="/media/2015-08-12/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi.png"
+src="/media/2015/08/12/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi.png"
     style="width: 50%"/>
 
 <img
-src="/media/2015-08-19/bootstrap/perseus_lee12_noint_av_vs_nhi.png"
+src="/media/2015/08/19/bootstrap/perseus_lee12_noint_av_vs_nhi.png"
     style="width: 50%"/>
 
 #### **Figure 1**
@@ -137,11 +137,11 @@ Perseus
 </div>
 
 <img
-src="/media/2015-08-19/bootstrap/perseus_planck_av_vs_nhi.png"
+src="/media/2015/08/19/bootstrap/perseus_planck_av_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 <img
-src="/media/2015-08-19/bootstrap/perseus_planck_int_vs_clouddgr.png"
+src="/media/2015/08/19/bootstrap/perseus_planck_int_vs_clouddgr.png"
     style="width: 50%"/>
 
 ***
@@ -150,11 +150,11 @@ Taurus
 </div>
 
 <img
-src="/media/2015-08-19/bootstrap/taurus_planck_av_vs_nhi.png"
+src="/media/2015/08/19/bootstrap/taurus_planck_av_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 <img
-src="/media/2015-08-19/bootstrap/taurus_planck_int_vs_clouddgr.png"
+src="/media/2015/08/19/bootstrap/taurus_planck_int_vs_clouddgr.png"
     style="width: 50%"/>
 
 ***
@@ -164,11 +164,11 @@ California
 </div>
 
 <img
-src="/media/2015-08-19/bootstrap/california_planck_av_vs_nhi.png"
+src="/media/2015/08/19/bootstrap/california_planck_av_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 <img
-src="/media/2015-08-19/bootstrap/california_planck_int_vs_clouddgr.png"
+src="/media/2015/08/19/bootstrap/california_planck_int_vs_clouddgr.png"
     style="width: 50%"/>
 
 ##### **Figure 2**
@@ -189,11 +189,11 @@ Perseus
 </div>
 
 <img
-src="/media/2015-08-19/bootstrap/perseus_planck_noint_av_vs_nhi.png"
+src="/media/2015/08/19/bootstrap/perseus_planck_noint_av_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 <img
-src="/media/2015-08-19/bootstrap/perseus_planck_noint_clouddgr.png"
+src="/media/2015/08/19/bootstrap/perseus_planck_noint_clouddgr.png"
     style="width: 50%"/>
 
 ***
@@ -202,11 +202,11 @@ Taurus
 </div>
 
 <img
-src="/media/2015-08-19/bootstrap/taurus_planck_noint_av_vs_nhi.png"
+src="/media/2015/08/19/bootstrap/taurus_planck_noint_av_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 <img
-src="/media/2015-08-19/bootstrap/taurus_planck_noint_clouddgr.png"
+src="/media/2015/08/19/bootstrap/taurus_planck_noint_clouddgr.png"
     style="width: 50%"/>
 
 ***
@@ -216,11 +216,11 @@ California
 </div>
 
 <img
-src="/media/2015-08-19/bootstrap/california_planck_noint_av_vs_nhi.png"
+src="/media/2015/08/19/bootstrap/california_planck_noint_av_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 <img
-src="/media/2015-08-19/bootstrap/california_planck_noint_clouddgr.png"
+src="/media/2015/08/19/bootstrap/california_planck_noint_clouddgr.png"
     style="width: 50%"/>
 
 ##### **Figure 3**
@@ -271,14 +271,14 @@ We fit for DGR$$_B$$, DGR$$_C$$, and $$A_{V,I}$$ as three separate parameters.
 Perseus
 </div>
 
-<img src="/media/2015-08-19/bootstrap/perseus_planck_backdgr_av_vs_nhi.png"
+<img src="/media/2015/08/19/bootstrap/perseus_planck_backdgr_av_vs_nhi.png"
 style="float: left; width:50%"/>
 
 <img
-src="/media/2015-08-19/bootstrap/perseus_planck_backdgr_backdgr_vs_clouddgr.png" style="width:50%"/>
+src="/media/2015/08/19/bootstrap/perseus_planck_backdgr_backdgr_vs_clouddgr.png" style="width:50%"/>
 
 <img
-src="/media/2015-08-19/bootstrap/perseus_planck_backdgr_int_vs_clouddgr.png"
+src="/media/2015/08/19/bootstrap/perseus_planck_backdgr_int_vs_clouddgr.png"
     style="float: left; width: 50%"/>
 
 <p class="clear"></p>
@@ -292,15 +292,15 @@ Taurus
 </div>
 
 <img
-src="/media/2015-08-19/bootstrap/taurus_planck_backdgr_av_vs_nhi.png"
+src="/media/2015/08/19/bootstrap/taurus_planck_backdgr_av_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 <img
-src="/media/2015-08-19/bootstrap/taurus_planck_backdgr_backdgr_vs_clouddgr.png"
+src="/media/2015/08/19/bootstrap/taurus_planck_backdgr_backdgr_vs_clouddgr.png"
     style="width: 50%"/>
 
 <img
-src="/media/2015-08-19/bootstrap/taurus_planck_backdgr_int_vs_clouddgr.png"
+src="/media/2015/08/19/bootstrap/taurus_planck_backdgr_int_vs_clouddgr.png"
     style="float: left; width: 50%"/>
 
 <p class="clear"></p>
@@ -312,15 +312,15 @@ California
 </div>
 
 <img
-src="/media/2015-08-19/bootstrap/california_planck_backdgr_av_vs_nhi.png"
+src="/media/2015/08/19/bootstrap/california_planck_backdgr_av_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 <img
-src="/media/2015-08-19/bootstrap/california_planck_backdgr_backdgr_vs_clouddgr.png"
+src="/media/2015/08/19/bootstrap/california_planck_backdgr_backdgr_vs_clouddgr.png"
     style="float: left; width: 50%"/>
 
 <img
-src="/media/2015-08-19/bootstrap/california_planck_backdgr_int_vs_clouddgr.png"
+src="/media/2015/08/19/bootstrap/california_planck_backdgr_int_vs_clouddgr.png"
     style="float: left; width: 50%"/>
 
 <p class="clear"></p>

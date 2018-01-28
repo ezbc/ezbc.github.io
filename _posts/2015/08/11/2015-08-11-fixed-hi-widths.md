@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-08-11 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/08/11/fixed-hi-widths
 tags:
@@ -36,21 +36,21 @@ reasonable.
     Perseus
     </p>
   <img
-    src='/media/2015-08-11/perseus_planck_binned_coarseres_fixedwidth_avthres_hi_spectrum.png'
+    src='/media/2015/08/11/perseus_planck_binned_coarseres_fixedwidth_avthres_hi_spectrum.png'
     style='width:75%'>
 
     <p>
     Taurus
     </p>
   <img
-    src='/media/2015-08-11/taurus_planck_binned_coarseres_fixedwidth_avthres_hi_spectrum.png'
+    src='/media/2015/08/11/taurus_planck_binned_coarseres_fixedwidth_avthres_hi_spectrum.png'
     style='width:75%'>
 
     <p>
     California
     </p>
   <img
-    src='/media/2015-08-11/california_planck_binned_coarseres_fixedwidth_avthres_hi_spectrum.png'
+    src='/media/2015/08/11/california_planck_binned_coarseres_fixedwidth_avthres_hi_spectrum.png'
     style='width:75%'>
 
 </div>
@@ -74,7 +74,7 @@ Masking:
 
 Perseus
 
-  <img src="/media/2015-08-11/perseus_lee12_binned_coarseres_fixedwidth_avthres_mask_map.png"
+  <img src="/media/2015/08/11/perseus_lee12_binned_coarseres_fixedwidth_avthres_mask_map.png"
       style="width: 100%">
 
 
@@ -91,7 +91,7 @@ The likelihoods are quite different from Lee et al. (2012) given an HI width of
 
 ***
 
-<img src='/media/2015-08-11/perseus_lee12_binned_coarseres_fixedwidth_avthres_likelihood_di.png' style='width:50%'>
+<img src='/media/2015/08/11/perseus_lee12_binned_coarseres_fixedwidth_avthres_likelihood_di.png' style='width:50%'>
 
 #### Figure 2
 
@@ -122,10 +122,10 @@ to fit $$A_V$$ vs. N(HI).
 ***
 
 <img
-src="/media/2015-08-11/perseus_lee12_binned_coarseres_fixedwidth_avthres_av_vs_nhi_masked.png"
+src="/media/2015/08/11/perseus_lee12_binned_coarseres_fixedwidth_avthres_av_vs_nhi_masked.png"
     style="float: left; width: 50%"/>
 <img
-src="/media/2015-08-11/perseus_lee12_binned_coarseres_fixedwidth_avthres_nh2_vs_nhi.png"
+src="/media/2015/08/11/perseus_lee12_binned_coarseres_fixedwidth_avthres_nh2_vs_nhi.png"
     style="width: 50%"/>
 
 #### Figure 6
@@ -147,7 +147,7 @@ Masking:
 
 Perseus
 
-  <img src="/media/2015-08-11/perseus_lee12_binned_coarseres_fixedwidth_mask_map.png"
+  <img src="/media/2015/08/11/perseus_lee12_binned_coarseres_fixedwidth_mask_map.png"
       style="width: 100%">
 
 
@@ -163,7 +163,7 @@ The likelihoods show a DGR very similar to that of Lee et al. (2012).
 
 ***
 
-<img src='/media/2015-08-11/perseus_lee12_binned_coarseres_fixedwidth_likelihood_di.png' style='width:50%'>
+<img src='/media/2015/08/11/perseus_lee12_binned_coarseres_fixedwidth_likelihood_di.png' style='width:50%'>
 
 #### Figure 2
 
@@ -180,11 +180,11 @@ $$A_V$$ vs. N(HI).
 ***
 
 <img
-src="/media/2015-08-11/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi_masked.png"
+src="/media/2015/08/11/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi_masked.png"
     style="float: left; width: 50%"/>
 
 <img
-src="/media/2015-08-11/perseus_lee12_binned_coarseres_fixedwidth_nh2_vs_nhi.png"
+src="/media/2015/08/11/perseus_lee12_binned_coarseres_fixedwidth_nh2_vs_nhi.png"
     style="width: 50%"/>
 
 #### Figure 6

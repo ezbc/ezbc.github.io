@@ -1,9 +1,9 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 date: 2015-03-03 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/03/03/perseus-hi-threshold
 tags:
@@ -20,18 +20,18 @@ leads to $$\Sigma_{HI}$$ thresholds similar to Lee+12.
 
 Planck:
 
-<img src="/media/2015-03-03/perseus_likelihood_planck_bin_scaled_wd.png"/>
+<img src="/media/2015/03/03/perseus_likelihood_planck_bin_scaled_wd.png"/>
 
-<img src="/media/2015-03-03/perseus_hi_vs_h_panels_planck_linear.png"/>
+<img src="/media/2015/03/03/perseus_hi_vs_h_panels_planck_linear.png"/>
 
 Kainulain et al. (2009)
 
-<img src="/media/2015-03-03/perseus_likelihood_k09_bin_scaled_wd.png"/>
+<img src="/media/2015/03/03/perseus_likelihood_k09_bin_scaled_wd.png"/>
 
-<img src="/media/2015-03-03/perseus_hi_vs_h_panels_k09_linear.png"/>
+<img src="/media/2015/03/03/perseus_hi_vs_h_panels_k09_linear.png"/>
 
 Lee et al. (2012) IRIS
 
-<img src="/media/2015-03-03/perseus_hi_vs_h_panels_iris_linear.png"/>
+<img src="/media/2015/03/03/perseus_hi_vs_h_panels_iris_linear.png"/>
 
-<img src="/media/2015-03-03/perseus_likelihood_iris_bin_scaled_wd.png"/>
+<img src="/media/2015/03/03/perseus_likelihood_iris_bin_scaled_wd.png"/>

@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-08-07 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/08/07/threshold-and-intercepts-lee12data
 tags:
@@ -30,18 +30,18 @@ Below are the resulting masks for the Perseus regions.
 
 Perseus
 
-  <img src="/media/2015-08-07/perseus_lee12_binned_coarseres_avthres_mask_map.png"
+  <img src="/media/2015/08/07/perseus_lee12_binned_coarseres_avthres_mask_map.png"
       style="width: 100%"/>
 
 Perseus North
 
-  <img src="/media/2015-08-07/perseus_lee12_binned_coarseres_region1_avthres_mask_map.png"
+  <img src="/media/2015/08/07/perseus_lee12_binned_coarseres_region1_avthres_mask_map.png"
       style="width: 100%"/>
 
 Perseus South
 
   <img
-  src="/media/2015-08-07/perseus_lee12_binned_coarseres_region2_avthres_mask_map.png"
+  src="/media/2015/08/07/perseus_lee12_binned_coarseres_region2_avthres_mask_map.png"
       style="width: 100%"/>
 
 </div>
@@ -66,11 +66,11 @@ huge difference in $$N(HI)$$.
 ***
 
 <img
-src="/media/2015-08-07/perseus_lee12_binned_coarseres_avthres_errorrecalc_likelihood_wd.png"
+src="/media/2015/08/07/perseus_lee12_binned_coarseres_avthres_errorrecalc_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-07/perseus_lee12_binned_coarseres_avthres_errorrecalc_likelihood_wi.png"
+    src="/media/2015/08/07/perseus_lee12_binned_coarseres_avthres_errorrecalc_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 2
@@ -82,11 +82,11 @@ Likelihoods for Perseus region.
 ***
 
 <img
-src="/media/2015-08-07/perseus_lee12_binned_coarseres_region1_avthres_errorrecalc_likelihood_wd.png"
+src="/media/2015/08/07/perseus_lee12_binned_coarseres_region1_avthres_errorrecalc_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-07/perseus_lee12_binned_coarseres_region1_avthres_errorrecalc_likelihood_wi.png"
+    src="/media/2015/08/07/perseus_lee12_binned_coarseres_region1_avthres_errorrecalc_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 3
@@ -98,11 +98,11 @@ Likelihoods for Perseus North region.
 ***
 
 <img
-src="/media/2015-08-07/perseus_lee12_binned_coarseres_region2_avthres_errorrecalc_likelihood_wd.png"
+src="/media/2015/08/07/perseus_lee12_binned_coarseres_region2_avthres_errorrecalc_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-07/perseus_lee12_binned_coarseres_region2_avthres_errorrecalc_likelihood_wi.png"
+    src="/media/2015/08/07/perseus_lee12_binned_coarseres_region2_avthres_errorrecalc_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 4
@@ -120,11 +120,11 @@ Northern region shows higher N(HI) than the Southern region.
 ***
 
 <img
-src="/media/2015-08-07/perseus_lee12_binned_coarseres_avthres_errorrecalc_av_vs_nhi_masked.png"
+src="/media/2015/08/07/perseus_lee12_binned_coarseres_avthres_errorrecalc_av_vs_nhi_masked.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-07/perseus_lee12_binned_coarseres_avthres_errorrecalc_nh2_vs_nhi.png"
+    src="/media/2015/08/07/perseus_lee12_binned_coarseres_avthres_errorrecalc_nh2_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 5
@@ -136,11 +136,11 @@ Left: masked $$A_V$$ vs. N(HI), right: N(H$$_2$$) vs. N(HI) for Perseus region.
 ***
 
 <img
-src="/media/2015-08-07/perseus_lee12_binned_coarseres_region1_avthres_errorrecalc_av_vs_nhi_masked.png"
+src="/media/2015/08/07/perseus_lee12_binned_coarseres_region1_avthres_errorrecalc_av_vs_nhi_masked.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-07/perseus_lee12_binned_coarseres_region1_avthres_errorrecalc_nh2_vs_nhi.png"
+    src="/media/2015/08/07/perseus_lee12_binned_coarseres_region1_avthres_errorrecalc_nh2_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 6
@@ -152,11 +152,11 @@ Left: masked $$A_V$$ vs. N(HI), right: N(H$$_2$$) vs. N(HI) for Perseus North re
 ***
 
 <img
-src="/media/2015-08-07/perseus_lee12_binned_coarseres_region2_avthres_errorrecalc_av_vs_nhi_masked.png"
+src="/media/2015/08/07/perseus_lee12_binned_coarseres_region2_avthres_errorrecalc_av_vs_nhi_masked.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-07/perseus_lee12_binned_coarseres_region2_avthres_errorrecalc_nh2_vs_nhi.png"
+    src="/media/2015/08/07/perseus_lee12_binned_coarseres_region2_avthres_errorrecalc_nh2_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 7
@@ -192,7 +192,7 @@ This suggests the Southern region dominates the MLE calculation.
 ***
 
 <img
-src="/media/2015-08-07/perseus_lee12_binned_coarseres_avthres_noint_errorrecalc_likelihood_wd.png"
+src="/media/2015/08/07/perseus_lee12_binned_coarseres_avthres_noint_errorrecalc_likelihood_wd.png"
     style="width: 50%"/>
 
 #### Figure 8
@@ -204,7 +204,7 @@ Likelihoods for Perseus region.
 ***
 
 <img
-src="/media/2015-08-07/perseus_lee12_binned_coarseres_region1_avthres_noint_errorrecalc_likelihood_wd.png"
+src="/media/2015/08/07/perseus_lee12_binned_coarseres_region1_avthres_noint_errorrecalc_likelihood_wd.png"
     style="width: 50%"/>
 
 #### Figure 9
@@ -216,7 +216,7 @@ Likelihoods for Perseus North region.
 ***
 
 <img
-src="/media/2015-08-07/perseus_lee12_binned_coarseres_region2_avthres_noint_errorrecalc_likelihood_wd.png"
+src="/media/2015/08/07/perseus_lee12_binned_coarseres_region2_avthres_noint_errorrecalc_likelihood_wd.png"
     style="width: 50%"/>
 
 #### Figure 10
@@ -237,11 +237,11 @@ cm$$^{-2}$$. These differences are not that worrying.
 ***
 
 <img
-src="/media/2015-08-07/perseus_lee12_binned_coarseres_avthres_noint_errorrecalc_av_vs_nhi_masked.png"
+src="/media/2015/08/07/perseus_lee12_binned_coarseres_avthres_noint_errorrecalc_av_vs_nhi_masked.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-07/perseus_lee12_binned_coarseres_avthres_noint_errorrecalc_nh2_vs_nhi.png"
+    src="/media/2015/08/07/perseus_lee12_binned_coarseres_avthres_noint_errorrecalc_nh2_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 11
@@ -253,11 +253,11 @@ Left: masked $$A_V$$ vs. N(HI), right: N(H$$_2$$) vs. N(HI) for Perseus region.
 ***
 
 <img
-src="/media/2015-08-07/perseus_lee12_binned_coarseres_region1_avthres_noint_errorrecalc_av_vs_nhi_masked.png"
+src="/media/2015/08/07/perseus_lee12_binned_coarseres_region1_avthres_noint_errorrecalc_av_vs_nhi_masked.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-07/perseus_lee12_binned_coarseres_region1_avthres_noint_errorrecalc_nh2_vs_nhi.png"
+    src="/media/2015/08/07/perseus_lee12_binned_coarseres_region1_avthres_noint_errorrecalc_nh2_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 12
@@ -269,11 +269,11 @@ Left: masked $$A_V$$ vs. N(HI), right: N(H$$_2$$) vs. N(HI) for Perseus North re
 ***
 
 <img
-src="/media/2015-08-07/perseus_lee12_binned_coarseres_region2_avthres_noint_errorrecalc_av_vs_nhi_masked.png"
+src="/media/2015/08/07/perseus_lee12_binned_coarseres_region2_avthres_noint_errorrecalc_av_vs_nhi_masked.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-07/perseus_lee12_binned_coarseres_region2_avthres_noint_errorrecalc_nh2_vs_nhi.png"
+    src="/media/2015/08/07/perseus_lee12_binned_coarseres_region2_avthres_noint_errorrecalc_nh2_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 13
@@ -299,11 +299,11 @@ however are much more consistent across regions than the Lee+12 likelihoods.
 ***
 
 <img
-src="/media/2015-08-07/perseus_planck_lee12mask_binned_coarseres_avthres_noint_errorrecalc_likelihood_wd.png"
+src="/media/2015/08/07/perseus_planck_lee12mask_binned_coarseres_avthres_noint_errorrecalc_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-src="/media/2015-08-07/perseus_lee12_binned_coarseres_avthres_noint_errorrecalc_likelihood_wd.png"
+src="/media/2015/08/07/perseus_lee12_binned_coarseres_avthres_noint_errorrecalc_likelihood_wd.png"
     style="width: 50%"/>
 
 #### Figure 14
@@ -315,11 +315,11 @@ Likelihoods for Perseus region. Left: Planck, right: Lee+12.
 ***
 
 <img
-src="/media/2015-08-07/perseus_planck_lee12mask_binned_coarseres_region1_avthres_noint_errorrecalc_likelihood_wd.png"
+src="/media/2015/08/07/perseus_planck_lee12mask_binned_coarseres_region1_avthres_noint_errorrecalc_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-src="/media/2015-08-07/perseus_lee12_binned_coarseres_region1_avthres_noint_errorrecalc_likelihood_wd.png"
+src="/media/2015/08/07/perseus_lee12_binned_coarseres_region1_avthres_noint_errorrecalc_likelihood_wd.png"
     style="width: 50%"/>
 
 #### Figure 15
@@ -331,10 +331,10 @@ Likelihoods for Perseus North region. Left: Planck, right: Lee+12.
 ***
 
 <img
-src="/media/2015-08-07/perseus_planck_lee12mask_binned_coarseres_region2_avthres_noint_errorrecalc_likelihood_wd.png"
+src="/media/2015/08/07/perseus_planck_lee12mask_binned_coarseres_region2_avthres_noint_errorrecalc_likelihood_wd.png"
     style="float: left; width: 50%"/>
 <img
-src="/media/2015-08-07/perseus_lee12_binned_coarseres_region2_avthres_noint_errorrecalc_likelihood_wd.png"
+src="/media/2015/08/07/perseus_lee12_binned_coarseres_region2_avthres_noint_errorrecalc_likelihood_wd.png"
     style="width: 50%"/>
 
 #### Figure 16
@@ -355,11 +355,11 @@ cm$$^{-2}$$. These differences are not that worrying.
 ***
 
 <img
-src="/media/2015-08-07/perseus_planck_lee12mask_binned_coarseres_avthres_noint_errorrecalc_av_vs_nhi_masked.png"
+src="/media/2015/08/07/perseus_planck_lee12mask_binned_coarseres_avthres_noint_errorrecalc_av_vs_nhi_masked.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-07/perseus_planck_lee12mask_binned_coarseres_avthres_noint_errorrecalc_nh2_vs_nhi.png"
+    src="/media/2015/08/07/perseus_planck_lee12mask_binned_coarseres_avthres_noint_errorrecalc_nh2_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 17
@@ -371,11 +371,11 @@ Left: masked $$A_V$$ vs. N(HI), right: N(H$$_2$$) vs. N(HI) for Perseus region.
 ***
 
 <img
-src="/media/2015-08-07/perseus_planck_lee12mask_binned_coarseres_region1_avthres_noint_errorrecalc_av_vs_nhi_masked.png"
+src="/media/2015/08/07/perseus_planck_lee12mask_binned_coarseres_region1_avthres_noint_errorrecalc_av_vs_nhi_masked.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-07/perseus_planck_lee12mask_binned_coarseres_region1_avthres_noint_errorrecalc_nh2_vs_nhi.png"
+    src="/media/2015/08/07/perseus_planck_lee12mask_binned_coarseres_region1_avthres_noint_errorrecalc_nh2_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 18
@@ -387,11 +387,11 @@ Left: masked $$A_V$$ vs. N(HI), right: N(H$$_2$$) vs. N(HI) for Perseus North re
 ***
 
 <img
-src="/media/2015-08-07/perseus_planck_lee12mask_binned_coarseres_region2_avthres_noint_errorrecalc_av_vs_nhi_masked.png"
+src="/media/2015/08/07/perseus_planck_lee12mask_binned_coarseres_region2_avthres_noint_errorrecalc_av_vs_nhi_masked.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-07/perseus_planck_lee12mask_binned_coarseres_region2_avthres_noint_errorrecalc_nh2_vs_nhi.png"
+    src="/media/2015/08/07/perseus_planck_lee12mask_binned_coarseres_region2_avthres_noint_errorrecalc_nh2_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 19

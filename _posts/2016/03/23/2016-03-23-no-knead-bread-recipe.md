@@ -1,8 +1,7 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - baking
-- archive
 comments: true
 date: 2016-03-23 00:00
 layout: post

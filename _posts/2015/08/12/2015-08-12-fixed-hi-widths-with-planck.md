@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-08-12 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/08/12/fixed-hi-widths-with-planck
 tags:
@@ -27,21 +27,21 @@ the corrected CO spectra included within the region outlined for each cloud.
     Perseus
     </p>
   <img
-    src='/media/2015-08-12/perseus_planck_binned_coarseres_fixedwidth_hi_spectrum.png'
+    src='/media/2015/08/12/perseus_planck_binned_coarseres_fixedwidth_hi_spectrum.png'
     style='width:75%'>
 
     <p>
     Taurus
     </p>
   <img
-    src='/media/2015-08-12/taurus_planck_binned_coarseres_fixedwidth_hi_spectrum.png'
+    src='/media/2015/08/12/taurus_planck_binned_coarseres_fixedwidth_hi_spectrum.png'
     style='width:75%'>
 
     <p>
     California
     </p>
   <img
-    src='/media/2015-08-12/california_planck_binned_coarseres_fixedwidth_hi_spectrum.png'
+    src='/media/2015/08/12/california_planck_binned_coarseres_fixedwidth_hi_spectrum.png'
     style='width:75%'>
 
 </div>
@@ -96,13 +96,13 @@ $$
 ***
 
 <img
-src="/media/2015-08-12/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi_masked.png"
+src="/media/2015/08/12/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi_masked.png"
     style="float: left; width: 50%"/>
 <img
-src="/media/2015-08-12/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi.png"
+src="/media/2015/08/12/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi.png"
     style="float: left; width: 50%"/>
 <img
-src="/media/2015-08-12/perseus_lee12_binned_coarseres_fixedwidth_nh2_vs_nhi.png"
+src="/media/2015/08/12/perseus_lee12_binned_coarseres_fixedwidth_nh2_vs_nhi.png"
     style="width: 50%"/>
 
 #### Figure 2

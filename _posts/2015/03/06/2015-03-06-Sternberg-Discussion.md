@@ -1,9 +1,9 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 date: 2015-03-06 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/03/06/sternberg-discussion
 tags:

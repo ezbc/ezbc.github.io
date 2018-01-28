@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-08-04 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/08/04/region-tests
 tags:
@@ -24,7 +24,7 @@ dependence of derived paramenters on the region used within Perseus.
 
 ***
 
-<img src="/media/2015-08-04/perseus_masks.png"
+<img src="/media/2015/08/04/perseus_masks.png"
     style="width: 100%"/>
 
 #### Figure 1
@@ -41,15 +41,15 @@ whether associated or unassociated with Perseus.
 
 ***
 
-<img src="/media/2015-08-04/perseus_k09_coarseres_residual_hists.gif"
+<img src="/media/2015/08/04/perseus_k09_coarseres_residual_hists.gif"
 style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"
 />
 
-<img src="/media/2015-08-04/perseus_k09_coarseres_region2_residual_hists.gif"
+<img src="/media/2015/08/04/perseus_k09_coarseres_region2_residual_hists.gif"
 style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"
 />
 
-<img src="/media/2015-08-04/perseus_k09_coarseres_region1_residual_hists.gif"
+<img src="/media/2015/08/04/perseus_k09_coarseres_region1_residual_hists.gif"
 style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"
 />
 
@@ -69,15 +69,15 @@ masking, as expected.
 ***
 <div align="center">
 
-  <img src="/media/2015-08-04/perseus_k09_coarseres_residual_maps.gif"
+  <img src="/media/2015/08/04/perseus_k09_coarseres_residual_maps.gif"
   style="width: 100%; margin-right: 1%; margin-bottom: 0.5em;"
   />
 
-  <img src="/media/2015-08-04/perseus_k09_coarseres_region2_residual_maps.gif"
+  <img src="/media/2015/08/04/perseus_k09_coarseres_region2_residual_maps.gif"
   style="width: 100%; margin-right: 1%; margin-bottom: 0.5em;"
   />
 
-  <img src="/media/2015-08-04/perseus_k09_coarseres_region1_residual_maps.gif"
+  <img src="/media/2015/08/04/perseus_k09_coarseres_region1_residual_maps.gif"
   style="width: 100%; margin-right: 1%; margin-bottom: 0.5em;"
   />
 
@@ -97,11 +97,11 @@ intercept in color, and masked pixels in gray.
 ***
 
 <img
-src="/media/2015-08-04/perseus_k09_coarseres_likelihood_wd.png"
+src="/media/2015/08/04/perseus_k09_coarseres_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-04/perseus_k09_coarseres_likelihood_wi.png"
+    src="/media/2015/08/04/perseus_k09_coarseres_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 4
@@ -113,11 +113,11 @@ Likelihoods for Perseus region.
 ***
 
 <img
-src="/media/2015-08-04/perseus_k09_coarseres_region2_likelihood_wd.png"
+src="/media/2015/08/04/perseus_k09_coarseres_region2_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-04/perseus_k09_coarseres_region2_likelihood_wi.png"
+    src="/media/2015/08/04/perseus_k09_coarseres_region2_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 5
@@ -129,11 +129,11 @@ Likelihoods for Perseus North region.
 ***
 
 <img
-src="/media/2015-08-04/perseus_k09_coarseres_region1_likelihood_wd.png"
+src="/media/2015/08/04/perseus_k09_coarseres_region1_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-04/perseus_k09_coarseres_region1_likelihood_wi.png"
+    src="/media/2015/08/04/perseus_k09_coarseres_region1_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 6
@@ -154,11 +154,11 @@ populations.
 ***
 
 <img
-src="/media/2015-08-04/perseus_k09_coarseres_av_vs_nhi_masked.png"
+src="/media/2015/08/04/perseus_k09_coarseres_av_vs_nhi_masked.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-04/perseus_k09_coarseres_nh2_vs_nhi.png"
+    src="/media/2015/08/04/perseus_k09_coarseres_nh2_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 7
@@ -172,11 +172,11 @@ included. Total number of pixels: 20875.
 ***
 
 <img
-src="/media/2015-08-04/perseus_k09_coarseres_region2_av_vs_nhi_masked.png"
+src="/media/2015/08/04/perseus_k09_coarseres_region2_av_vs_nhi_masked.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-04/perseus_k09_coarseres_region2_nh2_vs_nhi.png"
+    src="/media/2015/08/04/perseus_k09_coarseres_region2_nh2_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 8
@@ -190,11 +190,11 @@ data included. Total number of pixels: 9605.
 ***
 
 <img
-src="/media/2015-08-04/perseus_k09_coarseres_region1_av_vs_nhi_masked.png"
+src="/media/2015/08/04/perseus_k09_coarseres_region1_av_vs_nhi_masked.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-04/perseus_k09_coarseres_region1_nh2_vs_nhi.png"
+    src="/media/2015/08/04/perseus_k09_coarseres_region1_nh2_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 9
@@ -232,21 +232,21 @@ the variance between the model and the data.
 <div align="center"> Perseus </div>
 
 
-<img src="/media/2015-08-04/perseus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/08/04/perseus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-08-04/perseus_planck_binned_coarseres_likelihood_wi.png" style="width: 50%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/08/04/perseus_planck_binned_coarseres_likelihood_wi.png" style="width: 50%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 <div align="center"> Taurus </div>
 
-<img src="/media/2015-08-04/taurus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/08/04/taurus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-08-04/taurus_planck_binned_coarseres_likelihood_wi.png" style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/08/04/taurus_planck_binned_coarseres_likelihood_wi.png" style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 <div align="center"> California </div>
 
-<img src="/media/2015-08-04/california_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/08/04/california_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-08-04/california_planck_binned_coarseres_likelihood_wi.png" style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/08/04/california_planck_binned_coarseres_likelihood_wi.png" style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 #### Figure 10
 

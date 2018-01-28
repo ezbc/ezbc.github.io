@@ -1,9 +1,9 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 date: 2015-03-31 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/03/31/paper-comments-2
 tags:
@@ -37,7 +37,7 @@ Interpretation of steps used to calculate DGR and HI width
       derived DGR and $$HI$$ width are more uncertain with a varying $$HI$$
       center.
 
-<img src="/media/2015-03-31/california_likelihood.png"/>
+<img src="/media/2015/03/31/california_likelihood.png"/>
 
     + **Action** Use single vel center. We do not expect the center $$HI$$ to
       vary within a MC.
@@ -224,5 +224,5 @@ Please let me know if this is correct. Please also provide answers to questions 
 + Yes, it would be good to have values in table 2 for comparison.
 
 <!--
-<img src="/media/2015-03-23/multicloud_T_cnm_vs_gdist.png"/>
+<img src="/media/2015/03/23/multicloud_T_cnm_vs_gdist.png"/>
 -->

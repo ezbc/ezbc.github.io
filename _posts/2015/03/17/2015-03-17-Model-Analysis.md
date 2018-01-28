@@ -1,9 +1,9 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 date: 2015-03-17 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/03/17/model-analysis
 tags:
@@ -66,9 +66,9 @@ module](https://bitbucket.org/ezbc/python_modules/src/3a5a4ecee558df6683f15c638f
 for the solution of $$T_{\rm CNM}$$ given a $$\phi_{\rm CNM}$$ value. We can
 plot $$T_{\rm CNM}$$ as a function of galactic longitude:
 
-<img src="/media/2015-03-17/multicloud_T_cnm_vs_glat.png"/>
+<img src="/media/2015/03/17/multicloud_T_cnm_vs_glat.png"/>
 
 where we can see that Perseus and Taurus have much lower predicted $$T_{\rm
 CNM}$$ values than California. This is expected given the low [HI surface density thresholds](/posts/notes/2015/03/12/Sternberg-Fitting/) seen in Perseus and Taurus. The locations of cores in galactic coordinates is shown here (taken from [Lombardi et al. (2007)](http://esoads.eso.org/abs/2010A%26A...512A..67L))
 
-<img src="/media/2015-03-17/tcp_lombardi07.png"/>
+<img src="/media/2015/03/17/tcp_lombardi07.png"/>

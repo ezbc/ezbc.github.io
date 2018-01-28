@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-07-15 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/07/15/faint-masking-on-taurus-and-california
 tags:
@@ -21,9 +21,9 @@ use_math: true
 
 ***
 
-<img src="/media/2015-07-15/perseus_planck_binned_fineres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/15/perseus_planck_binned_fineres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-07-15/perseus_planck_binned_fineres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/15/perseus_planck_binned_fineres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 Figure 1. - Perseus likelihoods.
 
@@ -31,9 +31,9 @@ Figure 1. - Perseus likelihoods.
 
 ***
 
-<img src="/media/2015-07-15/california_planck_binned_fineres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/15/california_planck_binned_fineres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-07-15/california_planck_binned_fineres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/15/california_planck_binned_fineres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 Figure 2. - California likelihoods.
 
@@ -41,9 +41,9 @@ Figure 2. - California likelihoods.
 
 ***
 
-<img src="/media/2015-07-15/taurus_planck_binned_fineres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/15/taurus_planck_binned_fineres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-07-15/taurus_planck_binned_fineres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/15/taurus_planck_binned_fineres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 ***
 
@@ -51,9 +51,9 @@ Figure 3. - Taurus likelihoods.
 
 ***
 
-<img src="/media/2015-07-15/perseus_lee12_binned_coarseres_residual_maps.gif"  style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/15/perseus_lee12_binned_coarseres_residual_maps.gif"  style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-07-15/perseus_lee12_binned_coarseres_residual_hists.gif"   style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/15/perseus_lee12_binned_coarseres_residual_hists.gif"   style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 Figure 4. - perseus masks.
 
@@ -69,7 +69,7 @@ post](/research/2015/07/13/Faint-Masking-2/#convergence).
 ***
 
 <figure>
-  <img src="/media/2015-07-15/perseus_planck_binned_fineres_dgr_intercept_progress.png" style="width: 100%"> 
+  <img src="/media/2015/07/15/perseus_planck_binned_fineres_dgr_intercept_progress.png" style="width: 100%"> 
 </figure>
 
 Figure 1. - The left column represents the initial masking performed with a

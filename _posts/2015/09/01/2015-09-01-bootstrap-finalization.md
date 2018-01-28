@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-09-01 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/09/01/bootstrap-finalization
 tags:
@@ -36,19 +36,19 @@ between the K+09 and Lee+12 relationship.
 Planck vs. K+09
 <p></p>
 
-<img src="/media/2015-09-01/perseus_planck_vs_k09.png" style="width: 70%"/>
+<img src="/media/2015/09/01/perseus_planck_vs_k09.png" style="width: 70%"/>
 
 <p></p>
 Planck vs. Lee+12
 <p></p>
 
-<img src="/media/2015-09-01/perseus_planck_vs_lee12.png" style="width: 70%"/>
+<img src="/media/2015/09/01/perseus_planck_vs_lee12.png" style="width: 70%"/>
 
 <p></p>
 Lee+12 vs. K+09
 <p></p>
 
-<img src="/media/2015-09-01/perseus_lee12_vs_k09.png" style="width: 70%"/>
+<img src="/media/2015/09/01/perseus_lee12_vs_k09.png" style="width: 70%"/>
 
 </div>
 
@@ -67,7 +67,7 @@ We should perhaps include more HI components in California, seeing as there are
 two HI components. 
 
 
-<img src="/media/2015-09-01/multicloud_spectra.png" style="width: 100%"/>
+<img src="/media/2015/09/01/multicloud_spectra.png" style="width: 100%"/>
 
 ##### **Figure 2**
 
@@ -80,7 +80,7 @@ range is know slightly more negative.
 
 ***
 
-<img src="/media/2015-09-01/multicloud_av_vs_nhi.png" style="width: 100%"/>
+<img src="/media/2015/09/01/multicloud_av_vs_nhi.png" style="width: 100%"/>
 
 ##### **Figure 3**
 
@@ -95,7 +95,7 @@ contribute significantly to the fit because of their larger error.
 
 ***
 
-<img src="/media/2015-09-01/multicloud_av_vs_nhi_scatter.png" style="width: 100%"/>
+<img src="/media/2015/09/01/multicloud_av_vs_nhi_scatter.png" style="width: 100%"/>
 
 ##### **Figure 4**
 

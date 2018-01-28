@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-10-18 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/10/18/model-analysis
 tags:
@@ -23,11 +23,11 @@ between the model and data and that shown in Lee+12 or Bialy+15.
 
 <div class="carouselContainer">
   <div class="variable-width">
-    <div> <img src="/media/2015-10-18/california_rh2_vs_hsd.png"
+    <div> <img src="/media/2015/10/18/california_rh2_vs_hsd.png"
                style="height:700px"/> </div>
-    <div> <img src="/media/2015-10-18/perseus_rh2_vs_hsd.png"
+    <div> <img src="/media/2015/10/18/perseus_rh2_vs_hsd.png"
                style="height:700px"/> </div>
-    <div> <img src="/media/2015-10-18/taurus_rh2_vs_hsd.png"
+    <div> <img src="/media/2015/10/18/taurus_rh2_vs_hsd.png"
                style="height:700px"/> </div>
   </div>
 </div>
@@ -110,7 +110,7 @@ perhaps not unrealistic.
 *** 
 
 <img
-src="/media/2015-10-18/table_phig_novary.png"
+src="/media/2015/10/18/table_phig_novary.png"
     style="width: 100%"/>
 
 ##### Table 1
@@ -126,7 +126,7 @@ probable value within the center of the allowed range.
 *** 
 
 <img
-src="/media/2015-10-18/example_alphaG_constantphig.png"
+src="/media/2015/10/18/example_alphaG_constantphig.png"
     style="width: 50%"/>
 
 ##### Figure 2
@@ -155,11 +155,11 @@ available to $\alpha G$ the most probable value is on the edge of the range.
 *** 
 
 <img
-src="/media/2015-10-18/example_alphaG.png"
+src="/media/2015/10/18/example_alphaG.png"
     style="width: 50%; float: left"/>
 
 <img
-src="/media/2015-10-18/example_phi_g.png"
+src="/media/2015/10/18/example_phi_g.png"
     style="width: 50%; float: left"/>
 
 ##### Figure 3

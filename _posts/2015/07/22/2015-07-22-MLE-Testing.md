@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-07-22 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/07/22/mle-testing
 tags:
@@ -41,9 +41,9 @@ results.
 
 <div align="center"> Perseus, Lee+12 </div>
 
-<img src="/media/2015-07-22/perseus_lee12_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/22/perseus_lee12_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-07-22/perseus_lee12_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/22/perseus_lee12_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 Figure 1. - Perseus likelihoods with Lee+12 $$A_V$$ data. These likelihoods are
 not similar to those found in [previous
@@ -61,9 +61,9 @@ $$N(HI)$$ much. The $$N(HI)$$ distributions are discussed later in the post
 
 <div align="center"> Perseus, Planck </div>
 
-<img src="/media/2015-07-22/perseus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/22/perseus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-07-22/perseus_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 49%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/22/perseus_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 49%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 Figure 2. - Perseus likelihoods with Planck $$A_V$$ data. These likelihoods are
 very similar to those found with the Lee+12 $$A_V$$ data above. This is
@@ -75,9 +75,9 @@ promising!
 
 <div align="center"> Taurus </div>
 
-<img src="/media/2015-07-22/taurus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/22/taurus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-07-22/taurus_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/22/taurus_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 Figure 3. - Taurus likelihoods. These likelihoods are not similar to those
 found in previous iterations of the MLE analysis, which found $$HI$$ widths of
@@ -91,9 +91,9 @@ which distorted the likelihood calculation.
 
 <div align="center"> California </div>
 
-<img src="/media/2015-07-22/california_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/22/california_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-07-22/california_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 49%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/22/california_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 49%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 Figure 4. - California likelihoods. These likelihoods are similar to those
 found in [previous iterations](/research/2015/05/30/Intercepts/) of the MLE analysis.
@@ -123,9 +123,9 @@ then more pixels would populate the lower $$N(HI)$$.
 
 <div align="center"> Perseus, Lee+12 </div>
 
-<img src="/media/2015-07-22/perseus_lee12_binned_coarseres_av_vs_nhi_masked.png" style="width:70%;"/>
+<img src="/media/2015/07/22/perseus_lee12_binned_coarseres_av_vs_nhi_masked.png" style="width:70%;"/>
 
-<img src="/media/2015-07-22/perseus_lee12_binned_coarseres_av_vs_nhi.png" style="width:70%"/>
+<img src="/media/2015/07/22/perseus_lee12_binned_coarseres_av_vs_nhi.png" style="width:70%"/>
 
 Figure 5. - Perseus $$A_V$$ vs. $$N(HI)$$ using Lee+12 data. The top shows the
 data points which the MLE of the parameters were fitted to, i.e., the masked
@@ -140,9 +140,9 @@ polynomial fit to the data.
 
 <div align="center"> Perseus, Planck </div>
 
-<img src="/media/2015-07-22/perseus_planck_binned_coarseres_av_vs_nhi_masked.png" style="width:70%;"/>
+<img src="/media/2015/07/22/perseus_planck_binned_coarseres_av_vs_nhi_masked.png" style="width:70%;"/>
 
-<img src="/media/2015-07-22/perseus_planck_binned_coarseres_av_vs_nhi.png" style="width:70%"/>
+<img src="/media/2015/07/22/perseus_planck_binned_coarseres_av_vs_nhi.png" style="width:70%"/>
 
 Figure 6. - Perseus $$A_V$$ vs. $$N(HI)$$ using Planck data.
 
@@ -154,9 +154,9 @@ Figure 6. - Perseus $$A_V$$ vs. $$N(HI)$$ using Planck data.
 
 <div align="center"> Taurus </div>
 
-<img src="/media/2015-07-22/taurus_planck_binned_coarseres_av_vs_nhi_masked.png" style="width:70%"/>
+<img src="/media/2015/07/22/taurus_planck_binned_coarseres_av_vs_nhi_masked.png" style="width:70%"/>
 
-<img src="/media/2015-07-22/taurus_planck_binned_coarseres_av_vs_nhi.png" style="width:70%"/>
+<img src="/media/2015/07/22/taurus_planck_binned_coarseres_av_vs_nhi.png" style="width:70%"/>
 
 Figure 7. - Taurus $$A_V$$ vs. $$N(HI)$$.
 
@@ -166,9 +166,9 @@ Figure 7. - Taurus $$A_V$$ vs. $$N(HI)$$.
 
 <div align="center"> California </div>
 
-<img src="/media/2015-07-22/california_planck_binned_coarseres_av_vs_nhi_masked.png" style="width:70%"/>
+<img src="/media/2015/07/22/california_planck_binned_coarseres_av_vs_nhi_masked.png" style="width:70%"/>
 
-<img src="/media/2015-07-22/california_planck_binned_coarseres_av_vs_nhi.png" style="width:70%"/>
+<img src="/media/2015/07/22/california_planck_binned_coarseres_av_vs_nhi.png" style="width:70%"/>
 
 Figure 8. - California $$A_V$$ vs. $$N(HI)$$. 
 
@@ -196,15 +196,15 @@ densities](/research/2015/02/26/Krumholz-Fitting/).
   
   <p>Perseus</p>
 
-  <img src="/media/2015-07-22/perseus_planck_binned_coarseres_nh2_vs_nhi.png" style="width:70%"/>
+  <img src="/media/2015/07/22/perseus_planck_binned_coarseres_nh2_vs_nhi.png" style="width:70%"/>
 
   <p>Taurus</p>
 
-  <img src="/media/2015-07-22/taurus_planck_binned_coarseres_nh2_vs_nhi.png" style="width:70%"/>
+  <img src="/media/2015/07/22/taurus_planck_binned_coarseres_nh2_vs_nhi.png" style="width:70%"/>
 
   <p>California</p>
 
-  <img src="/media/2015-07-22/california_planck_binned_coarseres_nh2_vs_nhi.png" style="width:70%"/>
+  <img src="/media/2015/07/22/california_planck_binned_coarseres_nh2_vs_nhi.png" style="width:70%"/>
 
 </div>
 

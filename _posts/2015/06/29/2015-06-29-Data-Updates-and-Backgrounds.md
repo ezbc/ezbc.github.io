@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-06-29 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/06/29/data-updates-and-backgrounds
 tags:
@@ -21,19 +21,19 @@ represent the background regions used to fit the intercept and spline.
 
 #### 1D Fit
 
-<img src="/media/2015-06-29/california_av_background_maps_1D.png" style="width:100%"/>
+<img src="/media/2015/06/29/california_av_background_maps_1D.png" style="width:100%"/>
 
 
 #### 2D Fit
 
-<img src="/media/2015-06-29/california_av_background_maps_2D.png" style="width:100%"/>
+<img src="/media/2015/06/29/california_av_background_maps_2D.png" style="width:100%"/>
 
 Here are the resulting likelihoods using the 2D background
 subtraction...something is wrong. At least the intercept is positive!
 
-<img src="/media/2015-06-29/california_likelihood_planck_bin_scaled_wd.png" style=""/>
+<img src="/media/2015/06/29/california_likelihood_planck_bin_scaled_wd.png" style=""/>
 
-<img src="/media/2015-06-29/california_likelihood_planck_bin_scaled_wi.png" style=""/>
+<img src="/media/2015/06/29/california_likelihood_planck_bin_scaled_wi.png" style=""/>
 
 ## Relationship Between Planck, 2MASS, and Lee+12 $$A_V$$
 
@@ -44,18 +44,18 @@ three clouds, there is at least a 25% offset from Planck with 2MASS.
 
 ### Taurus
 
-<img src="/media/2015-06-29/taurus_av_2mass_planck_plot.png" style="width:100%"/>
+<img src="/media/2015/06/29/taurus_av_2mass_planck_plot.png" style="width:100%"/>
 
 ### California
 
-<img src="/media/2015-06-29/california_av_2mass_planck_plot.png" style="width:100%"/>
+<img src="/media/2015/06/29/california_av_2mass_planck_plot.png" style="width:100%"/>
 
 ### <a name="lee12_planck"></a> Perseus
 
-<img src="/media/2015-06-29/perseus_av_2mass_planck_plot.png" style="width:100%"/>
+<img src="/media/2015/06/29/perseus_av_2mass_planck_plot.png" style="width:100%"/>
 
 We can see below that the Planck $$A_V$$ map is offset from the Lee+12 $$A_V$$
 map by $$0.8$$ mag. This makes sense, since Lee+12 subtracted a background from
 Perseus.
 
-<img src="/media/2015-06-29/perseus_av_lee12_planck_plot.png" style="width:100%"/>
+<img src="/media/2015/06/29/perseus_av_lee12_planck_plot.png" style="width:100%"/>

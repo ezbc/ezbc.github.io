@@ -1,9 +1,8 @@
 ---
 archive: false
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - data-science
-- archive
 comments: true
 date: 2016-02-13 00:00
 example: data-science-projects

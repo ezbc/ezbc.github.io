@@ -1,9 +1,9 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 date: 2015-05-30 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/05/30/intercepts
 tags:
@@ -30,16 +30,16 @@ least-squares fit to the given $$N(HI)$$, i.e., not fitting for $$N(HI)$$. It
 seems quite obvious that an intercept is needed to correctly describe the data.
 
 
-<img src="/media/2015-05-30/california_av_vs_nhi_planck.png" height="400" width="400" />
+<img src="/media/2015/05/30/california_av_vs_nhi_planck.png" height="400" width="400" />
 
 Below is a likelihood space for California without fitting for an intercept.
 
-<img src="/media/2015-05-30/likelihood_noint_wd.png" height="400" width="400" />
+<img src="/media/2015/05/30/likelihood_noint_wd.png" height="400" width="400" />
 
 
 The likelihood spaces for California while fitting for an intercept are
 distorted and do not have a clear MLE.
 
-<img src="/media/2015-05-30/likelihood_int_wd.png" height="400" width="400" />
+<img src="/media/2015/05/30/likelihood_int_wd.png" height="400" width="400" />
 
-<img src="/media/2015-05-30/likelihood_int_wi.png" height="400" width="400" />
+<img src="/media/2015/05/30/likelihood_int_wi.png" height="400" width="400" />

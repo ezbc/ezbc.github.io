@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-07-08 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/07/08/intercept-tests
 tags:
@@ -29,17 +29,17 @@ is what we find by using the likelihood calculation code for the three
 parameters. Below are the resulting images.
 
 ## HI Cube
-<img src="/media/2015-07-08/hi_cube.png" style="width:100%"/>
+<img src="/media/2015/07/08/hi_cube.png" style="width:100%"/>
 
 ## $$A_V$$ image
 
-<img src="/media/2015-07-08/av.png" style="width:50%"/>
+<img src="/media/2015/07/08/av.png" style="width:50%"/>
 
 ## N(HI) image
-<img src="/media/2015-07-08/nhi.png" style="width:50%"/>
+<img src="/media/2015/07/08/nhi.png" style="width:50%"/>
 
 ## $$A_V$$ model
-<img src="/media/2015-07-08/av_model.png" style="width:50%"/>
+<img src="/media/2015/07/08/av_model.png" style="width:50%"/>
 
 Some comments from Snez about yesterday's post:
 

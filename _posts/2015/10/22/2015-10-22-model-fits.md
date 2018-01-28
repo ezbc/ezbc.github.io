@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-10-22 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/10/22/model-fits
 tags:
@@ -28,11 +28,11 @@ Figure 1 below shows the dust temperature CDFs for each cloud.
 
 <div class="carouselContainer">
   <div class="variable-width">
-    <div> <img src="/media/2015-10-22/california_temp_hist.png"
+    <div> <img src="/media/2015/10/22/california_temp_hist.png"
                style="height:400px"/> </div>
-    <div> <img src="/media/2015-10-22/perseus_temp_hist.png"
+    <div> <img src="/media/2015/10/22/perseus_temp_hist.png"
                style="height:400px"/> </div>
-    <div> <img src="/media/2015-10-22/taurus_temp_hist.png"
+    <div> <img src="/media/2015/10/22/taurus_temp_hist.png"
                style="height:400px"/> </div>
   </div>
 </div>
@@ -55,11 +55,11 @@ predicted HI transition, see Figure 2.
 
 <div class="carouselContainer">
   <div class="variable-width">
-    <div> <img src="/media/2015-10-22/california_hisd_cdf.png"
+    <div> <img src="/media/2015/10/22/california_hisd_cdf.png"
                style="height:700px"/> </div>
-    <div> <img src="/media/2015-10-22/perseus_hisd_cdf.png"
+    <div> <img src="/media/2015/10/22/perseus_hisd_cdf.png"
                style="height:700px"/> </div>
-    <div> <img src="/media/2015-10-22/taurus_hisd_cdf.png"
+    <div> <img src="/media/2015/10/22/taurus_hisd_cdf.png"
                style="height:700px"/> </div>
   </div>
 </div>
@@ -91,7 +91,7 @@ simulations.
 *** 
 
 <img
-src="/media/2015-10-22/multicloud_av_modelparams_map.png"
+src="/media/2015/10/22/multicloud_av_modelparams_map.png"
     style="width: 70%"/>
 
 ##### Figure 3
@@ -106,7 +106,7 @@ HI-to-H$_2$ transition.
 *** 
 
 <img
-src="/media/2015-10-22/multicloud_av_ISMparams_map.png"
+src="/media/2015/10/22/multicloud_av_ISMparams_map.png"
     style="width: 70%"/>
 
 ##### Figure 4
@@ -118,7 +118,7 @@ Map of predicted ISM parameters from the Sternberg model.
 *** 
 
 <img
-src="/media/2015-10-22/multicloud_pdfs.png"
+src="/media/2015/10/22/multicloud_pdfs.png"
     style="width: 70%"/>
 
 ##### Figure 5
@@ -140,7 +140,7 @@ do not align with the $A_V$ PDFs.
 *** 
 
 <img
-src="/media/2015-10-22/table.png"
+src="/media/2015/10/22/table.png"
     style="width: 100%"/>
 
 ##### Table 1

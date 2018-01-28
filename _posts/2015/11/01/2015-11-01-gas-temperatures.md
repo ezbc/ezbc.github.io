@@ -1,14 +1,14 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-11-01 00:00
 example: data-science-research
-excerpt: <p><div class="image-full-width" align="center"> <img src="/images/2015-11-01/temps_cdf_phig1.0.png"
+excerpt: <p><div class="image-full-width" align="center"> <img src="/media/2015/11/01/temps_cdf_phig1.0.png"
   style="width:50%"/></div>Comparison of cumulative distribution functions of observed
   and predicted quantities.</p>
+hidden: true
 layout: post
 redirect_from: /research/2015/11/01/gas-temperatures
 tags:
@@ -87,8 +87,8 @@ use_math: true
   post. 
 
   ***  
-  <img src="/media/2015-11-01/temps_cdf_phig2.0.png" style="width:50%; float:left"/>
-  <img src="/media/2015-11-01/temps_cdf_phig1.0.png" style="width:50%"/>
+  <img src="/media/2015/11/01/temps_cdf_phig2.0.png" style="width:50%; float:left"/>
+  <img src="/media/2015/11/01/temps_cdf_phig1.0.png" style="width:50%"/>
 
 ##### Figure 1 
 

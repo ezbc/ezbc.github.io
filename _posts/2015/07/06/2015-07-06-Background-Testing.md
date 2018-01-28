@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-07-06 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/07/06/background-testing
 tags:
@@ -27,13 +27,13 @@ Planck $$A_V$$ derived from the $$\tau_{353}$$ map.
 The following images show the masking progression for each cloud. 
 
 ### Taurus
-<img src="/media/2015-07-06/taurus_maps.gif" style="width:100%"/>
+<img src="/media/2015/07/06/taurus_maps.gif" style="width:100%"/>
 
 ### Perseus
-<img src="/media/2015-07-06/perseus_maps.gif" style="width:100%"/>
+<img src="/media/2015/07/06/perseus_maps.gif" style="width:100%"/>
 
 ### California
-<img src="/media/2015-07-06/california_maps.gif" style="width:100%"/>
+<img src="/media/2015/07/06/california_maps.gif" style="width:100%"/>
 
 ## Likelihoods
 
@@ -52,8 +52,8 @@ The values used in the grid search are provided below:
 The $$HI$$ width is now favored to be much larger than before. 20 km/s now
 compared to 10 km/s previously. The DGR is similar to previous runs.
 
-<img src="/media/2015-07-06/taurus_likelihood2_1_wd.png" style="width:50%"/>
-<img src="/media/2015-07-06/taurus_likelihood2_1_wi.png" style="width:50%"/>
+<img src="/media/2015/07/06/taurus_likelihood2_1_wd.png" style="width:50%"/>
+<img src="/media/2015/07/06/taurus_likelihood2_1_wi.png" style="width:50%"/>
 
 ### Perseus
 
@@ -63,8 +63,8 @@ of around $$0.6$$ mag. The calculation favors a higher $$HI$$ width and a lower
 intercept. This means that the $$HI$$ emission correlates better with the
 surrounding $$A_V$$ than a constant offset. 
 
-<img src="/media/2015-07-06/perseus_likelihood2_1_wd.png" style="width:50%"/>
-<img src="/media/2015-07-06/perseus_likelihood2_1_wi.png" style="width:50%"/>
+<img src="/media/2015/07/06/perseus_likelihood2_1_wd.png" style="width:50%"/>
+<img src="/media/2015/07/06/perseus_likelihood2_1_wi.png" style="width:50%"/>
 
 ### California
 
@@ -72,5 +72,5 @@ The intercept is now close to $$0$$ mag. However the $$HI$$ width favored is
 quite high. A width this large essentially means including the entire line of
 sight.
 
-<img src="/media/2015-07-06/california_likelihood1_1_wd.png" style="width:50%"/>
-<img src="/media/2015-07-06/california_likelihood1_1_wi.png" style="width:50%"/>
+<img src="/media/2015/07/06/california_likelihood1_1_wd.png" style="width:50%"/>
+<img src="/media/2015/07/06/california_likelihood1_1_wi.png" style="width:50%"/>

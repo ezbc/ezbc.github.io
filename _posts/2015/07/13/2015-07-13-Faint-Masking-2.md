@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-07-13 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/07/13/faint-masking-2
 tags:
@@ -31,9 +31,9 @@ consistent with each other.
 
 ***
 
-<img src="/media/2015-07-13/perseus_likelihood_lee12_wd.png" style="width: 70%"/>
+<img src="/media/2015/07/13/perseus_likelihood_lee12_wd.png" style="width: 70%"/>
 
-<img src="/media/2015-07-13/perseus_likelihood_lee12_wi.png" style="width: 70%"/>
+<img src="/media/2015/07/13/perseus_likelihood_lee12_wi.png" style="width: 70%"/>
 
 ***
 
@@ -53,7 +53,7 @@ calculate the two parameters.
 ***
 
 <figure>
-  <img src="/media/2015-07-13/perseus_dgr_intercept_progress_lee12.png" style="width: 100%"> 
+  <img src="/media/2015/07/13/perseus_dgr_intercept_progress_lee12.png" style="width: 100%"> 
 </figure>
 
 Figure 1. - The left column represents the initial masking performed with a

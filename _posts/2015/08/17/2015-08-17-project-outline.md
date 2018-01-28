@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-08-17 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/08/17/project-outline
 tags:
@@ -76,10 +76,10 @@ excluded in calculating the median bins?
 ***
 
 <img
-src="/media/2015-08-17/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi_masked.png"
+src="/media/2015/08/17/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi_masked.png"
     style="width: 70%"/>
 <img
-src="/media/2015-08-17/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi.png"
+src="/media/2015/08/17/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi.png"
     style="width: 70%"/>
 
 #### Figure 1
@@ -109,10 +109,10 @@ promising.
 ***
 
 <img
-src="/media/2015-08-17/perseus_lee12_binned_coarseres_fixedwidth_noint_av_vs_nhi_masked.png"
+src="/media/2015/08/17/perseus_lee12_binned_coarseres_fixedwidth_noint_av_vs_nhi_masked.png"
     style="width: 70%"/>
 <img
-src="/media/2015-08-17/perseus_lee12_binned_coarseres_fixedwidth_noint_av_vs_nhi.png"
+src="/media/2015/08/17/perseus_lee12_binned_coarseres_fixedwidth_noint_av_vs_nhi.png"
     style="width: 70%"/>
 
 #### Figure 2
@@ -126,7 +126,7 @@ Same as Figure 1, except MLE fit has an intercept of 0 mag.
 ***
 
 <img
-src="/media/2015-08-17/taurus_planck_binned_coarseres_fixedwidth_hi_spectrum.png"
+src="/media/2015/08/17/taurus_planck_binned_coarseres_fixedwidth_hi_spectrum.png"
 style="width: 70%"/>
 
 #### Figure 3
@@ -142,10 +142,10 @@ component.
 ***
 
 <img
-src="/media/2015-08-17/taurus_planck_binned_coarseres_fixedwidth_av_vs_nhi_masked.png"
+src="/media/2015/08/17/taurus_planck_binned_coarseres_fixedwidth_av_vs_nhi_masked.png"
     style="width: 70%"/>
 <img
-src="/media/2015-08-17/taurus_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
+src="/media/2015/08/17/taurus_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
     style="width: 70%"/>
 
 #### Figure 4
@@ -162,7 +162,7 @@ set (bottom plot).
 ***
 
 <img
-src="/media/2015-08-17/california_planck_binned_coarseres_fixedwidth_hi_spectrum.png"
+src="/media/2015/08/17/california_planck_binned_coarseres_fixedwidth_hi_spectrum.png"
 style="width: 70%"/>
 
 #### Figure 5
@@ -176,10 +176,10 @@ the HI emission in the region.
 ***
 
 <img
-src="/media/2015-08-17/california_planck_binned_coarseres_fixedwidth_av_vs_nhi_masked.png"
+src="/media/2015/08/17/california_planck_binned_coarseres_fixedwidth_av_vs_nhi_masked.png"
     style="width: 70%"/>
 <img
-src="/media/2015-08-17/california_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
+src="/media/2015/08/17/california_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
     style="width: 70%"/>
 
 #### Figure 6
@@ -224,13 +224,13 @@ subtracted these components from every line of sight.
 ***
 
 <img
-src="/media/2015-08-17/california_planck_binned_coarseres_fixedwidth_compsub_av_vs_nhi_masked.png"
+src="/media/2015/08/17/california_planck_binned_coarseres_fixedwidth_compsub_av_vs_nhi_masked.png"
     style="width: 70%"/>
 <img
-src="/media/2015-08-17/california_planck_binned_coarseres_fixedwidth_compsub_av_vs_nhi.png"
+src="/media/2015/08/17/california_planck_binned_coarseres_fixedwidth_compsub_av_vs_nhi.png"
     style="float: left; width: 50%"/>
 <img
-src="/media/2015-08-17/california_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
+src="/media/2015/08/17/california_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
     style="width: 50%"/>
 
 #### Figure 7

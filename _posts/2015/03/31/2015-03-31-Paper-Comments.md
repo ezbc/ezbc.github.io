@@ -1,9 +1,9 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 date: 2015-03-31 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/03/31/paper-comments
 tags:
@@ -45,7 +45,7 @@ use_math: true
     + Fig. 1 does show the final model $$A_V$$ image. There are indeed some
       sharp transitions. Especially in the western side of Taurus. See below.
     
-<img src="/media/2015-03-31/taurus_av.png" height="300" width="400"/>
+<img src="/media/2015/03/31/taurus_av.png" height="300" width="400"/>
 
     + You can also find the data here ``/d/bip3/ezbc/taurus/data/av/taurus_av_planck_5arcmin.fits``
 

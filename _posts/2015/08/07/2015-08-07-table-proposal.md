@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - hidden
-- archive
 comments: true
 date: 2015-08-07 00:00
+hidden: true
 layout: post
 redirect_from: /hidden/2015/08/07/table-proposal
 tags: null
@@ -63,7 +63,7 @@ cherry and maple. The style of the table is reminiscent of the shaker style.
 
 <div align="center">
 
-  <img src="/media/2015-08-07/table.jpg"
+  <img src="/media/2015/08/07/table.jpg"
       style="width: 60%"/>
 
 </div>

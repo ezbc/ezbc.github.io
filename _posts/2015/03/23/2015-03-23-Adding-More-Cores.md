@@ -1,9 +1,9 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 date: 2015-03-23 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/03/23/adding-more-cores
 tags:
@@ -23,7 +23,7 @@ post](/posts/notes/2015/03/19/Model-Analysis/). I
 included additional regions besides the ones listed by Lombardi 2010, by
 labeling the new region as a second part of the nearest region.
 
-<img src="/media/2015-03-23/multicloud_av_cores_map.png"/>
+<img src="/media/2015/03/23/multicloud_av_cores_map.png"/>
 
 
 Below are the results for each cloud. The contours represent binned counts in
@@ -31,15 +31,15 @@ logarithmic points. Cores contain a few hundred points each.
 
 Perseus:
 
-<img src="/media/2015-03-23/perseus_hi_vs_h_panels_planck_linear.png"/>
+<img src="/media/2015/03/23/perseus_hi_vs_h_panels_planck_linear.png"/>
 
 Taurus:
 
-<img src="/media/2015-03-23/taurus_hi_vs_h_panels_planck_linear.png"/>
+<img src="/media/2015/03/23/taurus_hi_vs_h_panels_planck_linear.png"/>
 
 California:
 
-<img src="/media/2015-03-23/california_hi_vs_h_panels_planck_linear.png"/>
+<img src="/media/2015/03/23/california_hi_vs_h_panels_planck_linear.png"/>
 
 ### Distance from galactic plane
 
@@ -50,7 +50,7 @@ latitude. Here we take it a step further and consider the core region
 **distance** from the galactic plane. To calculate the distance from the
 galactic plane take the following geometry
 
-<img src="/media/2015-03-23/geometry.png"/>
+<img src="/media/2015/03/23/geometry.png"/>
 
 where $$z_\odot$$ is the scale height of the sun wrt the galactic plane,
 $$z_c$$ is the scale height of the cloud wrt the galactic plane, $$d_c$$ is the
@@ -75,4 +75,4 @@ $$
 This gives us the following trend between $$T_{\rm CNM}$$ and distance from the
 galactic plane (not much of a trend)
 
-<img src="/media/2015-03-23/multicloud_T_cnm_vs_gdist.png"/>
+<img src="/media/2015/03/23/multicloud_T_cnm_vs_gdist.png"/>

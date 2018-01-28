@@ -1,8 +1,7 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - brewing
-- archive
 comments: true
 date: 2015-08-26 00:00
 layout: post
@@ -31,6 +30,6 @@ for the fan just rests on top of the lip, but does not seem to disrupt the seal
 between the lid and the lip.
 
 <div align="center">
- <img src="/media/2015-08-26/fan1.jpg" style="width: 70%"/>
- <img src="/media/2015-08-26/fan2.jpg" style="width: 70%"/>
+ <img src="/media/2015/08/26/fan1.jpg" style="width: 70%"/>
+ <img src="/media/2015/08/26/fan2.jpg" style="width: 70%"/>
 </div>

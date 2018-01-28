@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-08-19 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/08/19/hi-spectra
 tags:
@@ -32,11 +32,11 @@ the left, and after the bug fix on the right. Planck $$A_V$$ data was used.
   </p>
 
   <img
-  src="/media/2015-08-17/perseus_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
+  src="/media/2015/08/17/perseus_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
       style="float: left; width: 50%"/>
 
   <img
-  src="/media/2015-08-19/perseus_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
+  src="/media/2015/08/19/perseus_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
   style="width: 50%"/>
 
   <p>
@@ -44,11 +44,11 @@ the left, and after the bug fix on the right. Planck $$A_V$$ data was used.
   </p>
   
   <img
-  src="/media/2015-08-17/taurus_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
+  src="/media/2015/08/17/taurus_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
       style="float: left; width: 50%"/>
 
   <img
-  src="/media/2015-08-19/taurus_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
+  src="/media/2015/08/19/taurus_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
   style="width: 50%"/>
 
   <p>
@@ -56,11 +56,11 @@ the left, and after the bug fix on the right. Planck $$A_V$$ data was used.
   </p>
   
   <img
-  src="/media/2015-08-17/california_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
+  src="/media/2015/08/17/california_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
       style="float: left; width: 50%"/>
 
   <img
-  src="/media/2015-08-19/california_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
+  src="/media/2015/08/19/california_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
   style="width: 50%"/>
 
 #### Figure 1
@@ -80,11 +80,11 @@ And below we show a similar comparison of the Lee+12 IRIS $$A_V$$ data.
   </p>
 
   <img
-  src="/media/2015-08-17/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi.png"
+  src="/media/2015/08/17/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi.png"
       style="float: left; width: 50%"/>
 
   <img
-  src="/media/2015-08-19/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi.png"
+  src="/media/2015/08/19/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi.png"
   style="width: 50%"/>
 
 #### Figure 2
@@ -109,13 +109,13 @@ subtracted these components from every line of sight.
 ***
 
 <img
-src="/media/2015-08-19/california_planck_binned_coarseres_fixedwidth_compsub_av_vs_nhi_masked.png"
+src="/media/2015/08/19/california_planck_binned_coarseres_fixedwidth_compsub_av_vs_nhi_masked.png"
     style="width: 70%"/>
 <img
-src="/media/2015-08-19/california_planck_binned_coarseres_fixedwidth_compsub_av_vs_nhi.png"
+src="/media/2015/08/19/california_planck_binned_coarseres_fixedwidth_compsub_av_vs_nhi.png"
     style="float: left; width: 50%"/>
 <img
-src="/media/2015-08-19/california_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
+src="/media/2015/08/19/california_planck_binned_coarseres_fixedwidth_av_vs_nhi.png"
     style="width: 50%"/>
 
 #### Figure 3

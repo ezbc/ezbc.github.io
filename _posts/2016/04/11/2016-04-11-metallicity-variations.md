@@ -1,21 +1,20 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2016-04-11 00:00
 excerpt: I compare model consistencies predicting radiation fields.
+hidden: true
 layout: post
 redirect_from: /research/2016/04/11/metallicity-variations
 tags:
 - Taurus-California-Perseus
 - Metallicity
 title: Metallicity Variations in Core Regions
+unpublished: true
 use_math: true
 ---
-
-
 
 # Comparison of Radiation Fields
 
@@ -48,7 +47,7 @@ two models are dissimilar.
 ***
 
 <div class="image-4of4-width" align="center">
-  <img src="/media/2016-04-11/modelparams.png"/>
+  <img src="/media/2016/04/11/modelparams.png"/>
 </div>
 
 ##### Table 1
@@ -76,7 +75,7 @@ the fitting compared to the metallicity held at $Z = Z_\odot$.
 ***
 
 <div class="image-4of4-width" align="center">
-  <img src="/media/2016-04-11/modelparams_Zfit.png"/>
+  <img src="/media/2016/04/11/modelparams_Zfit.png"/>
 </div>
 
 ##### Table 2
@@ -92,7 +91,7 @@ allowed as a free parameter in the fitting.
 ***
 
 <div class="image-4of4-width" align="center">
-  <img src="/media/2016-04-11/modelparams_summary.png"/>
+  <img src="/media/2016/04/11/modelparams_summary.png"/>
 </div>
 
 ##### Table 3

@@ -1,8 +1,7 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - woodworking
-- archive
 comments: true
 date: 2015-07-27 00:00
 layout: post
@@ -19,11 +18,11 @@ woodworking project. Below are images of chair itself.
 
 <div class="carouselContainer">
     <div class="variable-width">
-      <div> <img src="/media/2015-07-27/rocking_chair_01_small.jpg"/> </div>
-      <div> <img src="/media/2015-07-27/rocking_chair_02_small.jpg"/> </div>
-      <div> <img src="/media/2015-07-27/rocking_chair_03_small.jpg"/> </div>
-      <div> <img src="/media/2015-07-27/rocking_chair_04_small.jpg"/> </div>
-      <div> <img src="/media/2015-07-27/rocking_chair_05_small.jpg"/> </div>
+      <div> <img src="/media/2015/07/27/rocking_chair_01_small.jpg"/> </div>
+      <div> <img src="/media/2015/07/27/rocking_chair_02_small.jpg"/> </div>
+      <div> <img src="/media/2015/07/27/rocking_chair_03_small.jpg"/> </div>
+      <div> <img src="/media/2015/07/27/rocking_chair_04_small.jpg"/> </div>
+      <div> <img src="/media/2015/07/27/rocking_chair_05_small.jpg"/> </div>
     </div>
 </div>
 
@@ -31,7 +30,7 @@ woodworking project. Below are images of chair itself.
 
 I redrafted the Popular Mechanics plans on paper as part of the project.
 
-<img id="zoom_03" src="/media/2015-07-27/rocking_chair_plans_small.png" style="width:100%" data-zoom-image="/media/2015-07-27/rocking_chair_plans_large.png"/>
+<img id="zoom_03" src="/media/2015/07/27/rocking_chair_plans_small.png" style="width:100%" data-zoom-image="/media/2015/07/27/rocking_chair_plans_large.png"/>
 
 <script>
     $('#zoom_01').elevateZoom({zoomWindowPosition: 6});

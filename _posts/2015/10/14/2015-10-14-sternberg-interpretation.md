@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-10-14 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/10/14/sternberg-interpretation
 tags:
@@ -33,7 +33,7 @@ for a map of core regions chosen.
 *** 
 
 <img
-src="/media/2015-10-14/multicloud_av_cores_map.png"
+src="/media/2015/10/14/multicloud_av_cores_map.png"
     style="width: 100%"/>
 
 ##### Figure 1
@@ -118,11 +118,11 @@ parameter as a probe for the phases of the neutral gas?
 
 <div class="carouselContainer">
   <div class="variable-width">
-    <div> <img src="/media/2015-10-14/california_hisd_vs_hsd.png"
+    <div> <img src="/media/2015/10/14/california_hisd_vs_hsd.png"
                style="height:700px"/> </div>
-    <div> <img src="/media/2015-10-14/perseus_hisd_vs_hsd.png"
+    <div> <img src="/media/2015/10/14/perseus_hisd_vs_hsd.png"
                style="height:700px"/> </div>
-    <div> <img src="/media/2015-10-14/taurus_hisd_vs_hsd.png"
+    <div> <img src="/media/2015/10/14/taurus_hisd_vs_hsd.png"
                style="height:700px"/> </div>
   </div>
 </div>
@@ -137,7 +137,7 @@ regions as the 68% confidence regions for the model fits.
 *** 
 
 <img
-src="/media/2015-10-14/multicloud_av_modelparams_map.png"
+src="/media/2015/10/14/multicloud_av_modelparams_map.png"
     style="width: 75%"/>
 
 ##### Figure 3

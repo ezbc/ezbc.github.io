@@ -1,12 +1,12 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2016-02-25 00:00
 excerpt: I outline the steps to derive the incident radiation field on dust grains
   given the dust grain temperature.
+hidden: true
 layout: post
 redirect_from: /research/2016/02/25/radiation-field
 tags:
@@ -16,8 +16,6 @@ tags:
 title: Derivation of Radiation Field
 use_math: true
 ---
-
-
 
 # Mathis Field
 
@@ -127,7 +125,7 @@ Table of median Habing and Draine radiation fields.
 ***
 
 <div class="image-4of4-width">
-  <img src="/media/2016-03-07/radiation_field.png"/> 
+  <img src="/media/2016/03/07/radiation_field.png"/> 
 </div>
 
 ##### Figure 1

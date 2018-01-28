@@ -1,11 +1,11 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2016-02-15 00:00
-excerpt: <div class="image-2of4-width" align="center"><img src="/images/2016-02-15/temperature_cdfs_nocap.png"/></div>
+excerpt: <div class="image-2of4-width" align="center"><img src="/media/2016/02/15/temperature_cdfs_nocap.png"/></div>
+hidden: true
 layout: post
 redirect_from: /research/2016/02/15/temperatures
 tags:
@@ -15,8 +15,6 @@ tags:
 title: CNM Temperature Prescription
 use_math: true
 ---
-
-
 
 # Krumholz Model CNM Temperature
 
@@ -52,11 +50,11 @@ Table 1 for a list of the predicted $T_{CNM}$ values.
 ##### Figure 1
 
 <div class="image-3of4-width" align="center">
-  <img src="/media/2016-02-15/temperature_cdfs.png"/>
+  <img src="/media/2016/02/15/temperature_cdfs.png"/>
 </div>
 
 ##### Table 1
 
 <div class="image-4of4-width" align="center">
-  <img src="/media/2016-02-15/model_params.png"/>
+  <img src="/media/2016/02/15/model_params.png"/>
 </div>

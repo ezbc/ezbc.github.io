@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-10-01 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/10/01/planck-core-selection
 tags:
@@ -31,7 +31,7 @@ stages of maturity, i.e., N(H$_2$) contents.
 *** 
 
 <img
-src="/media/2015-10-01/multicloud_av_cores_meng13_random.png"
+src="/media/2015/10/01/multicloud_av_cores_meng13_random.png"
     style="width: 100%"/>
 
 ##### Figure 1
@@ -50,11 +50,11 @@ We see very few thresholds in HI, and little H$_2$ in most of the cores.
 
 <div class="carouselContainer">
   <div class="variable-width">
-    <div> <img src="/media/2015-10-01/california_hisd_vs_hsd.png"
+    <div> <img src="/media/2015/10/01/california_hisd_vs_hsd.png"
                style="height:700px"/> </div>
-    <div> <img src="/media/2015-10-01/perseus_hisd_vs_hsd.png"
+    <div> <img src="/media/2015/10/01/perseus_hisd_vs_hsd.png"
                style="height:700px"/> </div>
-    <div> <img src="/media/2015-10-01/taurus_hisd_vs_hsd.png"
+    <div> <img src="/media/2015/10/01/taurus_hisd_vs_hsd.png"
                style="height:700px"/> </div>
   </div>
 </div>
@@ -78,7 +78,7 @@ molecular hydrogen contents of each cloud.
 *** 
 
 <img
-src="/media/2015-10-01/multicloud_av_cores_meng13_nh2.png"
+src="/media/2015/10/01/multicloud_av_cores_meng13_nh2.png"
     style="width: 100%"/>
 
 ##### Figure 3

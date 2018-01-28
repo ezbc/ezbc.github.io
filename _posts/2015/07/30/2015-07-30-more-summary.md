@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-07-30 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/07/30/more-summary
 tags:
@@ -33,13 +33,13 @@ Below show the masked maps of each cloud.
 
 ***
 
-<img src="/media/2015-07-30/perseus_planck_binned_coarseres_mask_map.png"
+<img src="/media/2015/07/30/perseus_planck_binned_coarseres_mask_map.png"
     style="width: 100%"/>
 
-<img src="/media/2015-07-30/taurus_planck_binned_coarseres_mask_map.png"
+<img src="/media/2015/07/30/taurus_planck_binned_coarseres_mask_map.png"
     style="width: 100%"/>
 
-<img src="/media/2015-07-30/california_planck_binned_coarseres_mask_map.png"
+<img src="/media/2015/07/30/california_planck_binned_coarseres_mask_map.png"
     style="width: 100%"/>
 
 #### Figure 1
@@ -70,15 +70,15 @@ pixels.
 
 ***
 
-<img src="/media/2015-07-30/perseus_planck_binned_coarseres_mask_map.png"
+<img src="/media/2015/07/30/perseus_planck_binned_coarseres_mask_map.png"
 style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"
 />
 
-<img src="/media/2015-07-30/perseus_planck_binned_coarseres_region2_mask_map.png"
+<img src="/media/2015/07/30/perseus_planck_binned_coarseres_region2_mask_map.png"
 style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"
 />
 
-<img src="/media/2015-07-30/perseus_planck_binned_coarseres_region1_mask_map.png"
+<img src="/media/2015/07/30/perseus_planck_binned_coarseres_region1_mask_map.png"
 style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"
 />
 
@@ -97,11 +97,11 @@ intercept in color, and masked pixels in gray.
 ***
 
 <img
-src="/media/2015-07-30/perseus_planck_binned_coarseres_likelihood_wd.png"
+src="/media/2015/07/30/perseus_planck_binned_coarseres_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-07-30/perseus_planck_binned_coarseres_likelihood_wi.png"
+    src="/media/2015/07/30/perseus_planck_binned_coarseres_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 3
@@ -113,11 +113,11 @@ Likelihoods for Perseus.
 ***
 
 <img
-src="/media/2015-07-30/perseus_planck_binned_coarseres_region2_likelihood_wd.png"
+src="/media/2015/07/30/perseus_planck_binned_coarseres_region2_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-07-30/perseus_planck_binned_coarseres_region2_likelihood_wi.png"
+    src="/media/2015/07/30/perseus_planck_binned_coarseres_region2_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 4
@@ -129,11 +129,11 @@ Likelihoods for Perseus North region.
 ***
 
 <img
-src="/media/2015-07-30/perseus_planck_binned_coarseres_region1_likelihood_wd.png"
+src="/media/2015/07/30/perseus_planck_binned_coarseres_region1_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-07-30/perseus_planck_binned_coarseres_region1_likelihood_wi.png"
+    src="/media/2015/07/30/perseus_planck_binned_coarseres_region1_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 5
@@ -146,15 +146,15 @@ Likelihoods for Perseus South region.
 
 ***
 
-<img src="/media/2015-07-30/taurus_planck_binned_coarseres_mask_map.png"
+<img src="/media/2015/07/30/taurus_planck_binned_coarseres_mask_map.png"
 style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"
 />
 
-<img src="/media/2015-07-30/taurus_planck_binned_coarseres_region1_mask_map.png"
+<img src="/media/2015/07/30/taurus_planck_binned_coarseres_region1_mask_map.png"
 style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"
 />
 
-<img src="/media/2015-07-30/taurus_planck_binned_coarseres_region2_mask_map.png"
+<img src="/media/2015/07/30/taurus_planck_binned_coarseres_region2_mask_map.png"
 style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"
 />
 
@@ -171,11 +171,11 @@ intercept in color, and masked pixels in gray.
 ***
 
 <img
-src="/media/2015-07-30/taurus_planck_binned_coarseres_likelihood_wd.png"
+src="/media/2015/07/30/taurus_planck_binned_coarseres_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-07-30/taurus_planck_binned_coarseres_likelihood_wi.png"
+    src="/media/2015/07/30/taurus_planck_binned_coarseres_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 7
@@ -187,11 +187,11 @@ Likelihoods for Taurus.
 ***
 
 <img
-src="/media/2015-07-30/taurus_planck_binned_coarseres_region1_likelihood_wd.png"
+src="/media/2015/07/30/taurus_planck_binned_coarseres_region1_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-07-30/taurus_planck_binned_coarseres_region1_likelihood_wi.png"
+    src="/media/2015/07/30/taurus_planck_binned_coarseres_region1_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 8
@@ -203,11 +203,11 @@ Likelihoods for Taurus North region.
 ***
 
 <img
-src="/media/2015-07-30/taurus_planck_binned_coarseres_region2_likelihood_wd.png"
+src="/media/2015/07/30/taurus_planck_binned_coarseres_region2_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-07-30/taurus_planck_binned_coarseres_region2_likelihood_wi.png"
+    src="/media/2015/07/30/taurus_planck_binned_coarseres_region2_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 9
@@ -223,10 +223,10 @@ $$HI$$ background:
 
 ***
 
-<img src="/media/2015-07-30/california_planck_binned_coarseres_likelihood_wd.png"
+<img src="/media/2015/07/30/california_planck_binned_coarseres_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
-<img src="/media/2015-07-30/california_planck_binned_coarseres_likelihood_wi.png"
+<img src="/media/2015/07/30/california_planck_binned_coarseres_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 10
@@ -248,7 +248,7 @@ pixels outside of the region.
 
 ***
 
-<img src="/media/2015-07-30/california_planck_binned_coarseres_nh2_vs_nhi.png"
+<img src="/media/2015/07/30/california_planck_binned_coarseres_nh2_vs_nhi.png"
     style="width: 70%"/>
 
 #### Figure 11
@@ -268,7 +268,7 @@ near California, RA = 4h 20m, Dec=36 deg, resembles a background in $$HI$$.
 
 ***
 
-<img src="/media/2015-07-30/california_planck_binned_coarseres_nhi_maps.gif"
+<img src="/media/2015/07/30/california_planck_binned_coarseres_nhi_maps.gif"
     style="width: 100%"/>
 
 #### Figure 12

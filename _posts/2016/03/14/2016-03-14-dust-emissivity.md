@@ -1,13 +1,13 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2016-03-14 00:00
 excerpt: I present results showing the dust emissivity index of the Taurus-California-Perseus
-  Region <div class="image-4of4-width"> <img src="/media/2016-03-14/beta_map.png"/>
+  Region <div class="image-4of4-width"> <img src="/media/2016/03/14/beta_map.png"/>
   </div>
+hidden: true
 layout: post
 redirect_from: /research/2016/03/14/dust-emissivity
 tags:
@@ -17,8 +17,6 @@ tags:
 title: Dust Emissivity Index
 use_math: true
 ---
-
-
 
 # Dust Emissivity Background
 
@@ -51,7 +49,7 @@ index decreases.
 ***
 
 <div class="image-4of4-width">
-  <img src="/media/2016-03-14/beta_map.png"/>
+  <img src="/media/2016/03/14/beta_map.png"/>
 </div>
 
 ##### Figure 1
@@ -63,7 +61,7 @@ Dust emissivity index of TCP region with $A_V$ contour at 3 mag.
 ***
 
 <div class="image-4of4-width">
-  <img src="/media/2016-03-14/temp_map.png"/>
+  <img src="/media/2016/03/14/temp_map.png"/>
 </div>
 
 ##### Figure 2
@@ -75,7 +73,7 @@ Dust temperature of TCP region with $A_V$ contour at 3 mag.
 ***
 
 <div class="image-3of4-width" align="center">
-  <img src="/media/2016-03-14/av_vs_beta.png"/>
+  <img src="/media/2016/03/14/av_vs_beta.png"/>
 </div>
 
 ##### Figure 3

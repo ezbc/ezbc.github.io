@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-07-10 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/07/10/faint-masking
 tags:
@@ -26,6 +26,6 @@ These are some of the resulting likelihoods. There is a positive intercept! I'm
 not confident in these results, I need to consider more the order in which I
 mask during the iterative masking stage.
 
-<img src="/media/2015-07-10/perseus_likelihood_lee12_wd.png" style="width: 50%"/>
+<img src="/media/2015/07/10/perseus_likelihood_lee12_wd.png" style="width: 50%"/>
 
-<img src="/media/2015-07-10/perseus_likelihood_lee12_wi.png" style="width: 50%"/>
+<img src="/media/2015/07/10/perseus_likelihood_lee12_wi.png" style="width: 50%"/>

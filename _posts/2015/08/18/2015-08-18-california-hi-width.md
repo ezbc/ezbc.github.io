@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-08-18 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/08/18/california-hi-width
 tags:
@@ -30,21 +30,21 @@ corrected spectra.
     Perseus
     </p>
   <img
-    src='/media/2015-08-18/perseus_planck_binned_coarseres_fixedwidth_hi_spectrum.png'
+    src='/media/2015/08/18/perseus_planck_binned_coarseres_fixedwidth_hi_spectrum.png'
     style='width:75%'>
 
     <p>
     Taurus
     </p>
   <img
-    src='/media/2015-08-18/taurus_planck_binned_coarseres_fixedwidth_hi_spectrum.png'
+    src='/media/2015/08/18/taurus_planck_binned_coarseres_fixedwidth_hi_spectrum.png'
     style='width:75%'>
 
     <p>
     California
     </p>
   <img
-    src='/media/2015-08-18/california_planck_binned_coarseres_fixedwidth_hi_spectrum.png'
+    src='/media/2015/08/18/california_planck_binned_coarseres_fixedwidth_hi_spectrum.png'
     style='width:75%'>
 
 </div>
@@ -76,10 +76,10 @@ polynomial fit to the median values of the $$A_V$$.
 ***
 
 <img
-src="/media/2015-08-18/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi_masked.png"
+src="/media/2015/08/18/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi_masked.png"
     style="width: 70%"/>
 <img
-src="/media/2015-08-18/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi.png"
+src="/media/2015/08/18/perseus_lee12_binned_coarseres_fixedwidth_av_vs_nhi.png"
     style="width: 70%"/>
 
 #### Figure 2

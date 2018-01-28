@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-09-02 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/09/02/bootstrap-probability-resampling
 tags:
@@ -43,7 +43,7 @@ using the corrected bootstrap scheme.
 
 ***
 
-<img src="/media/2015-09-02/multicloud_av_vs_nhi.png" style="width: 100%"/>
+<img src="/media/2015/09/02/multicloud_av_vs_nhi.png" style="width: 100%"/>
 
 ##### **Figure 1**
 
@@ -62,7 +62,7 @@ contribute significantly to the fit because of their larger error.
 
 ***
 
-<img src="/media/2015-09-02/multicloud_av_vs_nhi_scatter.png" style="width: 100%"/>
+<img src="/media/2015/09/02/multicloud_av_vs_nhi_scatter.png" style="width: 100%"/>
 
 ##### **Figure 2**
 

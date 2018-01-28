@@ -1,9 +1,9 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 date: 2015-03-11 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/03/11/sternberg-fitting
 tags:
@@ -46,8 +46,8 @@ for the K+09 model.
 
 Below are Taurus fits. Find the locations of the cores in [this post](/posts/notes/2015/03/02/Perseus-HI-Threshold/)
 
-<img src="/media/2015-03-11/taurus_hi_vs_h_panels_planck_linear.png"/>
+<img src="/media/2015/03/11/taurus_hi_vs_h_panels_planck_linear.png"/>
 
 Below are Perseus fits
 
-<img src="/media/2015-03-11/perseus_hi_vs_h_panels_planck_linear.png"/>
+<img src="/media/2015/03/11/perseus_hi_vs_h_panels_planck_linear.png"/>

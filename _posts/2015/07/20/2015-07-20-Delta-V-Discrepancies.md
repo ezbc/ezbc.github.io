@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-07-20 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/07/20/delta-v-discrepancies
 tags:
@@ -61,9 +61,9 @@ found again.
 
 ***
 
-<img src="/media/2015-07-20/perseus_lee12_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/20/perseus_lee12_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-07-20/perseus_lee12_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/20/perseus_lee12_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 Figure 1. - Perseus likelihoods.
 
@@ -72,9 +72,9 @@ Figure 1. - Perseus likelihoods.
 
 ***
 
-<img src="/media/2015-07-16/california_planck_binned_fineres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/16/california_planck_binned_fineres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-07-16/california_planck_binned_fineres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/16/california_planck_binned_fineres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 Figure 2. - California likelihoods. The tiny $$HI$$ width is worrying. In an
 attempt to address this strange behavior, I performed a 2D background fit on
@@ -93,11 +93,11 @@ the progression of masks.
 ***
 
 <img
-src="/media/2015-07-16/california_planck_backsub_binned_fineres_likelihood_wd.png"
+src="/media/2015/07/16/california_planck_backsub_binned_fineres_likelihood_wd.png"
 style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 <img
-src="/media/2015-07-16/california_planck_backsub_binned_fineres_likelihood_wi.png"
+src="/media/2015/07/16/california_planck_backsub_binned_fineres_likelihood_wi.png"
 style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 Figure 3. - California likelihoods with a background subtraction. This looks
@@ -107,9 +107,9 @@ pretty bad. Not sure what is going on here.
 
 ***
 
-<img src="/media/2015-07-16/taurus_planck_binned_fineres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/16/taurus_planck_binned_fineres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-07-16/taurus_planck_binned_fineres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/16/taurus_planck_binned_fineres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 
 Figure 4. - Taurus likelihoods. The model is favoring to include the entire
@@ -129,9 +129,9 @@ applied.
 
 ***
 
-<img src="/media/2015-07-16/perseus_planck_binned_fineres_residual_maps.gif"  style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/16/perseus_planck_binned_fineres_residual_maps.gif"  style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-07-16/perseus_planck_binned_fineres_residual_hists.gif"   style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/16/perseus_planck_binned_fineres_residual_hists.gif"   style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 Figure 5. - Perseus masks.
 
@@ -140,18 +140,18 @@ Figure 5. - Perseus masks.
 ***
 <a name="california_mask"></a>
 
-<img src="/media/2015-07-16/california_planck_binned_fineres_residual_maps.gif"  style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/16/california_planck_binned_fineres_residual_maps.gif"  style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-07-16/california_planck_binned_fineres_residual_hists.gif"   style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/16/california_planck_binned_fineres_residual_hists.gif"   style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 Figure 6. - California masks.
 
 ***
 ***
 
-<img src="/media/2015-07-16/taurus_planck_binned_fineres_residual_maps.gif"  style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/16/taurus_planck_binned_fineres_residual_maps.gif"  style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-07-16/taurus_planck_binned_fineres_residual_hists.gif"   style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/07/16/taurus_planck_binned_fineres_residual_hists.gif"   style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 Figure 7. - Taurus masks.
 
@@ -167,7 +167,7 @@ post](/research/2015/07/13/Faint-Masking-2/#convergence).
 
 ***
 
-  <img src="/media/2015-07-16/perseus_planck_binned_fineres_dgr_intercept_progress.png" style="width: 100%"> 
+  <img src="/media/2015/07/16/perseus_planck_binned_fineres_dgr_intercept_progress.png" style="width: 100%"> 
 
 Figure 8. - Perseus parameter convergences. 
 
@@ -175,7 +175,7 @@ Figure 8. - Perseus parameter convergences.
 
 ***
 
-  <img src="/media/2015-07-16/california_planck_binned_fineres_dgr_intercept_progress.png" style="width: 100%"> 
+  <img src="/media/2015/07/16/california_planck_binned_fineres_dgr_intercept_progress.png" style="width: 100%"> 
 
 Figure 8. - California parameter convergences. The DGRs are leveling off, as we
 would expect.
@@ -184,7 +184,7 @@ would expect.
 
 ***
 
-  <img src="/media/2015-07-16/taurus_planck_binned_fineres_dgr_intercept_progress.png" style="width: 100%"> 
+  <img src="/media/2015/07/16/taurus_planck_binned_fineres_dgr_intercept_progress.png" style="width: 100%"> 
 
 Figure 8. - Taurus parameter convergences. There is something obviously wrong
 here. The $$HI$$ width in the second iteration, $$\Delta_V = 70$$ km/s, should

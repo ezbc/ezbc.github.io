@@ -1,8 +1,7 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - brewing
-- archive
 comments: true
 date: 2015-09-18 00:00
 layout: post

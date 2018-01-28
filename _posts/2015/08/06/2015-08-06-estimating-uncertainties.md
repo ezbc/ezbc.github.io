@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-08-06 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/08/06/estimating-uncertainties
 tags:
@@ -27,11 +27,11 @@ is favoring a MW DGR of about 0.05.
 ***
 
 <img
-src="/media/2015-08-06/perseus_k09_coarseres_avthres_likelihood_wd.png"
+src="/media/2015/08/06/perseus_k09_coarseres_avthres_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-06/perseus_k09_coarseres_avthres_likelihood_wi.png"
+    src="/media/2015/08/06/perseus_k09_coarseres_avthres_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 5
@@ -43,11 +43,11 @@ Likelihoods for Perseus region.
 ***
 
 <img
-src="/media/2015-08-06/perseus_k09_coarseres_region2_avthres_likelihood_wd.png"
+src="/media/2015/08/06/perseus_k09_coarseres_region2_avthres_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-06/perseus_k09_coarseres_region2_avthres_likelihood_wi.png"
+    src="/media/2015/08/06/perseus_k09_coarseres_region2_avthres_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 5
@@ -59,11 +59,11 @@ Likelihoods for Perseus North region.
 ***
 
 <img
-src="/media/2015-08-06/perseus_k09_coarseres_region1_avthres_likelihood_wd.png"
+src="/media/2015/08/06/perseus_k09_coarseres_region1_avthres_likelihood_wd.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-06/perseus_k09_coarseres_region1_avthres_likelihood_wi.png"
+    src="/media/2015/08/06/perseus_k09_coarseres_region1_avthres_likelihood_wi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 6
@@ -84,11 +84,11 @@ populations.
 ***
 
 <img
-src="/media/2015-08-06/perseus_k09_coarseres_avthres_av_vs_nhi_masked.png"
+src="/media/2015/08/06/perseus_k09_coarseres_avthres_av_vs_nhi_masked.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-06/perseus_k09_coarseres_avthres_nh2_vs_nhi.png"
+    src="/media/2015/08/06/perseus_k09_coarseres_avthres_nh2_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 5
@@ -100,11 +100,11 @@ Left: $$A_V$$ vs. N(HI), right: N(H$$_2$$) vs. N(HI) for Perseus region.
 ***
 
 <img
-src="/media/2015-08-06/perseus_k09_coarseres_region2_avthres_av_vs_nhi_masked.png"
+src="/media/2015/08/06/perseus_k09_coarseres_region2_avthres_av_vs_nhi_masked.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-06/perseus_k09_coarseres_region2_avthres_nh2_vs_nhi.png"
+    src="/media/2015/08/06/perseus_k09_coarseres_region2_avthres_nh2_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 5
@@ -116,11 +116,11 @@ Left: $$A_V$$ vs. N(HI), right: N(H$$_2$$) vs. N(HI) for Perseus North region.
 ***
 
 <img
-src="/media/2015-08-06/perseus_k09_coarseres_region1_avthres_av_vs_nhi_masked.png"
+src="/media/2015/08/06/perseus_k09_coarseres_region1_avthres_av_vs_nhi_masked.png"
     style="float: left; width: 50%"/>
 
 <img
-    src="/media/2015-08-06/perseus_k09_coarseres_region1_avthres_nh2_vs_nhi.png"
+    src="/media/2015/08/06/perseus_k09_coarseres_region1_avthres_nh2_vs_nhi.png"
     style="float: left; width: 50%"/>
 
 #### Figure 6
@@ -161,36 +161,36 @@ lead to such dramatic changes in the derived parameters.
 <div align="center"> Perseus </div>
 <p></p>
 
-<img src="/media/2015-08-06/initwidth_20/perseus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%"/>
+<img src="/media/2015/08/06/initwidth_20/perseus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%"/>
 
-<img src="/media/2015-08-06/initwidth_50/perseus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%"/>
+<img src="/media/2015/08/06/initwidth_50/perseus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%"/>
 
-<img src="/media/2015-08-06/initwidth_20/perseus_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/08/06/initwidth_20/perseus_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-08-06/initwidth_50/perseus_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/08/06/initwidth_50/perseus_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 <div align="center"> Taurus </div>
 <p></p>
 
-<img src="/media/2015-08-06/initwidth_20/taurus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/08/06/initwidth_20/taurus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-08-06/initwidth_50/taurus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/08/06/initwidth_50/taurus_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-08-06/initwidth_20/taurus_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/08/06/initwidth_20/taurus_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-08-06/initwidth_50/taurus_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/08/06/initwidth_50/taurus_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 
 <div align="center"> California </div>
 <p></p>
 
-<img src="/media/2015-08-06/initwidth_20/california_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/08/06/initwidth_20/california_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-08-06/initwidth_50/california_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/08/06/initwidth_50/california_planck_binned_coarseres_likelihood_wd.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-08-06/initwidth_20/california_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/08/06/initwidth_20/california_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
-<img src="/media/2015-08-06/initwidth_50/california_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/08/06/initwidth_50/california_planck_binned_coarseres_likelihood_wi.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 
 #### Figure 10
@@ -207,15 +207,15 @@ the best estimate, and the shaded region is the 68% confidence interval.
 
 <div align="center"> Perseus </div>
 
-<img src="/media/2015-08-06/perseus_planck_binned_coarseres_fixedwidth_likelihood_di.png" style="width: 50%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/08/06/perseus_planck_binned_coarseres_fixedwidth_likelihood_di.png" style="width: 50%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 <div align="center"> Taurus </div>
 
-<img src="/media/2015-08-06/taurus_planck_binned_coarseres_fixedwidth_likelihood_di.png" style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/08/06/taurus_planck_binned_coarseres_fixedwidth_likelihood_di.png" style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 <div align="center"> California </div>
 
-<img src="/media/2015-08-06/california_planck_binned_coarseres_fixedwidth_likelihood_di.png" style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/media/2015/08/06/california_planck_binned_coarseres_fixedwidth_likelihood_di.png" style="width: 48%; margin-right: 1%; margin-bottom: 0.5em;"/>
 
 #### Figure 10
 

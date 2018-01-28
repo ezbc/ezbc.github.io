@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - hidden
-- archive
 comments: true
 date: 2016-01-22 00:00
+hidden: true
 layout: post
 redirect_from: /hidden/2016/01/22/mc-model-directions
 tags:

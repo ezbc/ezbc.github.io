@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-02-02 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/02/02/initial-notes
 tags:
@@ -14,4 +14,4 @@ title: Initial post
 
 ## Here is my first image
 
-  ![Likelihood space](/media/2015-02-02/taurus_likelihood_planck_bin_scaled_wd.png =400x400)
+  ![Likelihood space](/media/2015/02/02/taurus_likelihood_planck_bin_scaled_wd.png =400x400)

@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-09-11 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/09/11/model-analysis-and-pdfs
 tags:
@@ -24,7 +24,7 @@ We show a similar plot to their Figure 2 below.
 
 ***
 
-<img src="/media/2015-09-11/multicloud_pdfs.png" style="width: 60%"/>
+<img src="/media/2015/09/11/multicloud_pdfs.png" style="width: 60%"/>
 
 ##### **Figure 1**
 

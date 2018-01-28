@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-11-04 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/11/04/varying-phi-g-in-mc
 tags:
@@ -66,7 +66,7 @@ use_math: true
 
   ***  
 
-  <img src="/media/2015-11-04/temps_cdf_phigvary.png" style="width:50%"/>
+  <img src="/media/2015/11/04/temps_cdf_phigvary.png" style="width:50%"/>
 
 ##### Figure 1 
 

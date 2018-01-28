@@ -1,9 +1,8 @@
 ---
 archive: false
 author: Elijah Bernstein-Cooper
-categories:
-- tech-project
-- archive
+category:
+- tech
 comments: true
 date: 2016-02-25 00:00
 example: tech-projects
@@ -16,8 +15,6 @@ tags:
 title: Script for Compiling Latex with Bibtex
 use_math: true
 ---
-
-
 
 # Download
 

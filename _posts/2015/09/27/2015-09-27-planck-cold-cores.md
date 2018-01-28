@@ -1,14 +1,14 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-09-27 00:00
 example: data-science-research
-excerpt: <p><div class="image-3of4-width" align="center"><img src="/images/2015-09-27/multicloud_av_cores_meng13.png"/>
+excerpt: <p><div class="image-3of4-width" align="center"><img src="/media/2015/09/27/multicloud_av_cores_meng13.png"/>
   </div>Map of dust of three molecular clouds in our own galaxy. Adopted Bayesian
   priors to identify the dense cores shown as white crosses. </p>
+hidden: true
 index-example: data-science
 layout: post
 redirect_from: /research/2015/09/27/planck-cold-cores
@@ -53,7 +53,7 @@ will manually draw the core regions to include diffuse $A_V$ lines of sight.
 *** 
 
 <img
-src="/media/2015-09-27/multicloud_av_cores_meng13.png"
+src="/media/2015/09/27/multicloud_av_cores_meng13.png"
     style="width: 100%"/>
 
 ##### **Figure 1**
@@ -70,11 +70,11 @@ function of position.
 *** 
 
 <img
-src="/media/2015-09-27/multicloud_av_modelparams_phicnm_map.png"
+src="/media/2015/09/27/multicloud_av_modelparams_phicnm_map.png"
     style="width: 100%"/>
 
 <img
-src="/media/2015-09-27/multicloud_av_modelparams_alphaG_map.png"
+src="/media/2015/09/27/multicloud_av_modelparams_alphaG_map.png"
     style="width: 100%"/>
 
 ##### **Figure 2**

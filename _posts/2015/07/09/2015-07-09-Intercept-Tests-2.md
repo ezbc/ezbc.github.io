@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-07-09 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/07/09/intercept-tests-2
 tags:
@@ -45,9 +45,9 @@ The uncertainty in the likelihood spaces are more of what I would expect from
 each parameter. This is likely because we are not excluding pixels which do not
 fit the model very well from the residual masking technique.
 
-<img src="/media/2015-07-09/perseus_likelihood_lee12_wd.png" style="width: 50%"/>
+<img src="/media/2015/07/09/perseus_likelihood_lee12_wd.png" style="width: 50%"/>
 
-<img src="/media/2015-07-09/perseus_likelihood_lee12_wi.png" style="width: 50%"/>
+<img src="/media/2015/07/09/perseus_likelihood_lee12_wi.png" style="width: 50%"/>
 
 Somehow the pixels with a background are being excluded during the masking
 process, leading to a poor estimate of the true background.

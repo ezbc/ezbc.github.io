@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-07-24 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/07/24/mle-summary
 tags:
@@ -37,15 +37,15 @@ The masking procedure requires
 
 <div align="center"> Perseus </div>
 
-<img src="/media/2015-07-24/perseus_planck_binned_coarseres_residual_maps.gif" style="width: 100%;"/>
+<img src="/media/2015/07/24/perseus_planck_binned_coarseres_residual_maps.gif" style="width: 100%;"/>
 
 <div align="center"> Taurus </div>
 
-<img src="/media/2015-07-24/taurus_planck_binned_coarseres_residual_maps.gif" style="width: 100%;"/>
+<img src="/media/2015/07/24/taurus_planck_binned_coarseres_residual_maps.gif" style="width: 100%;"/>
 
 <div align="center"> California </div>
 
-<img src="/media/2015-07-24/california_planck_binned_coarseres_residual_maps.gif" style="width: 100%;"/>
+<img src="/media/2015/07/24/california_planck_binned_coarseres_residual_maps.gif" style="width: 100%;"/>
 
 Figure 1. - Masked maps of each cloud for each iteration. Left: The
 fractional-masked map from step 3. Right: The residual-masked map from step 4.
@@ -73,15 +73,15 @@ histograms.
 
 Perseus
 
-<img src="/media/2015-07-24/perseus_planck_binned_coarseres_residual_hists.gif" style="width: 50%;"/>
+<img src="/media/2015/07/24/perseus_planck_binned_coarseres_residual_hists.gif" style="width: 50%;"/>
 
 Taurus
 
-<img src="/media/2015-07-24/taurus_planck_binned_coarseres_residual_hists.gif" style="width: 50%;"/>
+<img src="/media/2015/07/24/taurus_planck_binned_coarseres_residual_hists.gif" style="width: 50%;"/>
 
 California
 
-<img src="/media/2015-07-24/california_planck_binned_coarseres_residual_hists.gif" style="width: 50%;"/>
+<img src="/media/2015/07/24/california_planck_binned_coarseres_residual_hists.gif" style="width: 50%;"/>
 
 Figure 2. - Residual kernel density plots for each cloud at each iteration. The
 residual PDF is in black, and the fitted Gaussian in purple. The residual
@@ -100,7 +100,7 @@ contour, roughly tracing the outline of the mask.
 
 ***
 
-<img src="/media/2015-07-24/perseus_ivc.png" style="width: 100%;"/>
+<img src="/media/2015/07/24/perseus_ivc.png" style="width: 100%;"/>
 
 Figure 3. - Perseus $$HI$$ emission at -45 km/s overlaid with mask contour.
 
@@ -120,7 +120,7 @@ unrealistic for GMCs.
 
 ***
 
-<img src="/media/2015-07-24/taurus_ivc.png" style="width: 100%;"/>
+<img src="/media/2015/07/24/taurus_ivc.png" style="width: 100%;"/>
 
 Figure 3. - Taurus $$HI$$ emission at -33 km/s overlaid with mask contour. 
 

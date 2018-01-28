@@ -1,9 +1,9 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 date: 2015-02-25 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/02/25/krumholz-fitting
 tags:
@@ -39,4 +39,4 @@ various gas components.
 
 Below is a screenshot of the Av image with the Planck Av 4 and 8 mag contours.
 
-  ![K09 Av](/media/2015-02-25/tcp_k09_av.png)
+  ![K09 Av](/media/2015/02/25/tcp_k09_av.png)

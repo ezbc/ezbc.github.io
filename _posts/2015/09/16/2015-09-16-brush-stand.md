@@ -1,8 +1,7 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - woodworking
-- archive
 comments: true
 date: 2015-09-16 00:00
 layout: post
@@ -20,11 +19,11 @@ stand took a couple of hours to construct.
 
 <div class="carouselContainer">
   <div class="variable-width">
-    <div> <img src="/media/2015-09-16/woodworking/brush_stand02.jpg"
+    <div> <img src="/media/2015/09/16/woodworking/brush_stand02.jpg"
                style="height:400px"/> </div>
-    <div> <img src="/media/2015-09-16/woodworking/brush_stand01.jpg"
+    <div> <img src="/media/2015/09/16/woodworking/brush_stand01.jpg"
                style="height:400px"/> </div>
-    <div> <img src="/media/2015-09-16/woodworking/brush_stand03.jpg"
+    <div> <img src="/media/2015/09/16/woodworking/brush_stand03.jpg"
                style="height:400px"/> </div>
   </div>
 </div>

@@ -1,10 +1,10 @@
 ---
-layout: post
+category:
+- - docs
 date: 2016-03-11 23:56
-title:  "Sample Data"
+layout: post
 mood: happy
-category: 
-- docs
+title: Sample Data
 ---
 
 Markdown (or Textile), Liquid, HTML & CSS go in. Static sites come out ready for deployment.

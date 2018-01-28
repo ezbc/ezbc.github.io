@@ -1,9 +1,9 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 date: 2015-02-26 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/02/26/krumholz-fitting
 tags:
@@ -15,13 +15,13 @@ I have found systematically negative $$\Sigma_{H2}$$ in California. Below is
 an example histogram of the $$\Sigma_{H2}$$ calculated during a monte carlo
 simulation for a single core. These values are obviously unphysical.
 
-  <img src="/media/2015-02-26/california_h2_hist.png" width="500px"/>
+  <img src="/media/2015/02/26/california_h2_hist.png" width="500px"/>
 
 Below is a screenshot of the HI spectrum at (ra, dec) ~ (4:34:00, 36:30:00)
 with the Planck Av 4 and 8 mag contours. The median velocity range from the
 monte carlo simulation is ~ -8 to 4 km/s.
 
-  ![K09 Av](/media/2015-02-26/california_hi_spectrum.png)
+  ![K09 Av](/media/2015/02/26/california_hi_spectrum.png)
 
 To double check the column densities, N(H2) is given by
 
@@ -52,4 +52,4 @@ Likely the source of this problem is the residuals during the masking procedure
 are not trivial for California. See below. I'm interpreting the large negative
 residuals to mean that there is excess HI which is not traced by any dust.
 
-  <img src="/media/2015-02-26/california_residual_pdf.png" width="500px"/>
+  <img src="/media/2015/02/26/california_residual_pdf.png" width="500px"/>

@@ -1,14 +1,14 @@
 ---
-layout: post
+category:
+- - docs
+  - help
 date: 2016-03-16 08:34
-title: "Installation"
-category: 
-- docs
-- help
+layout: post
 tags:
 - installation
 - steve
 - jekyll
+title: Installation
 ---
 
 <figure class="aligncenter">

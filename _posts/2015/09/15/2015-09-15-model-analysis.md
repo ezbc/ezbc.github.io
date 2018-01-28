@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - research
-- archive
 comments: true
 date: 2015-09-15 00:00
+hidden: true
 layout: post
 redirect_from: /research/2015/09/15/model-analysis
 tags:
@@ -33,7 +33,7 @@ California
 <p></p>
 
 <img
-src="/media/2015-09-15/california_hisd_vs_hsd.png"
+src="/media/2015/09/15/california_hisd_vs_hsd.png"
     style="width: 70%"/>
 
 <p></p>
@@ -41,11 +41,11 @@ Taurus
 <p></p>
 
 <img
-src="/media/2015-09-15/taurus_hisd_vs_hsd_1.png"
+src="/media/2015/09/15/taurus_hisd_vs_hsd_1.png"
     style="width: 70%"/>
 
 <img
-src="/media/2015-09-15/taurus_hisd_vs_hsd_2.png"
+src="/media/2015/09/15/taurus_hisd_vs_hsd_2.png"
     style="width: 70%"/>
 
 <p></p>
@@ -53,7 +53,7 @@ Perseus
 <p></p>
 
 <img
-src="/media/2015-09-15/perseus_hisd_vs_hsd.png"
+src="/media/2015/09/15/perseus_hisd_vs_hsd.png"
     style="width: 70%"/>
 
 </div>
@@ -82,7 +82,7 @@ Note, this does not change the fitted DGR, only the display $A_V$ distribution.
 
 ***
 
-<img src="/media/2015-09-15/multicloud_av_vs_nhi.png" style="width: 60%"/>
+<img src="/media/2015/09/15/multicloud_av_vs_nhi.png" style="width: 60%"/>
 
 ##### **Figure 2** #####
 

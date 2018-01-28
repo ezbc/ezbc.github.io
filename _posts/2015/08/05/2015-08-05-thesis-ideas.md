@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
-categories:
+category:
 - hidden
-- archive
 comments: true
 date: 2015-08-05 00:00
+hidden: true
 layout: post
 redirect_from: /hidden/2015/08/05/thesis-ideas
 tags: null
