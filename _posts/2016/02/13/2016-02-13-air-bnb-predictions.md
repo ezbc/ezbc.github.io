@@ -1,15 +1,13 @@
 ---
-archive: false
 author: Elijah Bernstein-Cooper
 category:
+- professional
 - data-science
 comments: true
 date: 2016-02-13 00:00
-example: data-science-projects
 excerpt: I outline my steps to predict user interest in traveling for Air B&B. I adopt
   a neural network regression routine in Python to predict which country a user will
   travel to next.
-index-example: data-science
 layout: post
 redirect_from: /data-science/2016/02/13/air-bnb-predictions
 tags:

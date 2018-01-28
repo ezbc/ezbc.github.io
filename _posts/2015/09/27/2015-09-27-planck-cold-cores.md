@@ -1,15 +1,14 @@
 ---
 author: Elijah Bernstein-Cooper
 category:
+- personal
 - research
 comments: true
 date: 2015-09-27 00:00
-example: data-science-research
 excerpt: <p><div class="image-3of4-width" align="center"><img src="/media/2015/09/27/multicloud_av_cores_meng13.png"/>
   </div>Map of dust of three molecular clouds in our own galaxy. Adopted Bayesian
   priors to identify the dense cores shown as white crosses. </p>
 hidden: true
-index-example: data-science
 layout: post
 redirect_from: /research/2015/09/27/planck-cold-cores
 tags:

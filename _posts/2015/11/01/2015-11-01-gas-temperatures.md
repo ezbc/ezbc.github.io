@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
 category:
+- personal
 - research
 comments: true
 date: 2015-11-01 00:00
-example: data-science-research
 excerpt: <p><div class="image-full-width" align="center"> <img src="/media/2015/11/01/temps_cdf_phig1.0.png"
   style="width:50%"/></div>Comparison of cumulative distribution functions of observed
   and predicted quantities.</p>

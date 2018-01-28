@@ -1,6 +1,7 @@
 ---
 author: Elijah Bernstein-Cooper
 category:
+- personal
 - brewing
 comments: true
 date: 2015-11-25 00:00

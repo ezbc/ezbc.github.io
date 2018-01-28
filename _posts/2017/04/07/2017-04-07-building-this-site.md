@@ -1,13 +1,11 @@
 ---
-archive: false
 author: Elijah Bernstein-Cooper
 category:
+- professional
 - tech
 comments: true
 date: 2017-04-07 00:00:00
-example: tech-projects
 excerpt: Outlines steps to build this site locally on Fedora with Jekyll.
-index-example: tech
 layout: post
 redirect_from: /tech-project/2017/04/07/building-this-site
 tags:

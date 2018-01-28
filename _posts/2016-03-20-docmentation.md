@@ -1,6 +1,8 @@
 ---
 category:
+- personal
 - docs
+- personal
 - help
 comments: false
 date: 2016-03-20 12:36

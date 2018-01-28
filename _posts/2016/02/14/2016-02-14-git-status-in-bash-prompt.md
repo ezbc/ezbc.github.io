@@ -1,14 +1,12 @@
 ---
-archive: false
 author: Elijah Bernstein-Cooper
 category:
+- professional
 - tech
 comments: true
 date: 2016-02-14 00:00
-example: tech-projects
 excerpt: <div class="/image-4of4-width"> <img src="/media/2016/02/14/example_prompt.png"/>
   </div> Show the status and branch of your git repo by the color of bash prompt.
-index-example: tech
 layout: post
 redirect_from: /tech-project/2016/02/14/git-status-in-bash-prompt
 tags:

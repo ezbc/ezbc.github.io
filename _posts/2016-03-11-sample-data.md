@@ -1,5 +1,6 @@
 ---
 category:
+- personal
 - docs
 date: 2016-03-11 23:56
 layout: post

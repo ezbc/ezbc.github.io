@@ -1,6 +1,7 @@
 ---
 author: Elijah Bernstein-Cooper
 category:
+- personal
 - baking
 comments: true
 date: 2016-03-23 00:00

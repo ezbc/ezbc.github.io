@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
 category:
+- personal
 - brewing
 comments: true
 date: 2015-10-07 00:00
-example: hobbies-brewing
 layout: post
 redirect_from: /brewing/2015/10/07/barley-wine
 tags: null

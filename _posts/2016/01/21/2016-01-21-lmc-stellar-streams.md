@@ -1,6 +1,7 @@
 ---
 author: Elijah Bernstein-Cooper
 category:
+- personal
 - hidden
 comments: true
 date: 2016-01-21 00:00

@@ -1,11 +1,10 @@
 ---
-archive: false
 author: Elijah Bernstein-Cooper
 category:
+- professional
 - tech
 comments: true
 date: 2016-02-25 00:00
-example: tech-projects
 excerpt: I outline the methods needed to compile references using Bibtex in a Latex
   document.
 layout: post

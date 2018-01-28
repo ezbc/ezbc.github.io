@@ -1,6 +1,7 @@
 ---
 author: Elijah Bernstein-Cooper
 category:
+- personal
 - woodworking
 comments: true
 date: 2015-07-27 00:00

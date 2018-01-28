@@ -1,10 +1,10 @@
 ---
 author: Elijah Bernstein-Cooper
 category:
+- personal
 - woodworking
 comments: true
 date: 2015-10-06 00:00
-example: hobbies-woodworking
 layout: post
 redirect_from: /woodworking/2015/10/06/jewelry-box
 tags: null
