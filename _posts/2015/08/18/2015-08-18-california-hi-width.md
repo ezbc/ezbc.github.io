@@ -14,15 +14,6 @@ title: California HI Width
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 ## HI Spectra
 
 Up until now, I have been showing incorrect median spectra for each cloud. I

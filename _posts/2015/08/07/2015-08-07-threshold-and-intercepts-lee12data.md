@@ -13,15 +13,6 @@ title: Addressing Threshold Masking with Lee+12 Av
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 ## Using masked $$A_V$$ Threshold
 
 For the following likelihoods I only masked the Perseus regions at an masked $$A_V$$

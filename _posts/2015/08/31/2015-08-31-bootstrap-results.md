@@ -14,15 +14,6 @@ title: Bootstrap Results
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 I updated a draft of the paper to include the new bootstrap results. I updated
 only section 3.
 

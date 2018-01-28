@@ -13,15 +13,6 @@ title: Examining Region Dependence
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 ## Region Dependence
 
 We expand upon the results from yesterday's

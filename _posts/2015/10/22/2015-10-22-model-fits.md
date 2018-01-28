@@ -14,15 +14,6 @@ title: Addressing Core Variation
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 ## Deriving Cloud ISRF
 
 The [previous post](/research/2015/10/18/model-analysis/) discussed how we use

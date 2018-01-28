@@ -14,15 +14,6 @@ title: Correcting the Bootstrap Resampling
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 ## **Number of bootstrap resamplings**
 
 The number of simulations we run can seem somewhat arbitrary. However the

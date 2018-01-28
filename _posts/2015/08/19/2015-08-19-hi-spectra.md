@@ -14,15 +14,6 @@ title: Addressing Changed HI Spectra
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 ## HI Spectra
 
 Yesterday I fixed a bug in the HI spectra which changed the median HI spectra.

@@ -19,15 +19,6 @@ title: Gas Temperatures
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 # Comparing Predicted Core Temperatures
 
 ## Comparing Krumholz Temperatures

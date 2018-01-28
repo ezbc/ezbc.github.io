@@ -14,15 +14,6 @@ title: More Model Interpretation
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 ## Confirming Model Accuracy
 
 Figure 1 shows the $R_{H2}$ plots for each cloud. We can see the agreement

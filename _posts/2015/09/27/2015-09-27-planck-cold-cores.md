@@ -19,15 +19,6 @@ title: Core Selection
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 ## **Core Selection**
 
 One essential step in the paper I need to address is the selection of the cores

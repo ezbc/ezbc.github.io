@@ -14,15 +14,6 @@ title: Revisiting Model Analysis
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 ## **Previous Modeling**
 
 About 6 months ago I performed steady-state model analysis of the HI-to-H$$_2$$

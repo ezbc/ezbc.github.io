@@ -14,17 +14,6 @@ title: Finalizing the Bootstrap Monte Carlo Simulation
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-***
-
 ## Intercept Error
 
 We calibrate the Planck data by scaling the slope, and offsetting the Planck

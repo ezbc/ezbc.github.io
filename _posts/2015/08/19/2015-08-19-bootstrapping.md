@@ -14,15 +14,6 @@ title: Bootstrapping
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 ## **Likelihoods vs. Bootstraps**
 
 Motivated by [Leroy et al.

@@ -15,15 +15,6 @@ title: Varying Dust Opacity and Gas Temperatures
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 # Varying the dust opacity, $\sigma_g$
 
   The dust opacity, $\sigma_g$, in the Sternberg model determines the behavior

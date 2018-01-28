@@ -12,15 +12,6 @@ title: Thesis Ideas
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 ## Applying Wavelets to the CHILES Dataset
 
 The main goals of applying wavelet decomposition to the CHILES dataset are

@@ -14,15 +14,6 @@ title: Model Interpretation
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 ## Core Selection
 
 We wish to test the presence of, and the properties of the H i-to-H 2

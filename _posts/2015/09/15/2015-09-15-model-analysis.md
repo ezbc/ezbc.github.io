@@ -14,15 +14,6 @@ title: Krumholz Model Fitting
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 ## **Krumholz Model Fitting**
 
 I successfully fit both the Krumholz and Sternberg models to the HI vs. H

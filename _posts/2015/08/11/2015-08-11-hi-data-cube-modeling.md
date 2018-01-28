@@ -12,15 +12,6 @@ title: Modeling Shield Galaxies
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 ## Choosing a model
 
 There seem to be many models for HI data cubes of rotating galaxies. Here is a

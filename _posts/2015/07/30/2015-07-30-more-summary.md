@@ -15,15 +15,6 @@ title: Region Dependence
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 ## Masking
 
 In the last couple of days I have found that by varying the masking parameters,

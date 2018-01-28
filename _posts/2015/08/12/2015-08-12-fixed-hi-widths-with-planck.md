@@ -14,15 +14,6 @@ title: Fixing the HI Width with Planck Data
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 ## HI and CO spectra
 
 Yesterday's post incorrectly showed the CO spectra for each cloud. Below are

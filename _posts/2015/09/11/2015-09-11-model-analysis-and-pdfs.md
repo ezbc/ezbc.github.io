@@ -14,15 +14,6 @@ title: Probability Density Functions
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 # **Probability Density Functions**
 
 [Burkhart et al. (2015)](http://adsabs.harvard.edu/abs/2015arXiv150902889B) just

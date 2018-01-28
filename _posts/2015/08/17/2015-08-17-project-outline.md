@@ -14,15 +14,6 @@ title: Project Outline
 use_math: true
 ---
 
-**Table of Contents**
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
-* TOC
-{:toc}
-
-<hr style="height:2px; background-color:#b6b6b6"/>
-
 ## Project Timeline
 
 Below is the proposed project timeline. These should be hard deadlines.
