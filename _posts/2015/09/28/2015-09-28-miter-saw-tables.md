@@ -150,7 +150,7 @@ more of the fence onto the extension. Finally I mounted the extension with a
 folding angle bracket onto the end of the table. The extension protrudes only
 2$\in$ from the bench when folded.
 
-<div class="imgPost">
+<div class="postImg">
     <img src="/media/2015/09/28/miter_table2_extension.png"
                    />
 </div>
@@ -163,7 +163,7 @@ mocked up several fence stops out of pine and with many combinations of bolts
 and nuts. I converged on the design shown below, constructed out of cherry and
 maple.
 
-<div align="center">
+<div class=postImg>
     <img src="/media/2015/09/28/miter_table2_fence.jpg"
                    />
 </div>
