@@ -5,3 +5,4 @@ env/*
 .bundle/
 Gemfile.lock
 .jekyll-metadata
+**.DS_Store
