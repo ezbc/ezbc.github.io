@@ -32,6 +32,8 @@ gift. The rounded sides and lid frame the hand-carved Celtic knot as the focus
 of the box. The design is minimalist, yet elegant. Three compartments await
 inside the box, along with a padded tray which rests atop the back compartment.
 
+<!--more-->
+
 ## Construction
 
 I applied a variety of techniques while constructing this box, much of which I

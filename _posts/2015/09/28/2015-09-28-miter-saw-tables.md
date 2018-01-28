@@ -36,6 +36,8 @@ table frame is steel mounted on four casters.
   </div>
 </div>
 
+<!--more-->
+
 
 ## **Stationary Miter Saw Bench**
 
@@ -162,7 +164,6 @@ mocked up several fence stops out of pine and with many combinations of bolts
 and nuts. I converged on the design shown below, constructed out of cherry and
 maple.
 
-<div class=postImg>
-    <img src="/media/2015/09/28/miter_table2_fence.jpg"
-                   />
+<div class="postImg">
+    <img src="/media/2015/09/28/miter_table2_fence.jpg"/>
 </div>
