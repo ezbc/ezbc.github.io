@@ -15,14 +15,14 @@ use_math: true
 
 <div class="carouselContainer">
   <div class="variable-width">
-    <div> <img src="/media/2015-10-06/jewelrybox_50_small.png"
-               style="height:400px"/> </div>
-    <div> <img src="/media/2015-10-06/jewelrybox_46_small.png"
-               style="height:400px"/> </div>
-    <div> <img src="/media/2015-10-06/jewelrybox_61_small.png"
-               style="height:400px"/> </div>
-    <div> <img src="/media/2015-10-06/jewelrybox_66_small.png"
-               style="height:400px"/> </div>
+    <div> <img src="/media/2015/10/06/jewelry-box/jewelrybox_50_small.png"
+               /> </div>
+    <div> <img src="/media/2015/10/06/jewelry-box/jewelrybox_46_small.png"
+               /> </div>
+    <div> <img src="/media/2015/10/06/jewelry-box/jewelrybox_61_small.png"
+               /> </div>
+    <div> <img src="/media/2015/10/06/jewelry-box/jewelrybox_66_small.png"
+               /> </div>
   </div>
 </div>
 
@@ -41,41 +41,41 @@ mitered, sides, rabbited slots in order to include supports for the tray, and a
 hollowed tray. Below is a short outline of the construction of the box, in
 addition to elaboration on some of the more complicated steps.
 
-+ Cut Maple stock for sides and lid. Cut mitered corners on sides.
+1. Cut Maple stock for sides and lid. Cut mitered corners on sides.
 
-+ Cut rabbits in back side of box. Glue narrow lips in rabbits to support tray.
+1. Cut rabbits in back side of box. Glue narrow lips in rabbits to support tray.
 
-+ Cut notch out of top front for lid lip to rest.
+1. Cut notch out of top front for lid lip to rest.
 
-+ Cut rabbits for the tray.
+1. Cut rabbits for the tray.
 
-+ Cut lid. Cut and sand lid top to a curve. Leave flat square on top.
+1. Cut lid. Cut and sand lid top to a curve. Leave flat square on top.
 
-+ Glue Cherry block onto the flat portion of the lid.
+1. Glue Cherry block onto the flat portion of the lid.
 
-+ Carve the Cherry block on the lid.
+1. Carve the Cherry block on the lid.
 
-+ Route slot for lid lip.
+1. Route slot for lid lip.
 
-+ Cut lid lip and glue to lid.
+1. Cut lid lip and glue to lid.
 
-+ Drill lid pin-hinge hole in lid and sides.
+1. Drill lid pin-hinge hole in lid and sides.
 
-+ Glue box together.
+1. Glue box together.
 
-+ Cut key slots in each side. Glue in Black Walnut keys.
+1. Cut key slots in each side. Glue in Black Walnut keys.
 
-+ Sand sides to curves.
+1. Sand sides to curves.
 
-+ Carve tray from Cherry. 
+1. Carve tray from Cherry. 
 
-+ Cut and glue in partitions from Black Walnut.
+1. Cut and glue in partitions from Black Walnut.
 
 ### Key Joints
 
 <p class="imageTextWrap">
 
-  <img src="/media/2015-10-06/keys_1.png" style="height:200px">
+  <img src="/media/2015/10/06/jewelry-box/keys_1.png" style="height:200px">
 
   I reinforced each mitered side with three Black Walnut keys. I built a
   sliding carriage on the table saw out of 4$\in\times\,$4$\in$ stock. The
@@ -97,9 +97,9 @@ soft foam in black velvet to make three logs, which I glued into the tray.
 
 <div class="carouselContainer">
   <div class="variable-width">
-    <div> <img src="/media/2015-10-06/tray_1.png"
+    <div> <img src="/media/2015/10/06/jewelry-box/tray_1.png"
                style="height:200px"/> </div>
-    <div> <img src="/media/2015-10-06/tray_2.png"
+    <div> <img src="/media/2015/10/06/jewelry-box/tray_2.png"
                style="height:200px"/> </div>
   </div>
 </div>
