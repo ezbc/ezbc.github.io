@@ -72,15 +72,15 @@ Time: 2 days, 45 minutes hands-on time.
 
 <div class="carouselContainer">
   <div class="variable-width">
-    <div> <img src="/media/2016/03/26/bread.png"
+    <div> <img src="/media/2016/03/26/no-knead-bread-recipe/bread.png"
                /> </div>
-    <div> <img src="/media/2016/03/26/dough.png"
+    <div> <img src="/media/2016/03/26/no-knead-bread-recipe/dough.png"
                /> </div>
-    <div> <img src="/media/2016/03/26/oats.png"
+    <div> <img src="/media/2016/03/26/no-knead-bread-recipe/oats.png"
                /> </div>
-    <div> <img src="/media/2016/03/26/dough_in_dutchoven.png"
+    <div> <img src="/media/2016/03/26/no-knead-bread-recipe/dough_in_dutchoven.png"
                /> </div>
-    <div> <img src="/media/2016/03/26/dough_with_slashes.png"
+    <div> <img src="/media/2016/03/26/no-knead-bread-recipe/dough_with_slashes.png"
                /> </div>
   </div>
 </div>
