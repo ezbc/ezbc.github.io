@@ -1,7 +1,6 @@
 ---
 author: Elijah Bernstein-Cooper
 category:
-- personal
 - research
 comments: true
 date: 2016-03-08 00:00

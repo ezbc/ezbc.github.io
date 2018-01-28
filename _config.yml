@@ -68,6 +68,7 @@ category_dir: categories
 pagination:
   enabled: true
   sort_reverse: true
+  permalink: '/page/:num/'
 
 # Conversion
 markdown: kramdown
