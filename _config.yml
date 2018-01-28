@@ -3,7 +3,7 @@ name: Elijah Bernstein-Cooper
 job_title: Developer
 email: ezbc@ezbc.me
 description: I build solutions in data management and data analysis for business problems. Technology is my tool. 
-avatar: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAuTAAAAJDBkODljNmMwLTMzOTktNDMxZi1iNTM1LTNkNzFjMTliNzhhMg.jpg
+avatar: /media/avatar.jpg
 favicon: /favicon.ico
 analytics_code: UA-XXXXXXX-2
 disqus: httpezbcme
@@ -76,3 +76,4 @@ excerpt_separator: <!--more-->
 sass:
   sass_dir: assets/partials
   style: compressed
+

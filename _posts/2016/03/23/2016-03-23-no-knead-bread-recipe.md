@@ -24,6 +24,8 @@ needing to touch the dough. The hands-on time spent actually paying attention to
 these loaves is minimal making this recipe a low commitment, but yields
 delicious results.
 
+<!--more-->
+
 # The Recipe
 
 ## Summary
@@ -72,8 +74,6 @@ Time: 2 days, 45 minutes hands-on time.
 
 <div class="carouselContainer">
   <div class="variable-width">
-    <div> <img src="/media/2016/03/26/no-knead-bread-recipe/bread.png"
-               /> </div>
     <div> <img src="/media/2016/03/26/no-knead-bread-recipe/dough.png"
                /> </div>
     <div> <img src="/media/2016/03/26/no-knead-bread-recipe/oats.png"

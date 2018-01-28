@@ -6,7 +6,7 @@ categories:
 comments: true
 date: 2016-03-14 00:00
 excerpt: I present results showing the dust emissivity index of the Taurus-California-Perseus
-  Region <div class="image-4of4-width"> <img src="/images/2016-03-14/beta_map.png"/>
+  Region <div class="image-4of4-width"> <img src="/media/2016-03-14/beta_map.png"/>
   </div>
 layout: post
 redirect_from: /research/2016/03/14/dust-emissivity
