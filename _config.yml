@@ -72,6 +72,11 @@ paginate_path: "/page:num/"
 markdown: kramdown
 excerpt_separator: <!--more-->
 
+keep_files: [media]
+
+exclude_categories:
+  - research
+
 # Assets Settings
 sass:
   sass_dir: assets/partials
