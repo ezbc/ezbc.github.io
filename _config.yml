@@ -36,8 +36,8 @@ social_networks:
 -  { name: pocket, url: '' }
 
 # Modules Settings
-show_categories: 0
-show_tags: 0
+show_categories: 1
+show_tags: 1
 show_email: 0
 show_rss: 1
 show_comments: 1
@@ -65,8 +65,9 @@ permalink: /:year/:month/:day/:title
 category_dir: categories
 
 # Pagination
-paginate: 10
-paginate_path: "/page:num/"
+pagination:
+  enabled: true
+  sort_reverse: true
 
 # Conversion
 markdown: kramdown
