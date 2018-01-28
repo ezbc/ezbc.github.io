@@ -24,8 +24,6 @@ needing to touch the dough. The hands-on time spent actually paying attention to
 these loaves is minimal making this recipe a low commitment, but yields
 delicious results.
 
-
-
 # The Recipe
 
 ## Summary
@@ -74,15 +72,15 @@ Time: 2 days, 45 minutes hands-on time.
 
 <div class="carouselContainer">
   <div class="variable-width">
-    <div> <img src="/media/2016-03-26/bread.png"
-               style="height:400px"/> </div>
-    <div> <img src="/media/2016-03-26/dough.png"
-               style="height:400px"/> </div>
-    <div> <img src="/media/2016-03-26/oats.png"
-               style="height:400px"/> </div>
-    <div> <img src="/media/2016-03-26/dough_in_dutchoven.png"
-               style="height:400px"/> </div>
-    <div> <img src="/media/2016-03-26/dough_with_slashes.png"
-               style="height:400px"/> </div>
+    <div> <img src="/media/2016/03/26/bread.png"
+               /> </div>
+    <div> <img src="/media/2016/03/26/dough.png"
+               /> </div>
+    <div> <img src="/media/2016/03/26/oats.png"
+               /> </div>
+    <div> <img src="/media/2016/03/26/dough_in_dutchoven.png"
+               /> </div>
+    <div> <img src="/media/2016/03/26/dough_with_slashes.png"
+               /> </div>
   </div>
 </div>
