@@ -1,8 +1,13 @@
+---
+---
+
+@import "vars", "reset", "mixins";
+
 // Slick Carousel style adjustments
 // https://kenwheeler.github.io/slick/ 
 
 .slick-prev:before, .slick-next:before { 
-    color:blue !important;
+    color:$primary-color !important;
 }
 .slider {
     margin: 10%;
@@ -20,3 +25,14 @@
     margin: auto;
     text-align: center;
 }
+
+// avoids blue border 
+// https://github.com/kenwheeler/slick/issues/1562
+.slick-list {
+    outline: none !important;
+}
+.slick-slide {
+		outline: none !important;
+}
+
+
