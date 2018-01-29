@@ -24,8 +24,8 @@
 
                         <!-- strip index.html for pretty urls -->
                         {% assign url = p.url | replace: 'index.html', '' %}
-                        
-                        <a href="{{ url | prepend: site.baseurl | prepend: site.url }}" {% if url == page.url %}class="active"{% endif %}>{{ p.title }}</a>
+
+                        <a href="{{ url | prepend: site.baseurl | prepend: site.url }}" {% if p.url == page.url %}class="active"{% endif %}>{{ p.title }}</a>
                     {% endif %}
                 {% endif %}
             {% endfor %}
