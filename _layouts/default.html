@@ -2,7 +2,9 @@
 <html>
     {% include head.html %}
 
-    {% include mathjax_support.html %}
+    {% if page.use_math %}
+        {% include mathjax_support.html %}
+    {% endif %}
 
     <body>
         <div class="wrapper clear">
