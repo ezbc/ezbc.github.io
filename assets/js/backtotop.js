@@ -1,9 +1,9 @@
 /*
 * Back To Top 
-* by Georgi Kalaydzhiev, Web Designer & Front-end Developer http://joro.me/
+* by Georgi Kalaydzhiev, Web Designer & Front-end Developer //joro.me/
 * 
 * Copyright (c) 2013.
-* Licensed under the MIT License http://www.opensource.org/licenses/mit-license.php
+* Licensed under the MIT License //www.opensource.org/licenses/mit-license.php
 *
 * Description: Just scrolls back to top. You can modify button style.
 * 

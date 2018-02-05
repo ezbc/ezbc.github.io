@@ -2,9 +2,9 @@
 /*!
 * FitVids 1.1
 *
-* Copyright 2013, Chris Coyier - http://css-tricks.com + Dave Rupert - http://daverupert.com
-* Credit to Thierry Koblentz - http://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/
-* Released under the WTFPL license - http://sam.zoy.org/wtfpl/
+* Copyright 2013, Chris Coyier - //css-tricks.com + Dave Rupert - //daverupert.com
+* Credit to Thierry Koblentz - //www.alistapart.com/articles/creating-intrinsic-ratios-for-video/
+* Released under the WTFPL license - //sam.zoy.org/wtfpl/
 *
 */
 
