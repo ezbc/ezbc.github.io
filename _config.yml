@@ -57,6 +57,9 @@ defaults:
 url: //localhost
 baseurl:
 
+# https
+enforce_ssl: //localhost
+
 # Includes
 include: ["_pages"]
 
