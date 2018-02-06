@@ -1,5 +1,6 @@
 _site/*
 !_site/media
+!_site/files
 .sass-cache
 env/*
 .bundle/
