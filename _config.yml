@@ -77,7 +77,7 @@ pagination:
 markdown: kramdown
 excerpt_separator: <!--more-->
 
-keep_files: [media]
+keep_files: [media, files]
 
 # Assets Settings
 sass:
