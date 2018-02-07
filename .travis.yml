@@ -1,0 +1,27 @@
+sudo: false
+language: ruby
+rvm:
+  - 2.3.1
+install:
+  - bundle install
+  - gem install jekyll
+script:
+  - bundle exec jekyll build --config _config.yml
+deploy:
+  provider: gcs
+  access_key_id: $ACCESS_KEY_ID
+  secret_access_key:
+    secure: u2THRonX+x8082zU/YRORL06GuEkDWiPXHMZKuP/eU3blt6I5bfsnxfpw9g/hR42z9L6AiAsdfbspcc87MNLpsVPZTQfPKcUj3OMgL9KW2lIy2Ct4IBftD5+21q2/vr1g6A5hgmxdwhnPp/m9X/K7l7aUeg55vVj815eFRg7srHO/hnZ8F0fBtvtIDuDSNc+H1U6NcVKbM9DbeK6GmeLFPIvE/rLg5xyZ/L9LUqhmflYAsNS/2PDET955kgCGZ7MiPg8yAQXx/CSrkCmQx8qOQ5OAIc8OzKaOWhDLc3l/xFl6zFtSksjl27ha9d3t21fJZTxMapFdnQiXu47WOznnxe/8idHESbCeCUpwSs8+Jkr7JBnbkG2ZbepoN4hQKiO37/JIIMl8g+c7N29h1czL5AMsRlcoEzo/V0dtDyjghdcIpMJYQlboXHb4tPExtrJ8fpq/wMcv0uISz+1nkSsapwL2wItZDL6wvITAZr8IIeuvDitIpQZAOXrCtSPsrjiTIb6C+WCKrGkvtaC8xQkRcRJcMO15mwnPbj/Oa6GJQUEzeP4j6EXXcs/zIxi4Gb6PzWVlYht5/Qb8Dd8Heqw8MOt4SVHXBA8yBeC8oa5GHgCcDrOTy7pbzACpz8lKHsVYwN0bDPYt2UNtGAuihSD2BpRykHCKoHooofsAK1BHag=
+  bucket: dev.ezbc.me
+  local-dir: _site
+  on:
+    repo: ezbc/ezbc.github.io
+    branches:
+      only:
+        feature/ci
+notifications:
+  email:
+    recipients:
+      - $NOTIFICATION_EMAIL
+    on_success: always
+    on_failure: always

@@ -7,3 +7,5 @@ env/*
 Gemfile.lock
 .jekyll-metadata
 **.DS_Store
+*secret.json
+

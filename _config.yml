@@ -54,7 +54,7 @@ defaults:
       comments: "true"
 
 # Serving
-url: //localhost
+url: 
 baseurl:
 
 # https
