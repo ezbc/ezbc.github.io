@@ -20,6 +20,7 @@ group :jekyll_plugins do
     gem "jekyll-paginate-v2"
     gem 'jekyll-redirect-from'
     gem 'jekyll-gist'
+    gem 'jekyll-seo-tag'
 end
 
 require 'json'

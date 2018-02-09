@@ -54,8 +54,10 @@ defaults:
       comments: "true"
 
 # Serving
-url: ""
+url: 
+canonical_url: "http://localhost"
 baseurl:
+environment: local
 
 # Includes
 include: ["_pages"]
@@ -81,3 +83,6 @@ sass:
   sass_dir: assets/partials
   style: compressed
 
+# plugins
+plugins:
+  - jekyll-seo-tag
