@@ -8,4 +8,5 @@ Gemfile.lock
 .jekyll-metadata
 **.DS_Store
 *secret.json
-
+.firebase*
+firebase-debug.log

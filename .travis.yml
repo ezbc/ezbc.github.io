@@ -9,32 +9,10 @@ install:
 - gem install jekyll
 script:
 - bundle exec jekyll build --config _config.yml
-deploy:
-- provider: gcs
-  access_key_id: $ACCESS_KEY_ID
-  secret_access_key:
-    secure: E/u2+0itpOZbolmPjzx4e7egOe9yk+32HJd+wtL/KtZpb/bBS7uaw8xc93KC6CtD4X2gUpdgnivt88Wlo0Qczrb0IB3ZPoj0OLDFeSlkrmOoyA5qVw59KvHOYyb01EKShswDJ1a73RJT8vNHDeHTqRiujD+4nJMUIaA3BkiQvIOUIUrWjXztfhd6J+Qfqsl/fmLAQ2STaaktd0eHpWzAG4iEkxqpLa06HA79Mr1ivlVZEmUpRlZX4GNpnbjpS8UIxtRrhnfUfyjw7pfUiYzuvGn0pj6WqqbeoFKBglmvUiAXB0tjnGQ4x78kr288F1MPqNQO7iKwg/If4t2QGXgzGpKt7b4oQx11FiYDP2HOow3z2jPjwb7NgXjpfEvIE/0UKIoF8uwEjoox3xbi/rvYeaZZckNsZEIJq9KHBuxX16pa8s6zKR4Rwi2h7qRWwta7xfp5qK+gdLzGxdW7ipunfKsWF/ToP1VhboLCVEuS2fYHD9mBQyu4Ll8IKH0MW3N4E38V5ISZz+lp8FnvgdIipC15x/fmkVN9oOaiwscIGHMpDb31TFsNjwc68r6VmsXcFA4BQ5NL1V9DlfnppwzE2ZCb7BjtaAvpBXjB8d3gTWIeeMHXnjfWMfhjddWRVPVUZtCMkeTRsm8cLLV3KBmquYWNDIviNTPDqtnu2Xf/R1Y=
-  bucket: dev.ezbc.me
-  local-dir: _site
-  on:
-    repo: ezbc/ezbc.github.io
-    branch: develop
-  skip_cleanup: true
-  acl: public-read
-- provider: gcs
-  access_key_id: $ACCESS_KEY_ID
-  secret_access_key:
-    secure: E/u2+0itpOZbolmPjzx4e7egOe9yk+32HJd+wtL/KtZpb/bBS7uaw8xc93KC6CtD4X2gUpdgnivt88Wlo0Qczrb0IB3ZPoj0OLDFeSlkrmOoyA5qVw59KvHOYyb01EKShswDJ1a73RJT8vNHDeHTqRiujD+4nJMUIaA3BkiQvIOUIUrWjXztfhd6J+Qfqsl/fmLAQ2STaaktd0eHpWzAG4iEkxqpLa06HA79Mr1ivlVZEmUpRlZX4GNpnbjpS8UIxtRrhnfUfyjw7pfUiYzuvGn0pj6WqqbeoFKBglmvUiAXB0tjnGQ4x78kr288F1MPqNQO7iKwg/If4t2QGXgzGpKt7b4oQx11FiYDP2HOow3z2jPjwb7NgXjpfEvIE/0UKIoF8uwEjoox3xbi/rvYeaZZckNsZEIJq9KHBuxX16pa8s6zKR4Rwi2h7qRWwta7xfp5qK+gdLzGxdW7ipunfKsWF/ToP1VhboLCVEuS2fYHD9mBQyu4Ll8IKH0MW3N4E38V5ISZz+lp8FnvgdIipC15x/fmkVN9oOaiwscIGHMpDb31TFsNjwc68r6VmsXcFA4BQ5NL1V9DlfnppwzE2ZCb7BjtaAvpBXjB8d3gTWIeeMHXnjfWMfhjddWRVPVUZtCMkeTRsm8cLLV3KBmquYWNDIviNTPDqtnu2Xf/R1Y=
-  bucket: qa.ezbc.me
-  local-dir: _site
-  on:
-    repo: ezbc/ezbc.github.io
-    branch: qa
-  skip_cleanup: true
-  acl: public-read
+- firebase deploy
 notifications:
   email:
     recipients:
-    - "$NOTIFICATION_EMAIL"
+    - $NOTIFICATION_EMAIL
     on_success: always
     on_failure: always
