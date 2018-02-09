@@ -1,12 +1,11 @@
 ---
 layout: page
 title:  "Contact"
-permalink: "/contact/"
+permalink: "/contact"
 ---
 
-<figure>
-    <img src="" />
-    <figcaption>Created by <a href="https://dribbble.com/Pmafra" target="_blank_">Patricia Mafra</a></figcaption>
-</figure>
+{% assign socialLinkedin = site.social_networks | where: "name",  "linkedin" %}
+{% assign socialGithub = site.social_networks | where: "name",  "github" %}
 
-Test page
+Feel free to reach out to me on [Linkedin]({{ socialLinkedin[0].url }}) or
+peruse my [Github]({{ socialGithub[0].url }}) profile.

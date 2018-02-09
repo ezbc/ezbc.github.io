@@ -57,14 +57,11 @@ defaults:
 url: 
 baseurl:
 
-# https
-enforce_ssl: //localhost
-
 # Includes
 include: ["_pages"]
 
 # Outputting
-permalink: /:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title
 category_dir: categories
 
 # Pagination

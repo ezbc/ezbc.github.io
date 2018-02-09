@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "Personal Blog"
-permalink: "/personal/"
+permalink: "/personal"
 pagination:
   enabled: true
   category: personal
