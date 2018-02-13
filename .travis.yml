@@ -2,17 +2,21 @@ sudo: false
 language: ruby
 rvm:
 - 2.3.1
-env:
-- 
+deploy:
+  provider: firebase
+  token:
+    secure: "R1/ZAxj+X350H0/ZeixqemIVo7RVI0La3+y40zM2OPhE3GT39/+JuK9o2o2HV/x8pHZnu74XhQcm3JOK9Lj0d/XW1/C8SBJeNYHgISmjV//fEUN5xeFlLfv5uFCYaZUgP5ZEMrl1OzHx3tL8S9Kdx5UcO1G3EFfx6r4XC8O92JDLpOxvecbohRP6oa+vdarAShyhIIYEe5A2zKbgXGzEjAgV8Xbe3nyswsYcbbUo2rethNQGTL+O+6vXVM+BPnAY6UKIX3tE+4gmuzWRCt57Qb4VhGWLHBCNP1B3IaZbRC/uCi/dYtnHdD9TlexZYQT+xkF8q2IOjH5cwJQLlVgAy5OfWpmYSyFT7f9T208o9S61GlQshcu+HWdGO7NLQWuvbfTFQyMugnQj3u1AZ+yO/JDBvM7jWX/eJFiSwhrkAuV7YOdy5hfIS2Y0x+r0pZV/l+0df9zc63BeLg9dP6HvSChkvHCVufyUbpm9XZwkEoXMxo+f+Wy8cEnQq5y8ZlZdLbYCCoF/7ZcBMJ9JCVoePSczRzD++qdhqCNhd8+Us9bagYAQXIrbKwnJqSSe4GFWcbViyGnOwXxnkVgb6OgiHtyMn7crC3wZt/+xZ2+QDnBD3D1R+eYreIKHJaBDDHWKZxRE6331Dz29rIY3EnZfB/+k0mubuNs792IyT+wsvuY="
+  project: "dev.ezbc.me"
+  on:
+    branch: develop
 install:
 - bundle install
 - gem install jekyll
 script:
-- bundle exec jekyll build --config _config.yml
-- firebase deploy
+- bundle exec jekyll build --config _config.yml,_config_dev.yml
 notifications:
   email:
     recipients:
-    - $NOTIFICATION_EMAIL
+    - "$NOTIFICATION_EMAIL"
     on_success: always
     on_failure: always
