@@ -4,7 +4,7 @@ rvm:
 - 2.3.1
 matrix:
   include:
-    - branch: feature/firebase
+    - if: branch = "feature/firebase"
       env:
         - TRAVIS_BUILD_ENV="dev"
 deploy:
