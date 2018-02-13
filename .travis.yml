@@ -2,16 +2,17 @@ sudo: false
 language: ruby
 rvm:
 - 2.3.1
-include:
-  if: branch = master
-    env:
-      - TRAVIS_BUILD_ENV="prod"
-  if: branch = qa
-    env:
-      - TRAVIS_BUILD_ENV="qa"
-  if: branch = feature/firebase
-    env:
-      - TRAVIS_BUILD_ENV="dev"
+jobs:
+  include:
+    - if: branch = master
+      env:
+        - TRAVIS_BUILD_ENV="prod"
+    - if: branch = qa
+      env:
+        - TRAVIS_BUILD_ENV="qa"
+    - if: branch = "feature/firebase"
+      env:
+        - TRAVIS_BUILD_ENV="dev"
 deploy:
   - provider: firebase
     token:
