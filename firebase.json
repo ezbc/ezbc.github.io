@@ -1,5 +1,7 @@
 {
-  "public": "_site",
-  "cleanUrls": true,
-  "trailingSlash": false
+  "hosting": {
+    "public": "_site",
+    "cleanUrls": true,
+    "trailingSlash": false
+  }
 }
