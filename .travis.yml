@@ -5,13 +5,13 @@ rvm:
 include:
   if: branch = master
     env:
-      TRAVIS_BUILD_ENV="prod"
+      - TRAVIS_BUILD_ENV="prod"
   if: branch = qa
     env:
-      TRAVIS_BUILD_ENV="qa"
+      - TRAVIS_BUILD_ENV="qa"
   if: branch = feature/firebase
     env:
-      TRAVIS_BUILD_ENV="dev"
+      - TRAVIS_BUILD_ENV="dev"
 deploy:
   - provider: firebase
     token:
