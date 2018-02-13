@@ -2,13 +2,23 @@ sudo: false
 language: ruby
 rvm:
 - 2.3.1
+include:
+  if: branch = master
+    env:
+      BUILD_ENV="prod"
+  if: branch = qa
+    env:
+      BUILD_ENV="qa"
+  if: branch = feature/firebase
+    env:
+      BUILD_ENV="dev"
 deploy:
   - provider: firebase
     token:
       secure: "R1/ZAxj+X350H0/ZeixqemIVo7RVI0La3+y40zM2OPhE3GT39/+JuK9o2o2HV/x8pHZnu74XhQcm3JOK9Lj0d/XW1/C8SBJeNYHgISmjV//fEUN5xeFlLfv5uFCYaZUgP5ZEMrl1OzHx3tL8S9Kdx5UcO1G3EFfx6r4XC8O92JDLpOxvecbohRP6oa+vdarAShyhIIYEe5A2zKbgXGzEjAgV8Xbe3nyswsYcbbUo2rethNQGTL+O+6vXVM+BPnAY6UKIX3tE+4gmuzWRCt57Qb4VhGWLHBCNP1B3IaZbRC/uCi/dYtnHdD9TlexZYQT+xkF8q2IOjH5cwJQLlVgAy5OfWpmYSyFT7f9T208o9S61GlQshcu+HWdGO7NLQWuvbfTFQyMugnQj3u1AZ+yO/JDBvM7jWX/eJFiSwhrkAuV7YOdy5hfIS2Y0x+r0pZV/l+0df9zc63BeLg9dP6HvSChkvHCVufyUbpm9XZwkEoXMxo+f+Wy8cEnQq5y8ZlZdLbYCCoF/7ZcBMJ9JCVoePSczRzD++qdhqCNhd8+Us9bagYAQXIrbKwnJqSSe4GFWcbViyGnOwXxnkVgb6OgiHtyMn7crC3wZt/+xZ2+QDnBD3D1R+eYreIKHJaBDDHWKZxRE6331Dz29rIY3EnZfB/+k0mubuNs792IyT+wsvuY="
     project: "dev.ezbc.me"
     on:
-      branch: "develop"
+      condition: "$BUILD_ENV=dev"
   - provider: firebase
     secure: "ZlPJxKk7T0OTVygtpNfn3Z6/E5NHfMNktoJCQdTwEiL0oKW6t9m/IFJLwonPPzljHwTdcmBC0ugebkEpCVmAhVg9859Jv6zUldr6BiWj5SP9Z39cQHx47a52n/1GQCh3tfD+MPVDeEeTi33sWVTnHnvhXfvxirw/jtVsa8iAutRWHJiMg74j9pGfGggPkMPPoItGpj3QUlUG/xNEpIBI7OdGc9Fr7+ARnpRuqoAeDCNx+rsaYtlAWvD2yyitNMvn3W+mHMJJ7WHnehmb5VfpmwFHDg1Eq+aLE2OEmFls6IxJ0cQWZ+HnJYPFE/cxlW3aBeyGyaO5AKeMkHgIWom4hZzT2Fuxkke7UMLe6HEOI7+DmVPfFK+U8OmkY6KqM5O592Dp8HoHIvYyi0u7+afS6+Y/tns1sdB+1WXZeDi/KZ/dOkrCTvL8IzeEBdCkXkGxbzlWgaDbs32nqVaotNa0MvgVHBhizdn2O8lPGtVeAp0cA3n+0ArKqEjIFRYPNfG+GwpA8odJiFAi9Dzb0gRivmOfSdA8aFIRLSl9xI1PGsw7OW8LoXArwqEvITYrPk5kp6raASQPV6TG4VQ0wREY2tA2T4J3nOkY9Jks3hNOmUxelxC8e/RbL8+bie/RnSe/0ut9OXGKnilIOSwsbq0Og0m1J6mJIMIbt8w9zC02Bg0="
     project: "qa.ezbc.me"
@@ -23,7 +33,7 @@ install:
 - bundle install
 - gem install jekyll
 script:
-- bundle exec jekyll build --config _config.yml,_config_dev.yml
+- bundle exec jekyll build --config _config.yml,_config_"$BUILD_ENV".yml
 notifications:
   email:
     recipients:
