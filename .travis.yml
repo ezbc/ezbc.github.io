@@ -2,19 +2,9 @@ sudo: false
 language: ruby
 rvm:
 - 2.3.1
-jobs:
+matrix:
   include:
-    - if: branch = master
-      env:
-        - TRAVIS_BUILD_ENV="prod"
-jobs:
-  include:
-    - if: branch = qa
-      env:
-        - TRAVIS_BUILD_ENV="qa"
-jobs:
-  include:
-    - if: branch = "feature/firebase"
+    - branch: feature/firebase
       env:
         - TRAVIS_BUILD_ENV="dev"
 deploy:
@@ -35,6 +25,7 @@ deploy:
     on:
       branch: "master"
 install:
+- echo "$TRAVIS_BUILD_ENV"
 - bundle install
 - gem install jekyll
 script:
