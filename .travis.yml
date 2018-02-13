@@ -5,11 +5,9 @@ rvm:
 branches:
   only:
     - master
-    - qa
     - develop
 before_install:
   - export TRAVIS_BUILD_ENV="dev"
-  - if [[ $TRAVIS_BRANCH = 'qa' ]]; then export TRAVIS_BUILD_ENV="qa"; fi
   - if [[ TRAVIS_BRANCH = 'master' ]]; then export TRAVIS_BUILD_ENV="prod"; fi
 install:
 - echo "$TRAVIS_BUILD_ENV"
@@ -19,12 +17,14 @@ script:
 - bundle exec jekyll build --config _config.yml,_config_"$TRAVIS_BUILD_ENV".yml
 deploy:
   - provider: firebase
+    skip_cleanup: true
     token:
       secure: "IaInlAbr+Tzx956wYpkW4g8o8iohZVqTvtcxScguZkHkTfRLoZMYb3rwsFe54HIHnxj9InE4IBq/gDx+Y8BY+wasByNZhcL22uskf1C3UhFJrqOxCYKRyKmlNDiJz6Q+k+kTUO6sk2YKb2eP+UwizzKvTqR70Qo56iXPUxNemoed1zbCzOIZfDtQoVMzPRTDdCsUH6mnqxfRlXIPtxRsn+cIvN/4saFh4aGge/kSDD9IyoYPiUigbuA+t3iUAhpU2VR+C2wae5ULlJV+gx8EP5Tiis5QryfZUaDWBMffgwnGIxT1zMopDN67LzR0f0S6WfDW/yKTae/Fyro2ID3ehVQOh5R5jxwaPLTUNmaxGrio2uYbJK7Fxc8knr8k8WPxmpEj8YL3Z/dj4ms1MEsiMcQmtYrUAnNXTjaizIzcxX3MbG5yhEuwPVIMJPHzrylXkYb9kFGU0KdFu6YxQ8URhikl/fcYQfjwiZTHJCV3zzU4inJxV8r9WOWO9nNv6fhi7rxgTYrqrDT9Sk1jmUChBNdtIFqfOId7NMp6YtPuSILQL19C9cM6gR1AUN9qUpQqv4h6fN2xYPt8MXsBGEsDns3uNPYFaaoMJerC9sOvWOzS8QXCHZit2csFSnrdsoo5pmwXm2r8kRNQ59HQMDdil/3J4+9wM0fQY2zVmy+O2Gg="    
     project: "devezbcme"
     on:
       branch: "develop"
   - provider: firebase
+    skip_cleanup: true
     token:
       secure: "tMNJYKcO6s7iZhthBaHuLDkHe+24LxWPPQan5iiqGbREvMOd4rkM2dD7RQrUzAaLDqqmKi/X59zLq/X+x5p4emlwg9zHn50m2n3ul6J8NCXEaJVR3IbVLJihFUDw4D0eZz6I62Ae/386MTC4b2cxH+D/j5l9qqXYfgor+QqUybOjxAYW9xBsD1FlYi0Y/0Unv+DOMHhY0lEUuYoFZtY+hBGDHds+myaceb0/YcKXb5OcjgCqT53iPCM39NSsRogQRDpxgvHtUQ9JFzIXdfEKkr1Obj908z1iv4IB7dI4PeFHUuYuJcQYXUfO54EYZ6At0UPZHmGGypqjiZ2HPjY2WPTYzuTanI75DuwCs/iR7c80hKBAo2tmgCnnG1a7Cz/+JUrWacjNoHBlafRZzSMvGgoLKZs/hntJ9dmFc+cKAcQgu0tNPz0p87ys+lUxfF0xps629zdoDcIP/HiZmESv5B4XAZpQuYxagVafWADXQCOxe71AM60raWTKVOYyF1URUVe7+QqmuBt9WRfuSndsApr1EHMpaShDqa6NiLTRGKnTrUsX6yPHbg0X9JdPJdsT/UiJNltU3zwxkPRvxn0hI2tMZjXtyWfs+c/FZy9eS7QResqkooMvA2qdiyzJ7OKpEOVj6/RctI04DMi/fC7WWh98lPUBMxhrIjwZ3oH3kC0="
     project: "prodezbcme"
