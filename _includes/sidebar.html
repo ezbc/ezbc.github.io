@@ -9,7 +9,8 @@
     <div class="compact-header">
         <a href="{{ "/" | prepend: site.url }}"><img class="avatar" src="{% if site.avatar %}{{site.avatar}}{% else %}{{ site.email | to_gravatar:140 }}{% endif %}" /></a>
         <div class="my-info">
-            <strong class="my-name">{{ site.name }}</strong>
+            <!-- <strong class="my-name">{{ site.name }}</strong> -->
+            <h1>{{ site.name }}</h1>
             <span class="my-job-title">{{ site.job_title }}</span>
         </div>
     </div>
