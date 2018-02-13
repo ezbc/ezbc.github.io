@@ -7,9 +7,13 @@ jobs:
     - if: branch = master
       env:
         - TRAVIS_BUILD_ENV="prod"
+jobs:
+  include:
     - if: branch = qa
       env:
         - TRAVIS_BUILD_ENV="qa"
+jobs:
+  include:
     - if: branch = "feature/firebase"
       env:
         - TRAVIS_BUILD_ENV="dev"
