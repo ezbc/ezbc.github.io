@@ -3,9 +3,9 @@ language: ruby
 rvm:
 - 2.3.1
 before_install:
-  - if [[ $TRAVIS_BRANCH = 'develop' ]]; then TRAVIS_BUILD_ENV="dev"; fi
-  - if [[ $TRAVIS_BRANCH = 'qa' ]]; then TRAVIS_BUILD_ENV="qa"; fi
-  - if [[ TRAVIS_BRANCH = 'master' ]]; then TRAVIS_BUILD_ENV="prod"; fi
+  - if [[ $TRAVIS_BRANCH = 'develop' ]]; then export TRAVIS_BUILD_ENV="dev"; fi
+  - if [[ $TRAVIS_BRANCH = 'qa' ]]; then export TRAVIS_BUILD_ENV="qa"; fi
+  - if [[ TRAVIS_BRANCH = 'master' ]]; then export TRAVIS_BUILD_ENV="prod"; fi
 install:
 - echo "$TRAVIS_BUILD_ENV"
 - bundle install
