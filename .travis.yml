@@ -3,7 +3,7 @@ language: ruby
 rvm:
 - 2.3.1
 before_install:
-  - if [[ $TRAVIS_BRANCH = 'develop' ]]; then export TRAVIS_BUILD_ENV="dev"; fi
+  - export TRAVIS_BUILD_ENV="dev"
   - if [[ $TRAVIS_BRANCH = 'qa' ]]; then export TRAVIS_BUILD_ENV="qa"; fi
   - if [[ TRAVIS_BRANCH = 'master' ]]; then export TRAVIS_BUILD_ENV="prod"; fi
 install:
