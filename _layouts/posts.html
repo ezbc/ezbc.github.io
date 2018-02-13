@@ -15,14 +15,14 @@ layout: default
                 </li>
             {% endif %}
         </ul>
-        <h2 itemprop="name headline"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></h2>
+        <h2 itemprop="name headline"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
     </header>
 
     <div class="post-content">
         {{ post.excerpt }}
 
         {% if post.excerpt != post.content %}
-            <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" role="button">Read More</a></p>
+            <p><a href="{{ post.url | prepend: site.baseurl }}" role="button">Read More</a></p>
         {% endif %}
     </div>
 
