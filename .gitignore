@@ -1,6 +1,12 @@
-_site
+_site/*
+!_site/media
+!_site/files
 .sass-cache
 env/*
 .bundle/
 Gemfile.lock
-
+.jekyll-metadata
+**.DS_Store
+*secret.json
+.firebase*
+firebase-debug.log

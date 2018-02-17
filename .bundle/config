@@ -1,3 +1,0 @@
----
-BUNDLE_PATH: "./env"
-BUNDLE_DISABLE_SHARED_GEMS: true

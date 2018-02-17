@@ -1,38 +1,92 @@
-name: Elijah's Webpage
-description: Data Science and more
+# General Settings
+name: Elijah Bernstein-Cooper
+job_title: Technology Consultant
+email: ezbc@ezbc.me
+description: Elijah Bernstein-Cooper is a thought leader in data management and data analysis for business problems.
+meta_description: Elijah Bernstein-Cooper is a thought leader in data management and data analysis for business problems. Explore Elijah's portfolio of technology solutions.
+avatar: /media/avatar.jpg
+favicon: /favicon.ico
+analytics_code: UA-XXXXXXX-2
+disqus: httpezbcme
 
-sass:
-  sass_dir: assets/css/_sass
-  style: :compressed
+# Metadata for search engines
+keywords: technology, consultant, data analysis, data management, solution
 
+# Social Accounts
+social_networks:
+-  { name: facebook, url: '' }
+-  { name: twitter, url: '' }
+-  { name: instagram, url: '' }
+-  { name: google-plus, url: '' }
+-  { name: linkedin, url: 'https://www.linkedin.com/in/elijahbernsteincooper/' }
+-  { name: skype, url: '' }
+-  { name: github, url: 'https://github.com/ezbc' }
+-  { name: codepen, url: '' }
+-  { name: stack-overflow, url: '' }
+-  { name: dribbble, url: '' }
+-  { name: behance, url: '' }
+-  { name: pinterest, url: '' }
+-  { name: tumblr, url: '' }
+-  { name: youtube, url: '' }
+-  { name: vimeo, url: '' }
+-  { name: vine, url: '' }
+-  { name: 500px, url: '' }
+-  { name: flickr, url: '' }
+-  { name: spotify, url: '' }
+-  { name: steam, url: '' }
+-  { name: wordpress, url: '' }
+-  { name: xing, url: '' }
+-  { name: bitcoin, url: '' }
+-  { name: pocket, url: '' }
+
+# Modules Settings
+show_categories: 1
+show_tags: 1
+show_email: 0
+show_rss: 1
+show_comments: 1
+show_menu: 1
+fixed_sidebar: 1
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: "true"
+
+# Serving
+url: 
+canonical_url: "http://localhost"
+baseurl:
+environment: local
+
+# Includes
+include: ["_pages"]
+
+# Outputting
+permalink: /:year/:month/:day/:title
+category_dir: categories
+
+# Pagination
+pagination:
+  enabled: true
+  sort_reverse: true
+  permalink: '/page/:num/'
+
+# Conversion
 markdown: kramdown
-redcarpet:
-  extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+excerpt_separator: <!--more-->
 
-paginate: 20
-paginate_path: "/page:num/"
+keep_files: [media, files]
 
-exclude: [env]
+# Assets Settings
+sass:
+  sass_dir: assets/partials
+  style: compressed
 
-#permalink: /:year/:month/:day/:title/
-permalink: pretty
-owner:
-    disqus_shortname: httpezbcme
-    name: Elijah Bernstein-Cooper
-    github: ezbc
-    linkedin: ElijahBernsteinCooper
-
-ga_id: ezbc
-ga_username: ezbc
-
-timezone: Central
-
-gems:
-  - jekyll-redirect-from
-  - jekyll-paginate
-  - jekyll-gist
-
-keep_files: [python-docs]
-
-url: http://ezbc.me
-
+# plugins
+plugins:
+  - jekyll-seo-tag
