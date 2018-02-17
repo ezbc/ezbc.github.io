@@ -8,7 +8,7 @@ branches:
     - develop
 before_install:
   - export TRAVIS_BUILD_ENV="dev"
-  - if [[ TRAVIS_BRANCH = 'master' ]]; then export TRAVIS_BUILD_ENV="prod"; fi
+  - if [[ "$TRAVIS_BRANCH" = "master" ]]; then export TRAVIS_BUILD_ENV="prod"; fi
 install:
 - echo "$TRAVIS_BUILD_ENV"
 - bundle install
