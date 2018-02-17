@@ -1,12 +1,15 @@
 # General Settings
 name: Elijah Bernstein-Cooper
-job_title: Developer
+job_title: Technology Consultant
 email: ezbc@ezbc.me
-description: Developer by day and hobbiest by night.
+description: Elijah Bernstein-Cooper is a thought leader in data management and data analysis for business problems. Learn more about fresh technology solutions.
 avatar: /media/avatar.jpg
 favicon: /favicon.ico
 analytics_code: UA-XXXXXXX-2
 disqus: httpezbcme
+
+# Metadata for search engines
+keywords: information technology, software, developer, IT, consultant, data analysis
 
 # Social Accounts
 social_networks:
