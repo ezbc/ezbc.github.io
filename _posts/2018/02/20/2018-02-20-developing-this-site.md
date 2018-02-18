@@ -4,7 +4,7 @@ category:
 - professional
 - tech
 comments: true
-date: 2018-02-20 00:00:00
+date: 2018-02-18 00:00:00
 layout: post
 tags:
 - jekyll
@@ -12,21 +12,74 @@ tags:
 - travis-ci
 title: Continuous Integration of this Blog in Firebase 
 use_math: false
+published: false
 ---
+
+<img src="/media/2018/02/18/next-level.jpg">
 
 Ready to take your Jekyll site to the next level from Github pages? This post takes you to the next level where you have complete control over your deployment process and hosting.
 
-<!-- more -->
+<!--more-->
 
-# Setup Firebase 
+# Reasons to Use Firebase
 
-(Install Firebase CLI)[https://firebase.google.com/docs/cli/]
+## Manage Multiple Environments 
+
+Interested in testing SSL certifications before deploying to production? How
+about search engine indexing?
+
+Github pages offers one environment, production. 
+
+## Greater Control Over Hosting
+
+Firebase provides static website hosting. You can configure routes, security, etc.
+
+## Web Application Hosting
+
+If you ever want to host an application, you can expand your static website to a web application with [Firebase functions](https://firebase.google.com/docs/functions/).
+
+# Setup
+
+[Install Firebase CLI](https://firebase.google.com/docs/cli/)
 
 Login to firebase to get auth key for non-interactive.
 `firebase login:ci`
 
 # Follow the firebase deployment commands for travis ci
 https://docs.travis-ci.com/user/deployment/firebase/
+
+# Add Travis build for your Github repository
+
+Setup a Travis CI build for your Github project. If you were using Github
+pages this would be `<username>.github.io` where `<username>` is your Github
+username. See the getting started docs for Travis CI 
+[docs](https://docs.travis-ci.com/user/getting-started/).
+
+# Test a simple build on Travis CI.
+
+Add a file `.travis.yml` to your project in a feature branch. The following
+simple build will use a container with Ruby v2.3.1 installed, pull the Github
+project branch with new changes, install the dependencies for the project,
+then build the Jekyll site:
+
+{% highlight yml %}
+
+language: ruby
+rvm:
+ - 2.3.1
+install:
+- bundle install
+- gem install jekyll
+script:
+- bundle exec jekyll build
+- ls _site/
+
+{% endhighlight %}
+
+Commit the `.travis.yml` file and push the feature branch to your Github
+project. Login to Travis CI and navigate to the main dashboard. You should see
+a build starting for your feature branch. After the build completes you should
+see the contents of the compiled static site listed in the log.
 
 ## setup travis cli
 login

@@ -2,3 +2,5 @@
 canonical_url: "https://localhost"
 host: 0.0.0.0
 environment: local
+show_drafts: false
+future: false
