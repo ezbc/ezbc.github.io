@@ -14,15 +14,16 @@ title: Continuous Integration of this Blog in Firebase
 use_math: false
 ---
 
-Ready to take your Jekyll site to the next level from Github pages? This post takes you from the 
+Ready to take your Jekyll site to the next level from Github pages? This post takes you to the next level where you have complete control over your deployment process and hosting.
 
 <!-- more -->
 
+# Setup Firebase 
 
-
+(Install Firebase CLI)[https://firebase.google.com/docs/cli/]
 
 Login to firebase to get auth key for non-interactive.
-`firebase login:ci --no-localhost`
+`firebase login:ci`
 
 # Follow the firebase deployment commands for travis ci
 https://docs.travis-ci.com/user/deployment/firebase/
@@ -49,7 +50,6 @@ before_install:
   - if [ $TRAVIS_BRANCH = 'develop' ]; TRAVIS_BUILD_ENV="dev"; fi
   - if [ $TRAVIS_BRANCH = 'master' ]; TRAVIS_BUILD_ENV="prod"; fi
 ```
-
 
 Can't auth through proxy as of 01/2018
 https://github.com/firebase/firebase-tools/issues/155
