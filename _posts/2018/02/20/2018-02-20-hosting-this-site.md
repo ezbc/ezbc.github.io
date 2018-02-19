@@ -17,26 +17,40 @@ published: false
 
 <img src="/media/2018/02/18/next-level.jpg">
 
-Ready to take your Jekyll site to the next level from Github pages? This post takes you to the next level where you have complete control over your deployment process and hosting.
+Ready to take your Jekyll site to the next level from Github pages? Learn how
+to use Firebase's global content delivery system where you have complete
+control over your development process and hosting.
 
 <!--more-->
 
 # Reasons to Use Firebase
 
-## Manage Multiple Environments 
+1. *Manage Multiple Environments* --- Interested in testing SSL certificates
+   before deploying to production? How about search engine indexing? What
+   better place to test than on production? Github pages offers one hosted
+   site per user. This means no development site unless two Github users
+   sounds like a good idea. In Firebase you can host multiple projects. One
+   project can host a development site. One project can host your production
+   site.
 
-Interested in testing SSL certifications before deploying to production? How
-about search engine indexing?
+1. *Web Application Hosting* --- If the time comes to expand your static
+   website to a web application [Firebase 
+   functions](https://firebase.google.com/docs/functions/) will seamlessly
+   allow you to build out your webapp from the comfort of your static site.
+   For example if you want to create dynamic content in a portfolio you could
+   route the requests to the portfolio page to Firebase functions which would
+   serve up your dynamic content.
 
-Github pages offers one environment, production. 
+1. *Deployment Control* --- Did you just deploy a huge mistake to production
+   and need to update quickly? With Firebase, just login to the console, find
+   the latest deployment, and click the rollback button. Simple. In Github
+   pages you would need to revert to a previously stable commit and push the
+   branch to Github.
 
-## Greater Control Over Hosting
-
-Firebase provides static website hosting. You can configure routes, security, etc.
-
-## Web Application Hosting
-
-If you ever want to host an application, you can expand your static website to a web application with [Firebase functions](https://firebase.google.com/docs/functions/).
+1. *Route Control* --- Firebase provides flexible static
+   website hosting. You can configure
+   [routes](https://firebase.google.com/docs/hosting/url-redirects-rewrites)
+   easily in Firebase.
 
 # Setup
 
