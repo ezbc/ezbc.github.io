@@ -52,7 +52,7 @@ control over your development process and hosting.
    [routes](https://firebase.google.com/docs/hosting/url-redirects-rewrites)
    easily in Firebase.
 
-# Setup
+# Getting Started with Firebase and Jekyll
 
 [Install Firebase CLI](https://firebase.google.com/docs/cli/)
 
