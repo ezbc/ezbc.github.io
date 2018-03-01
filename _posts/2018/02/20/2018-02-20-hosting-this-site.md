@@ -74,75 +74,51 @@ the static content.
 
 # Getting Started
 
-## Firebase Setup
+## Firebase Hosting Setup
 
-Firebase 
+### Install Firebase
 
-The [Firebase CLI](https://firebase.google.com/docs/cli/)
+You will need to install the [Firebase CLI](https://firebase.google.com/docs/hosting/quickstart). The Firebase CLI is a node package easily installed with npm.
 
-Login to firebase to get auth key for non-interactive.
-`firebase login:ci`
+### Initialize App
 
-{% highlight raw %}
-You're about to initialize a Firebase project in this directory:
+Change directories into your Jekyll project directory. Initialize the Firebase settings within the project directory with
 
-  <directory>
-
-? Which Firebase CLI features do you want to setup for this folder? Press Space 
-to select features, then Enter to confirm your choices. (Press <space> to select
-)
-❯◯ Database: Deploy Firebase Realtime Database Rules
- ◯ Firestore: Deploy rules and create indexes for Firestore
- ◯ Functions: Configure and deploy Cloud Functions
- ◯ Hosting: Configure and deploy Firebase Hosting sites
- ◯ Storage: Deploy Cloud Storage security rules
+{% highlight bash %}
+firebase init
 {% endhighlight %}
 
-Select the hosting option. The CLI will take you ask which project to select
+The initialization will create a file in the root of current directoy called
+`firebase.json`. You may [customize](https://firebase.google.com/docs/hosting/url-redirects-rewrites) the hosting behavior in this file.
 
-{% highlight raw %}
-? Select a default Firebase project for this directory: (Use arrow keys)
-❯ [don't setup a default project] 
-  MyProject (myproject) 
-  [create a new project] 
+### Generate Authentication Token for Travis-CI
+
+Travis-CI will need to be able to authenticate with your Firebase app.
+Generate an authentication token for your project by using the continuous
+integration login feature with Firebase CLI
+
+{% highlight bash %}
+firebase login:ci
 {% endhighlight %}
 
-Select the hosting option. The CLI will ask which project to select. Either create a new project or select an existing one.
+When complete an authentication token should be printed to the terminal. Save
+the key in a safe and private location for later.
 
-```
-? Select a default Firebase project for this directory: (Use arrow keys)
-❯ [don't setup a default project] 
-  MyProject (myproject) 
-  [create a new project] 
-```
+## Travis-CI Deployment Setup
 
-Create a new project or select a previous project 
-
-```
-? What do you want to use as your public directory? public
-? Configure as a single-page app (rewrite all urls to /index.html)? No
-```
-
-
-
-## Follow the firebase deployment commands for travis ci
-https://docs.travis-ci.com/user/deployment/firebase/
-
-## Travis-CI setup
-
-### Add Travis build for your Github repository
+### Add Travis Build for your Github Repository
 
 Setup a Travis CI build for your Github project. If you were using Github
 pages this would be `<username>.github.io` where `<username>` is your Github
 username. See the getting started docs for Travis CI 
 [docs](https://docs.travis-ci.com/user/getting-started/).
 
-### Test a simple build on Travis CI.
+### Test a Simple Build on Travis CI.
 
 Add a file `.travis.yml` to your project in a feature branch. The following
 simple build will use a container with Ruby v2.3.1 installed, pull the Github
 project branch with new changes, install the dependencies for the project,
-then build the Jekyll site:
+build the Jekyll site and list the contents of the site.
 
 {% highlight yml %}
 
@@ -163,28 +139,86 @@ project. Login to Travis CI and navigate to the main dashboard. You should see
 a build starting for your feature branch. After the build completes you should
 see the contents of the compiled static site listed in the log.
 
-### setup travis cli
-login
-`travis login`
+### Deploy Site to Firebase
 
-enable repo
-`travis enable`
+#### Install Travis-CI CLI
 
-create project in Firebase for each environment
+We will need to use the Travis CLI to encrypt the Firebase authentication token. Install Travis CLI with ruby by installing the gem
 
-login to firebase for each project, generate a separate key for each one
-`firebase use devezbcme`
-`firebase login:ci`
+{% highlight bash %}
+gem install travis
+{% endhighlight %}
 
-generate encrypted key
-`travis encrypt`
+Login to the Travis CLI client.
+{% highlight bash %}
+travis login
+{% endhighlight %}
 
-### add conditions for each environment
-```
-before_install:
-  - if [ $TRAVIS_BRANCH = 'develop' ]; TRAVIS_BUILD_ENV="dev"; fi
-  - if [ $TRAVIS_BRANCH = 'master' ]; TRAVIS_BUILD_ENV="prod"; fi
-```
+Enable the Github repo with Travis. When a repo is enabled in Travis-CI Github
+will push notifications to Travis-CI whenever a change is made to the repo.
 
-Can't auth through proxy as of 01/2018
-https://github.com/firebase/firebase-tools/issues/155
+{% highlight bash %}
+travis enable
+{% endhighlight %}
+
+#### Encrypt the Firebase Authentication Token
+
+If you are hosting this repo publically you will need to encrypt the Firebase authentication token in the Travis-CI build file. 
+
+{% highlight bash %}
+travis encrypt
+{% endhighlight %}
+
+Follow the instructions to encrypt the key from the terminal. When complete you should see a YML snippet with the encrypted key. 
+
+{% highlight yml %}
+  secure: "ssvo3M4Th2ULi...
+{% endhighlight %}
+
+Use this key in the next step.
+
+#### Add Deployment in Travis-CI Build
+
+Travis-CI has many plugins for deploying to other services including [Firebase](https://docs.travis-ci.com/user/deployment/firebase/).
+
+After the build Add the following to your .travis.yml file
+
+{% highlight yml %}
+deploy:
+  provider: firebase
+  token:
+    secure: "YOUR ENCRYPTED token"
+  project: "myproject"
+  skip_cleanup: true
+  on:
+  	branch: feature/firebase
+
+{% endhighlight %}
+
+This configuration tells Travis-CI to deploy the contents built in the script
+step to Firebase.
+
+{% highlight yml %}
+
+language: ruby
+rvm:
+ - 2.3.1
+install:
+- bundle install
+- gem install jekyll
+script:
+- bundle exec jekyll build
+deploy:
+  provider: firebase
+  token:
+    secure: "YOUR ENCRYPTED token"
+  project: "myproject"
+  skip_cleanup: true
+  on:
+  	branch: feature/firebase
+  	
+{% endhighlight %}
+
+
+
+
