@@ -13,9 +13,11 @@ tags:
 title: Continuous Integration of this Blog in Firebase 
 use_math: false
 published: true
+image: 
+  feature: /media/2018/03/05/next-level.jpg
+  credit: Max Pixel
+  creditlink: "http://maxpixel.freegreatpicture.com/Stairs-Architecture-Level-Emergence-2904871"
 ---
-
-<img src="/media/2018/03/05/next-level.jpg" alt="A photo of stairs; Credit: Max Pixel"/>
 
 Ready to take your Jekyll site to the next level from Github pages? Learn how
 to use Firebase's global content delivery system to have complete control over
