@@ -4,7 +4,7 @@ category:
 - professional
 - tech
 comments: true
-date: 2018-02-20 00:00:00
+date: 2018-03-05 00:00:00
 layout: post
 tags:
 - jekyll
@@ -15,7 +15,7 @@ use_math: false
 published: true
 ---
 
-<img src="/media/2018/02/18/next-level.jpg" alt="A photo of stairs; Credit: Max Pixel"/>
+<img src="/media/2018/03/05/next-level.jpg" alt="A photo of stairs; Credit: Max Pixel"/>
 
 Ready to take your Jekyll site to the next level from Github pages? Learn how
 to use Firebase's global content delivery system to have complete control over
