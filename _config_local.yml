@@ -1,5 +1,5 @@
 
-canonical_url: "https://localhost"
+canonical_url: "http://localhost:4000"
 host: 0.0.0.0
 environment: local
 show_drafts: true
