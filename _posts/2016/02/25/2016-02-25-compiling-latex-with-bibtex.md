@@ -13,6 +13,10 @@ tags:
 - bash
 title: Script for Compiling Latex with Bibtex
 use_math: true
+image: 
+  feature: /media/2016/02/25/bibtex-icon.png
+  credit:
+  creditlink:
 ---
 
 # Download

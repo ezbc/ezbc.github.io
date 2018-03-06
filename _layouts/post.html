@@ -16,13 +16,19 @@ layout: default
                 {% endif %}
             {% endif %}
         </ul>
-        <h2 itemprop="name headline">{{ page.title }}</h2>
+        <h1 itemprop="name headline">{{ page.title }}</h1>
     </header>
+
+    {% if page.image %}
+    <div class="page-image">
+        <img src="{{ site.baseurl }}{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image">
+        {% if page.image.credit %}{% include image_credit.html %}{% endif %}
+    </div><!-- /.page-image -->
+    {% endif %}
 
     <div class="post-content">
         {{ page.content }}
     </div>
-
     <footer class="post-footer">
         <div class="share">Share
             <ul class="social-networks">
