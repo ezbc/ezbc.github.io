@@ -18,6 +18,13 @@ layout: default
         <h2 itemprop="name headline"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
     </header>
 
+    {% if post.image %}
+        <div class="page-image">
+            <img src="{{ site.baseurl }}{{ post.image.feature }}" class="page-feature-image" alt="{{ post.title }}" itemprop="image" {% if post.image.width %} width={{ post.image.width }} {% endif %}>
+        </div><!-- /.page-image -->
+    {% endif %}
+
+
     <div class="post-content">
         {{ post.excerpt }}
 
