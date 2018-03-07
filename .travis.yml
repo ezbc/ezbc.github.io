@@ -1,5 +1,6 @@
 sudo: false
 language: ruby
+cache: bundler
 rvm:
 - 2.3.1
 branches:
@@ -34,3 +35,6 @@ notifications:
   email:
     on_success: always
     on_failure: always
+after_success:
+  - bash scripts/clearcache.sh -k "$CF_AUTH_KEY" -e "$CF_AUTH_EMAIL" -z "$CF_ZONE"
+

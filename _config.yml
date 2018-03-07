@@ -1,5 +1,6 @@
 # General Settings
 name: Elijah Bernstein-Cooper
+title: Elijah Bernstein-Cooper | Blog
 job_title: Technology Consultant
 email: ezbc@ezbc.me
 description: Elijah Bernstein-Cooper is a thought leader in data management and data analysis for business problems.
@@ -59,7 +60,7 @@ defaults:
 
 # Serving
 url: 
-canonical_url: "http://localhost"
+canonical_url: "http://localhost:4000"
 baseurl:
 environment: local
 
@@ -80,7 +81,12 @@ pagination:
 markdown: kramdown
 excerpt_separator: <!--more-->
 
+# files in _site directory to keep
 keep_files: [media, files]
+
+# files in root to exclude from build
+exclude:
+  - scripts
 
 # Assets Settings
 sass:

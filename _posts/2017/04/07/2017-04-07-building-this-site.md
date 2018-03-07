@@ -12,6 +12,11 @@ tags:
 - bash
 title: Building this blog locally
 use_math: true
+image:
+  feature: /media/2017/04/07/hammer.png
+  credit: Wikipedia
+  creditlink: https://commons.wikimedia.org/wiki/File:Hammer_-_Noun_project_1306.svg
+  width: 50%
 ---
 
 # Install Packages

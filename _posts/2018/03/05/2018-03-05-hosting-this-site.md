@@ -4,7 +4,7 @@ category:
 - professional
 - tech
 comments: true
-date: 2018-02-20 00:00:00
+date: 2018-03-05 00:00:00
 layout: post
 tags:
 - jekyll
@@ -13,9 +13,11 @@ tags:
 title: Continuous Integration of this Blog in Firebase 
 use_math: false
 published: true
+image: 
+  feature: /media/2018/03/05/next-level.jpg
+  credit: Max Pixel
+  creditlink: "http://maxpixel.freegreatpicture.com/Stairs-Architecture-Level-Emergence-2904871"
 ---
-
-<img src="/media/2018/02/18/next-level.jpg">
 
 Ready to take your Jekyll site to the next level from Github pages? Learn how
 to use Firebase's global content delivery system to have complete control over
@@ -62,15 +64,15 @@ Github for hosting your static site:
 [Jeykll](https://jekyllrb.com) is a static site generator. The product is a
 simple and flexible solution for bloggers. 
 
-[Travis CI](https://travis-ci.org/) is an managed continuous integration
-service to build and deploy projects in Github. Travis CI is *free* for public
+[Travis-CI](https://travis-ci.org/) is an managed continuous integration
+service to build and deploy projects in Github. Travis-CI is *free* for public
 projects on Github. The service offers flexible build configurations and
 integrates with many popular products for [deployment](https://docs.travis-
 ci.com/user/deployment).
 
-I develop this site locally and push changes to Github, Github notifies Travis-
-CI, Travis-CI builds this site in a container and deploys to Firebase to host
-the static content.
+I develop this site locally and push changes to Github, Github notifies
+Travis- CI, Travis-CI builds this site in a container and deploys to Firebase
+to host the static content.
 
 # Getting Started
 
@@ -82,14 +84,15 @@ You will need to install the [Firebase CLI](https://firebase.google.com/docs/hos
 
 ### Initialize App
 
-Change directories into your Jekyll project directory. Initialize the Firebase settings within the project directory with
+Change directories into your Jekyll project directory. Initialize the Firebase
+settings within the project directory with
 
 {% highlight bash %}
 firebase init
 {% endhighlight %}
 
 The initialization will create a file in the root of current directoy called
-`firebase.json`. You may [customize](https://firebase.google.com/docs/hosting/url-redirects-rewrites) the hosting behavior in this file.
+`firebase.json`. You may [customize](https://firebase.google.com/docs/hosting/url-redirects-rewrites) the hosting behavior in this file with URL redirects and rewriters.
 
 ### Generate Authentication Token for Travis-CI
 
@@ -108,12 +111,12 @@ the key in a safe and private location for later.
 
 ### Add Travis Build for your Github Repository
 
-Setup a Travis CI build for your Github project. If you were using Github
+Setup a Travis-CI build for your Github project. If you were using Github
 pages this would be `<username>.github.io` where `<username>` is your Github
-username. See the getting started docs for Travis CI 
+username. See the getting started docs for Travis-CI 
 [docs](https://docs.travis-ci.com/user/getting-started/).
 
-### Test a Simple Build on Travis CI.
+### Test a Simple Build on Travis-CI.
 
 Add a file `.travis.yml` to your project in a feature branch. The following
 simple build will use a container with Ruby v2.3.1 installed, pull the Github
@@ -135,7 +138,7 @@ script:
 {% endhighlight %}
 
 Commit the `.travis.yml` file and push the feature branch to your Github
-project. Login to Travis CI and navigate to the main dashboard. You should see
+project. Login to Travis-CI and navigate to the main dashboard. You should see
 a build starting for your feature branch. After the build completes you should
 see the contents of the compiled static site listed in the log.
 
@@ -143,18 +146,20 @@ see the contents of the compiled static site listed in the log.
 
 #### Install Travis-CI CLI
 
-We will need to use the Travis CLI to encrypt the Firebase authentication token. Install Travis CLI with ruby by installing the gem
+We will need to use the Travis CLI to encrypt the Firebase authentication
+token. Install Travis CLI with ruby by installing the gem
 
 {% highlight bash %}
 gem install travis
 {% endhighlight %}
 
 Login to the Travis CLI client.
+
 {% highlight bash %}
 travis login
 {% endhighlight %}
 
-Enable the Github repo with Travis. When a repo is enabled in Travis-CI Github
+Enable the Github repo with Travis-CI. When a repo is enabled in Travis-CI Github
 will push notifications to Travis-CI whenever a change is made to the repo.
 
 {% highlight bash %}
@@ -163,13 +168,15 @@ travis enable
 
 #### Encrypt the Firebase Authentication Token
 
-If you are hosting this repo publically you will need to encrypt the Firebase authentication token in the Travis-CI build file. 
+If you are hosting this repo publically you will need to encrypt the Firebase
+authentication token in the Travis-CI build file.
 
 {% highlight bash %}
 travis encrypt
 {% endhighlight %}
 
-Follow the instructions to encrypt the key from the terminal. When complete you should see a YML snippet with the encrypted key. 
+Follow the instructions to encrypt the key from the terminal. When complete
+you should see a YML snippet with the encrypted key.
 
 {% highlight yml %}
   secure: "ssvo3M4Th2ULi...
@@ -179,9 +186,14 @@ Use this key in the next step.
 
 #### Add Deployment in Travis-CI Build
 
-Travis-CI has many plugins for deploying to other services including [Firebase](https://docs.travis-ci.com/user/deployment/firebase/).
+Travis-CI has many plugins for deploying to other services including
+[Firebase](https://docs.travis-ci.com/user/deployment/firebase/). The
+deployment plugins allow for easy configuration of common deployment
+scenarios. For example in this blog build I am able to deploy to a Firebase
+project only from a build off a specific branch and maintain an encrypted
+authentication token for the Firebase API.
 
-After the build Add the following to your .travis.yml file
+After the build step in the `.travis.yml` file add the following:
 
 {% highlight yml %}
 deploy:
@@ -191,12 +203,19 @@ deploy:
   project: "myproject"
   skip_cleanup: true
   on:
-  	branch: feature/firebase
+    branch: feature/firebase
 
 {% endhighlight %}
 
 This configuration tells Travis-CI to deploy the contents built in the script
-step to Firebase.
+step to Firebase. The `token/secure` should be the encrypted token generated
+by the Travis CLI in the previous step. The `project` should be the Firebase
+project you wish to host the static files on. `skip_cleanup` instructs Tracis-
+CI to leave any generated artifacts alone. The `on/branch` configuration
+instructs Travis-CI to only deploy when the build branch is
+'feature/firebase'.
+
+The `.travis.yml` file should look like the following:
 
 {% highlight yml %}
 
@@ -215,10 +234,38 @@ deploy:
   project: "myproject"
   skip_cleanup: true
   on:
-  	branch: feature/firebase
+    branch: feature/firebase
   	
 {% endhighlight %}
 
+Finally you will need to configure which files to deploy to the Firebase
+project. Edit the `firebase.json` file to instruct Firebase to deploy the
+contents of `_site`, the Jekyll-generated static files.
 
+{% highlight json %}
+{
+  "hosting": {
+    "public": "_site"
+  }
+}
 
+{% endhighlight %}
 
+## Final Result 
+
+You made a change to your Jekyll site. You committed the change and pushed the
+change to your Github project. Github notifies Travis-CI to start a build.
+Travis-CI finds the `.travis.yml` file in your repo. Travis-CI spins up a
+container with Ruby installed, installs the gems required by your project,
+installs Jekyll then runs a Jekyll build. Travis-CI authenticates with
+Firebase then deploys the static files built from the `feature/firebase`
+branch. Firebase hosts your website effortlessly for you.
+
+# Conclusion
+
+The continuous integration solution with Travis-CI and Firebase used for
+hosting gives you greater control over development of your site. Firebase
+empowers you to manage multiple environments, extend your static site to a web
+application and rewrite URLs in the way you need. Travis-CI allows for full
+control of your build and deploy process. This hosting solution will unlock
+possibilites for you static blog.

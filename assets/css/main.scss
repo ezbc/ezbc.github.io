@@ -203,4 +203,36 @@
     padding: 10px 0 20px; 
 } 
 
+// page header
+.page-feature {
+	// expand image to cover full width of header
+	img {
+		width: 100%;
+	}
+}
+
+// make image flush with edges on small screens
+.page-image {
+	position: relative;
+	// margin-left: -1 * $gutter;
+	// margin-right: -1 * $gutter;
+	// feature image caption
+	.image-credit {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		margin: 0 auto;
+		padding: 10px 15px;
+		background-color: rgba($black,.5);
+		color: $white;
+		text-align: right;
+		font-size: $image-credit-font-size;
+		z-index: 10;
+		a {
+			color: $white;
+			text-decoration: none;
+		}
+	}
+}
+
 @import "responsive";
