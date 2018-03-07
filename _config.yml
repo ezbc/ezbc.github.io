@@ -81,7 +81,12 @@ pagination:
 markdown: kramdown
 excerpt_separator: <!--more-->
 
+# files in _site directory to keep
 keep_files: [media, files]
+
+# files in root to exclude from build
+exclude:
+  - scripts
 
 # Assets Settings
 sass:
