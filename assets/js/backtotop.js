@@ -46,6 +46,7 @@ $(document).ready( function() {
 
 			var backToTopButton = $('.backtotop');
 
+
 			function getScrollPos() {
 				scrollPos = $(document).scrollTop();
 				if (scrollPos > settings.positionToAppear)
@@ -64,10 +65,14 @@ $(document).ready( function() {
 				click: function(e) {
 					var elPos = el.scrollTop();
 				
-					if (elPos != 0)
-					  el.animate({scrollTop: 0}, 300);
+					//if (elPos != 0)
+					//  el.animate({scrollTop: 0}, 300);
+
+					// TODO: temporary hack to scroll to top
+					$("html, body").animate({ scrollTop: 0 }, "slow");
 					  
 					e.preventDefault();
+
 				},
 				mouseover: function() {
 					$(this).animate({'opacity': settings.opacityOnHover}, 200);
