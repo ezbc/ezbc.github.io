@@ -70,11 +70,26 @@ where `$ZONE` is the zone ID of your site, `$AUTH_EMAIL` is the email for the
 account hosting the site and `$AUTH_KEY` is the API authentication key for
 your user. 
 
-## Adding Cache Clearing to Post-Deploy Step in Build
+You can add this request to the end of any build process you use. The cache
+clear should only occur if the build and deployment are successful.
 
-This post uses 
+## Adding Cache Clearing to Post-Deploy Step in Travis-CI Build
 
-Clear cache [script](https://github.com/ezbc/ezbc.github.io/blob/a477321fbc9a252cd1b76bc2a50851a23eaf6927/scripts/clearcache.sh).
+This blog uses Travis-CI for continuous integration builds. The build process will run a clear cache [script](https://github.com/ezbc/ezbc.github.io/blob/a477321fbc9a252cd1b76bc2a50851a23eaf6927/scripts/clearcache.sh) after a successful build and deployment. You can run this script in a Travis-CI build by adding the following to the `.travis.yml` file
 
+{% highlight yml %}
+  after_success:
+  - bash scripts/clearcache.sh -k "$AUTH_KEY" -e "$AUTH_EMAIL" -z "$ZONE"
+{% endhighlight %}
 
+and defining environment variables in the environment. Your Cloudflare
+authorization key should be kept confidential. You may either [encrypt the environment variables](https://docs.travis-ci.com/user/environment-variables/#Defining-encrypted-variables-in-.travis.yml) or add [private environment variables](https://docs.travis-ci.com/user/environment-variables/#Defining-Variables-in-Repository-Settings). 
 
+If you would like to see how the full build configuration for clearing a Cloudflare CDN cache of this blog view the source code [here](https://github.com/ezbc/ezbc.github.io/blob/a477321fbc9a252cd1b76bc2a50851a23eaf6927/.travis.yml#L38).
+
+# Conclusion
+
+Cloudflare's content delivery network speeds delivery of content to your
+users. However the nature of caching in a CDN increasing wait times to see
+deployed updates to your site. A simple purge of the cache in your build
+process will provide immediate content changes to your users.
