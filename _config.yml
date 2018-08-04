@@ -87,6 +87,7 @@ keep_files: [media, files]
 # files in root to exclude from build
 exclude:
   - scripts
+  - docker*
 
 # Assets Settings
 sass:
