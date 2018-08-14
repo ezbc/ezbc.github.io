@@ -1,17 +1,17 @@
 # General Settings
 name: Elijah Bernstein-Cooper
 title: Elijah Bernstein-Cooper | Blog
-job_title: Technology Consultant
-email: ezbc@ezbc.me
-description: Elijah Bernstein-Cooper is a thought leader in data management and data analysis for business problems.
-meta_description: Elijah Bernstein-Cooper is a thought leader in data management and data analysis for business problems. Explore Elijah's portfolio of technology solutions.
+job_title: Data Manager
+email: elijah@ezbc.me
+description: Elijah Bernstein-Cooper is a data manager and data engineer for business problems.
+meta_description: Elijah Bernstein-Cooper is a data manager and engineer for business problems. Explore Elijah's portfolio of technology solutions.
 avatar: /media/avatar.jpg
 favicon: /favicon.ico
 analytics_code: UA-XXXXXXX-2
 disqus: httpezbcme
 
 # Metadata for search engines
-keywords: technology, consultant, data analysis, data management, solution
+keywords: technology, data engineer, data analysis, data management
 
 # Social Accounts
 social_networks:
@@ -97,3 +97,7 @@ sass:
 # plugins
 plugins:
   - jekyll-seo-tag
+
+# highlighting
+highlighter: rouge
+
