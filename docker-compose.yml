@@ -1,0 +1,11 @@
+version: '3'
+services:
+  jekyll:
+    image: jekyll/jekyll
+    command: /bin/sh -c "bundle install && bundle exec jekyll serve --watch --force-polling --host=0.0.0.0 --incremental --config=_config_local.yml,_config.yml"
+    ports:
+      - 4000:4000
+    volumes:
+      - ./:/usr/src/app
+    working_dir: /usr/src/app
+
