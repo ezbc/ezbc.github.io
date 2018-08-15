@@ -28,11 +28,14 @@ time spent manufacturers code adverse event reports.
 
 # Drug Adverse Event Background
 
-Drug adverse events are reported as unstructured notes by physicians when a
-patient is experiencing complications from one or more drugs. The physician
-submits the report which ends up to the drug manufacturers. The drug
-manufacturers must then code the physician's report for side effects. The drug
-manufacturer may update the drug product label for patient use.
+[Drug adverse
+events](https://www.fda.gov/drugs/guidancecomplianceregulatoryinformation/surveillance/adversedrugeffects/)
+are side effects experienced by a consumer of a drug. Healthcare
+professionals, consumers and manufacturers submit reports to the FDA or drug
+manufacturer as unstructured notes when a drug consumer is experiencing
+complications from one or more drugs. The drug manufacturer must then code the
+report for side effects. The drug manufacturer may then update the drug
+product label for consumer use.
 
 Product labels of drugs on the market from the FDA provide an enormous
 opportunity for researchers for further drug development. The real-world data
