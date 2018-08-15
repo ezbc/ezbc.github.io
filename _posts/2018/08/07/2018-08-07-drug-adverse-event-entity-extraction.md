@@ -54,7 +54,7 @@ can enable researchers to
 In this post we walk through steps to create an entity extraction service from
 FDA drug labels to identify adverse events. The post walks through engineering
 a training dataset from a database of tagged drug labels, training a Python
-spacy named entity recognition (NER) pipeline, then deploying a web service to
+spacy named-entity-recognition (NER) pipeline, then deploying a web service to
 predict adverse event entities in free text.
 
 # Building an Entity Extraction Model with Spacy
