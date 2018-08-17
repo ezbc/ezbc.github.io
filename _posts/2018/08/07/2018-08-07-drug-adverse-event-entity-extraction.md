@@ -54,7 +54,7 @@ can enable researchers to
 In this post we walk through steps to create an entity extraction service from
 FDA drug labels to identify adverse events. The post walks through engineering
 a training dataset from a database of tagged drug labels, training a Python
-spacy named entity recognition (NER) pipeline, then deploying a web service to
+spacy named-entity-recognition (NER) pipeline, then deploying a web service to
 predict adverse event entities in free text.
 
 # Building an Entity Extraction Model with Spacy
@@ -117,7 +117,7 @@ I evaluated the efficacy of the model against the test data by using the
 
 We find a recall of 96% and a precision of 100%. The model performs well,
 however a precision of 100% is suspicious. Obviously I need to further
-investigation the test/train data or the evaluation method.
+investigate the test/train data or the evaluation method.
 
 <!--{'las': 0.0, 'ents_r': 96.42857142857143, 'ents_p': 100.0, 'ents_f': 98.18181818181819, 'uas': 0.0, 'tags_acc': 0.0, 'token_acc': 100.0}-->
 
@@ -162,7 +162,7 @@ resources:
   memory_gb: 2
 {% endhighlight %}
 
-Note I specified the cpu and memory to be higher than the default since the
+Note I specified the CPU and memory to be higher than the default since the
 app directly loads the NER model into memory.
 
 I built the docker image locally and pushed the image to GCR.
