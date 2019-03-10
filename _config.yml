@@ -97,6 +97,9 @@ sass:
 # plugins
 plugins:
   - jekyll-seo-tag
+  - jekyll-paginate-v2
+  - jekyll-redirect-from
+  - jekyll-gist
 
 # highlighting
 highlighter: rouge
