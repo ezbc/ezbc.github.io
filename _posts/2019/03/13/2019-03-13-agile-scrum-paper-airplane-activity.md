@@ -4,7 +4,7 @@ category:
 - professional
 - tech
 comments: true
-date: 2018-08-07 00:00:00
+date: 2019-03-13 00:00:00
 layout: post
 tags:
 - agile
@@ -13,9 +13,12 @@ title: Agile Scrum Airplane Activity
 use_math: false
 published: true
 image: 
-  feature: /media/2019/03/10/airplane.svg
+  feature: /media/2019/03/13/airplane.svg
   credit: Clker-Free-Vector-Images
   creditlink: "https://pixabay.com/vectors/origami-paper-airplane-flying-toy-25798/"
+redirect_from:
+- /2018/08/07/agile-airplane-activity
+- /2019/03/10/agile-airplane-activity
 ---
 
 This group activity allows players to experience the power of iterative product
