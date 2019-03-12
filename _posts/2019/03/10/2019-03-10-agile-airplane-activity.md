@@ -4,7 +4,7 @@ category:
 - professional
 - tech
 comments: true
-date: 2018-08-07 00:00:00
+date: 2019-03-10 00:00:00
 layout: post
 tags:
 - agile
