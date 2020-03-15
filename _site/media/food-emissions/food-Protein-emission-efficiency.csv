@@ -1,0 +1,42 @@
+nutrient_amount_per_kg,emissions_total,emissions_units,nutrient_name,product_name,product_category
+123.0,1.4000000000000004,CO2 equivilant emissions (kg) / product mass (kg),Protein,Wheat & Rye (Bread),plants
+87.5,1.1,CO2 equivilant emissions (kg) / product mass (kg),Protein,Maize (Meal),plants
+123.0,1.4000000000000004,CO2 equivilant emissions (kg) / product mass (kg),Protein,Wheat & Rye (Bread),plants
+87.5,1.1,CO2 equivilant emissions (kg) / product mass (kg),Protein,Maize (Meal),plants
+124.80000000000001,1.1,CO2 equivilant emissions (kg) / product mass (kg),Protein,Barley (Beer),plants
+23.900000000000002,1.6,CO2 equivilant emissions (kg) / product mass (kg),Protein,Oatmeal,plants
+26.7,4.0,CO2 equivilant emissions (kg) / product mass (kg),Protein,Rice,plants
+24.8,0.30000000000000004,CO2 equivilant emissions (kg) / product mass (kg),Protein,Potatoes,plants
+13.600000000000001,0.9,CO2 equivilant emissions (kg) / product mass (kg),Protein,Cassava,plants
+1.2,2.6,CO2 equivilant emissions (kg) / product mass (kg),Protein,Cane Sugar,plants
+35.699999999999996,1.4,CO2 equivilant emissions (kg) / product mass (kg),Protein,Beet Sugar,plants
+54.2,0.7999999999999999,CO2 equivilant emissions (kg) / product mass (kg),Protein,Peas,plants
+211.5,0.2,CO2 equivilant emissions (kg) / product mass (kg),Protein,Nuts,plants
+251.9,2.4,CO2 equivilant emissions (kg) / product mass (kg),Protein,Groundnuts,plants
+26.0,1.0,CO2 equivilant emissions (kg) / product mass (kg),Protein,Soymilk,plants
+82.4,3.0,CO2 equivilant emissions (kg) / product mass (kg),Protein,Tofu,plants
+0.0,5.999999999999999,CO2 equivilant emissions (kg) / product mass (kg),Protein,Soybean Oil,plants
+0.0,7.6000000000000005,CO2 equivilant emissions (kg) / product mass (kg),Protein,Palm Oil,plants
+0.0,3.5000000000000004,CO2 equivilant emissions (kg) / product mass (kg),Protein,Sunflower Oil,plants
+0.0,3.7,CO2 equivilant emissions (kg) / product mass (kg),Protein,Rapeseed Oil,plants
+0.0,6.0,CO2 equivilant emissions (kg) / product mass (kg),Protein,Olive Oil,plants
+8.8,1.4000000000000001,CO2 equivilant emissions (kg) / product mass (kg),Protein,Tomatoes,plants
+11.0,0.30000000000000004,CO2 equivilant emissions (kg) / product mass (kg),Protein,Onions & Leeks,plants
+9.0,0.30000000000000004,CO2 equivilant emissions (kg) / product mass (kg),Protein,Root Vegetables,plants
+28.2,0.4,CO2 equivilant emissions (kg) / product mass (kg),Protein,Brassicas,plants
+7.0,0.3,CO2 equivilant emissions (kg) / product mass (kg),Protein,Citrus Fruit,plants
+10.9,0.7999999999999999,CO2 equivilant emissions (kg) / product mass (kg),Protein,Bananas,plants
+2.6,0.30000000000000004,CO2 equivilant emissions (kg) / product mass (kg),Protein,Apples,plants
+7.199999999999999,1.0999999999999999,CO2 equivilant emissions (kg) / product mass (kg),Protein,Berries & Grapes,plants
+0.7000000000000001,1.4,CO2 equivilant emissions (kg) / product mass (kg),Protein,Wine,plants
+55.4,18.7,CO2 equivilant emissions (kg) / product mass (kg),Protein,Dark Chocolate,plants
+228.0,59.599999999999994,CO2 equivilant emissions (kg) / product mass (kg),Protein,Beef (beef herd),meats
+228.0,21.099999999999998,CO2 equivilant emissions (kg) / product mass (kg),Protein,Beef (dairy herd),meats
+165.6,24.5,CO2 equivilant emissions (kg) / product mass (kg),Protein,Lamb & Mutton,meats
+256.90000000000003,7.2,CO2 equivilant emissions (kg) / product mass (kg),Protein,Pig Meat,meats
+174.4,6.1000000000000005,CO2 equivilant emissions (kg) / product mass (kg),Protein,Poultry Meat,meats
+31.5,2.8000000000000003,CO2 equivilant emissions (kg) / product mass (kg),Protein,Milk,dairy
+269.6,21.2,CO2 equivilant emissions (kg) / product mass (kg),Protein,Cheese,dairy
+124.0,4.5,CO2 equivilant emissions (kg) / product mass (kg),Protein,Eggs,dairy
+152.3,5.1,CO2 equivilant emissions (kg) / product mass (kg),Protein,Fish (farmed),meats
+201.0,11.8,CO2 equivilant emissions (kg) / product mass (kg),Protein,Shrimps (farmed),meats
