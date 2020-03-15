@@ -12,12 +12,14 @@ title: Like protein and the environment? Eat nuts.
 use_math: false
 published: true
 image:
-  feature: /media/2019/03/13/airplane.svg
-  credit: Clker-Free-Vector-Images
-  creditlink: "https://pixabay.com/vectors/origami-paper-airplane-flying-toy-25798/"
+  feature: /media/food-emissions/banner.jpg
+  credit: McGajowy3
+  creditlink: https://pixabay.com/photos/nuts-italian-fruit-autumn-diet-3718745/
 ---
 
-## Nuts
+<!--more-->
+
+## Protein Emission Efficiency
 
 <style>
 body {
