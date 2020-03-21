@@ -4,7 +4,8 @@
 @import "vars", "reset", "mixins";
 
 .postImg {
-	max-height: 400px;
+  max-height: 400px;
+  width: auto;
   padding: 10px;
   text-align:center;
 }

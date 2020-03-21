@@ -7,7 +7,7 @@ var margin = {top: 10, right: 30, bottom: 30, left: 60},
 var svg = d3.select("#visualization")
   .append("svg")
     .attr("preserveAspectRatio", "xMinYMin meet")
-    .attr("viewBox", "-50 -10 628 628")
+    .attr("viewBox", "-80 -10 628 628")
     .classed("svg-content", true);
 
 // add the tooltip area to the webpage
@@ -23,7 +23,7 @@ d3.csv("/media/food-emissions/food-Protein-emission-efficiency.csv", function(da
 
   // Add X axis
   var x = d3.scaleLinear()
-    .domain([-10, 300])
+    .domain([-0.01, 0.3])
     .range([ 0, width ]);
   svg.append("g")
     .attr("transform", "translate(0," + height + ")")
@@ -49,7 +49,7 @@ d3.csv("/media/food-emissions/food-Protein-emission-efficiency.csv", function(da
     .data(data)
     .enter()
     .append("circle")
-      .attr("cx", function (d) { return x(d.nutrient_amount_per_kg); } )
+      .attr("cx", function (d) { return x(d.nutrient_mass_fraction); } )
       .attr("cy", function (d) { return y(d.emissions_total); } )
       .attr("r", 5)
     //   .style("fill", "#69b3a2")
@@ -67,6 +67,32 @@ d3.csv("/media/food-emissions/food-Protein-emission-efficiency.csv", function(da
                .duration(500)
                .style("opacity", 0);
       });
+
+  // Add the x Axis
+  svg.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x));
+
+  // text label for the x axis
+  svg.append("text")             
+      .attr("transform",
+            "translate(" + (width/2) + " ," + 
+                           (height + margin.top + 20) + ")")
+      .style("text-anchor", "middle")
+      .text("Protein mass fraction [kg protein / kg product]");
+
+  // Add the y Axis
+  svg.append("g")
+      .call(d3.axisLeft(y));
+
+  // text label for the y axis
+  svg.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0 - margin.left)
+      .attr("x", 10 - (height / 2))
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text("Product CO2 Emissions [kg CO2 / kg product]");     
 
   var legend = svg.selectAll(".legend")
       .data(color.domain())

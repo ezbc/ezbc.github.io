@@ -2,7 +2,7 @@ sudo: false
 language: ruby
 cache: bundler
 rvm:
-- 2.3.1
+- 2.7.0
 branches:
   only:
     - master
@@ -20,7 +20,7 @@ deploy:
   - provider: firebase
     skip_cleanup: true
     token:
-      secure: "tHMbFCPnDizDr0PwlQCj1KGLZn/P7cDEU8C0CEv1Ek5JftZzNZHhEwhpdhORM3plDpb2CN1mlyW0NWwYqXbG06nrj9/fNWKVSGChubclny02hav69uIGHlj420nU+vURWyHK/xQGpgOgEubV6ixATLVD3UieAsXm9wwjM46f3Vs/PTtHkqFTNTX+3Ja0zn9xsnbd6cdIHqUX7MSh74QMuLw8yVVNb+mpTzgy3bLniXKRyPlDTBePZ63MhQpoVGqEufJqQWIGUnX5g8UDfxJ1Rm515/X4RcsTWbuZS+jsrTwcwfBSMwf1uyd2MXtlxkrylErSMXaSieoyBImCJpMu9fnGnT06DKFKMUsVPgmk/Htv2AkhSEwgN8uouj9PHJe/S00cCdW9UuxOGNv8O0mOQCcfx0/P2Z29A4ZRpjvtip6gmk94f+RbzrAhLUUHKOg9DECAsVJqCcjTX/BYqyvC0u4MGU4Zh3namgpjimqCwE/HRWh5+PyMz/2eDb3z7N8Vfb4KqLHhrpkNYEU6ZRFXs9rvJ7IzYhU3CVC3Zb+9wpPSTd2hS6DZXykSIJ4EWKMhBG8fyUZszBHVSyGEqcN7PtGMoNnVr8L3EYq1fYtEDwNEcBB8zTErb1a7mwgqMlC7rAom4vWgIV//TnzaLyVAdqppMMiFLsGCo6t2ZylL4/g="
+      secure: "M6zgrIA9ybGlpbP5O0CWvP+AjjZ1nDHCao55CuSflvAsmj52agwdJ/OrrZjSaY78gpm3XAjsE7xvgTm0W/KkSZ9WVMHn+WziZi8b+tJ+tGRvr28WWmQW1BILjsupOI7dfSbQUdK0oZfUfwDLcUzpAQjR0NDYlpsS5v3gEwyGhpYsrz2/htpaxnFBeXblweaZTu5A1+wrIHtGzuFA84fUnp9RXnYM8m1nqSYwF1R0Tv6G6/oLmdNg9sTWYLpP50tAQu6KhHMJUgH1RUgaWhchv9p/nwYS9xR/AYHTlQCsFuLGDdElMjg+BnpT3tXH6mA25AlcilVFdmtxlNYLV9nlGN9YhrBnQaRk22fWdax0oNcPwWACvd+miCxPrvwPfZYq0oYx9stnai8fCCvG0CjJY4ql9gT5JzUwTs/UjBInRig3k0qKCX3OdYS6sCMLiw7MQ984KQ9JhdZUpwj+9g+jRtQOP+YeFwRLe12IpBZRNhnnpcMQONpxkwgUvIurKQJynxquSgYhJuNk8sp3hlzR9jEKAewK2gzloPxUlladUmhkoR+CTUme603H/bWoU7C+mtPakHw2sYQkRGfqFJAyer7O1vjIzkMtXwYyD1pJteELmKpMBooKnKBXyJeEzHBAhV8qpC/7ijwZyENmgVfOt1sMk1IWe1XqGX29enTEVcY="
     project: "devezbcme"
     on:
       branch: "develop"
@@ -28,7 +28,7 @@ deploy:
   - provider: firebase
     skip_cleanup: true
     token:
-      secure: "WTQd1OPFVe40nJ3HzvTRAkk4GHJUhr87OgEywrZleXg356V+MJvUxY0GR3q9bNLvvH/Uk5jxQwhBs8Q3LVUQSijuMTxqgmxFNM8l9J99/SBIDwKOQzbMz6yPiNOpU5/wmSB4vMZOxcLlY/ilShFzcYgYwpoZrjRjsw/IVNcbXLh/QVI2YcBO2jcfKhxS3rO4l9MLBwK56eqWvatUCa5f3DcQj/wDa9CJu5/AwrQf+6z0JfuDi8v/afQhOh91oviq9bknJoRvHP80Qmwt2AplrdqGusMm+19OSlW64bdxi/70vaeQSP18cKYiIjxDrzIFznw0ZZMR233ZshBqSQNF/cWpOsWQZP4fw0V7Xw+/XIhu2sWPe6Oy4Rxc3FGLK+tzzTaILfChcEQIWjXV6qYrzK+FJnZ6qJUJLtJeDTkq3i1QY7aRWWlwPi0P9FLrJSx74847HOLiKujeGoPtGJLFuuLqMJUHFDZSxH+X/hogD4BZcYAltvr/eFQX+2qOGTuv1q02V/lBM/JWPW37ggWdOuF84nCinavdrU1IQJ0i8s96E4ZHqD64Y5BBu8cYE8iwD0T0EfbMNt610u1ZdDOE4NCGZ04mfyYmH0U+yrKEFGuTOjd+PuyzRpKG1Jlz1pNH8gn66qS6QqmRFgciWktWw/JmdE3v4QOa96JADJAnkLo="
+      secure: "RYzCnhx6apJk/tf6sKHyyNIEmIIW6QHbaGkOqoUns6QA6zJCOAt5VmbzgJwmeQqUdy5/Eb4d8bifgOychOSOHnxHPiExbZCV381x/LmUa9klcEpeE+Plr0+X1ir9jUQv5KKVWHlItzvKeZYdBAttxX20j5GyA/R/fx1N2JnPXszWB6wgmnkObUKMvNMyfw/QUKVfZytF82JPaBMJ3m3WB0Bxk5YqAKDfxZ4uGIKOAPo5y9bvpvj+/eg5stli9GD7dyNUhHZ5zcrAXJQ57eK4f1+nZfh4BXBharAaDOKvp7dlTn0rZap/BF6mEj6aEpIjyO8QL3X7P0bWh0RSiQxligPbHbzDxOup5ZRp+l0HmVq25Mp9vc7z78a9xaqaB2Sf0Wlkgd0ncGqBhoKtPSpCYunyz/qdpQGZN/4mAOh/QdFYG27KrBV7FGTDSSP/GysW/AbSEtMrLHsPadhfSd8mlJLI0hFXnjeM/Rqw4xKtpk0KxB9OfgTK1qTlpdyFNz6mT+hTZccd82IkilbddskZhvm73WUxXmJP3BjCwkf2y3krHau3tKKq/zzyoGwBOLlMbZRlZd529Ra6Cu29xJuhrWSuBNj30X/ysi97U8CSuGAV1FndZP5ibOx91505/DoTegjUxwEa+W6F984g1WwnjMmkB7+ts8VCzbAa0DiUOeU="
     project: "prodezbcme"
     on:
       branch: "master"

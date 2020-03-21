@@ -68,7 +68,7 @@ environment: local
 include: ["_pages"]
 
 # Outputting
-permalink: /:year/:month/:day/:title
+permalink: /:title
 category_dir: categories
 
 # Pagination
