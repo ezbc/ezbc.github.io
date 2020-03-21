@@ -27,8 +27,6 @@ use_math: true
   </div>
 </div>
 
-## The Box
-
 A few years ago I built a jewelry box out of Bird's-Eye Maple and cherry as a
 gift. The rounded sides and lid frame the hand-carved Celtic knot as the focus
 of the box. The design is minimalist, yet elegant. Three compartments await

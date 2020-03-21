@@ -29,6 +29,8 @@ woodworking project. Below are images of chair itself.
     </div>
 </div>
 
+<!--more-->
+
 ## Drafting
 
 I redrafted the Popular Mechanics plans on paper as part of the project.

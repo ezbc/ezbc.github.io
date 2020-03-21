@@ -16,9 +16,11 @@ use_math: true
 ---
 
 I adopted this recipe from
-[here](http://www.thekitchn.com/recipe-ginger-kombucha-drink-recipes-from-the-kitchn-206552)
-which has led to at least a dozen successful batches. The plain kombucha will
-take about 2 weeks to complete at room temperature.
+[thekitchn.com](http://www.thekitchn.com/recipe-ginger-kombucha-drink-recipes-from-the-kitchn-206552)
+and made at least a dozen successful batches. The plain kombucha will take about 2 weeks
+to complete at room temperature and requires little prep.
+
+<!--more-->
 
 # Plain Kombucha
 

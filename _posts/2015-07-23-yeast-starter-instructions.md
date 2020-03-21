@@ -14,10 +14,10 @@ title: Yeast Starters
 use_math: true
 ---
 
-## Yeast Starter
+In those post is a succint list of steps to create a yeast starter for brewing beer. The
+instructions are adapted from [here](http://www.howtobrew.com/section1/chapter6-5.html).
 
-Instructions originally from
-[here](http://www.howtobrew.com/section1/chapter6-5.html).
+<!--more-->
 
 Below are the steps I have adopted for a yeast starter.
 

@@ -10,7 +10,7 @@ redirect_from:
 - /woodworking/2015/06/28/lectern
 - /2015/06/28/lectern
 tags: null
-title: Lectern
+title: Red Oak Lectern
 ---
 
 <div class="carouselContainer">
@@ -25,14 +25,14 @@ title: Lectern
     </div>
 </div>
 
-## Finished Product
-
 This year I made a lectern for the astronomy department colloquium room out of
 red oak. The lectern now serves as a functional, yet attractive addition to
 the room.
 
 The lectern is equipped with the necessary cables for projection from a
 laptop.  The cables run out of the bottom to be connected to the wall. 
+
+<!--more-->
 
 
 ## Construction

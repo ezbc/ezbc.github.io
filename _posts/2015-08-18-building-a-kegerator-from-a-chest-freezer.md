@@ -14,15 +14,12 @@ title: Kegerator
 use_math: true
 ---
 
-## The Finished product
 
 Today I finished my kegerator. It's quite a beauty:
 
 <img src="/media/2015/08/18/kegerator/kegerator_2.jpg"/>
 
-## The First Beer
-
-The first beer to go in the kegerator is my [session ipa](https://www.brewtoad.com/recipes/session-ipa-177).
+<!--more-->
 
 ## Construction
 
@@ -35,3 +32,7 @@ The first beer to go in the kegerator is my [session ipa](https://www.brewtoad.c
     <div> <img src="/media/2015/08/18/kegerator/kegerator_5.jpg" height="400"/> </div>
   </div>
 </div>
+
+## The First Beer
+
+The first beer to go in the kegerator is my [session ipa](https://www.brewtoad.com/recipes/session-ipa-177).

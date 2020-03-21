@@ -10,11 +10,9 @@ redirect_from:
 - /woodworking/2015/09/28/miter-saw-tables
 - /2015/09/28/miter-saw-tables
 tags: null
-title: Miter Saw Tables
+title: Rolling Miter Saw Steel Table
 use_math: true
 ---
-
-## **Rolling Miter Saw Table**
 
 I designed and built a portable steel-frame miter-saw table for use in the
 Macalester College Theater Department [Scene

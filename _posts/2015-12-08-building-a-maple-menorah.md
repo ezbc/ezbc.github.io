@@ -5,8 +5,8 @@ category:
 - woodworking
 comments: true
 date: 2015/12/08 00:00
-excerpt: <div class="image-3of4-width" class="postImg"> <img src="/media/2015/12/08/finished/finished_01.jpg"/>
-  </div>
+#excerpt: <div class="image-3of4-width" class="postImg"> <img src="/media/2015/12/08/finished/finished_01.jpg"/>
+#  </div>
 layout: post
 redirect_from: 
 - /woodworking/2015/12/08/menorah
@@ -15,8 +15,6 @@ tags: null
 title: Menorah
 use_math: true
 ---
-
-## The Menorah
 
 Candles need a home come time for 25th of Kislev, the beginning of Hanukkah.
 And what better home than a unified carving of sugar maple and white oak?
@@ -41,6 +39,8 @@ individual, prepared for eight days of light.
                /> </div>
   </div>
 </div>
+
+<!--more-->
 
 ## Construction
 

@@ -14,10 +14,11 @@ title: Ginger Kombucha
 use_math: true
 ---
 
-Recipe originally from
-[here](http://www.thekitchn.com/recipe-ginger-kombucha-drink-recipes-from-the-kitchn-206552).
-But this recipe is convoluted, so this post summarizes the steps. I've also
-adjusted the recipe slightly to remove the ginger chunks from the tea.
+This post is a summary of a recipe originally from
+[thekitchn.com](http://www.thekitchn.com/recipe-ginger-kombucha-drink-recipes-from-the-kitchn-206552).
+I adjusted the recipe slightly to remove the ginger chunks from the tea.
+
+<!--more-->
 
 # Ginger Kombucha
 

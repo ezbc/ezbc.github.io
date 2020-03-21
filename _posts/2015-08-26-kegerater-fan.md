@@ -14,13 +14,15 @@ title: Kegerator Fan
 use_math: true
 ---
 
-Today I installed a fan into my [new kegerater](2015/08/18/brewing-kegging/). 
+Today I installed a fan into my [new kegerater](/building-a-kegerator-from-a-chest-freezer). 
 
 A fan helps maintain a constant temperature throughout the fridge. The
 converted chest freezer I am using cools the fridge with plates on the outside.
 The air is quite stagnant in the fridge, so the cool air settles to the bottom.
 This can create a temperature gradient of the beer within the keg, leading to
 foamy pours. The first pour is a little foamy right now.
+
+<!--more-->
 
 The solution: a fan. This [DIY
 post](http://www.draft-beer-made-easy.com/towercoolingfan.html) describes an
