@@ -29,8 +29,12 @@ image:
   shape-rendering: crispEdges;
 }
 
-.dot {
-  stroke: #000;
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
 }
 
 .tooltip {
@@ -59,3 +63,4 @@ image:
 <div id="visualization" class="svg-container"></div>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="/assets/js/food-emissions.js"></script>
+
