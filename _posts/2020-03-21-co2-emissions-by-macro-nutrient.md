@@ -37,11 +37,22 @@ image:
   fill: brown;
 }
 
-.tooltip {
+/* .tooltip {
   position: absolute;
   width: 200px;
   height: 28px;
   pointer-events: none;
+} */
+
+.toolTip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6F257F;
+  padding: 14px;
+  text-align: center;
 }
 
 .svg-container {

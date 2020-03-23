@@ -30,6 +30,10 @@
 
     var yAxis = d3.axisLeft(y);
 
+      
+    var tooltip = d3.select("body").append("div").attr("class", "toolTip");
+
+
     d3.csv("/media/food-emissions/Protein-emission-efficiency.csv", function(error, data) {
 
       if (error) throw error;
@@ -74,7 +78,15 @@
           .attr("x", 0)
           .attr("height", y.bandwidth())
           .attr("y", function(d) { return y(d.product_name); })
-          .attr("width", function(d) { return x(d.nutrient_mass_emissions); });
+          .attr("width", function(d) { return x(d.nutrient_mass_emissions); })
+          .on("click", function(d){
+              tooltip
+                .style("left", d3.event.pageX - 50 + "px")
+                .style("top", d3.event.pageY - 70 + "px")
+                .style("display", "inline-block")
+                .html((d.product_name) + "<br>" + (Math.round(d.nutrient_mass_emissions)) + ' kg CO2 / kg Protein');
+              // tooltip.style("display", "none");});
+          })
 
     });
 
