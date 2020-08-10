@@ -19,7 +19,7 @@ image:
 redirect_from:
 - /2018/08/07/agile-airplane-activity
 - /2019/03/10/agile-airplane-activity
-- /2019/03/12/agile-airplane-activity
+- /2019/03/13/agile-airplane-activity
 ---
 
 This group activity allows players to experience the power of iterative product
